@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:6E40C9,100:00F7FF&height=250&section=header&text=Yonas%20Sahile&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Architect%20%E2%80%A2%20Cybersecurity%20Specialist&descAlignY=55&descSize=22"/>
 
-<img src="https://your-image-url-here.com/profile.png" width="160" height="160" style="border-radius: 50%; border: 4px solid #00F7FF; box-shadow: 0 0 20px rgba(0, 247, 255, 0.5); margin-top: -80px; position: relative; z-index: 10;" alt="Yonas Sahile"/>
+<img src="https://github.com/yonana-sahile.png" width="150" height="150" style="border-radius: 50%; border: 4px solid #00F7FF; box-shadow: 0 0 20px rgba(0, 247, 255, 0.5); margin-top: -75px; position: relative; z-index: 10;" alt="Yonas Sahile"/>
 
 <br/>
 <br/>
@@ -21,35 +21,35 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Securing+What+I+Build%2C+Building+What+I+Secure;Django+%E2%9C%9A+React+%E2%9C%9A+PostgreSQL;Full-Stack+Engineering+%E2%9A%94%EF%B8%8F+Cybersecurity;Architecting+Scalable+Solutions" alt="Typing SVG" />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
 </div>
 
 ### ✦ About Me
 
-> **Mission:** Bridging the gap between robust software engineering and proactive security. I build applications that are high-performing, scalable, and *secure by design*.
+> **Mission:** Bridging the gap between robust software engineering and proactive security. I build applications that are high-performing, scalable, and **secure by design**.
 
-- 🔭 **Currently Building:** Secure, enterprise-grade platforms combining **Django**, **React**, and **Docker**.
-- 🛡️ **Security First:** Deeply focused on OWASP Top 10, API Security, and secure coding practices.
-- 🌱 **Currently Learning:** Advanced Penetration Testing, DevSecOps, and Cloud-Native Security architectures.
-- 🤝 **Looking to Collaborate on:** Open-source security tools and scalable web applications.
-- 💬 **Ask me about:** Python, React, PostgreSQL, or how to secure your next API!
+- 🔭 **Currently Building:** Secure, enterprise-grade platforms combining **Django**, **React**, and containerized with **Docker**.
+- 🛡️ **Security First:** Deeply focused on OWASP Top 10, Secure API Architecture, and proactive vulnerability mitigation.
+- 🌱 **Currently Learning:** Advanced Penetration Testing, DevSecOps pipelines, and Cloud-Native Security.
+- 🤝 **Open for Collaboration:** Looking to contribute to open-source security tools and innovative web applications.
+- 💬 **Ask me about:** Python, React, PostgreSQL architecture, or how to secure your next API endpoint!
 
 <br/>
 
 ### ✦ Technical Arsenal
 
 <div align="center">
-  <table style="border: none;">
+  <table style="border: none; background-color: transparent;">
     <tr>
       <td align="center"><b>Frontend</b></td>
-      <td align="center"><b>Backend</b></td>
+      <td align="center"><b>Backend & Databases</b></td>
       <td align="center"><b>DevOps & Security</b></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,redux,vite&theme=dark&perline=3" /></td>
-      <td align="center"><img src="https://skillicons.dev/icons?i=python,django,postgres,nodejs,express,mysql&theme=dark&perline=3" /></td>
-      <td align="center"><img src="https://skillicons.dev/icons?i=linux,kali,docker,aws,nginx,bash&theme=dark&perline=3" /></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,redux,vite&theme=dark&perline=3" alt="frontend skills" /></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=python,django,postgres,nodejs,express,mysql&theme=dark&perline=3" alt="backend skills" /></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=linux,kali,docker,aws,nginx,bash&theme=dark&perline=3" alt="devops skills" /></td>
     </tr>
   </table>
 </div>
@@ -60,14 +60,15 @@
 
 <div align="center">
   <a href="https://github.com/yonana-sahile/digital-camera">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=digital-camera&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=digital-camera&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Digital Camera Repo" />
   </a>
   <a href="https://github.com/yonana-sahile/swift-ecommerce">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=swift-ecommerce&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=swift-ecommerce&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Swift Ecommerce Repo" />
   </a>
   <br/>
+  <br/>
   <a href="https://github.com/yonana-sahile/unifed-smart-campus">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=unifed-smart-campus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=unifed-smart-campus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Unified Smart Campus Repo" />
   </a>
 </div>
 
@@ -93,10 +94,11 @@
 
 ### ✦ Contribution Activity
 <div align="center">
+  <!-- Note: This snake animation will only work if you have set up the GitHub Action for it in your repository -->
   <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="80%"/>
 </div>
 
 <br/>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:6E40C9,100:000000&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:6E40C9,100:000000&height=120&section=footer" alt="footer"/>
 </div>
