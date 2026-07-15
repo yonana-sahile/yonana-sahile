@@ -1,155 +1,109 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:6E40C9,100:00F7FF&height=220&section=header&text=YONAS%20SAHILE&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Cybersecurity%20Specialist&descAlignY=55&descSize=20"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=250&section=header&text=Yonas%20Sahile&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20Cybersecurity%20Specialist&descAlignY=55&descSize=20"/>
+
+<img src="https://your-image-url-here.com/profile.png" width="160" height="160" style="border-radius: 50%; border: 4px solid #2C5364; margin-top: -80px; position: relative; z-index: 10;" alt="Yonas Sahile"/>
 
 <br/>
-
-<img src="https://your-image-url-here.com/profile.png" width="160" height="160" style="border-radius:50%;border:4px solid #00F7FF;box-shadow:0 0 25px #6E40C9;" alt="Yonas Sahile"/>
-
-<!--
-  ⬆️ Replace the URL above with your own photo link.
-  Easiest way: upload your photo to this same GitHub repo (e.g. assets/profile.png)
-  then use: https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/assets/profile.png
--->
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%F0%9F%92%BB;Cybersecurity+Specialist+%F0%9F%9B%A1%EF%B8%8F;Securing+What+I+Build%2C+Building+What+I+Secure;Django+%2B+React+%2B+PostgreSQL+%2B+Docker" alt="Typing SVG" />
-
-### 🛡️ I bridge the gap between robust software engineering and proactive security — building applications that are both **high-performing** and **secure by design**.
-
 <br/>
 
-<p align="center">
-  <a href="mailto:yonassahile8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://t.me/am19asmare"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/yonas-sahile-b04746403"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-</p>
-
-<img src="https://komarev.com/ghpvc/?username=yonana-sahile&color=6E40C9&style=for-the-badge&label=PROFILE+VIEWS"/>
-<img src="https://img.shields.io/github/followers/yonana-sahile?label=Followers&style=for-the-badge&color=00F7FF"/>
-
-<br/>
-
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
-
-</div>
-
----
-
-## 🚀 Technical Skills
-
-<div align="center">
-
-### 💻 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### ⚙️ Backend & Databases
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/Django_REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### 🔒 Cybersecurity & SecOps
-![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![Security](https://img.shields.io/badge/Secure_Coding-FF0000?style=for-the-badge&logo=shieldsdotio&logoColor=white)
-![PenTest](https://img.shields.io/badge/Penetration_Testing-2E8B57?style=for-the-badge&logo=hackthebox&logoColor=white)
-![API Security](https://img.shields.io/badge/API_Security-6E40C9?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### 🛠️ DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
----
-
-## 📂 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/yonana-sahile/digital-camera">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=digital-camera&theme=radical&hide_border=true" />
+<a href="https://linkedin.com/in/yonas-sahile-b04746403" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://github.com/yonana-sahile/swift-ecommerce">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=swift-ecommerce&theme=radical&hide_border=true" />
+<a href="mailto:yonassahile8@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
-<a href="https://github.com/yonana-sahile/unifed-smart-campus">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=unifed-smart-campus&theme=radical&hide_border=true" />
+<a href="https://t.me/am19asmare" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
 </a>
 
-</div>
-
-### 📷 [Digital Camera](https://github.com/yonana-sahile/digital-camera)
-A secure, production-grade full-stack web camera platform focused on real-time processing and strict data privacy.
-> **Stack:** React · Django · PostgreSQL · Canvas API · Docker
-> **Highlights:** Real-time secure video streaming, client-side image processing, secure backend API endpoints, containerized isolated deployments.
-
-### 🛒 [Swift Ecommerce](https://github.com/yonana-sahile/swift-ecommerce)
-A highly scalable, decoupled enterprise e-commerce platform built for heavy traffic and secure transactions.
-> **Stack:** React · TypeScript · Django REST Framework · Docker
-> **Highlights:** Strict input validation, safe authentication, OWASP Top 10 protection, fully containerized deployment.
-
-### 🎓 [Unified Smart Campus](https://github.com/yonana-sahile/unifed-smart-campus)
-A comprehensive, centralized Academic Information Management System (LMS) for modernizing university operations.
-> **Stack:** Python · Django · PostgreSQL
-> **Highlights:** Secure multi-role authentication, automated scheduling, strict data access controls for sensitive records.
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yonana-sahile&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Yonas's GitHub Stats" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yonana-sahile&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="35%"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yonana-sahile&theme=radical&hide_border=true" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yonana-sahile&theme=react-dark&hide_border=true" alt="Activity Graph" width="90%"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yonana-sahile&theme=radical&no-frame=true&row=1&column=6" alt="Trophies"/>
-</div>
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
-</div>
-
----
-
-## 🤝 Let's Secure & Build Your Next Project!
-
-<div align="center">
-
-Need a developer who writes clean code and takes security seriously? **Let's talk business.**
-
-<a href="mailto:yonassahile8@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://t.me/am19asmare"><img src="https://img.shields.io/badge/Message_on_Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-<a href="https://linkedin.com/in/yonas-sahile-b04746403"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-
-<br/><br/>
-
-### 🐍 My Contribution Snake
-<img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-
-<!--
-  ⬆️ This snake needs a one-time GitHub Action to generate — instructions below.
--->
-
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:6E40C9,100:0F2027&height=150&section=footer"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2C5364&center=true&vCenter=true&width=600&lines=Securing+What+I+Build%2C+Building+What+I+Secure;Django+%E2%9C%9A+React+%E2%9C%9A+PostgreSQL;Full-Stack+Engineering+%E2%9A%94%EF%B8%8F+Cybersecurity" alt="Typing SVG" />
 
-**⭐ From [Yonas Sahile](https://github.com/yonana-sahile) — thanks for stopping by!**
+</div>
 
+---
+
+### 👨‍💻 About Me
+
+I bridge the gap between robust software engineering and proactive security. My goal is to build applications that are not only high-performing and scalable but also **secure by design**.
+
+- 🔭 **Currently Building:** Secure, enterprise-grade platforms combining **Django**, **React**, and **Docker**.
+- 🛡️ **Security First:** Deeply focused on OWASP Top 10, API Security, and secure coding practices.
+- 🌱 **Currently Learning:** Advanced Penetration Testing, DevSecOps, and Cloud-Native Security architectures.
+- 🤝 **Looking to Collaborate on:** Open-source security tools and scalable web applications.
+- 💬 **Ask me about:** Python, React, PostgreSQL, or how to secure your next API!
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,redux,vite&theme=dark" />
+    <br/>
+    <img src="https://skillicons.dev/icons?i=python,django,postgres,nodejs,express,mysql&theme=dark" />
+    <br/>
+    <img src="https://skillicons.dev/icons?i=linux,kali,nginx,bash,docker,git,github,aws&theme=dark" />
+  </a>
+</div>
+
+---
+
+### 📂 Featured Projects
+
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td width="50%" align="center" style="border: 1px solid #30363d; padding: 15px;">
+      <h4>📷 <a href="https://github.com/yonana-sahile/digital-camera" style="text-decoration: none; color: #58a6ff;">Digital Camera</a></h4>
+      <p>Secure, real-time web camera platform focused on data privacy.</p>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
+    </td>
+    <td width="50%" align="center" style="border: 1px solid #30363d; padding: 15px;">
+      <h4>🛒 <a href="https://github.com/yonana-sahile/swift-ecommerce" style="text-decoration: none; color: #58a6ff;">Swift Ecommerce</a></h4>
+      <p>Scalable, decoupled enterprise e-commerce built for heavy traffic.</p>
+      <img src="https://img.shields.io/badge/TS-007ACC?style=flat&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="border: 1px solid #30363d; padding: 15px;">
+      <h4>🎓 <a href="https://github.com/yonana-sahile/unifed-smart-campus" style="text-decoration: none; color: #58a6ff;">Unified Smart Campus</a></h4>
+      <p>Centralized Academic Information Management System for modern universities.</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Postgres-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yonana-sahile&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" alt="Yonas's GitHub Stats" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yonana-sahile&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" width="48%"/>
+</div>
+<br/>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yonana-sahile&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="48%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yonana-sahile&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Activity Graph" width="48%"/>
+</div>
+<br/>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yonana-sahile&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=15" alt="Trophies"/>
+</div>
+
+---
+
+### 🐍 Contribution Activity
+<div align="center">
+  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="80%"/>
+</div>
+
+<br/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer"/>
 </div>
