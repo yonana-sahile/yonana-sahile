@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:6E40C9,100:00F7FF&height=250&section=header&text=Yonas%20Sahile&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Architect%20%E2%80%A2%20Cybersecurity%20Specialist&descAlignY=55&descSize=22"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00F7FF,100:6E40C9&height=300&section=header&text=YONAS%20SAHILE&fontSize=90&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Enterprise%20Security%20Architect%20%E2%80%A2%20Full-Stack%20Engineer&descAlignY=62&descSize=24"/>
 
-<img src="https://github.com/yonana-sahile.png" width="150" height="150" style="border-radius: 50%; border: 4px solid #00F7FF; box-shadow: 0 0 20px rgba(0, 247, 255, 0.5); margin-top: -75px; position: relative; z-index: 10;" alt="Yonas Sahile"/>
+<img src="https://github.com/yonana-sahile.png" width="180" height="180" style="border-radius: 50%; border: 4px solid #00F7FF; box-shadow: 0 0 40px rgba(0, 247, 255, 0.8); margin-top: -110px; position: relative; z-index: 10;" alt="Yonas Sahile"/>
 
 <br/>
 <br/>
@@ -17,88 +17,120 @@
   <a href="https://t.me/am19asmare" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
+  <a href="https://github.com/yonana-sahile">
+    <img src="https://img.shields.io/github/followers/yonana-sahile?label=Followers&style=for-the-badge&color=00F7FF&logo=github" alt="Followers" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=yonana-sahile&color=6E40C9&style=for-the-badge&label=VIEWS" alt="Profile Views" />
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Securing+What+I+Build%2C+Building+What+I+Secure;Django+%E2%9C%9A+React+%E2%9C%9A+PostgreSQL;Full-Stack+Engineering+%E2%9A%94%EF%B8%8F+Cybersecurity;Architecting+Scalable+Solutions" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=26&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=750&lines=Zero+Trust+Architecture+%F0%9F%9B%A1%EF%B8%8F;Building+High-Performance+Distributed+Systems+%E2%9A%94%EF%B8%8F;Python+%E2%9C%A8+React+%E2%9C%A8+PostgreSQL+%E2%9C%A8+Docker;Securing+What+I+Build%2C+Building+What+I+Secure" alt="Typing SVG" />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
+<br/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
+<br/>
 
 </div>
 
-### ✦ About Me
+### ✦ Executive Summary
 
-> **Mission:** Bridging the gap between robust software engineering and proactive security. I build applications that are high-performing, scalable, and **secure by design**.
+> **Mission Directive:** Bridging the gap between robust software engineering and proactive security. I architect, build, and deploy enterprise-grade applications that are high-performing, horizontally scalable, and strictly *secure by design*.
 
-- 🔭 **Currently Building:** Secure, enterprise-grade platforms combining **Django**, **React**, and containerized with **Docker**.
-- 🛡️ **Security First:** Deeply focused on OWASP Top 10, Secure API Architecture, and proactive vulnerability mitigation.
-- 🌱 **Currently Learning:** Advanced Penetration Testing, DevSecOps pipelines, and Cloud-Native Security.
-- 🤝 **Open for Collaboration:** Looking to contribute to open-source security tools and innovative web applications.
-- 💬 **Ask me about:** Python, React, PostgreSQL architecture, or how to secure your next API endpoint!
+<table style="border: none; width: 100%; background-color: transparent;">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎯 Core Focus</h4>
+      <ul>
+        <li>🔭 <b>Building:</b> Secure platforms using <b>Django</b>, <b>React</b>, and <b>Docker</b>.</li>
+        <li>🛡️ <b>Security:</b> OWASP Top 10, API Security, and secure coding.</li>
+        <li>🌱 <b>Learning:</b> DevSecOps & Cloud-Native Security architectures.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ Let's Connect</h4>
+      <ul>
+        <li>🤝 <b>Collaborate:</b> Open-source security & scalable web applications.</li>
+        <li>💬 <b>Discuss:</b> Python, React, PostgreSQL, or API security.</li>
+        <li>🌐 <b>Portfolio:</b> <a href="#">yonassahile.com</a> <i>(Coming Soon)</i></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-<br/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
+</div>
 
 ### ✦ Technical Arsenal
 
 <div align="center">
-  <table style="border: none; background-color: transparent;">
-    <tr>
-      <td align="center"><b>Frontend</b></td>
-      <td align="center"><b>Backend & Databases</b></td>
-      <td align="center"><b>DevOps & Security</b></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,redux,vite&theme=dark&perline=3" alt="frontend skills" /></td>
-      <td align="center"><img src="https://skillicons.dev/icons?i=python,django,postgres,nodejs,express,mysql&theme=dark&perline=3" alt="backend skills" /></td>
-      <td align="center"><img src="https://skillicons.dev/icons?i=linux,kali,docker,aws,nginx,bash&theme=dark&perline=3" alt="devops skills" /></td>
-    </tr>
-  </table>
+  <h4>🌐 Frontend Architecture</h4>
+  <img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,redux,vite,html,css&theme=dark" alt="Frontend" />
+  <br/><br/>
+  
+  <h4>⚙️ Backend & Databases</h4>
+  <img src="https://skillicons.dev/icons?i=python,django,postgres,nodejs,express,mysql,mongodb,redis&theme=dark" alt="Backend" />
+  <br/><br/>
+  
+  <h4>🛡️ Cloud, Security & DevOps</h4>
+  <img src="https://skillicons.dev/icons?i=linux,kali,docker,aws,nginx,bash,git,github&theme=dark" alt="Security and DevOps" />
 </div>
 
 <br/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
+</div>
 
-### ✦ Featured Labs
+### ✦ Featured Engineering Labs
 
 <div align="center">
   <a href="https://github.com/yonana-sahile/digital-camera">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=digital-camera&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Digital Camera Repo" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=digital-camera&theme=tokyonight&hide_border=true&bg_color=030508&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Digital Camera" />
   </a>
   <a href="https://github.com/yonana-sahile/swift-ecommerce">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=swift-ecommerce&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Swift Ecommerce Repo" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=swift-ecommerce&theme=tokyonight&hide_border=true&bg_color=030508&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Swift Ecommerce" />
   </a>
   <br/>
   <br/>
   <a href="https://github.com/yonana-sahile/unifed-smart-campus">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=unifed-smart-campus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Unified Smart Campus Repo" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=unifed-smart-campus&theme=tokyonight&hide_border=true&bg_color=030508&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" width="48%" alt="Unified Smart Campus" />
   </a>
 </div>
 
 <br/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
+</div>
 
-### ✦ GitHub Analytics
+### ✦ Development Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yonana-sahile&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" alt="Yonas's GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yonana-sahile&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=A0A0A0" alt="Top Languages" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=yonana-sahile&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=030508&title_color=00F7FF&icon_color=6E40C9&text_color=A0A0A0" alt="GitHub Stats" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yonana-sahile&layout=compact&theme=tokyonight&hide_border=true&bg_color=030508&title_color=00F7FF&text_color=A0A0A0" alt="Top Languages" width="48%"/>
 </div>
 <br/>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yonana-sahile&theme=tokyonight&hide_border=true&background=0D1117&ring=00F7FF&fire=00F7FF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=A0A0A0&sideLabels=A0A0A0&dates=A0A0A0" alt="GitHub Streak" width="48%"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yonana-sahile&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F7FF&line=6E40C9&point=ffffff" alt="Activity Graph" width="48%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yonana-sahile&theme=tokyonight&hide_border=true&background=030508&ring=00F7FF&fire=00F7FF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=A0A0A0&sideLabels=A0A0A0&dates=A0A0A0" alt="GitHub Streak" width="48%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yonana-sahile&theme=tokyo-night&hide_border=true&bg_color=030508&color=00F7FF&line=6E40C9&point=ffffff" alt="Activity Graph" width="48%"/>
 </div>
 <br/>
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yonana-sahile&theme=radical&no-frame=true&row=1&column=6&margin-w=15" alt="Trophies"/>
-</div>
-
-<br/>
-
-### ✦ Contribution Activity
-<div align="center">
-  <!-- Note: This snake animation will only work if you have set up the GitHub Action for it in your repository -->
-  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="80%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=yonana-sahile&theme=radical&no-frame=true&row=1&column=6&margin-w=15&bg_color=030508" alt="Trophies"/>
 </div>
 
 <br/>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:6E40C9,100:000000&height=120&section=footer" alt="footer"/>
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
+</div>
+
+### ✦ Global Contribution Heatmap
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="85%"/>
+</div>
+
+<br/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" />
+  <br/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:6E40C9,100:000000&height=120&section=footer" alt="Footer Waving Animation"/>
 </div>
