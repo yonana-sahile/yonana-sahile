@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://your-image-url-here.com/profile.png" width="150" height="150" style="border-radius:50%;" alt="Yonas Sahile"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:6E40C9,100:00F7FF&height=220&section=header&text=YONAS%20SAHILE&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Cybersecurity%20Specialist&descAlignY=55&descSize=20"/>
+
+<br/>
+
+<img src="https://your-image-url-here.com/profile.png" width="160" height="160" style="border-radius:50%;border:4px solid #00F7FF;box-shadow:0 0 25px #6E40C9;" alt="Yonas Sahile"/>
 
 <!--
   ⬆️ Replace the URL above with your own photo link.
@@ -8,11 +12,13 @@
   then use: https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/assets/profile.png
 -->
 
-# Hi, I'm Yonas Sahile 👋
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Cybersecurity+Specialist;Building+Secure+%26+Scalable+Apps;Django+%7C+React+%7C+PostgreSQL" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%F0%9F%92%BB;Cybersecurity+Specialist+%F0%9F%9B%A1%EF%B8%8F;Securing+What+I+Build%2C+Building+What+I+Secure;Django+%2B+React+%2B+PostgreSQL+%2B+Docker" alt="Typing SVG" />
 
 ### 🛡️ I bridge the gap between robust software engineering and proactive security — building applications that are both **high-performing** and **secure by design**.
+
+<br/>
 
 <p align="center">
   <a href="mailto:yonassahile8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
@@ -20,7 +26,12 @@
   <a href="https://linkedin.com/in/yonas-sahile-b04746403"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=yonana-sahile&color=00F7FF&style=for-the-badge&label=PROFILE+VIEWS)
+<img src="https://komarev.com/ghpvc/?username=yonana-sahile&color=6E40C9&style=for-the-badge&label=PROFILE+VIEWS"/>
+<img src="https://img.shields.io/github/followers/yonana-sahile?label=Followers&style=for-the-badge&color=00F7FF"/>
+
+<br/>
+
+![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 </div>
 
@@ -106,6 +117,14 @@ A comprehensive, centralized Academic Information Management System (LMS) for mo
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=yonana-sahile&theme=react-dark&hide_border=true" alt="Activity Graph" width="90%"/>
 </div>
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yonana-sahile&theme=radical&no-frame=true&row=1&column=6" alt="Trophies"/>
+</div>
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
+</div>
+
 ---
 
 ## 🤝 Let's Secure & Build Your Next Project!
@@ -120,6 +139,17 @@ Need a developer who writes clean code and takes security seriously? **Let's tal
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6E40C9&height=120&section=footer"/>
+### 🐍 My Contribution Snake
+<img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+
+<!--
+  ⬆️ This snake needs a one-time GitHub Action to generate — instructions below.
+-->
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:6E40C9,100:0F2027&height=150&section=footer"/>
+
+**⭐ From [Yonas Sahile](https://github.com/yonana-sahile) — thanks for stopping by!**
 
 </div>
