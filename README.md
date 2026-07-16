@@ -115,10 +115,10 @@
 
 <br/><br/>
 
-<!-- TROPHIES SECTION -->
+<!-- TROPHIES SECTION WITH THEME MATCHING -->
 ## 🏆 GitHub Milestones
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yonana-sahile&theme=radical&no-frame=true&row=1&column=6&margin-w=15&bg_color=24243E" alt="Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=yonana-sahile&theme=tokyonight&no-frame=false&row=1&column=6&margin-w=15&bg_color=24243E&title_color=00F7FF" alt="Trophies"/>
 </div>
 
 <br/><br/>
