@@ -2,7 +2,16 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243E&height=280&section=header&text=YONAS%20SAHILE&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Enterprise%20Security%20Architect%20%7C%20Full-Stack%20Engineer&descAlignY=55&descSize=20"/>
 
-<img src="https://github.com/yonana-sahile.png" width="150" height="150" style="border-radius: 50%; border: 4px solid #00F7FF; box-shadow: 0 0 30px rgba(0, 247, 255, 0.6); margin-top: -90px;" alt="Yonas Sahile"/>
+<br/>
+
+<!--
+  PROFILE PHOTO
+  Upload your photo to this repo (e.g. yonana-sahile/yonana-sahile) inside an "assets" folder
+  as "profile.jpg", so the path below resolves. Or drag-and-drop the image into any GitHub
+  Issue comment box to get a hosted user-images.githubusercontent.com link, then paste that
+  link in place of "./assets/profile.jpg".
+-->
+<img src="./assets/profile.jpg" width="260" height="390" style="border-radius: 20px; object-fit: cover; border: 4px solid #00F7FF; box-shadow: 0 0 35px rgba(0, 247, 255, 0.55);" alt="Yonas Sahile"/>
 
 <br/><br/>
 
