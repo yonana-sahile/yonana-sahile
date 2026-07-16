@@ -118,7 +118,7 @@
 <!-- TROPHIES SECTION WITH NO-FRAME AND NO-BG WRAPPED IN CENTERED DIV -->
 ## 🏆 GitHub Milestones
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yonana-sahile&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=15" alt="Trophies"/>
+  <img src="https://github-profile-trophy-winning.vercel.app/?username=yonana-sahile&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=15" alt="Trophies"/>
 </div>
 
 <br/><br/>
