@@ -5,7 +5,7 @@
 
 <!-- OVERLAPPING FULL-BODY CENTERPIECE (NO CIRCLE, TRANSITIONAL GLOW) -->
 <div style="margin-top: -110px; margin-bottom: 20px; position: relative; z-index: 999;">
-  <img src="https://github.com/user-attachments/assets/2d0cd1de-7351-4898-8051-e0ed0be5d315" width="450" style="filter: drop-shadow(0 0 25px rgba(0, 247, 255, 0.45)) contrast(1.1) brightness(1.05);" alt="Yonas Sahile Full Body"/>
+  <img src="https://github.com/user-attachments/assets/cee42c83-6c6a-4229-a9ab-ee38966fc64d" width="450" style="filter: drop-shadow(0 0 25px rgba(0, 247, 255, 0.45)) contrast(1.1) brightness(1.05);" alt="Yonas Sahile Full Body"/>
 </div>
 
 <!-- TYPING ANIMATION -->
