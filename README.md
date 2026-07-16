@@ -4,14 +4,7 @@
 
 <br/>
 
-<!--
-  PROFILE PHOTO
-  Upload your photo to this repo (e.g. yonana-sahile/yonana-sahile) inside an "assets" folder
-  as "profile.jpg", so the path below resolves. Or drag-and-drop the image into any GitHub
-  Issue comment box to get a hosted user-images.githubusercontent.com link, then paste that
-  link in place of "./assets/profile.jpg".
--->
-<img src="./assets/profile.jpg" width="260" height="390" style="border-radius: 20px; object-fit: cover; border: 4px solid #00F7FF; box-shadow: 0 0 35px rgba(0, 247, 255, 0.55);" alt="Yonas Sahile"/>
+<img src="https://github.com/user-attachments/assets/168a413f-7012-46af-a737-0259427c7afc" width="260" height="390" style="border-radius: 20px; object-fit: cover; border: 4px solid #00F7FF; box-shadow: 0 0 35px rgba(0, 247, 255, 0.55);" alt="Yonas Sahile"/>
 
 <br/><br/>
 
