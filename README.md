@@ -4,8 +4,8 @@
 
 <br/>
 
-<!-- የፎቶው መካነ አቀማመጥ ከባክግራውንድ ነጻ በሆነ ክብ ቅርጽና በሳይበር ከለር ግሎው ኢፌክት -->
-<img src="https://github.com/user-attachments/assets/2d0cd1de-7351-4898-8051-e0ed0be5d315" width="220" height="220" style="border-radius: 50%; object-fit: cover; object-position: center 7%; border: 4px solid #00F7FF; box-shadow: 0 0 35px rgba(0, 247, 255, 0.55);" alt="Yonas Sahile"/>
+<!-- የፎቶው መካነ አቀማመጥ፦ ግራጫውን ከለር ለማጥፋት ብራይትነስ እና ኮንትራስት ተስተካክሏል -->
+<img src="https://github.com/user-attachments/assets/2d0cd1de-7351-4898-8051-e0ed0be5d315" width="220" height="220" style="border-radius: 50%; object-fit: cover; object-position: center 7%; border: 4px solid #00F7FF; box-shadow: 0 0 35px rgba(0, 247, 255, 0.55); filter: brightness(1.1) contrast(1.15) drop-shadow(0 0 10px rgba(0, 247, 255, 0.2));" alt="Yonas Sahile"/>
 
 <br/><br/>
 
