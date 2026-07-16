@@ -115,10 +115,12 @@
 
 <br/><br/>
 
-<!-- TROPHIES SECTION USING LOCAL SYSTEM SVG -->
+<!-- TROPHIES SECTION WITH HIGH-END PREMIUM GLOW & BORDER -->
 ## 🏆 GitHub Milestones
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/trophy.svg" alt="Trophies"/>
+  <div style="background-color: #111424; padding: 18px 10px; border-radius: 12px; border: 2px solid #00F7FF; box-shadow: 0 0 25px rgba(0, 247, 255, 0.35); display: inline-block;">
+    <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/trophy.svg" alt="Trophies" style="filter: drop-shadow(0 0 10px rgba(0, 247, 255, 0.4));"/>
+  </div>
 </div>
 
 <br/><br/>
