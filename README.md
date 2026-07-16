@@ -4,8 +4,8 @@
 
 <br/>
 
-
-<img src="https://github.com/user-attachments/assets/dad7d78e-103c-4640-8469-81b3faaeea6.png" width="220" height="220" style="border-radius: 50%; object-fit: cover; object-position: center 7%; border: 4px solid #00F7FF; box-shadow: 0 0 35px rgba(0, 247, 255, 0.55);" alt="Yonas Sahile"/>
+<!-- የፎቶው መካነ አቀማመጥ ከባክግራውንድ ነጻ በሆነ ክብ ቅርጽና በሳይበር ከለር ግሎው ኢፌክት -->
+<img src="https://github.com/user-attachments/assets/dad7d78e-103c-4640-8469-81b3faaeea6" width="220" height="220" style="border-radius: 50%; object-fit: cover; object-position: center 7%; border: 4px solid #00F7FF; box-shadow: 0 0 35px rgba(0, 247, 255, 0.55);" alt="Yonas Sahile"/>
 
 <br/><br/>
 
