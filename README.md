@@ -36,7 +36,7 @@
 
 <br/><br/>
 
-<!-- DIGITAL RAIN TERMINAL BANNER (self-hosted animated SVG, no external service) -->
+<!-- DIGITAL RAIN TERMINAL BANNER (MATCHING THE NEW FILE NAME) -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/digital-rain-fire.svg" width="100%" alt="Yonas Sahile Terminal" />
 </div>
