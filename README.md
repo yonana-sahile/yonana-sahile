@@ -46,7 +46,7 @@
 <!-- ABOUT SECTION -->
 ## 🧭 Executive Summary
 
-> **Enterprise Security Architect & Senior Full-Stack Engineer** specializing in the design and implementation of highly resilient distributed environments. Expert in aligning secure-by-default software engineering principles with robust defense infrastructure. Architecting resilient cloud ecosystems leveraging Zero Trust methodologies, DevSecOps pipelines, and threat mitigation paradigms to secure business-critical digital systems.
+<blockquote><strong>Enterprise Security Architect & Senior Full-Stack Engineer</strong> specializing in the design and implementation of highly resilient distributed environments. Expert in aligning secure-by-default software engineering principles with robust defense infrastructure. Architecting resilient cloud ecosystems leveraging Zero Trust methodologies, DevSecOps pipelines, and threat mitigation paradigms to secure business-critical digital systems.</blockquote>
 
 <table border="0">
 <tr>
@@ -122,15 +122,15 @@
 
 <br/><br/>
 
-<!-- TROPHIES SECTION WITH THEME MATCHING -->
+<!-- TROPHIES SECTION WITH YOUR BRAND NEW PREMIUM SVG LAYER -->
 ## 🏆 GitHub Milestones
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/trophy.svg" alt="Trophies" />
+  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/trophy.svg" width="100%" alt="Trophies" />
 </div>
 
 <br/><br/>
 
-<!-- STATS & LANGUAGE ANALYTICS SECTION (CLEANED & FIXED) -->
+<!-- STATS & LANGUAGE ANALYTICS SECTION -->
 ## 📊 Enterprise Development Analytics
 
 <div align="center">
