@@ -36,21 +36,21 @@
 
 <br/><br/>
 
-<!-- DIGITAL RAIN TERMINAL BANNER (MATCHING THE NEW FILE NAME) -->
+<!-- DIGITAL RAIN TERMINAL BANNER -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/digital-rain-fire.svg" width="100%" alt="Yonas Sahile Terminal" />
 </div>
 
 <br/><br/>
 
-<!-- ABOUT SECTION WITH 100% WORKING SVG ANIMATION -->
+<!-- ABOUT SECTION -->
 ## 🧭 Executive Summary
+
+> **Enterprise Security Architect & Senior Full-Stack Engineer** specializing in the design and implementation of highly resilient distributed environments. Expert in aligning secure-by-default software engineering principles with robust defense infrastructure. Architecting resilient cloud ecosystems leveraging Zero Trust methodologies, DevSecOps pipelines, and threat mitigation paradigms to secure business-critical digital systems.
 
 <table border="0">
 <tr>
-<td width="60%" valign="top">
-
-> **Enterprise Security Architect & Senior Full-Stack Engineer** specializing in the design and implementation of highly resilient distributed environments. Expert in aligning secure-by-default software engineering principles with robust defense infrastructure. Architecting resilient cloud ecosystems leveraging Zero Trust methodologies, DevSecOps pipelines, and threat mitigation paradigms to secure business-critical digital systems.
+<td width="50%" valign="top">
 
 ### 🛡️ DevSecOps & Security
 - **Secure Software Design**: Designing applications adhering strictly to the **OWASP Top 10** vulnerabilities mapping.
@@ -58,18 +58,7 @@
 - **Continuous Integration Security**: Integrating automated SAST/DAST testing mechanisms directly within custom DevOps pipelines.
 
 </td>
-<td width="40%" valign="middle" align="center">
-  <!-- 100% WORKING CYBER GRAPH & SECURITY ANIMATION -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yonana-sahile&theme=tokyo-night&hide_border=true&bg_color=111424&color=00F7FF&line=00F7FF&point=ffffff" width="300" alt="Cyber Activity Graph" />
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table border="0">
-<tr>
-<td width="100%" valign="top">
+<td width="50%" valign="top">
 
 ### ⚡ Distributed Systems & Architecture
 - **Scalable Backend Systems**: Implementing distributed networks using high-concurrency systems engineered for horizontal scaling.
@@ -133,7 +122,7 @@
 
 <br/><br/>
 
-<!-- TROPHIES SECTION WITH THEME MATCHING (NO BROKEN HTML INLINE STYLES) -->
+<!-- TROPHIES SECTION WITH THEME MATCHING -->
 ## 🏆 GitHub Milestones
 <div align="center">
   <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/trophy.svg" alt="Trophies" />
@@ -141,7 +130,7 @@
 
 <br/><br/>
 
-<!-- STATS SECTION -->
+<!-- STATS & LANGUAGE ANALYTICS SECTION (CLEANED & FIXED) -->
 ## 📊 Enterprise Development Analytics
 
 <div align="center">
