@@ -36,14 +36,14 @@
 
 <br/><br/>
 
-<!-- ABOUT SECTION -->
+<!-- ABOUT SECTION WITH 100% WORKING CYBER ANIMATION -->
 ## 🧭 Executive Summary
-
-> **Enterprise Security Architect & Senior Full-Stack Engineer** specializing in the design and implementation of highly resilient distributed environments. Expert in aligning secure-by-default software engineering principles with robust defense infrastructure. Architecting resilient cloud ecosystems leveraging Zero Trust methodologies, DevSecOps pipelines, and threat mitigation paradigms to secure business-critical digital systems.
 
 <table border="0">
 <tr>
-<td width="50%" valign="top">
+<td width="60%" valign="top">
+
+> **Enterprise Security Architect & Senior Full-Stack Engineer** specializing in the design and implementation of highly resilient distributed environments. Expert in aligning secure-by-default software engineering principles with robust defense infrastructure. Architecting resilient cloud ecosystems leveraging Zero Trust methodologies, DevSecOps pipelines, and threat mitigation paradigms to secure business-critical digital systems.
 
 ### 🛡️ DevSecOps & Security
 - **Secure Software Design**: Designing applications adhering strictly to the **OWASP Top 10** vulnerabilities mapping.
@@ -51,7 +51,18 @@
 - **Continuous Integration Security**: Integrating automated SAST/DAST testing mechanisms directly within custom DevOps pipelines.
 
 </td>
-<td width="50%" valign="top">
+<td width="40%" valign="middle" align="center">
+  <!-- BEAUTIFUL AND 100% WORKING NEON CYBER SECURITY WORKPLACE ANIMATION -->
+  <img src="https://cdn.pixabay.com/animation/2023/06/13/15/13/15-13-47-507_512.gif" width="280" alt="Futuristic Developer Workstation" style="border-radius: 12px; border: 2px solid #00F7FF; box-shadow: 0 0 20px rgba(0, 247, 255, 0.35);" />
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table border="0">
+<tr>
+<td width="100%" valign="top">
 
 ### ⚡ Distributed Systems & Architecture
 - **Scalable Backend Systems**: Implementing distributed networks using high-concurrency systems engineered for horizontal scaling.
