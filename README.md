@@ -36,6 +36,13 @@
 
 <br/><br/>
 
+<!-- DIGITAL RAIN TERMINAL BANNER (self-hosted animated SVG, no external service) -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/digital-rain-fire.svg" width="100%" alt="Yonas Sahile Terminal" />
+</div>
+
+<br/><br/>
+
 <!-- ABOUT SECTION WITH 100% WORKING SVG ANIMATION -->
 ## 🧭 Executive Summary
 
