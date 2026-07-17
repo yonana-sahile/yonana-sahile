@@ -36,7 +36,7 @@
 
 <br/><br/>
 
-<!-- ABOUT SECTION WITH 100% WORKING CYBER ANIMATION -->
+<!-- ABOUT SECTION WITH 100% WORKING SVG ANIMATION -->
 ## 🧭 Executive Summary
 
 <table border="0">
@@ -52,8 +52,8 @@
 
 </td>
 <td width="40%" valign="middle" align="center">
-  <!-- BEAUTIFUL AND 100% WORKING NEON CYBER SECURITY WORKPLACE ANIMATION -->
-  <img src="https://cdn.pixabay.com/animation/2023/06/13/15/13/15-13-47-507_512.gif" width="280" alt="Futuristic Developer Workstation" style="border-radius: 12px; border: 2px solid #00F7FF; box-shadow: 0 0 20px rgba(0, 247, 255, 0.35);" />
+  <!-- 100% WORKING CYBER GRAPH & SECURITY ANIMATION -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yonana-sahile&theme=tokyo-night&hide_border=true&bg_color=111424&color=00F7FF&line=00F7FF&point=ffffff" width="300" alt="Cyber Activity Graph" />
 </td>
 </tr>
 </table>
@@ -126,12 +126,10 @@
 
 <br/><br/>
 
-<!-- TROPHIES SECTION WITH HIGH-END PREMIUM GLOW & BORDER -->
+<!-- TROPHIES SECTION WITH THEME MATCHING (NO BROKEN HTML INLINE STYLES) -->
 ## 🏆 GitHub Milestones
 <div align="center">
-  <div style="background-color: #111424; padding: 18px 10px; border-radius: 12px; border: 2px solid #00F7FF; box-shadow: 0 0 25px rgba(0, 247, 255, 0.35); display: inline-block;">
-    <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/trophy.svg" alt="Trophies" style="filter: drop-shadow(0 0 10px rgba(0, 247, 255, 0.4));"/>
-  </div>
+  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/trophy.svg" alt="Trophies" />
 </div>
 
 <br/><br/>
