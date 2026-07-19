@@ -158,7 +158,7 @@
 
 <!-- PREMIUM AQUATIC VIDEO FOOTER -->
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/49ce30cc-08c6-410f-aee2-286909f35a7b" width="100%" height="180" autoplay loop muted playsinline style="border-radius: 12px; filter: drop-shadow(0 0 20px rgba(0, 247, 255, 0.35));"></video>
+  <video src="https://github.com/user-attachments/assets/49ce30cc-08c6-410f-aee2-286909f35a7b" autoplay loop muted playsinline style="width: 100%; height: 260px; object-fit: cover; border-radius: 12px; filter: drop-shadow(0 0 20px rgba(0, 247, 255, 0.35));"></video>
   <br/><br/>
   <sub>Thanks for visiting my profile. Let's build secure, scalable and impactful software together. • **Yonas Sahile**</sub>
 </div>
