@@ -156,16 +156,12 @@
 
 <br/><br/>
 
-<!-- CREATIVE CYBERSECURITY ENTERPRISE FOOTER -->
+<!-- NEW ULTRA-PREMIUM NEON TERMINAL FOOTER -->
 <div align="center">
   <br/>
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=auto&customColorList=15,0F0C29,302B63,00F7FF&height=80&section=footer&text=SYSTEM%20STATUS:%20SECURED&fontSize=18&fontColor=00F7FF&fontAlignY=40" width="100%" alt="Footer Banner" />
-  <br/><br/>
-  <p align="center">
-    <code><strong>⚡ Status:</strong> Operational</code> &nbsp;|&nbsp; 
-    <code><strong>🛡️ Defense:</strong> Zero-Trust Enforced</code> &nbsp;|&nbsp; 
-    <code><strong>🚀 Core:</strong> Scale Optimized</code>
-  </p>
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=16&duration=3500&pause=1000&color=6E40C9&center=true&vCenter=true&width=500&lines=%E2%9E%A4+Initializing+secure+logout+protocol...;%E2%9E%A4+Connection+closed+successfully+%5B200+OK%5D...;%E2%9E%A4+Leaving+Zero+Trust+Zone.+Goodbye%2C+operator." alt="Footer Terminal" />
+  <br/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243E,50:00F7FF,100:6E40C9&height=100&section=footer" width="100%" alt="Footer Banner" />
   <br/>
   <sub>Thanks for visiting my profile. Let's build secure, scalable and impactful software together. • **Yonas Sahile**</sub>
 </div>
