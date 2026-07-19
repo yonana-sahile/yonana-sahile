@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- PREMIUM BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243E&height=380&section=header&text=YONAS%20SAHILE&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=30&desc=Enterprise%20Security%20Architect%20%7C%20Full-Stack%20Engineer&descAlignY=52&descSize=22"/>
+<!-- PREMIUM FIREPLACE BANNER -->
+<img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/main/cozy-fireplace.svg" width="100%" alt="Yonas Sahile Fireplace" />
 
 <!-- OVERLAPPING FULL-BODY CENTERPIECE (NO CIRCLE, TRANSITIONAL GLOW) -->
 <div style="margin-top: -110px; margin-bottom: 20px; position: relative; z-index: 999;">
