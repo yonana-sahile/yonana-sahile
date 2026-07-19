@@ -135,7 +135,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=yonana-sahile&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=24243E&title_color=00F7FF&icon_color=6E40C9&text_color=C9D1D9" alt="GitHub Analytics" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yonana-sahile&layout=compact&theme=tokyonight&hide_border=true&bg_color=24243E&title_color=00F7FF&text_color=C9D1D9" alt="Language Analysis" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=yonana-sahile&layout=compact&theme=tokyonight&hide_border=true&bg_color=24243E&title_color=00F7FF&text_color=C9D1D9" alt="Language Analysis" width="48%"/>
 </div>
 
 <br/>
