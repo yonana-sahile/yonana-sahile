@@ -663,7 +663,7 @@
     <text x="492.0" y="170.24" text-anchor="middle" dominant-baseline="middle"
           font-family="'Courier New', monospace" font-weight="bold" font-size="52" letter-spacing="8"
           fill="url(#textFireGrad)" stroke="#ff3d00" stroke-width="1.2" filter="url(#heatWobble)">
-      YONAS SAHIL
+      YONAS SAHILE
       <animate attributeName="opacity" values="1;0.8;1;0.65;1;0.9;1" 
                keyTimes="0;0.1;0.22;0.3;0.42;0.6;1" dur="2.6s" repeatCount="indefinite"/>
     </text>
