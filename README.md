@@ -151,7 +151,7 @@
 ## 🐍 Network Contribution Map
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Stream" width="90%"/>
+  <img src="https://raw.githubusercontent.com/yonana-sahile/yonana-sahile/output/github-contribution-grid-snake-dark.svg?v=3" alt="Snake Contribution Stream" width="90%"/>
 </div>
 
 <br/><br/>
