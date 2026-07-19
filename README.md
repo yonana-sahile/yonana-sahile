@@ -156,9 +156,16 @@
 
 <br/><br/>
 
-<!-- PREMIUM AQUATIC VIDEO FOOTER -->
+<!-- CREATIVE CYBERSECURITY ENTERPRISE FOOTER -->
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/49ce30cc-08c6-410f-aee2-286909f35a7b" width="500" autoplay loop muted playsinline style="border-radius: 12px; filter: drop-shadow(0 0 15px rgba(0, 247, 255, 0.2));"></video>
+  <br/>
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=auto&customColorList=15,0F0C29,302B63,00F7FF&height=80&section=footer&text=SYSTEM%20STATUS:%20SECURED&fontSize=18&fontColor=00F7FF&fontAlignY=40" width="100%" alt="Footer Banner" />
   <br/><br/>
+  <p align="center">
+    <code><strong>⚡ Status:</strong> Operational</code> &nbsp;|&nbsp; 
+    <code><strong>🛡️ Defense:</strong> Zero-Trust Enforced</code> &nbsp;|&nbsp; 
+    <code><strong>🚀 Core:</strong> Scale Optimized</code>
+  </p>
+  <br/>
   <sub>Thanks for visiting my profile. Let's build secure, scalable and impactful software together. • **Yonas Sahile**</sub>
 </div>
