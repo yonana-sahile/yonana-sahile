@@ -156,10 +156,10 @@
 
 <br/><br/>
 
-<!-- CREATIVE LIVE AQUARIUM FOOTER (3D DEEP-SEA LIVING REEF ECOSYSTEM) -->
+<!-- CREATIVE 3D VECTOR LIVING REEF ECOSYSTEM FOOTER -->
 <div align="center">
   <br/>
-  <img src="aquarium.svg" width="100%" style="display: block; margin: 0 auto;" alt="3D Live Aquatic Footer Ecosystem" />
+  <img src="aquarium.svg" width="100%" style="display: block; margin: 0 auto; border-radius: 12px;" alt="Yonas Sahile Custom 3D Vector Aquarium Ecosystem" />
   <br/><br/>
   <sub>Thanks for visiting my profile. Let's build secure, scalable and impactful software together. • **Yonas Sahile**</sub>
 </div>
