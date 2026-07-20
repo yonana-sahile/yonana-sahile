@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="100%">
+  <defs>
+    <!-- እውነተኛ የጥልቅ ባህር ከለር ግራዲያንት -->
+    <linearGradient id="ocean-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#001219" />
+      <stop offset="40%" stop-color="#005f73" />
+      <stop offset="80%" stop-color="#0a9396" />
+      <stop offset="100%" stop-color="#94d2bd" />
+    </linearGradient>
+  </defs>
+
+  <!-- የባህር ውሃው አካል -->
+  <rect width="800" height="220" rx="15" fill="url(#ocean-gradient)" />
+
+  <!-- የሚንቀሳቀሱ የውሃ አረፋዎች (Bubbles) -->
+  <circle cx="150" cy="220" r="4" fill="#ffffff" opacity="0.4">
+    <animate attributeName="cy" from="220" to="-20" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cx" from="150" to="170" dur="2s" attributeType="XML" additive="sum" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="220" r="6" fill="#ffffff" opacity="0.3">
+    <animate attributeName="cy" from="220" to="-20" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="220" r="3" fill="#ffffff" opacity="0.5">
+    <animate attributeName="cy" from="220" to="-20" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 🐙 ወደ ላይና ታች እየተወዛወዘ የሚዋኝ ኦክቶፐስ -->
+  <text x="100" y="130" font-size="45">🐙
+    <animate attributeName="x" from="-60" to="850" dur="28s" repeatCount="indefinite" />
+    <animate attributeName="y" from="100" to="160" dur="4s" attributeType="XML" additive="sum" repeatCount="indefinite" />
+  </text>
+
+  <!-- 🐠 ወደ ቀኝ የሚዋኝ ትልቅ ወርቃማ ዓሣ -->
+  <text x="-50" y="80" font-size="38">🐠
+    <animate attributeName="x" from="-50" to="850" dur="14s" repeatCount="indefinite" />
+  </text>
+
+  <!-- 🐟 ወደ ግራ የሚዋኝ ሰማያዊ ዓሣ -->
+  <text x="850" y="160" font-size="35">🐟
+    <animate attributeName="x" from="850" to="-50" dur="18s" repeatCount="indefinite" />
+  </text>
+  
+  <!-- 🐡 ፑፈር ፊሽ -->
+  <text x="-50" y="140" font-size="30">🐡
+    <animate attributeName="x" from="-100" to="900" dur="22s" repeatCount="indefinite" />
+  </text>
+
+  <!-- 💸 ከላይ ወደ ታች የሚረግፉ የዶላር ገንዘቦች -->
+  <text x="250" y="-50" font-size="28">💸
+    <animate attributeName="y" from="-50" to="260" dur="9s" repeatCount="indefinite" />
+    <animate attributeName="x" from="250" to="290" dur="3s" attributeType="XML" additive="sum" repeatCount="indefinite" />
+  </text>
+  <text x="550" y="-50" font-size="32">💰
+    <animate attributeName="y" from="-50" to="260" dur="12s" repeatCount="indefinite" />
+  </text>
+  <text x="400" y="-50" font-size="26">💵
+    <animate attributeName="y" from="-50" to="260" dur="7s" repeatCount="indefinite" />
+  </text>
+
+  <!-- የፖርትፎሊዮው መዝጊያ ጽሑፍ -->
+  <text x="50%" y="50%" font-family="'Space Grotesk', sans-serif" font-weight="bold" font-size="22" fill="#ffffff" text-anchor="middle" opacity="0.85" letter-spacing="4">
+    AQUATIC LIQUIDITY ECOSYSTEM
+  </text>
+</svg>
