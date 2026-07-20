@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160">
   <defs>
-    <!-- እውነተኛ የቪብራንት ውቅያኖስ ከለር (Deep Abyssal Blue to Tropical Cyan) -->
+    <!-- እውነተኛ የቪብራንት ውቅያኖስ ከለር -->
     <linearGradient id="true-ocean" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#03045e" />
       <stop offset="40%" stop-color="#0077b6" />
@@ -9,56 +9,118 @@
     </linearGradient>
   </defs>
 
-  <!-- የባህር ውሃ አካል (ቁመቱ ከፍ ያለና ውብ) -->
+  <!-- የባህር ውሃ አካል -->
   <rect width="800" height="160" rx="12" fill="url(#true-ocean)" />
 
+  <!-- 🏔️ UNDERWATER MOUNTAINS (በጀርባ የሚታዩ የባህር ውስጥ ተራራዎች) -->
+  <path d="M -50 160 L -50 100 Q 120 60 280 110 T 620 80 Q 720 100 850 85 L 850 160 Z" fill="#023e8a" opacity="0.4"/>
+  <path d="M -50 160 L -50 125 Q 180 90 350 125 T 700 105 Q 760 110 850 115 L 850 160 Z" fill="#0077b6" opacity="0.5"/>
+
   <!-- የውሃ አረፋዎች -->
-  <circle cx="300" cy="160" r="3" fill="#ffffff" opacity="0.25">
+  <circle cx="250" cy="160" r="3" fill="#ffffff" opacity="0.25">
     <animate attributeName="cy" from="160" to="-20" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="500" cy="160" r="4" fill="#ffffff" opacity="0.2">
+  <circle cx="550" cy="160" r="4" fill="#ffffff" opacity="0.2">
     <animate attributeName="cy" from="160" to="-20" dur="8s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- 🐠 ባለብዙ ከለር ዓሣ፡ ከታች ግራ ተነስቶ ወደ ላይ ቀኝ ስክሪኑን ጥሶ ይወጣል (Diagonal Up & Out) -->
-  <text font-size="30">🐠
-    <animate attributeName="x" from="-60" to="860" dur="14s" repeatCount="indefinite" />
-    <animate attributeName="y" from="180" to="-40" dur="14s" repeatCount="indefinite" />
+  <!-- 🌿 🪸 🌱 DENSE ALGAE & PLANT GROUND LAYER -->
+  <g>
+    <text x="5" y="158" font-size="24" opacity="0.8">🌿<animate attributeName="x" values="5;7;5" dur="4s" repeatCount="indefinite"/></text>
+    <text x="45" y="158" font-size="20" opacity="0.8">🌱<animate attributeName="x" values="45;47;45" dur="3s" repeatCount="indefinite"/></text>
+    <text x="85" y="158" font-size="22" opacity="0.8">🪸</text>
+    <text x="125" y="158" font-size="24" opacity="0.8">🌿<animate attributeName="x" values="125;128;125" dur="4.5s" repeatCount="indefinite"/></text>
+    <text x="175" y="158" font-size="20" opacity="0.8">🌱</text>
+    <text x="215" y="158" font-size="22" opacity="0.8">🪸</text>
+    <text x="255" y="158" font-size="25" opacity="0.8">🌿<animate attributeName="x" values="255;259;255" dur="3.8s" repeatCount="indefinite"/></text>
+    <text x="295" y="158" font-size="21" opacity="0.8">🌱</text>
+    <text x="335" y="158" font-size="23" opacity="0.8">🪸</text>
+    <text x="375" y="158" font-size="26" opacity="0.8">🌿<animate attributeName="x" values="375;378;375" dur="4.2s" repeatCount="indefinite"/></text>
+    <text x="415" y="158" font-size="20" opacity="0.8">🌱</text>
+    <text x="455" y="158" font-size="22" opacity="0.8">🪸</text>
+    <text x="495" y="158" font-size="24" opacity="0.8">🌿<animate attributeName="x" values="495;498;495" dur="3.5s" repeatCount="indefinite"/></text>
+    <text x="535" y="158" font-size="21" opacity="0.8">🌱</text>
+    <text x="575" y="158" font-size="23" opacity="0.8">🪸</text>
+    <text x="615" y="158" font-size="25" opacity="0.8">🌿<animate attributeName="x" values="615;619;615" dur="4.1s" repeatCount="indefinite"/></text>
+    <text x="665" y="158" font-size="20" opacity="0.8">🌱</text>
+    <text x="705" y="158" font-size="22" opacity="0.8">🪸</text>
+    <text x="745" y="158" font-size="24" opacity="0.8">🌿<animate attributeName="x" values="745;748;745" dur="3.9s" repeatCount="indefinite"/></text>
+  </g>
+  <g>
+    <text x="25" y="160" font-size="22">🪸</text>
+    <text x="65" y="160" font-size="25">🌿<animate attributeName="x" values="65;68;65" dur="3.2s" repeatCount="indefinite"/></text>
+    <text x="105" y="160" font-size="21">🌱</text>
+    <text x="145" y="160" font-size="23">🪸</text>
+    <text x="195" y="160" font-size="26">🌿<animate attributeName="x" values="195;199;195" dur="4.7s" repeatCount="indefinite"/></text>
+    <text x="235" y="160" font-size="20">🌱</text>
+    <text x="275" y="160" font-size="22">🪸</text>
+    <text x="315" y="160" font-size="24">🌿<animate attributeName="x" values="315;317;315" dur="3.6s" repeatCount="indefinite"/></text>
+    <text x="355" y="160" font-size="21">🌱</text>
+    <text x="395" y="160" font-size="23">🪸</text>
+    <text x="435" y="160" font-size="25">🌿<animate attributeName="x" values="435;438;435" dur="4.3s" repeatCount="indefinite"/></text>
+    <text x="475" y="160" font-size="20">🌱</text>
+    <text x="515" y="160" font-size="22">🪸</text>
+    <text x="555" y="160" font-size="26">🌿<animate attributeName="x" values="555;559;555" dur="3.4s" repeatCount="indefinite"/></text>
+    <text x="595" y="160" font-size="21">🌱</text>
+    <text x="635" y="160" font-size="23">🪸</text>
+    <text x="685" y="160" font-size="25">🌿<animate attributeName="x" values="685;687;685" dur="4.6s" repeatCount="indefinite"/></text>
+    <text x="725" y="160" font-size="21">🌱</text>
+    <text x="765" y="160" font-size="22">🪸</text>
+  </g>
+
+  <!-- 🐠 ACTION 1: ከፊት መስታወት ተነስቶ ወደ ባህሩ ጥልቀት Zoom Out እያደረገ (እየቀነሰ) የሚጠፋ ዓሣ -->
+  <text x="50" y="120">🐠
+    <animate attributeName="x" from="50" to="450" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="y" from="120" to="50" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="font-size" from="32" to="12" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="opacity" from="0.95" to="0.2" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="y" values="0;4;-4;0" dur="0.2s" repeatCount="indefinite" additive="sum" />
   </text>
 
-  <!-- 🐟 ሰማያዊ ዓሣ፡ ከቀኝ ተነስቶ ወደ ግራ በዚግዛግ ሞገድ ስክሪኑን ጥሶ ይወጣል (Wavy Random Exit) -->
-  <text font-size="28">🐟
-    <animate attributeName="x" from="860" to="-60" dur="17s" repeatCount="indefinite" />
-    <animate attributeName="y" from="40" to="40" dur="4s" values="40;130;30;110;40" repeatCount="indefinite" />
+  <!-- 🐟 ACTION 2: ከባህሩ ጥልቀት ጀርባ ተነስቶ ወደ ፊት መስታወት Zoom In እያደረገ (እየገዘፈ) የሚመጣ ዓሣ -->
+  <text x="650" y="40">🐟
+    <animate attributeName="x" from="650" to="200" dur="14s" repeatCount="indefinite" />
+    <animate attributeName="y" from="40" to="110" dur="14s" repeatCount="indefinite" />
+    <animate attributeName="font-size" from="10" to="34" dur="14s" repeatCount="indefinite" />
+    <animate attributeName="opacity" from="0.2" to="0.95" dur="14s" repeatCount="indefinite" />
+    <animate attributeName="x" values="0;2;-2;0" dur="0.15s" repeatCount="indefinite" additive="sum" />
   </text>
 
-  <!-- 🪼 ጄሊፊሽ፡ ከስክሪኑ በታች ተደብቆ ተነስቶ ወደ ላይ ሙሉ በሙሉ ወጥቶ ይጠፋል (Bottom-to-Top Out) -->
-  <text font-size="28">🪼
-    <animate attributeName="x" from="400" to="400" dur="16s" values="400;450;380;400" repeatCount="indefinite" />
-    <animate attributeName="y" from="200" to="-60" dur="16s" repeatCount="indefinite" />
+  <!-- 🐡 ACTION 3: በስክሪኑ መሃል ላይ እየቀረበና እየራቀ (Zoom In & Out) በዘፈቀደ የሚቀያየር ፑፈር ፊሽ -->
+  <text x="-60" y="70">🐡
+    <animate attributeName="x" from="-60" to="860" dur="18s" repeatCount="indefinite" />
+    <animate attributeName="y" values="70;30;100;50;70" dur="18s" repeatCount="indefinite" />
+    <animate attributeName="font-size" values="28;14;34;20;28" dur="18s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.9;0.3;0.95;0.5;0.9" dur="18s" repeatCount="indefinite" />
+    <animate attributeName="y" values="0;3;-3;0" dur="0.22s" repeatCount="indefinite" additive="sum" />
   </text>
 
-  <!-- 🐙 ኦክቶፐስ፡ ከቀኝ ተነስቶ ወደ ግራ በባህሩ ወለል ላይ በዘፈቀደ እየተወዛወዘ ይሄዳል -->
-  <text font-size="34">🐙
+  <!-- 🪼 ጄሊፊሽ -->
+  <text font-size="26">🪼
+    <animate attributeName="x" from="350" to="350" dur="15s" values="350;400;320;350" repeatCount="indefinite" />
+    <animate attributeName="y" from="190" to="-60" dur="15s" repeatCount="indefinite" />
+  </text>
+
+  <!-- 🐙 ኦክቶፐስ፡ ከተራራው ጀርባ ብቅ እያለ ወደ ፊት የሚመጣ -->
+  <text x="860" y="120">🐙
     <animate attributeName="x" from="860" to="-60" dur="25s" repeatCount="indefinite" />
-    <animate attributeName="y" from="130" to="130" dur="5s" values="130;95;140;110;130" repeatCount="indefinite" />
+    <animate attributeName="font-size" values="20;35;35;20" dur="25s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4;0.95;0.95;0.4" dur="25s" repeatCount="indefinite" />
+    <animate attributeName="y" values="120;75;130;90;120" dur="6s" repeatCount="indefinite" />
   </text>
 
-  <!-- 🐡 ፑፈር ፊሽ፡ ከግራ ወደ ቀኝ መሃል ላይ ቀስ እያለ ይዋኛል -->
-  <text font-size="26">🐡
-    <animate attributeName="x" from="-60" to="860" dur="20s" repeatCount="indefinite" />
-    <animate attributeName="y" from="110" to="50" dur="20s" repeatCount="indefinite" />
+  <!-- 🦈 ሻርክ፡ ከጀርባ ተነስቶ በከፍተኛ ፍጥነት ወደ ፊት ስክሪኑን ጥሶ የሚሻገረ ውክያኖስ አውሬ -->
+  <text x="-100" y="60">🦈
+    <animate attributeName="x" from="-100" to="900" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="font-size" from="15" to="42" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="opacity" from="0.3" to="0.95" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="y" values="0;2;-2;0" dur="0.12s" repeatCount="indefinite" additive="sum" />
   </text>
 
-  <!-- 🦈 ሻርክ/ዶልፊን፡ በባህሩ ውስጥ በከፍተኛ ፍጥነት ይሻገራል -->
-  <text font-size="36">🦈
-    <animate attributeName="x" from="-100" to="900" dur="9s" repeatCount="indefinite" />
-    <animate attributeName="y" from="60" to="90" dur="3s" values="60;90;60" repeatCount="indefinite" />
-  </text>
-
-  <!-- 🦀 ክራብ፡ በባህሩ ወለል ጫፍ ላይ ትሳባለች -->
-  <text font-size="22">🦀
-    <animate attributeName="x" from="860" to="-60" dur="22s" repeatCount="indefinite" />
-    <animate attributeName="y" from="148" to="148" dur="1s" repeatCount="indefinite" />
+  <!-- 🦀 ክራብ -->
+  <text font-size="20">🦀
+    <animate attributeName="x" from="860" to="-60" dur="21s" repeatCount="indefinite" />
+    <animate attributeName="y" from="150" to="150" dur="1s" repeatCount="indefinite" />
+    <animate attributeName="x" values="0;1;-1;0" dur="0.08s" repeatCount="indefinite" additive="sum" />
   </text>
 </svg>
