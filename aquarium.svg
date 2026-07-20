@@ -12,19 +12,25 @@
   <!-- የባህር ውሃ አካል -->
   <rect width="800" height="160" rx="12" fill="url(#true-ocean)" />
 
-  <!-- 🏔️ UNDERWATER MOUNTAINS (በጀርባ የሚታዩ የባህር ውስጥ ተራራዎች) -->
-  <path d="M -50 160 L -50 100 Q 120 60 280 110 T 620 80 Q 720 100 850 85 L 850 160 Z" fill="#023e8a" opacity="0.4"/>
-  <path d="M -50 160 L -50 125 Q 180 90 350 125 T 700 105 Q 760 110 850 115 L 850 160 Z" fill="#0077b6" opacity="0.5"/>
+  <!-- 🏔️ BACKGROUND UNDERWATER MOUNTAINS -->
+  <path d="M -50 160 L -50 100 Q 120 60 280 110 T 620 80 Q 720 100 850 85 L 850 160 Z" fill="#023e8a" opacity="0.3"/>
+  <path d="M -50 160 L -50 125 Q 180 90 350 125 T 700 105 Q 760 110 850 115 L 850 160 Z" fill="#0077b6" opacity="0.4"/>
 
-  <!-- የውሃ አረፋዎች -->
-  <circle cx="250" cy="160" r="3" fill="#ffffff" opacity="0.25">
-    <animate attributeName="cy" from="160" to="-20" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="550" cy="160" r="4" fill="#ffffff" opacity="0.2">
-    <animate attributeName="cy" from="160" to="-20" dur="8s" repeatCount="indefinite"/>
+  <!-- 🪸 🏔️ HOME ALGAE MOUNTAIN (በቀኝ በኩል የተሰራው የዓሦች መሸሸጊያ ተራራ ቤት) -->
+  <path d="M 520 160 Q 640 40 820 110 L 820 160 Z" fill="#005f73" opacity="0.85"/>
+  <path d="M 580 160 Q 680 65 830 130 L 830 160 Z" fill="#0a9396" opacity="0.9"/>
+  
+  <!-- ትናንሽ የቤት ውስጥ ፍጡራን -->
+  <text x="630" y="105" font-size="14">🐌</text>
+  <text x="690" y="115" font-size="16">🐚</text>
+  <text x="740" y="130" font-size="15">🐚</text>
+
+  <!-- የውሃ አረፋዎች ከቤት ውስጥ የሚወጡ -->
+  <circle cx="660" cy="110" r="2.5" fill="#ffffff" opacity="0.4">
+    <animate attributeName="cy" from="110" to="-20" dur="5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- 🌿 🪸 🌱 DENSE ALGAE & PLANT GROUND LAYER -->
+  <!-- 🌿 🌱 DENSE GROUND ALGAE (መሬቱን በሙሉ የሚሞላ አልጌ) -->
   <g>
     <text x="5" y="158" font-size="24" opacity="0.8">🌿<animate attributeName="x" values="5;7;5" dur="4s" repeatCount="indefinite"/></text>
     <text x="45" y="158" font-size="20" opacity="0.8">🌱<animate attributeName="x" values="45;47;45" dur="3s" repeatCount="indefinite"/></text>
@@ -38,89 +44,128 @@
     <text x="375" y="158" font-size="26" opacity="0.8">🌿<animate attributeName="x" values="375;378;375" dur="4.2s" repeatCount="indefinite"/></text>
     <text x="415" y="158" font-size="20" opacity="0.8">🌱</text>
     <text x="455" y="158" font-size="22" opacity="0.8">🪸</text>
-    <text x="495" y="158" font-size="24" opacity="0.8">🌿<animate attributeName="x" values="495;498;495" dur="3.5s" repeatCount="indefinite"/></text>
-    <text x="535" y="158" font-size="21" opacity="0.8">🌱</text>
-    <text x="575" y="158" font-size="23" opacity="0.8">🪸</text>
-    <text x="615" y="158" font-size="25" opacity="0.8">🌿<animate attributeName="x" values="615;619;615" dur="4.1s" repeatCount="indefinite"/></text>
-    <text x="665" y="158" font-size="20" opacity="0.8">🌱</text>
-    <text x="705" y="158" font-size="22" opacity="0.8">🪸</text>
-    <text x="745" y="158" font-size="24" opacity="0.8">🌿<animate attributeName="x" values="745;748;745" dur="3.9s" repeatCount="indefinite"/></text>
+    <!-- በተራራው ላይ የበቀሉ ጥቅጥቅ ያሉ አልጌዎች -->
+    <text x="550" y="145" font-size="25">🌿<animate attributeName="x" values="550;553;550" dur="3.2s" repeatCount="indefinite"/></text>
+    <text x="600" y="115" font-size="23">🌿<animate attributeName="x" values="600;604;600" dur="4s" repeatCount="indefinite"/></text>
+    <text x="650" y="95" font-size="24">🌿<animate attributeName="x" values="650;653;650" dur="3.5s" repeatCount="indefinite"/></text>
+    <text x="710" y="110" font-size="26">🌿<animate attributeName="x" values="710;714;710" dur="4.2s" repeatCount="indefinite"/></text>
+    <text x="760" y="135" font-size="22">🪸</text>
   </g>
+
+  <!-- ========================================== -->
+  <!-- 🌊 FISH HOME MOVEMENT & ECOSYSTEM ACTIONS 🌊 -->
+  <!-- ========================================== -->
+
+  <!-- 🐋 MAJESTIC WHALE (በዶልፊኑ ምትክ የገባ): ከበስተጀርባ ቀስ እያለ በግርማ ሞገስ የሚዋኝ ትልቅ ነባሪል -->
   <g>
-    <text x="25" y="160" font-size="22">🪸</text>
-    <text x="65" y="160" font-size="25">🌿<animate attributeName="x" values="65;68;65" dur="3.2s" repeatCount="indefinite"/></text>
-    <text x="105" y="160" font-size="21">🌱</text>
-    <text x="145" y="160" font-size="23">🪸</text>
-    <text x="195" y="160" font-size="26">🌿<animate attributeName="x" values="195;199;195" dur="4.7s" repeatCount="indefinite"/></text>
-    <text x="235" y="160" font-size="20">🌱</text>
-    <text x="275" y="160" font-size="22">🪸</text>
-    <text x="315" y="160" font-size="24">🌿<animate attributeName="x" values="315;317;315" dur="3.6s" repeatCount="indefinite"/></text>
-    <text x="355" y="160" font-size="21">🌱</text>
-    <text x="395" y="160" font-size="23">🪸</text>
-    <text x="435" y="160" font-size="25">🌿<animate attributeName="x" values="435;438;435" dur="4.3s" repeatCount="indefinite"/></text>
-    <text x="475" y="160" font-size="20">🌱</text>
-    <text x="515" y="160" font-size="22">🪸</text>
-    <text x="555" y="160" font-size="26">🌿<animate attributeName="x" values="555;559;555" dur="3.4s" repeatCount="indefinite"/></text>
-    <text x="595" y="160" font-size="21">🌱</text>
-    <text x="635" y="160" font-size="23">🪸</text>
-    <text x="685" y="160" font-size="25">🌿<animate attributeName="x" values="685;687;685" dur="4.6s" repeatCount="indefinite"/></text>
-    <text x="725" y="160" font-size="21">🌱</text>
-    <text x="765" y="160" font-size="22">🪸</text>
+    <animateTransform attributeName="transform" type="translate" values="900,50; -150,50" dur="22s" repeatCount="indefinite" />
+    <g>
+      <!-- Slow 3D depth glide -->
+      <animateTransform attributeName="transform" type="scale" values="0.7; 1.1; 0.7" dur="22s" repeatCount="indefinite" />
+      <g>
+        <!-- Whale tail undulation -->
+        <animateTransform attributeName="transform" type="skewY" values="0; 6; -6; 0" dur="1.8s" repeatCount="indefinite" />
+        <text x="0" y="0" font-size="44" text-anchor="middle" dominant-baseline="central">🐋</text>
+      </g>
+    </g>
   </g>
 
-  <!-- 🐠 ACTION 1: ከፊት መስታወት ተነስቶ ወደ ባህሩ ጥልቀት Zoom Out እያደረገ (እየቀነሰ) የሚጠፋ ዓሣ -->
-  <text x="50" y="120">🐠
-    <animate attributeName="x" from="50" to="450" dur="12s" repeatCount="indefinite" />
-    <animate attributeName="y" from="120" to="50" dur="12s" repeatCount="indefinite" />
-    <animate attributeName="font-size" from="32" to="12" dur="12s" repeatCount="indefinite" />
-    <animate attributeName="opacity" from="0.95" to="0.2" dur="12s" repeatCount="indefinite" />
-    <animate attributeName="y" values="0;4;-4;0" dur="0.2s" repeatCount="indefinite" additive="sum" />
-  </text>
+  <!-- 🦈 SHARK 1: ፈጣን እና ኃይለኛ የጭራ መቅዘፍ ያለው ትልቅ አሳኝ ሻርክ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-100,60; 900,80" dur="9s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="0.8; 1.4; 0.8" dur="8s" repeatCount="indefinite" />
+      <g>
+        <animateTransform attributeName="transform" type="skewY" values="0; 15; -15; 0" dur="0.22s" repeatCount="indefinite" />
+        <text x="0" y="0" font-size="36" text-anchor="middle" dominant-baseline="central">🦈</text>
+      </g>
+    </g>
+  </g>
 
-  <!-- 🐟 ACTION 2: ከባህሩ ጥልቀት ጀርባ ተነስቶ ወደ ፊት መስታወት Zoom In እያደረገ (እየገዘፈ) የሚመጣ ዓሣ -->
-  <text x="650" y="40">🐟
-    <animate attributeName="x" from="650" to="200" dur="14s" repeatCount="indefinite" />
-    <animate attributeName="y" from="40" to="110" dur="14s" repeatCount="indefinite" />
-    <animate attributeName="font-size" from="10" to="34" dur="14s" repeatCount="indefinite" />
-    <animate attributeName="opacity" from="0.2" to="0.95" dur="14s" repeatCount="indefinite" />
-    <animate attributeName="x" values="0;2;-2;0" dur="0.15s" repeatCount="indefinite" additive="sum" />
-  </text>
+  <!-- 🦈 SHARK 2 (NEW): ከቀኝ ወደ ግራ ጥልቁን ባህር እየቀዘፈ በከፍተኛ ፍጥነት የሚሻገር ሁለተኛ ሻርክ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="900,40; -100,90" dur="11s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1.1; 0.6; 1.1" dur="11s" repeatCount="indefinite" />
+      <g>
+        <animateTransform attributeName="transform" type="skewY" values="0; -12; 12; 0" dur="0.25s" repeatCount="indefinite" />
+        <text x="0" y="0" font-size="32" text-anchor="middle" dominant-baseline="central">🦈</text>
+      </g>
+    </g>
+  </g>
 
-  <!-- 🐡 ACTION 3: በስክሪኑ መሃል ላይ እየቀረበና እየራቀ (Zoom In & Out) በዘፈቀደ የሚቀያየር ፑፈር ፊሽ -->
-  <text x="-60" y="70">🐡
-    <animate attributeName="x" from="-60" to="860" dur="18s" repeatCount="indefinite" />
-    <animate attributeName="y" values="70;30;100;50;70" dur="18s" repeatCount="indefinite" />
-    <animate attributeName="font-size" values="28;14;34;20;28" dur="18s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0.9;0.3;0.95;0.5;0.9" dur="18s" repeatCount="indefinite" />
-    <animate attributeName="y" values="0;3;-3;0" dur="0.22s" repeatCount="indefinite" additive="sum" />
-  </text>
+  <!-- 🐠 TROPICAL FISH: ወደ አልጌ ተራራው ቤት ውስጥ ገብቶ የሚደበቅና የሚወጣ ዓሣ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" 
+                      values="-60,70; 300,50; 600,90; 660,110; 660,110; 600,90; -60,70" 
+                      dur="16s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="scale" 
+                      values="1.3; 1.0; 0.6; 0.3; 0.3; 0.6; 1.3" 
+                      dur="16s" repeatCount="indefinite" />
+      <g>
+        <animateTransform attributeName="transform" type="skewY" values="0; 12; -12; 0" dur="0.35s" repeatCount="indefinite" />
+        <text x="0" y="0" font-size="28" text-anchor="middle" dominant-baseline="central">🐠</text>
+      </g>
+    </g>
+  </g>
 
-  <!-- 🪼 ጄሊፊሽ -->
-  <text font-size="26">🪼
-    <animate attributeName="x" from="350" to="350" dur="15s" values="350;400;320;350" repeatCount="indefinite" />
-    <animate attributeName="y" from="190" to="-60" dur="15s" repeatCount="indefinite" />
-  </text>
+  <!-- 🐟 REEF RESIDENT: በቤቱ ዙሪያ ብቻ Zoom In/Out እያደረገ የሚጫወት ሰማያዊ ዓሣ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" 
+                      values="620,100; 720,80; 670,120; 590,90; 620,100" 
+                      dur="12s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="0.5; 0.9; 0.4; 0.8; 0.5" dur="12s" repeatCount="indefinite" />
+      <g>
+        <animateTransform attributeName="transform" type="skewX" values="0; -10; 10; 0" dur="0.4s" repeatCount="indefinite" />
+        <text x="0" y="0" font-size="24" text-anchor="middle" dominant-baseline="central">🐟</text>
+      </g>
+    </g>
+  </g>
 
-  <!-- 🐙 ኦክቶፐስ፡ ከተራራው ጀርባ ብቅ እያለ ወደ ፊት የሚመጣ -->
-  <text x="860" y="120">🐙
-    <animate attributeName="x" from="860" to="-60" dur="25s" repeatCount="indefinite" />
-    <animate attributeName="font-size" values="20;35;35;20" dur="25s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0.4;0.95;0.95;0.4" dur="25s" repeatCount="indefinite" />
-    <animate attributeName="y" values="120;75;130;90;120" dur="6s" repeatCount="indefinite" />
-  </text>
+  <!-- 🐙 OCTOPUS: Jet Propulsion Squish & Stretch -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="500,120; 300,60; -60,110" dur="18s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1,1; 1.3,0.7; 0.7,1.3; 1,1" dur="1.4s" repeatCount="indefinite" />
+      <text x="0" y="0" font-size="32" text-anchor="middle" dominant-baseline="central">🐙</text>
+    </g>
+  </g>
 
-  <!-- 🦈 ሻርክ፡ ከጀርባ ተነስቶ በከፍተኛ ፍጥነት ወደ ፊት ስክሪኑን ጥሶ የሚሻገረ ውክያኖስ አውሬ -->
-  <text x="-100" y="60">🦈
-    <animate attributeName="x" from="-100" to="900" dur="10s" repeatCount="indefinite" />
-    <animate attributeName="font-size" from="15" to="42" dur="10s" repeatCount="indefinite" />
-    <animate attributeName="opacity" from="0.3" to="0.95" dur="10s" repeatCount="indefinite" />
-    <animate attributeName="y" values="0;2;-2;0" dur="0.12s" repeatCount="indefinite" additive="sum" />
-  </text>
+  <!-- 🐢 SEA TURTLE: Swimming slowly near the ground -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-70,130; 520,120; -70,130" dur="24s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-5; 10; -5" dur="4s" repeatCount="indefinite" />
+      <text x="0" y="0" font-size="28" text-anchor="middle" dominant-baseline="central">🐢</text>
+    </g>
+  </g>
 
-  <!-- 🦀 ክራብ -->
-  <text font-size="20">🦀
-    <animate attributeName="x" from="860" to="-60" dur="21s" repeatCount="indefinite" />
-    <animate attributeName="y" from="150" to="150" dur="1s" repeatCount="indefinite" />
-    <animate attributeName="x" values="0;1;-1;0" dur="0.08s" repeatCount="indefinite" additive="sum" />
-  </text>
+  <!-- 🪼 JELLYFISH: Pulsing Bell Contract -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="280,190; 250,-60" dur="16s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1,1; 1.3,0.6; 0.8,1.2; 1,1" dur="1.8s" repeatCount="indefinite" />
+      <text x="0" y="0" font-size="26" text-anchor="middle" dominant-baseline="central">🪼</text>
+    </g>
+  </g>
+
+  <!-- 🐡 PUFFER FISH: Inflate Balloon Action -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-60,80; 400,40; 550,90" dur="20s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1,1; 1.6,1.6; 1,1" dur="4s" repeatCount="indefinite" />
+      <text x="0" y="0" font-size="24" text-anchor="middle" dominant-baseline="central">🐡</text>
+    </g>
+  </g>
+
+  <!-- 🦀 CRAB: Floor Rocking Crawl -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="520,146; -60,146" dur="20s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0; 12; 0; -12; 0" dur="0.5s" repeatCount="indefinite" />
+      <text x="0" y="0" font-size="20" text-anchor="middle" dominant-baseline="central">🦀</text>
+    </g>
+  </g>
 </svg>
