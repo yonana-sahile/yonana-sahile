@@ -190,64 +190,401 @@
                dur="7.8s" repeatCount="indefinite" />
     </path>
 
-    <!-- Swaying Sea Anemone (Coral Orange) at seabed -->
-    <g transform="translate(230, 160) scale(0.65)">
-      <path d="M -15 0 C -15 -10 15 -10 15 0 Z" fill="#f97316" opacity="0.85" />
-      <path stroke="#fdba74" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M -10 -5 Q -15 -25 -22 -30; M -10 -5 Q -8 -22 -15 -30; M -10 -5 Q -15 -25 -22 -30"
-                 dur="3.2s" repeatCount="indefinite" />
-      </path>
-      <path stroke="#fdba74" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M -5 -6 Q -8 -28 -8 -34; M -5 -6 Q -2 -24 -2 -34; M -5 -6 Q -8 -28 -8 -34"
-                 dur="2.8s" repeatCount="indefinite" />
-      </path>
-      <path stroke="#fdba74" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M 0 -7 Q 0 -30 5 -35; M 0 -7 Q 4 -26 12 -35; M 0 -7 Q 0 -30 5 -35"
-                 dur="3.5s" repeatCount="indefinite" />
-      </path>
-      <path stroke="#fdba74" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M 5 -6 Q 8 -28 15 -33; M 5 -6 Q 10 -24 20 -33; M 5 -6 Q 8 -28 15 -33"
-                 dur="3.0s" repeatCount="indefinite" />
-      </path>
-      <path stroke="#fdba74" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M 10 -5 Q 15 -25 25 -28; M 10 -5 Q 12 -22 18 -28; M 10 -5 Q 15 -25 25 -28"
-                 dur="3.3s" repeatCount="indefinite" />
-      </path>
+    <!-- ======================================================= -->
+    <!-- 🪸 NATURAL SEABED GEOGRAPHY (GREAT BARRIER REEF CORALS & ANEMONES) 🪸 -->
+    <!-- Inspired by the uploaded photograph's bottom area: -->
+    <!-- Lush pink soft corals on left, massive yellow-green swaying anemones across the center-right. -->
+    <!-- ======================================================= -->
+
+    <!-- Seabed Color Base & Ambient Glow (Violaceous/coral tones matching photo) -->
+    <path d="M 0,160 L 0,150 Q 150,140 300,152 T 600,144 Q 700,146 800,140 L 800,160 Z" fill="#881337" opacity="0.4" />
+    <path d="M 0,160 L 0,154 Q 100,148 220,156 T 500,150 Q 680,152 800,148 L 800,160 Z" fill="#581c87" opacity="0.5" />
+
+    <!-- Left Bed: Dense Pink & Lavender Soft Coral Reef (x=10 to x=230) -->
+    <g>
+      <!-- Base branch skeleton -->
+      <path d="M 30,160 Q 40,135 25,120 Q 15,110 20,100" stroke="#be123c" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85" />
+      <path d="M 75,160 Q 70,130 85,110 Q 95,95 85,85" stroke="#be123c" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.85" />
+      <path d="M 125,160 Q 135,135 120,115 Q 110,100 115,90" stroke="#7e22ce" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.8" />
+
+      <!-- Back Purple Soft Coral Mound -->
+      <g transform="translate(130, 160)">
+        <ellipse cx="-20" cy="-35" rx="20" ry="14" fill="#a855f7" opacity="0.75" />
+        <ellipse cx="0" cy="-45" rx="25" ry="16" fill="#c084fc" opacity="0.8" />
+        <ellipse cx="20" cy="-30" rx="18" ry="12" fill="#a855f7" opacity="0.75" />
+        <!-- Micro-texture bubble dots -->
+        <circle cx="-15" cy="-35" r="3" fill="#f3e8ff" opacity="0.6" />
+        <circle cx="5" cy="-45" r="4" fill="#f3e8ff" opacity="0.7" />
+        <circle cx="15" cy="-32" r="3" fill="#f3e8ff" opacity="0.6" />
+      </g>
+
+      <!-- Front Pink Carnation/Cauliflower Coral Colony (Matches the gorgeous pink left-side in the photo!) -->
+      <g transform="translate(60, 160)">
+        <!-- Layered lobes with highlights and shadows -->
+        <!-- Lobe 1 (Bottom Left) -->
+        <path d="M -45,-5 C -60,-15 -55,-35 -35,-30 C -25,-35 -15,-25 -25,-10 Z" fill="#e11d48" stroke="#9f1239" stroke-width="0.8" />
+        <path d="M -40,-8 C -52,-16 -48,-30 -33,-26" fill="none" stroke="#fecdd3" stroke-width="2.2" stroke-linecap="round" />
+        
+        <!-- Lobe 2 (Mid Left) -->
+        <path d="M -35,-25 C -50,-40 -40,-60 -20,-50 C -10,-55 0,-45 -10,-30 Z" fill="#f43f5e" stroke="#9f1239" stroke-width="0.8" />
+        <path d="M -30,-28 C -42,-41 -34,-53 -18,-45" fill="none" stroke="#ffe4e6" stroke-width="2.5" stroke-linecap="round" />
+
+        <!-- Lobe 3 (Top Peak) -->
+        <path d="M -15,-45 C -25,-65 -5,-80 15,-65 C 30,-70 35,-50 20,-40 Z" fill="#fda4af" stroke="#be123c" stroke-width="1.0" />
+        <path d="M -8,-50 C -15,-67 2,-74 15,-60" fill="none" stroke="#fff1f2" stroke-width="3" stroke-linecap="round" />
+
+        <!-- Lobe 4 (Right side branch) -->
+        <path d="M 10,-30 C 25,-45 45,-35 35,-15 C 25,-10 15,-15 5,-25 Z" fill="#fb7185" stroke="#be123c" stroke-width="0.8" />
+        <path d="M 15,-32 C 26,-43 38,-35 30,-20" fill="none" stroke="#fecdd3" stroke-width="2.2" stroke-linecap="round" />
+
+        <!-- Lobe 5 (Center mound overlay) -->
+        <circle cx="-5" cy="-22" r="18" fill="#f43f5e" stroke="#be123c" stroke-width="0.8" />
+        <circle cx="-3" cy="-20" r="14" fill="#fb7185" />
+        <circle cx="-1" cy="-18" r="8" fill="#fecdd3" />
+        
+        <!-- Front small blossom -->
+        <circle cx="18" cy="-10" r="10" fill="#e11d48" />
+        <circle cx="17" cy="-9" r="7" fill="#fb7185" />
+      </g>
     </g>
 
-    <!-- Swaying Sea Anemone (Bright Pink) at seabed -->
-    <g transform="translate(490, 160) scale(0.7)">
-      <path d="M -15 0 C -15 -10 15 -10 15 0 Z" fill="#ec4899" opacity="0.9" />
-      <path stroke="#fbcfe8" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M -10 -5 Q -15 -25 -22 -30; M -10 -5 Q -8 -22 -15 -30; M -10 -5 Q -15 -25 -22 -30"
-                 dur="2.9s" repeatCount="indefinite" />
-      </path>
-      <path stroke="#fbcfe8" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M -5 -6 Q -8 -28 -8 -34; M -5 -6 Q -2 -24 -2 -34; M -5 -6 Q -8 -28 -8 -34"
-                 dur="2.5s" repeatCount="indefinite" />
-      </path>
-      <path stroke="#fbcfe8" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M 0 -7 Q 0 -30 5 -35; M 0 -7 Q 4 -26 12 -35; M 0 -7 Q 0 -30 5 -35"
-                 dur="3.1s" repeatCount="indefinite" />
-      </path>
-      <path stroke="#fbcfe8" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M 5 -6 Q 8 -28 15 -33; M 5 -6 Q 10 -24 20 -33; M 5 -6 Q 8 -28 15 -33"
-                 dur="2.7s" repeatCount="indefinite" />
-      </path>
-      <path stroke="#fbcfe8" stroke-width="2.5" stroke-linecap="round" fill="none">
-        <animate attributeName="d"
-                 values="M 10 -5 Q 15 -25 25 -28; M 10 -5 Q 12 -22 18 -28; M 10 -5 Q 15 -25 25 -28"
-                 dur="3.0s" repeatCount="indefinite" />
-      </path>
+    <!-- Center & Right: Massive, Lush, Swaying Sea Anemone Forest (x=210 to x=790) -->
+    <!-- Matches the bottom & right-side yellow-green swaying anemones in the photo -->
+    <g>
+      <!-- Purple/Violet anemone centers embedded on floor -->
+      <ellipse cx="280" cy="154" rx="28" ry="7" fill="#701a75" opacity="0.6" />
+      <ellipse cx="440" cy="152" rx="35" ry="8" fill="#4a044e" opacity="0.7" />
+      <ellipse cx="600" cy="155" rx="55" ry="9" fill="#701a75" opacity="0.75" />
+      <ellipse cx="720" cy="151" rx="45" ry="8" fill="#4a044e" opacity="0.7" />
+
+      <!-- ANEMONE COLONY 1 (Center-Left: x=240 to x=350) - Coral Golden/Green -->
+      <g transform="translate(280, 160)">
+        <!-- Background dark tentacles -->
+        <path stroke="#a16207" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.65">
+          <animate attributeName="d"
+                   values="M -25,0 Q -40,-35 -50,-48; M -25,0 Q -32,-32 -42,-48; M -25,0 Q -40,-35 -50,-48"
+                   dur="3.60s" repeatCount="indefinite" />
+        </path>
+        <path stroke="#a16207" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.65">
+          <animate attributeName="d"
+                   values="M 20,0 Q 35,-32 45,-45; M 20,0 Q 25,-30 32,-45; M 20,0 Q 35,-32 45,-45"
+                   dur="3.30s" repeatCount="indefinite" />
+        </path>
+        
+        <!-- Foreground glowing tentacles (Lime-green/yellow with violet tips) -->
+        <!-- Tentacle A -->
+        <path stroke="#eab308" stroke-width="3" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M -20,-2 Q -30,-30 -38,-42; M -20,-2 Q -22,-28 -28,-42; M -20,-2 Q -30,-30 -38,-42"
+                   dur="3.10s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-38" cy="-42" r="2.2" fill="#ec4899">
+          <animate attributeName="cx" values="-38;-28;-38" dur="3.10s" repeatCount="indefinite" />
+          <animate attributeName="cy" values="-42;-42;-42" dur="3.10s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle B -->
+        <path stroke="#84cc16" stroke-width="3.2" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M -12,-4 Q -18,-35 -20,-50; M -12,-4 Q -8,-32 -10,-50; M -12,-4 Q -18,-35 -20,-50"
+                   dur="2.80s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-20" cy="-50" r="2.2" fill="#c084fc">
+          <animate attributeName="cx" values="-20;-10;-20" dur="2.80s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle C (Center upright) -->
+        <path stroke="#eab308" stroke-width="3.5" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 0,-5 Q -5,-40 2,-55; M 0,-5 Q 5,-35 12,-55; M 0,-5 Q -5,-40 2,-55"
+                   dur="3.40s" repeatCount="indefinite" />
+        </path>
+        <circle cx="2" cy="-55" r="2.5" fill="#f43f5e">
+          <animate attributeName="cx" values="2;12;2" dur="3.40s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle D -->
+        <path stroke="#84cc16" stroke-width="3.2" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 10,-4 Q 18,-33 26,-46; M 10,-4 Q 12,-30 18,-46; M 10,-4 Q 18,-33 26,-46"
+                   dur="2.90s" repeatCount="indefinite" />
+        </path>
+        <circle cx="26" cy="-46" r="2.2" fill="#c084fc">
+          <animate attributeName="cx" values="26;18;26" dur="2.90s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle E (Slightly curved right) -->
+        <path stroke="#eab308" stroke-width="3" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 18,-2 Q 32,-28 42,-38; M 18,-2 Q 24,-26 30,-38; M 18,-2 Q 32,-28 42,-38"
+                   dur="3.20s" repeatCount="indefinite" />
+        </path>
+        <circle cx="42" cy="-38" r="2" fill="#ec4899">
+          <animate attributeName="cx" values="42;30;42" dur="3.20s" repeatCount="indefinite" />
+        </circle>
+      </g>
+
+      <!-- ANEMONE COLONY 2 (Center-Right: x=360 to x=500) - Vibrant Yellow-Green/Lilac -->
+      <g transform="translate(430, 160)">
+        <!-- Back layer -->
+        <path stroke="#4d7c0f" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.6">
+          <animate attributeName="d"
+                   values="M -30,0 Q -45,-38 -62,-46; M -30,0 Q -35,-35 -48,-46; M -30,0 Q -45,-38 -62,-46"
+                   dur="3.90s" repeatCount="indefinite" />
+        </path>
+        <path stroke="#4d7c0f" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.6">
+          <animate attributeName="d"
+                   values="M 25,0 Q 40,-35 58,-44; M 25,0 Q 30,-32 42,-44; M 25,0 Q 40,-35 58,-44"
+                   dur="3.70s" repeatCount="indefinite" />
+        </path>
+
+        <!-- Front luxury yellow-green tentacles with purple tips -->
+        <!-- Tentacle A -->
+        <path stroke="#a3e635" stroke-width="3.5" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M -22,-3 Q -35,-32 -48,-48; M -22,-3 Q -28,-30 -36,-48; M -22,-3 Q -35,-32 -48,-48"
+                   dur="3.30s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-48" cy="-48" r="2.5" fill="#a855f7">
+          <animate attributeName="cx" values="-48;-36;-48" dur="3.30s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle B -->
+        <path stroke="#ca8a04" stroke-width="3.2" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M -12,-5 Q -22,-38 -28,-56; M -12,-5 Q -14,-34 -16,-56; M -12,-5 Q -22,-38 -28,-56"
+                   dur="3.00s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-28" cy="-56" r="2.2" fill="#ec4899">
+          <animate attributeName="cx" values="-28;-16;-28" dur="3.00s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle C -->
+        <path stroke="#a3e635" stroke-width="3.5" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 0,-5 Q -8,-45 -5,-62; M 0,-5 Q 6,-42 10,-62; M 0,-5 Q -8,-45 -5,-62"
+                   dur="3.50s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-5" cy="-62" r="2.6" fill="#e879f9">
+          <animate attributeName="cx" values="-5;10;-5" dur="3.50s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle D -->
+        <path stroke="#a3e635" stroke-width="3.2" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 12,-4 Q 22,-38 30,-54; M 12,-4 Q 14,-34 18,-54; M 12,-4 Q 22,-38 30,-54"
+                   dur="3.10s" repeatCount="indefinite" />
+        </path>
+        <circle cx="30" cy="-54" r="2.2" fill="#a855f7">
+          <animate attributeName="cx" values="30;18;30" dur="3.10s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle E -->
+        <path stroke="#ca8a04" stroke-width="3" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 22,-2 Q 35,-30 46,-42; M 22,-2 Q 28,-28 34,-42; M 22,-2 Q 35,-30 46,-42"
+                   dur="3.40s" repeatCount="indefinite" />
+        </path>
+        <circle cx="46" cy="-42" r="2" fill="#ec4899">
+          <animate attributeName="cx" values="46;34;46" dur="3.40s" repeatCount="indefinite" />
+        </circle>
+      </g>
+
+      <!-- ANEMONE COLONY 3 (Massive Right Bed: x=510 to x=790) - Dense, Flowing, Soft Yellow-Greenish -->
+      <!-- This perfectly represents the large right-hand side group of anemones in the photo! -->
+      <g transform="translate(630, 160)">
+        <!-- Back row tentacles -->
+        <path stroke="#3f6212" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.55">
+          <animate attributeName="d"
+                   values="M -60,0 Q -85,-35 -105,-44; M -60,0 Q -72,-32 -88,-44; M -60,0 Q -85,-35 -105,-44"
+                   dur="4.10s" repeatCount="indefinite" />
+        </path>
+        <path stroke="#3f6212" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.55">
+          <animate attributeName="d"
+                   values="M -30,0 Q -45,-42 -55,-54; M -30,0 Q -32,-38 -38,-54; M -30,0 Q -45,-42 -55,-54"
+                   dur="3.80s" repeatCount="indefinite" />
+        </path>
+        <path stroke="#3f6212" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.55">
+          <animate attributeName="d"
+                   values="M 10,0 Q 20,-45 25,-58; M 10,0 Q 12,-38 15,-58; M 10,0 Q 20,-45 25,-58"
+                   dur="4.30s" repeatCount="indefinite" />
+        </path>
+        <path stroke="#3f6212" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.55">
+          <animate attributeName="d"
+                   values="M 50,0 Q 75,-35 95,-45; M 50,0 Q 62,-32 75,-45; M 50,0 Q 75,-35 95,-45"
+                   dur="3.90s" repeatCount="indefinite" />
+        </path>
+
+        <!-- Main glowing front tentacles (Yellow-Green, Lime, soft gold) -->
+        <!-- Tentacle 1 (Left slant) -->
+        <path stroke="#84cc16" stroke-width="3.5" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M -50,-2 Q -72,-30 -90,-40; M -50,-2 Q -62,-28 -74,-40; M -50,-2 Q -72,-30 -90,-40"
+                   dur="3.20s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-90" cy="-40" r="2.2" fill="#db2777">
+          <animate attributeName="cx" values="-90;-74;-90" dur="3.20s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle 2 -->
+        <path stroke="#a3e635" stroke-width="3.2" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M -38,-3 Q -52,-38 -68,-52; M -38,-3 Q -44,-34 -52,-52; M -38,-3 Q -52,-38 -68,-52"
+                   dur="2.90s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-68" cy="-52" r="2.2" fill="#c084fc">
+          <animate attributeName="cx" values="-68;-52;-68" dur="2.90s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle 3 -->
+        <path stroke="#eab308" stroke-width="3.5" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M -25,-4 Q -38,-45 -48,-62; M -25,-4 Q -28,-40 -34,-62; M -25,-4 Q -38,-45 -48,-62"
+                   dur="3.50s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-48" cy="-62" r="2.5" fill="#ec4899">
+          <animate attributeName="cx" values="-48;-34;-48" dur="3.50s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle 4 (Tall upright-center) -->
+        <path stroke="#84cc16" stroke-width="3.8" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M -10,-5 Q -18,-48 -15,-68; M -10,-5 Q -2,-44 2,-68; M -10,-5 Q -18,-48 -15,-68"
+                   dur="3.70s" repeatCount="indefinite" />
+        </path>
+        <circle cx="-15" cy="-68" r="2.8" fill="#d946ef">
+          <animate attributeName="cx" values="-15;2;-15" dur="3.70s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle 5 -->
+        <path stroke="#eab308" stroke-width="3.5" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 5,-5 Q -2,-45 8,-64; M 5,-5 Q 12,-41 20,-64; M 5,-5 Q -2,-45 8,-64"
+                   dur="3.30s" repeatCount="indefinite" />
+        </path>
+        <circle cx="8" cy="-64" r="2.5" fill="#db2777">
+          <animate attributeName="cx" values="8;20;8" dur="3.30s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle 6 -->
+        <path stroke="#84cc16" stroke-width="3.5" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 20,-4 Q 25,-42 38,-58; M 20,-4 Q 30,-38 42,-58; M 20,-4 Q 25,-42 38,-58"
+                   dur="3.10s" repeatCount="indefinite" />
+        </path>
+        <circle cx="38" cy="-58" r="2.5" fill="#c084fc">
+          <animate attributeName="cx" values="38;42;38" dur="3.10s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle 7 -->
+        <path stroke="#eab308" stroke-width="3.2" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 32,-3 Q 44,-36 58,-48; M 32,-3 Q 38,-32 46,-48; M 32,-3 Q 44,-36 58,-48"
+                   dur="2.80s" repeatCount="indefinite" />
+        </path>
+        <circle cx="58" cy="-48" r="2.2" fill="#ec4899">
+          <animate attributeName="cx" values="58;46;58" dur="2.80s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Tentacle 8 (Deep right sweep) -->
+        <path stroke="#84cc16" stroke-width="3" stroke-linecap="round" fill="none">
+          <animate attributeName="d"
+                   values="M 48,-2 Q 68,-28 85,-38; M 48,-2 Q 58,-26 70,-38; M 48,-2 Q 68,-28 85,-38"
+                   dur="3.40s" repeatCount="indefinite" />
+        </path>
+        <circle cx="85" cy="-38" r="2" fill="#db2777">
+          <animate attributeName="cx" values="85;70;85" dur="3.40s" repeatCount="indefinite" />
+        </circle>
+      </g>
+    </g>
+  </g>
+
+  <!-- 🐠 CLOWNFISH (NEMO) IN SWAYING ANEMONES -->
+  <!-- Clownfish 1: peeking out of orange anemone (x=230) -->
+  <g transform="translate(230, 142)">
+    <animateTransform attributeName="transform" type="translate" values="225,145; 245,140; 225,145" dur="3.50s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="skewY" values="0; 6; -6; 0" dur="0.5s" repeatCount="indefinite" />
+      <g transform="scale(0.55)">
+        <!-- Orange body -->
+        <ellipse cx="0" cy="0" rx="15" ry="9" fill="#f97316" stroke="#ea580c" stroke-width="0.8" />
+        <!-- Tail fin -->
+        <path d="M-14,0 L-21,-7 C-21,-7 -18,-2 -17,0 C-18,2 -21,7 -21,7 Z" fill="#f97316" stroke="#ea580c" stroke-width="0.8" />
+        <path d="M-17,-3 L-20,-5 M-17,3 L-20,5" stroke="#000000" stroke-width="1" />
+        <path d="M-20,-7 Q-22,0 -20,7" stroke="#000" stroke-width="1.2" fill="none" />
+        <!-- White stripes with black borders -->
+        <!-- Front stripe -->
+        <path d="M5,-8 C2,-3 2,3 5,8" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" />
+        <path d="M5,-8 C2,-3 2,3 5,8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" />
+        <!-- Middle stripe with bulge -->
+        <path d="M-3,-9 C-6,-3 -6,3 -3,9" fill="none" stroke="#000" stroke-width="4.5" stroke-linecap="round" />
+        <path d="M-3,-9 C-6,-3 -6,3 -3,9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+        <!-- Back stripe -->
+        <path d="M-10,-6 C-12,-2 -12,2 -10,6" fill="none" stroke="#000" stroke-width="3.5" stroke-linecap="round" />
+        <path d="M-10,-6 C-12,-2 -12,2 -10,6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+        <!-- Eye -->
+        <circle cx="10" cy="-3" r="2.2" fill="#ffffff" />
+        <circle cx="11" cy="-3" r="1.1" fill="#000000" />
+        <!-- Pectoral Fin -->
+        <path d="M1,2 C1,6 -3,8 -4,5 C-4,2 1,1 1,2 Z" fill="#000000" opacity="0.8" />
+        <path d="M1,2 C1,5 -2,7 -3,5 C-3,3 1,2 1,2 Z" fill="#f97316" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Clownfish 2: dancing in pink anemone (x=490) -->
+  <g transform="translate(490, 140)">
+    <animateTransform attributeName="transform" type="translate" values="500,138; 480,144; 500,138" dur="4.20s" repeatCount="indefinite" />
+    <g transform="scale(-1, 1)">
+      <g>
+        <animateTransform attributeName="transform" type="skewY" values="0; -8; 8; 0" dur="0.45s" repeatCount="indefinite" />
+        <g transform="scale(0.50)">
+          <!-- Orange body -->
+          <ellipse cx="0" cy="0" rx="15" ry="9" fill="#f97316" stroke="#ea580c" stroke-width="0.8" />
+          <!-- Tail fin -->
+          <path d="M-14,0 L-21,-7 C-21,-7 -18,-2 -17,0 C-18,2 -21,7 -21,7 Z" fill="#f97316" stroke="#ea580c" stroke-width="0.8" />
+          <path d="M-17,-3 L-20,-5 M-17,3 L-20,5" stroke="#000000" stroke-width="1" />
+          <path d="M-20,-7 Q-22,0 -20,7" stroke="#000" stroke-width="1.2" fill="none" />
+          <!-- White stripes with black borders -->
+          <!-- Front stripe -->
+          <path d="M5,-8 C2,-3 2,3 5,8" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" />
+          <path d="M5,-8 C2,-3 2,3 5,8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" />
+          <!-- Middle stripe -->
+          <path d="M-3,-9 C-6,-3 -6,3 -3,9" fill="none" stroke="#000" stroke-width="4.5" stroke-linecap="round" />
+          <path d="M-3,-9 C-6,-3 -6,3 -3,9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+          <!-- Back stripe -->
+          <path d="M-10,-6 C-12,-2 -12,2 -10,6" fill="none" stroke="#000" stroke-width="3.5" stroke-linecap="round" />
+          <path d="M-10,-6 C-12,-2 -12,2 -10,6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+          <!-- Eye -->
+          <circle cx="10" cy="-3" r="2.2" fill="#ffffff" />
+          <circle cx="11" cy="-3" r="1.1" fill="#000000" />
+          <!-- Pectoral Fin -->
+          <path d="M1,2 C1,6 -3,8 -4,5 C-4,2 1,1 1,2 Z" fill="#000000" opacity="0.8" />
+          <path d="M1,2 C1,5 -2,7 -3,5 C-3,3 1,2 1,2 Z" fill="#f97316" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Clownfish 3: Little baby clownfish swimming near pink anemone -->
+  <g transform="translate(460, 148)">
+    <animateTransform attributeName="transform" type="translate" values="455,149; 468,146; 455,149" dur="2.80s" repeatCount="indefinite" />
+    <g>
+      <animateTransform attributeName="transform" type="skewY" values="0; 10; -10; 0" dur="0.4s" repeatCount="indefinite" />
+      <g transform="scale(0.38)">
+        <!-- Orange body -->
+        <ellipse cx="0" cy="0" rx="15" ry="9" fill="#f97316" stroke="#ea580c" stroke-width="0.8" />
+        <!-- Tail fin -->
+        <path d="M-14,0 L-21,-7 C-21,-7 -18,-2 -17,0 C-18,2 -21,7 -21,7 Z" fill="#f97316" stroke="#ea580c" stroke-width="0.8" />
+        <!-- White stripes with black borders -->
+        <path d="M5,-8 C2,-3 2,3 5,8" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" />
+        <path d="M5,-8 C2,-3 2,3 5,8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" />
+        <path d="M-3,-9 C-6,-3 -6,3 -3,9" fill="none" stroke="#000" stroke-width="4.5" stroke-linecap="round" />
+        <path d="M-3,-9 C-6,-3 -6,3 -3,9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+        <!-- Eye -->
+        <circle cx="10" cy="-3" r="2.2" fill="#ffffff" />
+        <circle cx="11" cy="-3" r="1.1" fill="#000000" />
+      </g>
     </g>
   </g>
 
@@ -284,15 +621,15 @@
       <g>
         <animateTransform attributeName="transform" type="skewY" values="0; 6; -6; 0" dur="1.80s" repeatCount="indefinite" />
         <g transform="translate(-85, -44)">
-          <!-- Tail fin segment with wavy swim motion -->
+          <!-- Tail fin segment with wavy swim motion (rendered first to overlap under the body) -->
           <g>
-            <path d="M145,15 C150,18 165,12 175,8 C180,6 185,6 185,10 C185,15 175,25 175,30 C175,35 185,45 185,50 C185,54 180,54 175,52 C165,48 150,42 145,45 Z" fill="#2563eb" />
-            <animateTransform attributeName="transform" type="rotate" values="-10; 10; -10" pivot="145,30" dur="2s" repeatCount="indefinite" />
+            <path d="M110,18 C115,18 135,12 145,8 C150,6 155,6 155,10 C155,15 145,25 145,28 C145,31 155,41 155,46 C155,50 150,50 145,48 C135,44 115,40 110,40 Z" fill="#2563eb" />
+            <animateTransform attributeName="transform" type="rotate" values="-10; 10; -10" pivot="112,29" dur="2s" repeatCount="indefinite" />
           </g>
           <!-- Whale body path -->
-          <path d="M50,15 C30,15 15,20 5,28 C-5,35 -12,45 -10,55 C-8,65 5,75 25,75 C45,75 75,70 95,65 C115,60 135,50 145,45 C135,10 115,10 95,12 C75,14 70,15 50,15 Z" fill="#1e40af" />
+          <path d="M50,15 C30,15 15,20 5,28 C-5,35 -12,45 -10,55 C-8,65 5,75 25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C110,12 95,12 80,13 C65,14 60,15 50,15 Z" fill="#1e40af" />
           <!-- Whale belly -->
-          <path d="M25,75 C45,75 75,70 95,65 C115,60 135,50 145,45 C130,48 115,52 95,54 C75,56 45,58 25,55 C15,53 5,48 -5,42 C-2,55 10,75 25,75 Z" fill="#93c5fd" opacity="0.6" />
+          <path d="M25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C105,47 95,50 80,52 C65,54 45,56 25,55 C15,53 5,48 -5,42 C-2,55 10,75 25,75 Z" fill="#93c5fd" opacity="0.6" />
           <!-- Eye -->
           <circle cx="10" cy="40" r="1.5" fill="#ffffff" />
           <circle cx="10" cy="40" r="0.7" fill="#1e3a8a" />
@@ -314,12 +651,13 @@
       <g>
         <animateTransform attributeName="transform" type="skewY" values="0; 8; -8; 0" dur="1.62s" repeatCount="indefinite" />
         <g transform="translate(-85, -44)">
+          <!-- Tail fin segment (rendered first to overlap under the body) -->
           <g>
-            <path d="M145,15 C150,18 165,12 175,8 C180,6 185,6 185,10 C185,15 175,25 175,30 C175,35 185,45 185,50 C185,54 180,54 175,52 C165,48 150,42 145,45 Z" fill="#3b82f6" />
-            <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="145,30" dur="1.7s" repeatCount="indefinite" />
+            <path d="M110,18 C115,18 135,12 145,8 C150,6 155,6 155,10 C155,15 145,25 145,28 C145,31 155,41 155,46 C155,50 150,50 145,48 C135,44 115,40 110,40 Z" fill="#3b82f6" />
+            <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="112,29" dur="1.7s" repeatCount="indefinite" />
           </g>
-          <path d="M50,15 C30,15 15,20 5,28 C-5,35 -12,45 -10,55 C-8,65 5,75 25,75 C45,75 75,70 95,65 C115,60 135,50 145,45 C135,10 115,10 95,12 C75,14 70,15 50,15 Z" fill="#2563eb" />
-          <path d="M25,75 C45,75 75,70 95,65 C115,60 135,50 145,45 C130,48 115,52 95,54 C75,56 45,58 25,55 C15,53 5,48 -5,42 C-2,55 10,75 25,75 Z" fill="#bfdbfe" opacity="0.6" />
+          <path d="M50,15 C30,15 15,20 5,28 C-5,35 -12,45 -10,55 C-8,65 5,75 25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C110,12 95,12 80,13 C65,14 60,15 50,15 Z" fill="#2563eb" />
+          <path d="M25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C105,47 95,50 80,52 C65,54 45,56 25,55 C15,53 5,48 -5,42 C-2,55 10,75 25,75 Z" fill="#bfdbfe" opacity="0.6" />
           <circle cx="10" cy="40" r="1.5" fill="#ffffff" />
           <circle cx="10" cy="40" r="0.7" fill="#1d4ed8" />
           <g>
@@ -343,14 +681,17 @@
         <!-- Coordinated body roll/pitch -->
         <animateTransform attributeName="transform" type="rotate" values="-1.5; 1.5; -1.5" dur="1.60s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <path d="M-60,0 C-40,-15 -10,-22 25,-12 C45,-5 65,5 85,8 C70,12 40,15 10,12 C-15,10 -40,12 -60,0 Z" fill="#475569" />
-          <path d="M10,12 C-15,10 -40,12 -60,0 C-45,8 -20,13 10,12 Z" fill="#f1f5f9" opacity="0.8" />
-          <path d="M-15,-18 C-10,-35 5,-40 2,-20 C0,-14 -5,-12 -15,-18 Z" fill="#334155" />
-          <!-- Tail fin - perfectly synchronized but pivoting gracefully -->
+          <!-- Tail fin - rendered first to overlap seamlessly under the body -->
           <g>
-            <path d="M-60,0 C-75,-15 -85,-25 -85,-15 C-85,-5 -70,0 -85,15 C-85,25 -75,15 -60,0 Z" fill="#334155" />
+            <path d="M-60,0 C-68,-8 -85,-25 -85,-15 C-85,-5 -70,0 -85,15 C-85,25 -68,8 -60,0 Z" fill="#334155" />
             <animateTransform attributeName="transform" type="rotate" values="-18; 18; -18" pivot="-60,0" dur="1.60s" repeatCount="indefinite" />
           </g>
+          <!-- Body path -->
+          <path d="M-60,0 C-40,-15 -10,-22 25,-12 C45,-5 65,5 85,8 C70,12 40,15 10,12 C-15,10 -40,12 -60,0 Z" fill="#475569" />
+          <!-- Belly path -->
+          <path d="M10,12 C-15,10 -40,12 -60,0 C-45,8 -20,13 10,12 Z" fill="#f1f5f9" opacity="0.8" />
+          <!-- Dorsal fin -->
+          <path d="M-15,-18 C-10,-35 5,-40 2,-20 C0,-14 -5,-12 -15,-18 Z" fill="#334155" />
           <!-- Pectoral fin - slight independent lift/adjust drag -->
           <g>
             <path d="M15,8 C18,18 25,28 30,30 C31,29 28,24 22,10 Z" fill="#334155" />
@@ -373,14 +714,17 @@
         <animateTransform attributeName="transform" type="skewY" values="0; 7; -7; 0" dur="1.52s" repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="rotate" values="-1.5; 1.5; -1.5" dur="1.52s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <path d="M-60,0 C-40,-15 -10,-22 25,-12 C45,-5 65,5 85,8 C70,12 40,15 10,12 C-15,10 -40,12 -60,0 Z" fill="#64748b" />
-          <path d="M10,12 C-15,10 -40,12 -60,0 C-45,8 -20,13 10,12 Z" fill="#f8fafc" opacity="0.8" />
-          <path d="M-15,-18 C-10,-35 5,-40 2,-20 C0,-14 -5,-12 -15,-18 Z" fill="#475569" />
-          <!-- Tail fin -->
+          <!-- Tail fin - rendered first to overlap seamlessly under the body -->
           <g>
-            <path d="M-60,0 C-75,-15 -85,-25 -85,-15 C-85,-5 -70,0 -85,15 C-85,25 -75,15 -60,0 Z" fill="#475569" />
+            <path d="M-60,0 C-68,-8 -85,-25 -85,-15 C-85,-5 -70,0 -85,15 C-85,25 -68,8 -60,0 Z" fill="#475569" />
             <animateTransform attributeName="transform" type="rotate" values="-20; 20; -20" pivot="-60,0" dur="1.52s" repeatCount="indefinite" />
           </g>
+          <!-- Body path -->
+          <path d="M-60,0 C-40,-15 -10,-22 25,-12 C45,-5 65,5 85,8 C70,12 40,15 10,12 C-15,10 -40,12 -60,0 Z" fill="#64748b" />
+          <!-- Belly path -->
+          <path d="M10,12 C-15,10 -40,12 -60,0 C-45,8 -20,13 10,12 Z" fill="#f8fafc" opacity="0.8" />
+          <!-- Dorsal fin -->
+          <path d="M-15,-18 C-10,-35 5,-40 2,-20 C0,-14 -5,-12 -15,-18 Z" fill="#475569" />
           <!-- Pectoral fin -->
           <g>
             <path d="M15,8 C18,18 25,28 30,30 C31,29 28,24 22,10 Z" fill="#475569" />
@@ -405,14 +749,17 @@
         <!-- Body roll/pitch -->
         <animateTransform attributeName="transform" type="rotate" values="1.5; -1.5; 1.5" dur="2.00s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <path d="M60,0 C40,-15 10,-22 -25,-12 C-45,-5 -65,5 -85,8 C-70,12 -40,15 -10,12 C15,10 40,12 60,0 Z" fill="#1e293b" />
-          <path d="M-10,12 C15,10 40,12 60,0 C45,8 20,13 -10,12 Z" fill="#94a3b8" opacity="0.6" />
-          <path d="M15,-18 C10,-35 -5,-40 -2,-20 C0,-14 5,-12 15,-18 Z" fill="#0f172a" />
-          <!-- Tail fin - perfectly synchronized with swim cycle -->
+          <!-- Tail fin - rendered first to overlap seamlessly under the body -->
           <g>
-            <path d="M60,0 C75,-15 85,-25 85,-15 C85,-5 70,0 85,15 C85,25 75,15 60,0 Z" fill="#0f172a" />
+            <path d="M60,0 C68,-8 85,-25 85,-15 C85,-5 70,0 85,15 C85,25 68,8 60,0 Z" fill="#0f172a" />
             <animateTransform attributeName="transform" type="rotate" values="-15; 15; -15" pivot="60,0" dur="2.00s" repeatCount="indefinite" />
           </g>
+          <!-- Body path -->
+          <path d="M60,0 C40,-15 10,-22 -25,-12 C-45,-5 -65,5 -85,8 C-70,12 -40,15 -10,12 C15,10 40,12 60,0 Z" fill="#1e293b" />
+          <!-- Belly path -->
+          <path d="M-10,12 C15,10 40,12 60,0 C45,8 20,13 -10,12 Z" fill="#94a3b8" opacity="0.6" />
+          <!-- Dorsal fin -->
+          <path d="M15,-18 C10,-35 -5,-40 -2,-20 C0,-14 5,-12 15,-18 Z" fill="#0f172a" />
           <!-- Pectoral fin with slow dragging lift adjustment -->
           <g>
             <path d="M-15,8 C-18,18 -25,28 -30,30 C-31,29 -28,24 -22,10 Z" fill="#0f172a" />
@@ -434,14 +781,17 @@
         <animateTransform attributeName="transform" type="skewY" values="0; -4; 4; 0" dur="2.20s" repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="rotate" values="1; -1; 1" dur="2.20s" repeatCount="indefinite" />
         <g transform="translate(0, 5) opacity(0.55)">
-          <path d="M60,0 C40,-15 10,-22 -25,-12 C-45,-5 -65,5 -85,8 C-70,12 -40,15 -10,12 C15,10 40,12 60,0 Z" fill="#090d16" />
-          <path d="M-10,12 C15,10 40,12 60,0 C45,8 20,13 -10,12 Z" fill="#475569" opacity="0.4" />
-          <path d="M15,-18 C10,-35 -5,-40 -2,-20 C0,-14 5,-12 15,-18 Z" fill="#020617" />
-          <!-- Tail fin -->
+          <!-- Tail fin - rendered first to overlap seamlessly under the body -->
           <g>
-            <path d="M60,0 C75,-15 85,-25 85,-15 C85,-5 70,0 85,15 C85,25 75,15 60,0 Z" fill="#020617" />
+            <path d="M60,0 C68,-8 85,-25 85,-15 C85,-5 70,0 85,15 C85,25 68,8 60,0 Z" fill="#020617" />
             <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="60,0" dur="2.20s" repeatCount="indefinite" />
           </g>
+          <!-- Body path -->
+          <path d="M60,0 C40,-15 10,-22 -25,-12 C-45,-5 -65,5 -85,8 C-70,12 -40,15 -10,12 C15,10 40,12 60,0 Z" fill="#090d16" />
+          <!-- Belly path -->
+          <path d="M-10,12 C15,10 40,12 60,0 C45,8 20,13 -10,12 Z" fill="#475569" opacity="0.4" />
+          <!-- Dorsal fin -->
+          <path d="M15,-18 C10,-35 -5,-40 -2,-20 C0,-14 5,-12 15,-18 Z" fill="#020617" />
           <!-- Pectoral fin -->
           <g>
             <path d="M-15,8 C-18,18 -25,28 -30,30 C-31,29 -28,24 -22,10 Z" fill="#020617" />
