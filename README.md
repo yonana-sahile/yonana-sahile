@@ -156,12 +156,10 @@
 
 <br/><br/>
 
-<!-- NEW ULTRA-PREMIUM NEON TERMINAL FOOTER -->
+<!-- CREATIVE LIVE AQUARIUM FOOTER (3D DEEP-SEA LIVING REEF ECOSYSTEM) -->
 <div align="center">
   <br/>
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=16&duration=3500&pause=1000&color=6E40C9&center=true&vCenter=true&width=500&lines=%E2%9E%A4+Initializing+secure+logout+protocol...;%E2%9E%A4+Connection+closed+successfully+%5B200+OK%5D...;%E2%9E%A4+Leaving+Zero+Trust+Zone.+Goodbye%2C+operator." alt="Footer Terminal" />
-  <br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243E,50:00F7FF,100:6E40C9&height=100&section=footer" width="100%" alt="Footer Banner" />
-  <br/>
+  <img src="aquarium.svg" width="100%" style="display: block; margin: 0 auto;" alt="3D Live Aquatic Footer Ecosystem" />
+  <br/><br/>
   <sub>Thanks for visiting my profile. Let's build secure, scalable and impactful software together. • **Yonas Sahile**</sub>
 </div>
