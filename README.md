@@ -130,7 +130,7 @@
 
 <br/><br/>
 
-<!-- STATS & LANGUAGE ANALYTICS SECTION -->
+<!-- STATS & LANGUAGE ANALYTICS SECT8ION -->
 ## 📊 Enterprise Development Analytics
 
 <div align="center">
@@ -163,3 +163,4 @@
   <br/><br/>
   <sub>Thanks for visiting my profile. Let's build secure, scalable and impactful software together. • **Yonas Sahile**</sub>
 </div>
+
