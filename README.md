@@ -72,81 +72,141 @@
 <br/>
 
 <!-- TECH STACK SECTION -->
-<!-- TECH STACK SECTION -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=00F7FF&height=60&section=header&text=&fontSize=0" width="100%"/>
+</div>
+
 ## 🧰 Enterprise Tech Stack
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/-Frontend%20Engineering-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF" alt="Frontend Engineering"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,vite,html,css&theme=dark&perline=9" alt="Frontend Stack"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/-Backend%20%26%20Microservices-0F0C29?style=for-the-badge&labelColor=0F0C29&color=6E40C9" alt="Backend & Microservices"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=python,django,fastapi,nodejs,express,graphql&theme=dark&perline=9" alt="Backend Stack"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/-Databases%20%26%20Caching-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF" alt="Databases & Caching"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite&theme=dark&perline=9" alt="Database Stack"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/-Cloud%2C%20DevOps%20%26%20Automation-0F0C29?style=for-the-badge&labelColor=0F0C29&color=6E40C9" alt="Cloud, DevOps & Automation"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,nginx,git,github,githubactions,bash&theme=dark&perline=9" alt="Cloud & DevOps Stack"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/-Cybersecurity%20%26%20Systems-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF" alt="Cybersecurity & Systems"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=kali,linux,wireshark&theme=dark&perline=9" alt="Security & Systems Stack"/>
-
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0F0C29,100:24243E&height=3&width=1000" width="100%"/>
 </div>
 
 <br/>
 
-<!-- CORE COMPETENCIES STRIP -->
-<div align="center">
+<table align="center" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td align="center" width="100%">
 
-<img src="https://img.shields.io/badge/OWASP%20Top%2010-00F7FF?style=flat-square&labelColor=0F0C29" />
-<img src="https://img.shields.io/badge/Zero%20Trust%20Architecture-6E40C9?style=flat-square&labelColor=0F0C29" />
-<img src="https://img.shields.io/badge/CI%2FCD%20Security-00F7FF?style=flat-square&labelColor=0F0C29" />
-<img src="https://img.shields.io/badge/SAST%2FDAST-6E40C9?style=flat-square&labelColor=0F0C29" />
-<img src="https://img.shields.io/badge/API%20Security-00F7FF?style=flat-square&labelColor=0F0C29" />
-<img src="https://img.shields.io/badge/System%20Design-6E40C9?style=flat-square&labelColor=0F0C29" />
-
-</div>
+<img src="https://img.shields.io/badge/FRONTEND_ENGINEERING-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF&logoColor=white" height="28"/>
 
 <br/><br/>
 
-<!-- PROJECT SECTION -->
-## 🚀 Featured Production Architectures
+<img src="https://img.shields.io/badge/React-0F0C29?style=for-the-badge&logo=react&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/Next.js-0F0C29?style=for-the-badge&logo=nextdotjs&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/TypeScript-0F0C29?style=for-the-badge&logo=typescript&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/TailwindCSS-0F0C29?style=for-the-badge&logo=tailwindcss&logoColor=00F7FF" height="30"/>
+<br/>
+<img src="https://img.shields.io/badge/Redux-0F0C29?style=for-the-badge&logo=redux&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/Vite-0F0C29?style=for-the-badge&logo=vite&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/HTML5-0F0C29?style=for-the-badge&logo=html5&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/CSS3-0F0C29?style=for-the-badge&logo=css3&logoColor=00F7FF" height="30"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table align="center" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td align="center" width="100%">
+
+<img src="https://img.shields.io/badge/BACKEND_%26_MICROSERVICES-0F0C29?style=for-the-badge&labelColor=0F0C29&color=6E40C9" height="28"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Python-0F0C29?style=for-the-badge&logo=python&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/Django-0F0C29?style=for-the-badge&logo=django&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/FastAPI-0F0C29?style=for-the-badge&logo=fastapi&logoColor=B084F0" height="30"/>
+<br/>
+<img src="https://img.shields.io/badge/Node.js-0F0C29?style=for-the-badge&logo=nodedotjs&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/Express-0F0C29?style=for-the-badge&logo=express&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/GraphQL-0F0C29?style=for-the-badge&logo=graphql&logoColor=B084F0" height="30"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table align="center" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td align="center" width="100%">
+
+<img src="https://img.shields.io/badge/DATABASES_%26_CACHING-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF" height="28"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/PostgreSQL-0F0C29?style=for-the-badge&logo=postgresql&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/MySQL-0F0C29?style=for-the-badge&logo=mysql&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/MongoDB-0F0C29?style=for-the-badge&logo=mongodb&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/Redis-0F0C29?style=for-the-badge&logo=redis&logoColor=00F7FF" height="30"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table align="center" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td align="center" width="100%">
+
+<img src="https://img.shields.io/badge/CLOUD%2C_DEVOPS_%26_AUTOMATION-0F0C29?style=for-the-badge&labelColor=0F0C29&color=6E40C9" height="28"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/AWS-0F0C29?style=for-the-badge&logo=amazonaws&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/Docker-0F0C29?style=for-the-badge&logo=docker&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/Kubernetes-0F0C29?style=for-the-badge&logo=kubernetes&logoColor=B084F0" height="30"/>
+<br/>
+<img src="https://img.shields.io/badge/Nginx-0F0C29?style=for-the-badge&logo=nginx&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/Git-0F0C29?style=for-the-badge&logo=git&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-0F0C29?style=for-the-badge&logo=githubactions&logoColor=B084F0" height="30"/>
+<img src="https://img.shields.io/badge/Bash-0F0C29?style=for-the-badge&logo=gnubash&logoColor=B084F0" height="30"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table align="center" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td align="center" width="100%">
+
+<img src="https://img.shields.io/badge/CYBERSECURITY_%26_SYSTEMS-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF" height="28"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Kali_Linux-0F0C29?style=for-the-badge&logo=kalilinux&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/Linux-0F0C29?style=for-the-badge&logo=linux&logoColor=00F7FF" height="30"/>
+<img src="https://img.shields.io/badge/Wireshark-0F0C29?style=for-the-badge&logo=wireshark&logoColor=00F7FF" height="30"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <div align="center">
-  <a href="https://github.com/yonana-sahile/digital-camera">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=digital-camera&theme=tokyonight&hide_border=true&bg_color=24243E&title_color=00F7FF&icon_color=6E40C9&text_color=C9D1D9" width="48%" alt="Digital Camera Architecture" />
-  </a>
-  <a href="https://github.com/yonana-sahile/swift-ecommerce">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=swift-ecommerce&theme=tokyonight&hide_border=true&bg_color=24243E&title_color=00F7FF&icon_color=6E40C9&text_color=C9D1D9" width="48%" alt="Swift Ecommerce Framework" />
-  </a>
-  <br/><br/>
-  <a href="https://github.com/yonana-sahile/unifed-smart-campus">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=unifed-smart-campus&theme=tokyonight&hide_border=true&bg_color=24243E&title_color=00F7FF&icon_color=6E40C9&text_color=C9D1D9" width="48%" alt="Unified Smart Campus Security Model" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:24243E,100:0F0C29&height=3&width=1000" width="100%"/>
+</div>
+
+<br/>
+
+<!-- CORE COMPETENCIES -->
+<div align="center">
+
+<img src="https://img.shields.io/badge/🛡️_OWASP_Top_10-0F0C29?style=flat-square&color=00F7FF" height="26"/>
+<img src="https://img.shields.io/badge/🔐_Zero_Trust_Architecture-0F0C29?style=flat-square&color=B084F0" height="26"/>
+<img src="https://img.shields.io/badge/⚙️_CI%2FCD_Security-0F0C29?style=flat-square&color=00F7FF" height="26"/>
+<br/>
+<img src="https://img.shields.io/badge/🧪_SAST_%2F_DAST-0F0C29?style=flat-square&color=B084F0" height="26"/>
+<img src="https://img.shields.io/badge/🌐_API_Security-0F0C29?style=flat-square&color=00F7FF" height="26"/>
+<img src="https://img.shields.io/badge/🏗️_Distributed_System_Design-0F0C29?style=flat-square&color=B084F0" height="26"/>
+
 </div>
 
 <br/><br/>
