@@ -71,13 +71,6 @@
 
 <br/>
 
-<!-- TECH STACK SECTION -->
-## 🧰 Tech Stack
-
-<table align="center" border="0">
-<tr>
-<td align="center">
-
 <!-- ENTERPRISE TECH STACK SECTION -->
 ## 🧰 Enterprise Architecture & Tech Stack
 
@@ -138,6 +131,25 @@
 </p>
 
 </div>
+
+<br/><br/>
+
+<!-- PROJECT SECTION -->
+## 🚀 Featured Production Architectures
+
+<div align="center">
+  <a href="https://github.com/yonana-sahile/digital-camera">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=digital-camera&theme=tokyonight&hide_border=true&bg_color=24243E&title_color=00F7FF&icon_color=6E40C9&text_color=C9D1D9" width="48%" alt="Digital Camera Architecture" />
+  </a>
+  <a href="https://github.com/yonana-sahile/swift-ecommerce">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=swift-ecommerce&theme=tokyonight&hide_border=true&bg_color=24243E&title_color=00F7FF&icon_color=6E40C9&text_color=C9D1D9" width="48%" alt="Swift Ecommerce Framework" />
+  </a>
+  <br/><br/>
+  <a href="https://github.com/yonana-sahile/unifed-smart-campus">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yonana-sahile&repo=unifed-smart-campus&theme=tokyonight&hide_border=true&bg_color=24243E&title_color=00F7FF&icon_color=6E40C9&text_color=C9D1D9" width="48%" alt="Unified Smart Campus Security Model" />
+  </a>
+</div>
+
 <br/><br/>
 
 <!-- TROPHIES SECTION -->
@@ -148,7 +160,7 @@
 
 <br/><br/>
 
-<!-- STATS & LANGUAGE ANALYTICS SECT8ION -->
+<!-- STATS & LANGUAGE ANALYTICS SECTION -->
 ## 📊 Enterprise Development Analytics
 
 <div align="center">
@@ -181,9 +193,3 @@
   <br/><br/>
   <sub>Thanks for visiting my profile. Let's build secure, scalable and impactful software together. • **Yonas Sahile**</sub>
 </div>
-
-
-Pairing test
-
-
-
