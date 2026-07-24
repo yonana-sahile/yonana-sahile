@@ -71,8 +71,8 @@
 
 <br/>
 
-<!-- ANIMATED SECTION DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Glowing Motion Divider" />
+<!-- ELECTRIC CYAN-PURPLE MOTION DIVIDER -->
+<img src="https://raw.githubusercontent.com/andrei-br/andrei-br/main/assets/line.gif" width="100%" alt="Cyan Purple Motion Divider" />
 
 <br/><br/>
 
@@ -137,8 +137,8 @@
 
 <br/>
 
-<!-- ANIMATED SECTION DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Glowing Motion Divider" />
+<!-- ELECTRIC CYAN-PURPLE MOTION DIVIDER -->
+<img src="https://raw.githubusercontent.com/andrei-br/andrei-br/main/assets/line.gif" width="100%" alt="Cyan Purple Motion Divider" />
 
 <br/><br/>
 
