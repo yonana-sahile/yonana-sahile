@@ -72,33 +72,62 @@
 <br/>
 
 <!-- TECH STACK SECTION -->
+<!-- TECH STACK SECTION -->
 ## 🧰 Enterprise Tech Stack
 
 <div align="center">
 
-**Frontend Engineering**
-<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,redux,vite,html,css&theme=dark" alt="Frontend" />
+<img src="https://img.shields.io/badge/-Frontend%20Engineering-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF" alt="Frontend Engineering"/>
+
 <br/><br/>
 
-**Backend & Microservices**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,django,nodejs,express&theme=dark" alt="Backend" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,vite,html,css&theme=dark&perline=9" alt="Frontend Stack"/>
+
 <br/><br/>
 
-**Databases & Caching**
-<br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases" />
+<img src="https://img.shields.io/badge/-Backend%20%26%20Microservices-0F0C29?style=for-the-badge&labelColor=0F0C29&color=6E40C9" alt="Backend & Microservices"/>
+
 <br/><br/>
 
-**Cloud, DevOps & Automation**
-<br/>
-<img src="https://skillicons.dev/icons?i=aws,docker,nginx,git,github,bash&theme=dark" alt="Cloud & DevOps" />
+<img src="https://skillicons.dev/icons?i=python,django,fastapi,nodejs,express,graphql&theme=dark&perline=9" alt="Backend Stack"/>
+
 <br/><br/>
 
-**Cybersecurity & Systems**
+<img src="https://img.shields.io/badge/-Databases%20%26%20Caching-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF" alt="Databases & Caching"/>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite&theme=dark&perline=9" alt="Database Stack"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/-Cloud%2C%20DevOps%20%26%20Automation-0F0C29?style=for-the-badge&labelColor=0F0C29&color=6E40C9" alt="Cloud, DevOps & Automation"/>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,nginx,git,github,githubactions,bash&theme=dark&perline=9" alt="Cloud & DevOps Stack"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/-Cybersecurity%20%26%20Systems-0F0C29?style=for-the-badge&labelColor=0F0C29&color=00F7FF" alt="Cybersecurity & Systems"/>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=kali,linux,wireshark&theme=dark&perline=9" alt="Security & Systems Stack"/>
+
+</div>
+
 <br/>
-<img src="https://skillicons.dev/icons?i=kali,linux&theme=dark" alt="Security & Systems" />
+
+<!-- CORE COMPETENCIES STRIP -->
+<div align="center">
+
+<img src="https://img.shields.io/badge/OWASP%20Top%2010-00F7FF?style=flat-square&labelColor=0F0C29" />
+<img src="https://img.shields.io/badge/Zero%20Trust%20Architecture-6E40C9?style=flat-square&labelColor=0F0C29" />
+<img src="https://img.shields.io/badge/CI%2FCD%20Security-00F7FF?style=flat-square&labelColor=0F0C29" />
+<img src="https://img.shields.io/badge/SAST%2FDAST-6E40C9?style=flat-square&labelColor=0F0C29" />
+<img src="https://img.shields.io/badge/API%20Security-00F7FF?style=flat-square&labelColor=0F0C29" />
+<img src="https://img.shields.io/badge/System%20Design-6E40C9?style=flat-square&labelColor=0F0C29" />
 
 </div>
 
