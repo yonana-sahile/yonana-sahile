@@ -72,66 +72,61 @@
 <br/>
 
 <!-- TECH STACK SECTION -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=00F7FF&height=60&section=header&text=&fontSize=0" width="100%"/>
-</div>
+## 🧰 Tech Stack
 
-<!-- TECH STACK SECTION -->
-## 🧰 Enterprise Tech Stack
+<table align="center" border="0">
+<tr>
+<td align="center">
 
-<div align="center">
+**Frontend**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=110&section=header&text=Frontend%20Engineering&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,redux,vite&theme=dark" />
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,vite,html,css&theme=dark&perline=9" alt="Frontend Stack"/>
+</td>
+</tr>
+<tr>
+<td align="center">
 
-<br/><br/>
+**Backend**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=110&section=header&text=Backend%20%26%20Microservices&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://skillicons.dev/icons?i=python,django,fastapi,nodejs,express,graphql&theme=dark" />
 
-<img src="https://skillicons.dev/icons?i=python,django,fastapi,nodejs,express,graphql&theme=dark&perline=9" alt="Backend Stack"/>
+</td>
+</tr>
+<tr>
+<td align="center">
 
-<br/><br/>
+**Databases**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=110&section=header&text=Databases%20%26%20Caching&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" />
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite&theme=dark&perline=9" alt="Database Stack"/>
+</td>
+</tr>
+<tr>
+<td align="center">
 
-<br/><br/>
+**Cloud & DevOps**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=110&section=header&text=Cloud%2C%20DevOps%20%26%20Automation&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,nginx,git,githubactions&theme=dark" />
 
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,nginx,git,github,githubactions,bash&theme=dark&perline=9" alt="Cloud & DevOps Stack"/>
+</td>
+</tr>
+<tr>
+<td align="center">
 
-<br/><br/>
+**Security**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=110&section=header&text=Cybersecurity%20%26%20Systems&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://skillicons.dev/icons?i=kali,linux,wireshark&theme=dark" />
 
-<img src="https://skillicons.dev/icons?i=kali,linux,wireshark&theme=dark&perline=9" alt="Security & Systems Stack"/>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=3&width=1000" width="100%"/>
-
-<br/>
-
-<!-- CORE COMPETENCIES -->
-<p align="center">
-  <img src="https://img.shields.io/badge/🛡️_OWASP_TOP_10-00F7FF?style=for-the-badge&labelColor=0F0C29" />
-  <img src="https://img.shields.io/badge/🔐_ZERO_TRUST-6E40C9?style=for-the-badge&labelColor=0F0C29" />
-  <img src="https://img.shields.io/badge/⚙️_CI%2FCD_SECURITY-00F7FF?style=for-the-badge&labelColor=0F0C29" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/🧪_SAST_%2F_DAST-6E40C9?style=for-the-badge&labelColor=0F0C29" />
-  <img src="https://img.shields.io/badge/🌐_API_SECURITY-00F7FF?style=for-the-badge&labelColor=0F0C29" />
-  <img src="https://img.shields.io/badge/🏗️_SYSTEM_DESIGN-6E40C9?style=for-the-badge&labelColor=0F0C29" />
-</p>
+</td>
+</tr>
+</table>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer&animation=twinkling" width="100%"/>
-
-</div>
+<p align="center">
+  <b>Focus areas:</b> OWASP Top 10 &nbsp;•&nbsp; Zero Trust Architecture &nbsp;•&nbsp; CI/CD Security &nbsp;•&nbsp; SAST/DAST &nbsp;•&nbsp; API Security &nbsp;•&nbsp; Distributed System Design
+</p>
 <br/><br/>
 
 <!-- TROPHIES SECTION -->
