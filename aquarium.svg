@@ -7,14 +7,320 @@
       <stop offset="75%" stop-color="#0096c7" />
       <stop offset="100%" stop-color="#00b4d8" />
     </linearGradient>
+
+    <!-- Sun Caustics Light Ray Gradients -->
+    <linearGradient id="sun-ray-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </linearGradient>
   </defs>
 
   <!-- Sea body canvas -->
   <rect width="800" height="160" rx="12" fill="url(#aquatic-bg-gradient)" />
 
+  <!-- ☀️ SUN LIGHT RAYS & CAUSTICS FROM WATER SURFACE (Far depth) -->
+  <g opacity="0.85">
+    <polygon points="120,0 210,0 310,160 160,160" fill="url(#sun-ray-grad)" />
+    <polygon points="340,0 450,0 580,160 410,160" fill="url(#sun-ray-grad)" />
+    <polygon points="560,0 680,0 790,160 620,160" fill="url(#sun-ray-grad)" fill-opacity="0.7" />
+  </g>
+
   <!-- 🏔️ BACKGROUND UNDERWATER MOUNTAINS -->
   <path d="M -50 160 L -50 100 Q 120 60 280 110 T 620 80 Q 720 100 850 85 L 850 160 Z" fill="#023e8a" opacity="0.28"/>
   <path d="M -50 160 L -50 125 Q 180 90 350 125 T 700 105 Q 760 110 850 115 L 850 160 Z" fill="#0077b6" opacity="0.36"/>
+
+  <!-- 🌿 🪸 ULTRA-DENSE DISTANT BACKGROUND AQUATIC FOREST & ALGAE MEADOW -->
+  <g opacity="0.68">
+    <!-- Continuous Back-Ridge Dense Seagrass Meadow Canopy Base -->
+    <path d="M-20,135 Q30,110 80,128 Q130,105 190,122 Q250,98 310,118 Q370,102 440,120 Q500,95 570,115 Q640,100 710,118 Q780,102 860,130 L860,160 L-20,160 Z" fill="#044e3a" opacity="0.35" />
+
+    <!-- Dense Cluster 1: Far Left Deep Kelp Canopy (x=-10 to 160) -->
+    <path stroke="#047857" stroke-width="2.8" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 10 135 Q 22 95 5 62 T 18 25; M 10 135 Q -2 95 20 62 T 2 25; M 10 135 Q 22 95 5 62 T 18 25" dur="8.5s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#059669" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 35 130 Q 45 95 28 65 T 40 30; M 35 130 Q 25 95 42 65 T 30 30; M 35 130 Q 45 95 28 65 T 40 30" dur="9.2s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#10b981" stroke-width="1.8" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 55 128 Q 42 98 60 70 T 48 38; M 55 128 Q 68 98 50 70 T 62 38; M 55 128 Q 42 98 60 70 T 48 38" dur="7.8s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0284c7" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 85 125 Q 98 92 80 65 T 92 32; M 85 125 Q 72 92 90 65 T 78 32; M 85 125 Q 98 92 80 65 T 92 32" dur="8.8s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0369a1" stroke-width="2.0" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 110 120 Q 122 90 105 68 T 118 42; M 110 120 Q 98 90 115 68 T 102 42; M 110 120 Q 122 90 105 68 T 118 42" dur="9.0s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0d9488" stroke-width="2.1" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 135 122 Q 120 90 142 66 T 128 40; M 135 122 Q 150 90 128 66 T 142 40; M 135 122 Q 120 90 142 66 T 128 40" dur="8.2s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Dense Cluster 2: Mid-Left Dense Sea Grass & Coral Bushes (x=160 to 320) -->
+    <path stroke="#14b8a6" stroke-width="2.4" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 175 118 Q 188 88 168 60 T 182 35; M 175 118 Q 162 88 182 60 T 168 35; M 175 118 Q 188 88 168 60 T 182 35" dur="9.5s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0f766e" stroke-width="2.0" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 205 116 Q 192 88 212 62 T 198 38; M 205 116 Q 218 88 198 62 T 212 38; M 205 116 Q 192 88 212 62 T 198 38" dur="8.6s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#047857" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 240 115 Q 228 85 245 60 T 232 35; M 240 115 Q 252 85 235 60 T 248 35; M 240 115 Q 228 85 245 60 T 232 35" dur="8.2s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#065f46" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 270 118 Q 282 88 262 62 T 278 36; M 270 118 Q 258 88 278 62 T 262 36; M 270 118 Q 282 88 262 62 T 278 36" dur="10.2s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#10b981" stroke-width="1.9" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 300 112 Q 288 85 308 58 T 292 32; M 300 112 Q 312 85 292 58 T 308 32; M 300 112 Q 288 85 308 58 T 292 32" dur="7.9s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Dense Cluster 3: Center Forest & Giant Algae Towers (x=320 to 520) -->
+    <path stroke="#0284c7" stroke-width="2.3" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 335 112 Q 348 82 328 55 T 342 28; M 335 112 Q 322 82 342 55 T 328 28; M 335 112 Q 348 82 328 55 T 342 28" dur="9.1s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0369a1" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 365 110 Q 352 80 372 52 T 358 26; M 365 110 Q 378 80 358 52 T 372 26; M 365 110 Q 352 80 372 52 T 358 26" dur="8.7s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0d9488" stroke-width="2.0" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 400 108 Q 412 80 392 54 T 408 28; M 400 108 Q 388 80 408 54 T 392 28; M 400 108 Q 412 80 392 54 T 408 28" dur="10.0s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#059669" stroke-width="2.7" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 440 106 Q 428 78 448 50 T 432 25; M 440 106 Q 452 78 432 50 T 448 25; M 440 106 Q 428 78 448 50 T 432 25" dur="8.4s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0f766e" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 480 110 Q 492 82 475 58 T 488 32; M 480 110 Q 468 82 485 58 T 472 32; M 480 110 Q 492 82 475 58 T 488 32" dur="10.5s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#10b981" stroke-width="2.0" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 520 112 Q 508 85 525 60 T 512 36; M 520 112 Q 532 85 515 60 T 528 36; M 520 112 Q 508 85 525 60 T 512 36" dur="9.8s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Dense Cluster 4: Far Right Dense Marine Sanctuary (x=530 to 850) -->
+    <path stroke="#047857" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 560 110 Q 572 82 552 56 T 568 30; M 560 110 Q 548 82 568 56 T 552 30; M 560 110 Q 572 82 552 56 T 568 30" dur="8.9s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#065f46" stroke-width="2.1" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 600 108 Q 588 80 608 52 T 592 28; M 600 108 Q 612 80 592 52 T 608 28; M 600 108 Q 588 80 608 52 T 592 28" dur="9.4s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#047857" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 650 105 Q 662 78 642 52 T 658 28; M 650 105 Q 638 78 658 52 T 642 28; M 650 105 Q 662 78 642 52 T 658 28" dur="11s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#14b8a6" stroke-width="1.9" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 690 112 Q 678 85 698 58 T 682 32; M 690 112 Q 702 85 682 58 T 698 32; M 690 112 Q 678 85 698 58 T 682 32" dur="8.1s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0369a1" stroke-width="2.3" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 730 115 Q 742 88 722 62 T 738 36; M 730 115 Q 718 88 738 62 T 722 36; M 730 115 Q 742 88 722 62 T 738 36" dur="10.1s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#065f46" stroke-width="2.4" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 780 118 Q 770 90 788 65 T 772 40; M 780 118 Q 790 90 772 65 T 788 40; M 780 118 Q 770 90 788 65 T 772 40" dur="9.5s" repeatCount="indefinite" />
+    </path>
+    <path stroke="#0d9488" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <animate attributeName="d" values="M 820 122 Q 832 92 812 68 T 828 42; M 820 122 Q 808 92 828 68 T 812 42; M 820 122 Q 832 92 812 68 T 828 42" dur="8.8s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Bioluminescent Sea Whips, Sea Fans, Coral Bushes & Algae Mounds spread densely -->
+    <!-- Bioluminescent Sea Whip 1 (x=80) -->
+    <g transform="translate(80, 80) scale(0.38)">
+      <path d="M0,45 Q10,20 0,-15 Q-10,-40 0,-60" stroke="#06b6d4" stroke-width="3" fill="none" stroke-linecap="round">
+        <animate attributeName="d" values="M0,45 Q10,20 0,-15 Q-10,-40 0,-60; M0,45 Q-10,20 0,-15 Q10,-40 0,-60; M0,45 Q10,20 0,-15 Q-10,-40 0,-60" dur="7.0s" repeatCount="indefinite" />
+      </path>
+      <circle cx="0" cy="-60" r="4" fill="#38bdf8" />
+    </g>
+
+    <!-- Bioluminescent Sea Whip 2 (x=140, y=72) -->
+    <g transform="translate(140, 72) scale(0.38)">
+      <path d="M0,45 Q-12,20 0,-15 Q12,-40 0,-60" stroke="#06b6d4" stroke-width="3" fill="none" stroke-linecap="round">
+        <animate attributeName="d" values="M0,45 Q-12,20 0,-15 Q12,-40 0,-60; M0,45 Q12,20 0,-15 Q-12,-40 0,-60; M0,45 Q-12,20 0,-15 Q12,-40 0,-60" dur="6.5s" repeatCount="indefinite" />
+      </path>
+      <circle cx="0" cy="-60" r="4" fill="#22d3ee">
+        <animate attributeName="opacity" values="0.4; 1; 0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Glowing Sea Fan Palm 1 (x=260) -->
+    <g transform="translate(260, 82) scale(0.36)">
+      <path d="M0,40 Q-8,20 -20,5 Q-10,-15 0,-25 Q10,-15 20,5 Q8,20 0,40 Z" fill="#ec4899" opacity="0.85" />
+      <path d="M0,40 L0,-5 M-10,20 L-15,0 M10,20 L15,0" stroke="#fbcfe8" stroke-width="1.8" />
+    </g>
+
+    <!-- Glowing Purple Sea Fan Palm 2 (x=380, y=85) -->
+    <g transform="translate(380, 85) scale(0.38)">
+      <path d="M0,40 Q-8,20 -20,5 Q-10,-15 0,-25 Q10,-15 20,5 Q8,20 0,40 Z" fill="#818cf8" opacity="0.85" />
+      <path d="M0,40 L0,-5 M-10,20 L-15,0 M10,20 L15,0 M-5,28 L-22,12 M5,28 L22,12" stroke="#c7d2fe" stroke-width="1.8" />
+      <circle cx="0" cy="-25" r="3" fill="#c084fc">
+        <animate attributeName="r" values="2; 4; 2" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Bioluminescent Sea Whip 3 (x=500) -->
+    <g transform="translate(500, 75) scale(0.4)">
+      <path d="M0,45 Q-10,20 0,-15 Q10,-40 0,-60" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round">
+        <animate attributeName="d" values="M0,45 Q-10,20 0,-15 Q10,-40 0,-60; M0,45 Q10,20 0,-15 Q-10,-40 0,-60; M0,45 Q-10,20 0,-15 Q10,-40 0,-60" dur="6.8s" repeatCount="indefinite" />
+      </path>
+      <circle cx="0" cy="-60" r="4" fill="#34d399" />
+    </g>
+
+    <!-- Glowing Amber Feather Star Fern (x=680, y=80) -->
+    <g transform="translate(680, 80) scale(0.35)">
+      <path d="M0,0 Q-18,-30 -30,-50 Q-10,-40 0,0 Q18,-30 28,-48 Q10,-38 0,0 Z" fill="#f59e0b" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" values="-6; 6; -6" pivot="0,0" dur="4.5s" repeatCount="indefinite" />
+      </path>
+      <path d="M0,0 Q-10,-40 -12,-65 Q-2,-48 0,0 Q10,-40 15,-60 Q3,-45 0,0 Z" fill="#fbbf24" opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" values="5; -7; 5" pivot="0,0" dur="5.0s" repeatCount="indefinite" />
+      </path>
+    </g>
+
+    <!-- Bioluminescent Sea Whip 4 (x=760) -->
+    <g transform="translate(760, 78) scale(0.38)">
+      <path d="M0,45 Q12,20 0,-15 Q-12,-40 0,-60" stroke="#f43f5e" stroke-width="3" fill="none" stroke-linecap="round">
+        <animate attributeName="d" values="M0,45 Q12,20 0,-15 Q-12,-40 0,-60; M0,45 Q-12,20 0,-15 Q12,-40 0,-60; M0,45 Q12,20 0,-15 Q-12,-40 0,-60" dur="7.2s" repeatCount="indefinite" />
+      </path>
+      <circle cx="0" cy="-60" r="4" fill="#fb7185" />
+    </g>
+
+    <!-- Crimson Red Macroalgae Meadows (x=50, 220, 410, 610, 750) -->
+    <g transform="translate(50, 85) scale(0.32)">
+      <path d="M0,0 Q-15,-25 -28,-40 Q-8,-30 0,0 Q15,-25 25,-38 Q6,-28 0,0 Z" fill="#f43f5e" />
+    </g>
+    <g transform="translate(220, 82) scale(0.35)">
+      <path d="M0,0 Q-15,-25 -28,-40 Q-8,-30 0,0 Q15,-25 25,-38 Q6,-28 0,0 Z" fill="#f43f5e">
+        <animateTransform attributeName="transform" type="rotate" values="-4; 6; -4" pivot="0,0" dur="5.5s" repeatCount="indefinite" />
+      </path>
+      <path d="M0,0 Q-8,-35 -15,-55 Q-2,-38 0,0 Q8,-35 14,-50 Q4,-35 0,0 Z" fill="#e11d48">
+        <animateTransform attributeName="transform" type="rotate" values="5; -5; 5" pivot="0,0" dur="4.8s" repeatCount="indefinite" />
+      </path>
+    </g>
+    <g transform="translate(410, 80) scale(0.35)">
+      <path d="M0,0 Q-15,-25 -28,-40 Q-8,-30 0,0 Q15,-25 25,-38 Q6,-28 0,0 Z" fill="#be123c" />
+    </g>
+    <g transform="translate(610, 75) scale(0.33)">
+      <path d="M0,0 Q-15,-25 -28,-40 Q-8,-30 0,0 Q15,-25 25,-38 Q6,-28 0,0 Z" fill="#be123c">
+        <animateTransform attributeName="transform" type="rotate" values="-5; 5; -5" pivot="0,0" dur="6.0s" repeatCount="indefinite" />
+      </path>
+      <path d="M0,0 Q-8,-35 -15,-55 Q-2,-38 0,0 Q8,-35 14,-50 Q4,-35 0,0 Z" fill="#f43f5e">
+        <animateTransform attributeName="transform" type="rotate" values="4; -6; 4" pivot="0,0" dur="5.2s" repeatCount="indefinite" />
+      </path>
+    </g>
+    <g transform="translate(750, 82) scale(0.34)">
+      <path d="M0,0 Q-15,-25 -28,-40 Q-8,-30 0,0 Q15,-25 25,-38 Q6,-28 0,0 Z" fill="#e11d48" />
+    </g>
+
+    <!-- Golden Sargassum Pod Clusters Floating near horizon -->
+    <g transform="translate(180, 48) scale(0.3)">
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#d97706" opacity="0.8" />
+      <circle cx="-10" cy="-2" r="3" fill="#f59e0b" />
+      <circle cx="5" cy="3" r="4" fill="#f59e0b" />
+      <circle cx="12" cy="-1" r="2.5" fill="#f59e0b" />
+    </g>
+    <g transform="translate(320, 42) scale(0.32)">
+      <ellipse cx="0" cy="0" rx="18" ry="9" fill="#b45309" opacity="0.8" />
+      <circle cx="-8" cy="2" r="3.5" fill="#f59e0b" />
+      <circle cx="6" cy="-3" r="4" fill="#fbbf24" />
+    </g>
+    <g transform="translate(580, 45) scale(0.31)">
+      <ellipse cx="0" cy="0" rx="16" ry="8" fill="#d97706" opacity="0.85" />
+      <circle cx="-6" cy="-2" r="3" fill="#fbbf24" />
+      <circle cx="8" cy="2" r="3.5" fill="#f59e0b" />
+    </g>
+
+    <!-- Golden Soft Coral Trees (Dendronephthya / Carnation Corals - inspired by reference reef photo) -->
+    <!-- Soft Coral Tree 1 (x=160, y=95) -->
+    <g transform="translate(160, 95) scale(0.35)">
+      <!-- Main stalk -->
+      <path d="M0,0 Q-4,-20 0,-40 Q5,-60 -2,-80" stroke="#ea580c" stroke-width="6" fill="none" stroke-linecap="round" />
+      <!-- Branching soft coral blooms (Golden / Fiery Orange) -->
+      <circle cx="-18" cy="-35" r="14" fill="#f97316" opacity="0.9" />
+      <circle cx="15" cy="-45" r="16" fill="#f59e0b" opacity="0.95" />
+      <circle cx="-25" cy="-65" r="18" fill="#fb923c" opacity="0.9" />
+      <circle cx="10" cy="-75" r="20" fill="#fde047" opacity="0.85" />
+      <circle cx="-5" cy="-90" r="15" fill="#f59e0b" opacity="0.9" />
+      <!-- Glowing polyps -->
+      <circle cx="-18" cy="-35" r="6" fill="#fef08a" />
+      <circle cx="15" cy="-45" r="7" fill="#fef08a" />
+      <circle cx="10" cy="-75" r="8" fill="#ffffff" />
+    </g>
+
+    <!-- Soft Coral Tree 2 (x=460, y=88) -->
+    <g transform="translate(460, 88) scale(0.38)">
+      <path d="M0,0 Q6,-25 0,-50 Q-8,-70 2,-95" stroke="#c2410c" stroke-width="7" fill="none" stroke-linecap="round" />
+      <circle cx="-20" cy="-40" r="16" fill="#f97316" opacity="0.92" />
+      <circle cx="22" cy="-55" r="18" fill="#f59e0b" opacity="0.9" />
+      <circle cx="-15" cy="-75" r="20" fill="#fbbf24" opacity="0.95" />
+      <circle cx="12" cy="-90" r="18" fill="#fde047" opacity="0.9" />
+      <circle cx="-2" cy="-105" r="16" fill="#ea580c" opacity="0.88" />
+    </g>
+
+    <!-- Pink Coralline Algae Mounds across the entire background ridge line -->
+    <g transform="translate(100, 96) scale(0.35)">
+      <path d="M-20,0 Q0,-15 20,0 Z" fill="#ec4899" opacity="0.8" />
+    </g>
+    <g transform="translate(290, 95) scale(0.35)">
+      <path d="M-20,0 Q0,-15 20,0 Z" fill="#ec4899" opacity="0.8" />
+      <circle cx="-6" cy="-5" r="2" fill="#fbcfe8" />
+      <circle cx="8" cy="-4" r="2.5" fill="#fbcfe8" />
+    </g>
+    <g transform="translate(430, 90) scale(0.38)">
+      <path d="M-25,0 Q0,-18 25,0 Z" fill="#db2777" opacity="0.85" />
+      <circle cx="-10" cy="-6" r="2.5" fill="#fbcfe8" />
+      <circle cx="5" cy="-7" r="3" fill="#fbcfe8" />
+    </g>
+    <g transform="translate(630, 92) scale(0.36)">
+      <path d="M-22,0 Q0,-16 22,0 Z" fill="#ec4899" opacity="0.8" />
+    </g>
+    <g transform="translate(790, 98) scale(0.35)">
+      <path d="M-20,0 Q0,-15 20,0 Z" fill="#db2777" opacity="0.85" />
+    </g>
+  </g>
+
+  <!-- 🐠 🐟 🪼 DISTANT BACKGROUND CREATURES & COLORFUL FAR FISH SCHOOL -->
+  <!-- 1. Dense Cloud of Distant Schooling Micro-Fish (Near sunlit surface - inspired by reference image) -->
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" values="-180,35; 350,28; 950,42" dur="24.0s" repeatCount="indefinite" />
+    <g transform="scale(0.25)">
+      <!-- Central Cluster -->
+      <g transform="translate(0,0)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#06b6d4" /><path d="M15,0 L24,-6 L20,0 L24,6 Z" fill="#0891b2" /></g>
+      <g transform="translate(25,-12)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#facc15" /><path d="M15,0 L24,-6 L20,0 L24,6 Z" fill="#ca8a04" /></g>
+      <g transform="translate(-20,-10)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#f43f5e" /><path d="M15,0 L24,-6 L20,0 L24,6 Z" fill="#be123c" /></g>
+      <g transform="translate(-10,14)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#84cc16" /><path d="M15,0 L24,-6 L20,0 L24,6 Z" fill="#65a30d" /></g>
+      <g transform="translate(18,12)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#fb923c" /><path d="M15,0 L24,-6 L20,0 L24,6 Z" fill="#ea580c" /></g>
+      <g transform="translate(-35,4)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#c084fc" /><path d="M15,0 L24,-6 L20,0 L24,6 Z" fill="#9333ea" /></g>
+      <!-- Outer Swirl Cloud -->
+      <g transform="translate(-50,-18)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#38bdf8" /></g>
+      <g transform="translate(-40,25)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#fde047" /></g>
+      <g transform="translate(42,-22)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#ff7be5" /></g>
+      <g transform="translate(50,5)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#34d399" /></g>
+      <g transform="translate(35,28)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#fb923c" /></g>
+      <g transform="translate(-65,5)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#facc15" /></g>
+      <g transform="translate(-15,-30)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#38bdf8" /></g>
+      <g transform="translate(10,-28)"><path d="M15,0 C5,-8 -10,-6 -20,0 C-10,6 5,8 15,0 Z" fill="#a7f3d0" /></g>
+      <g transform="translate(-75,-12)"><path d="M12,0 C4,-6 -8,-5 -15,0 Z" fill="#f43f5e" /></g>
+      <g transform="translate(65,-15)"><path d="M12,0 C4,-6 -8,-5 -15,0 Z" fill="#38bdf8" /></g>
+    </g>
+  </g>
+
+  <!-- 2. Distant Majestic Deep Ocean Whale / Ray Horizon Silhouette -->
+  <g opacity="0.35">
+    <animateTransform attributeName="transform" type="translate" values="900,32; 400,28; -180,36" dur="28.0s" repeatCount="indefinite" />
+    <g transform="scale(-0.35, 0.35)">
+      <!-- Giant Blue Ray / Leviathan Silhouette -->
+      <path d="M50,0 C30,-22 -20,-20 -50,0 C-20,20 30,22 50,0 Z" fill="#38bdf8" />
+      <path d="M-50,0 L-70,-15 L-60,0 L-70,15 Z" fill="#0284c7" />
+    </g>
+  </g>
+
+  <!-- 3. Distant Pair of Golden Butterflyfish -->
+  <g opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="-100,65; 350,55; 880,68" dur="20.0s" repeatCount="indefinite" />
+    <g transform="scale(0.28)">
+      <g transform="translate(0,0)">
+        <path d="M12,0 C5,-14 -10,-12 -18,0 C-10,12 5,14 12,0 Z" fill="#fde047" stroke="#eab308" stroke-width="1" />
+        <path d="M-2,-10 L-2,10" stroke="#000" stroke-width="2" />
+        <path d="M-18,0 L-28,-8 L-22,0 L-28,8 Z" fill="#f97316" />
+      </g>
+      <g transform="translate(-25,10)">
+        <path d="M12,0 C5,-14 -10,-12 -18,0 C-10,12 5,14 12,0 Z" fill="#38bdf8" stroke="#0284c7" stroke-width="1" />
+        <path d="M-2,-10 L-2,10" stroke="#ffffff" stroke-width="2" />
+        <path d="M-18,0 L-28,-8 L-22,0 L-28,8 Z" fill="#f43f5e" />
+      </g>
+    </g>
+  </g>
 
   <!-- 🪸 🏔️ ALGAE MOUNTAIN HOME (Right shelter) -->
   <path d="M 520 160 Q 640 40 820 110 L 820 160 Z" fill="#005f73" opacity="0.85"/>
@@ -39,6 +345,33 @@
       <path d="M0,12 C-8,12 -12,4 0,0 C12,4 8,12 0,12 Z" fill="#fbcfe8" stroke="#db2777" stroke-width="1.2" />
       <path d="M0,12 L-4,2 M0,12 L0,0 M0,12 L4,2" stroke="#db2777" stroke-width="0.8" />
     </g>
+
+    <!-- 🪸 Gorgonian Sea Fan & Brain Corals -->
+    <g transform="translate(480, 118) scale(0.7)">
+      <path d="M0,40 Q-5,25 -15,15 Q-25,5 -10,-10 Q0,-25 10,-10 Q25,5 15,15 Q5,25 0,40 Z" fill="#f43f5e" opacity="0.85" />
+      <path d="M0,40 L0,0 M-8,25 L-18,10 M8,25 L18,10 M-5,15 L-10,-5 M5,15 L10,-5" stroke="#fecdd3" stroke-width="1.5" />
+    </g>
+    <g transform="translate(140, 138) scale(0.65)">
+      <ellipse cx="0" cy="15" rx="18" ry="12" fill="#e11d48" stroke="#9f1239" stroke-width="1.2" />
+      <path d="M-10,12 Q-5,8 0,12 T10,12 M-12,16 Q-6,14 0,16 T12,16" stroke="#fda4af" stroke-width="1.2" fill="none" />
+    </g>
+  </g>
+
+  <!-- ⭐️ STARFISH FAMILY ON SEABED ROCKS -->
+  <!-- Crimson Starfish on Reef Shelf -->
+  <g transform="translate(640, 115) scale(0.65)">
+    <path d="M0,-12 L3,-3 L11,-3 L5,2 L7,10 L0,5 L-7,10 L-5,2 L-11,-3 L-3,-3 Z" fill="#ef4444" stroke="#b91c1c" stroke-width="1" />
+    <circle cx="0" cy="0" r="1.5" fill="#fef08a" />
+  </g>
+  <!-- Gold Starfish on Left Bed -->
+  <g transform="translate(230, 150) scale(0.6)">
+    <path d="M0,-12 L3,-3 L11,-3 L5,2 L7,10 L0,5 L-7,10 L-5,2 L-11,-3 L-3,-3 Z" fill="#eab308" stroke="#ca8a04" stroke-width="1" />
+    <circle cx="0" cy="0" r="1.5" fill="#ffffff" />
+  </g>
+  <!-- Coral Pink Starfish -->
+  <g transform="translate(390, 152) scale(0.55)">
+    <path d="M0,-12 L3,-3 L11,-3 L5,2 L7,10 L0,5 L-7,10 L-5,2 L-11,-3 L-3,-3 Z" fill="#f43f5e" stroke="#9f1239" stroke-width="1" />
+    <circle cx="0" cy="0" r="1.2" fill="#ffffff" />
   </g>
 
   <!-- Water Bubbles -->
@@ -189,6 +522,71 @@
                        M 610 140 Q 625 100 610 75 T 615 30" 
                dur="7.8s" repeatCount="indefinite" />
     </path>
+
+    <!-- 🌿 NEW: Kelp Leaf Fronds attached to stems -->
+    <g transform="translate(50, 100) scale(0.6)">
+      <path d="M0,0 Q18,-12 28,2 Q12,8 0,0 Z" fill="#059669" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" values="-10; 15; -10" pivot="0,0" dur="6.5s" repeatCount="indefinite" />
+      </path>
+      <path d="M0,-25 Q-20,-35 -28,-20 Q-12,-15 0,-25 Z" fill="#10b981" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" values="10; -15; 10" pivot="0,-25" dur="6.5s" repeatCount="indefinite" />
+      </path>
+    </g>
+
+    <g transform="translate(290, 90) scale(0.65)">
+      <path d="M0,0 Q20,-15 30,0 Q15,10 0,0 Z" fill="#0d9488" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="0,0" dur="7.2s" repeatCount="indefinite" />
+      </path>
+      <path d="M0,-30 Q-22,-40 -32,-25 Q-14,-20 0,-30 Z" fill="#14b8a6" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" values="12; -12; 12" pivot="0,-30" dur="7.2s" repeatCount="indefinite" />
+      </path>
+    </g>
+
+    <!-- 🌺 NEW: Crimson Rhodophyta Red Seaweed Bush (Left Bed) -->
+    <g transform="translate(100, 160)">
+      <path d="M0,0 Q-12,-25 -25,-40 Q-8,-30 0,0 Q12,-25 22,-38 Q6,-28 0,0 Z" fill="#ef4444" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" values="-5; 8; -5" pivot="0,0" dur="5.2s" repeatCount="indefinite" />
+      </path>
+      <path d="M0,0 Q-8,-35 -15,-55 Q-2,-38 0,0 Q8,-35 14,-50 Q4,-35 0,0 Z" fill="#f43f5e" opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" values="6; -6; 6" pivot="0,0" dur="4.8s" repeatCount="indefinite" />
+      </path>
+    </g>
+
+    <!-- 🪷 NEW: Glowing Bioluminescent Water Lily & Sea Fern (Center Reef Shelf x=350) -->
+    <g transform="translate(350, 160)">
+      <!-- Fern Leaves -->
+      <path d="M0,0 Q-18,-30 -30,-50 Q-10,-40 0,0 Q18,-30 28,-48 Q10,-38 0,0 Z" fill="#10b981" opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" values="-6; 6; -6" pivot="0,0" dur="4.5s" repeatCount="indefinite" />
+      </path>
+      <path d="M0,0 Q-10,-40 -12,-65 Q-2,-48 0,0 Q10,-40 15,-60 Q3,-45 0,0 Z" fill="#06b6d4" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" values="5; -7; 5" pivot="0,0" dur="5.0s" repeatCount="indefinite" />
+      </path>
+      <!-- Glowing Flower Bud -->
+      <circle cx="0" cy="-62" r="5" fill="#f472b6" opacity="0.9">
+        <animate attributeName="r" values="4; 6; 4" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.7; 1; 0.7" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="-62" r="2.5" fill="#fef08a" />
+    </g>
+
+    <!-- 🌾 NEW: Lush Seagrass Meadow Blades (Across seabed) -->
+    <g stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M 20,160 Q 15,130 25,110">
+        <animate attributeName="d" values="M 20,160 Q 15,130 25,110; M 20,160 Q 28,130 18,110; M 20,160 Q 15,130 25,110" dur="3.8s" repeatCount="indefinite" />
+      </path>
+      <path d="M 25,160 Q 32,135 22,115">
+        <animate attributeName="d" values="M 25,160 Q 32,135 22,115; M 25,160 Q 18,135 30,115; M 25,160 Q 32,135 22,115" dur="4.2s" repeatCount="indefinite" />
+      </path>
+      <path d="M 520,150 Q 512,120 528,98">
+        <animate attributeName="d" values="M 520,150 Q 512,120 528,98; M 520,150 Q 528,120 512,98; M 520,150 Q 512,120 528,98" dur="4.0s" repeatCount="indefinite" />
+      </path>
+      <path d="M 528,150 Q 538,125 522,102">
+        <animate attributeName="d" values="M 528,150 Q 538,125 522,102; M 528,150 Q 520,125 534,102; M 528,150 Q 538,125 522,102" dur="3.6s" repeatCount="indefinite" />
+      </path>
+      <path d="M 750,130 Q 742,105 758,85">
+        <animate attributeName="d" values="M 750,130 Q 742,105 758,85; M 750,130 Q 756,105 744,85; M 750,130 Q 742,105 758,85" dur="4.5s" repeatCount="indefinite" />
+      </path>
+    </g>
 
     <!-- ======================================================= -->
     <!-- 🪸 NATURAL SEABED GEOGRAPHY (GREAT BARRIER REEF CORALS & ANEMONES) 🪸 -->
@@ -617,10 +1015,10 @@
       <g>
         <animateTransform attributeName="transform" type="rotate" values="-2; 3; -2" pivot="40,40" dur="1.80s" repeatCount="indefinite" />
         <g transform="translate(-85, -44)">
-          <!-- Tail fin segment with overlap under body (rendered first so body draws on top) -->
+          <!-- Tail fin segment anchored precisely at joint (115,42) with overlap under body -->
           <g>
-            <path d="M100,20 C108,18 135,12 145,8 C150,6 155,6 155,10 C155,15 145,25 145,28 C145,31 155,41 155,46 C155,50 150,50 145,48 C135,44 108,40 100,38 Z" fill="#2563eb" />
-            <animateTransform attributeName="transform" type="rotate" values="-10; 10; -10" pivot="110,29" dur="2s" repeatCount="indefinite" />
+            <path d="M95,38 C105,32 115,42 115,42 C125,25 145,10 155,8 C155,14 145,25 145,28 C145,31 155,42 155,48 C145,46 125,52 115,42 C115,42 105,44 95,38 Z" fill="#2563eb" />
+            <animateTransform attributeName="transform" type="rotate" values="-10; 10; -10" pivot="115,42" dur="2s" repeatCount="indefinite" />
           </g>
           <!-- Whale body path -->
           <path d="M50,15 C30,15 15,20 5,28 C-5,35 -12,45 -10,55 C-8,65 5,75 25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C110,12 95,12 80,13 C65,14 60,15 50,15 Z" fill="#1e40af" />
@@ -647,10 +1045,10 @@
       <g>
         <animateTransform attributeName="transform" type="rotate" values="-3; 4; -3" pivot="40,40" dur="1.62s" repeatCount="indefinite" />
         <g transform="translate(-85, -44)">
-          <!-- Tail fin segment with overlap under body -->
+          <!-- Tail fin segment anchored precisely at joint (115,42) with overlap under body -->
           <g>
-            <path d="M100,20 C108,18 135,12 145,8 C150,6 155,6 155,10 C155,15 145,25 145,28 C145,31 155,41 155,46 C155,50 150,50 145,48 C135,44 108,40 100,38 Z" fill="#3b82f6" />
-            <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="110,29" dur="1.7s" repeatCount="indefinite" />
+            <path d="M95,38 C105,32 115,42 115,42 C125,25 145,10 155,8 C155,14 145,25 145,28 C145,31 155,42 155,48 C145,46 125,52 115,42 C115,42 105,44 95,38 Z" fill="#3b82f6" />
+            <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="115,42" dur="1.7s" repeatCount="indefinite" />
           </g>
           <path d="M50,15 C30,15 15,20 5,28 C-5,35 -12,45 -10,55 C-8,65 5,75 25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C110,12 95,12 80,13 C65,14 60,15 50,15 Z" fill="#2563eb" />
           <path d="M25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C105,47 95,50 80,52 C65,54 45,56 25,55 C15,53 5,48 -5,42 C-2,55 10,75 25,75 Z" fill="#bfdbfe" opacity="0.6" />
@@ -675,10 +1073,10 @@
         <!-- Coordinated body pitch / tilt -->
         <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" pivot="10,0" dur="1.60s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <!-- Tail fin - rendered first to overlap seamlessly under the body -->
+          <!-- Tail fin - anchored precisely at joint (-60,0) with overlap inside body -->
           <g>
-            <path d="M-48,-6 C-56,-2 -60,0 -60,0 C-68,-8 -85,-25 -85,-15 C-85,-5 -70,0 -85,15 C-85,25 -68,8 -60,0 C-60,0 -56,2 -48,6 Z" fill="#334155" />
-            <animateTransform attributeName="transform" type="rotate" values="-18; 18; -18" pivot="-60,0" dur="1.60s" repeatCount="indefinite" />
+            <path d="M-45,0 C-52,-4 -60,0 -60,0 C-68,-8 -85,-22 -85,-12 C-85,-2 -72,0 -70,0 C-72,0 -85,2 -85,12 C-85,22 -68,8 -60,0 C-60,0 -52,4 -45,0 Z" fill="#334155" />
+            <animateTransform attributeName="transform" type="rotate" values="-16; 16; -16" pivot="-60,0" dur="1.60s" repeatCount="indefinite" />
           </g>
           <!-- Body path -->
           <path d="M-60,0 C-40,-15 -10,-22 25,-12 C45,-5 65,5 85,8 C70,12 40,15 10,12 C-15,10 -40,12 -60,0 Z" fill="#475569" />
@@ -706,10 +1104,10 @@
       <g>
         <animateTransform attributeName="transform" type="rotate" values="-2.5; 2.5; -2.5" pivot="10,0" dur="1.52s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <!-- Tail fin - rendered first to overlap seamlessly under the body -->
+          <!-- Tail fin - anchored precisely at joint (-60,0) -->
           <g>
-            <path d="M-48,-6 C-56,-2 -60,0 -60,0 C-68,-8 -85,-25 -85,-15 C-85,-5 -70,0 -85,15 C-85,25 -68,8 -60,0 C-60,0 -56,2 -48,6 Z" fill="#475569" />
-            <animateTransform attributeName="transform" type="rotate" values="-20; 20; -20" pivot="-60,0" dur="1.52s" repeatCount="indefinite" />
+            <path d="M-45,0 C-52,-4 -60,0 -60,0 C-68,-8 -85,-22 -85,-12 C-85,-2 -72,0 -70,0 C-72,0 -85,2 -85,12 C-85,22 -68,8 -60,0 C-60,0 -52,4 -45,0 Z" fill="#475569" />
+            <animateTransform attributeName="transform" type="rotate" values="-18; 18; -18" pivot="-60,0" dur="1.52s" repeatCount="indefinite" />
           </g>
           <!-- Body path -->
           <path d="M-60,0 C-40,-15 -10,-22 25,-12 C45,-5 65,5 85,8 C70,12 40,15 10,12 C-15,10 -40,12 -60,0 Z" fill="#64748b" />
@@ -738,9 +1136,9 @@
       <g>
         <animateTransform attributeName="transform" type="rotate" values="2; -2; 2" pivot="-10,0" dur="2.00s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <!-- Tail fin - rendered first to overlap seamlessly under the body -->
+          <!-- Tail fin - anchored precisely at joint (60,0) -->
           <g>
-            <path d="M48,-6 C56,-2 60,0 60,0 C68,-8 85,-25 85,-15 C85,-5 70,0 85,15 C85,25 68,8 60,0 C60,0 56,2 48,6 Z" fill="#0f172a" />
+            <path d="M45,0 C52,-4 60,0 60,0 C68,-8 85,-22 85,-12 C85,-2 72,0 70,0 C72,0 85,2 85,12 C85,22 68,8 60,0 C60,0 52,4 45,0 Z" fill="#0f172a" />
             <animateTransform attributeName="transform" type="rotate" values="-15; 15; -15" pivot="60,0" dur="2.00s" repeatCount="indefinite" />
           </g>
           <!-- Body path -->
@@ -769,9 +1167,9 @@
       <g>
         <animateTransform attributeName="transform" type="rotate" values="1.5; -1.5; 1.5" pivot="-10,0" dur="2.20s" repeatCount="indefinite" />
         <g transform="translate(0, 5) opacity(0.55)">
-          <!-- Tail fin - rendered first to overlap seamlessly under the body -->
+          <!-- Tail fin - anchored precisely at joint (60,0) -->
           <g>
-            <path d="M48,-6 C56,-2 60,0 60,0 C68,-8 85,-25 85,-15 C85,-5 70,0 85,15 C85,25 68,8 60,0 C60,0 56,2 48,6 Z" fill="#020617" />
+            <path d="M45,0 C52,-4 60,0 60,0 C68,-8 85,-22 85,-12 C85,-2 72,0 70,0 C72,0 85,2 85,12 C85,22 68,8 60,0 C60,0 52,4 45,0 Z" fill="#020617" />
             <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="60,0" dur="2.20s" repeatCount="indefinite" />
           </g>
           <!-- Body path -->
@@ -1372,6 +1770,290 @@
         <animateTransform attributeName="transform" type="rotate" values="-8; 8; -8" pivot="-19,0" dur="0.3s" repeatCount="indefinite" />
       </g>
     </g>
+  </g>
+
+  <!-- 🪼 MANTA RAY: Majestic Glider -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-120,40; 280,65; 600,35; 880,50" dur="18.0s" repeatCount="indefinite" />
+    <g transform="scale(0.65)">
+      <animateTransform attributeName="transform" type="rotate" values="-4; 4; -4" dur="3s" repeatCount="indefinite" />
+      <g>
+        <path d="M0,-8 C20,-28 45,-30 55,-10 C45,10 20,18 0,12 C-20,18 -45,10 -55,-10 C-45,-30 -20,-28 0,-8 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="0.8" />
+        <path d="M0,-8 C12,-18 30,-20 38,-8 C30,4 12,10 0,6 C-12,10 -30,4 -38,-8 C-30,-20 -12,-18 0,-8 Z" fill="#334155" />
+        <animateTransform attributeName="transform" type="scale" values="1,1; 1,0.75; 1,1" pivot="0,0" dur="1.8s" repeatCount="indefinite" />
+      </g>
+      <path d="M-6,-18 Q-10,-26 -4,-24 Z M6,-18 Q10,-26 4,-24 Z" fill="#38bdf8" />
+      <ellipse cx="0" cy="-18" rx="5" ry="2" fill="#0f172a" />
+      <path d="M0,12 C2,25 -2,40 4,55" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round">
+        <animate attributeName="d" values="M0,12 C2,25 -2,40 4,55; M0,12 C-3,25 3,40 -2,55; M0,12 C2,25 -2,40 4,55" dur="1.2s" repeatCount="indefinite" />
+      </path>
+      <circle cx="-12" cy="-2" r="1.2" fill="#ffffff" opacity="0.8" />
+      <circle cx="12" cy="-2" r="1.2" fill="#ffffff" opacity="0.8" />
+      <circle cx="-20" cy="2" r="1.0" fill="#ffffff" opacity="0.7" />
+      <circle cx="20" cy="2" r="1.0" fill="#ffffff" opacity="0.7" />
+    </g>
+  </g>
+
+  <!-- 🐬 DOLPHIN: Ocean Leaper -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-100,55; 250,25; 550,55; 880,20" dur="14.0s" repeatCount="indefinite" />
+    <g transform="scale(0.6)">
+      <animateTransform attributeName="transform" type="rotate" values="-8; 10; -8" dur="1.5s" repeatCount="indefinite" />
+      <path d="M35,0 C20,-18 -10,-16 -35,-2 C-20,12 10,14 35,0 Z" fill="#475569" stroke="#0284c7" stroke-width="1" />
+      <path d="M30,1 C18,8 -8,8 -30,-1 C-18,12 15,12 30,1 Z" fill="#e2e8f0" />
+      <path d="M2,-12 C0,-26 -12,-22 -8,-10 Z" fill="#334155" />
+      <path d="M10,2 C12,12 0,16 2,4 Z" fill="#334155" />
+      <g transform="translate(-35, -2)">
+        <path d="M0,0 C-10,-12 -16,-8 -12,0 C-16,8 -10,12 0,0 Z" fill="#334155" />
+        <animateTransform attributeName="transform" type="rotate" values="-20; 20; -20" pivot="0,0" dur="0.4s" repeatCount="indefinite" />
+      </g>
+      <path d="M35,0 C42,-2 44,2 37,3 Z" fill="#334155" />
+      <circle cx="25" cy="-3" r="2" fill="#ffffff" />
+      <circle cx="26" cy="-3" r="1" fill="#000000" />
+    </g>
+  </g>
+
+  <!-- 🐠 MOORISH IDOL / ANGEL FISH -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="880,75; 500,45; 200,85; -60,50" dur="15.0s" repeatCount="indefinite" />
+    <g transform="scale(-0.55, 0.55)">
+      <animateTransform attributeName="transform" type="skewY" values="-6; 6; -6" dur="1.2s" repeatCount="indefinite" />
+      <path d="M-5,-15 Q-15,-45 -25,-60 Q-10,-35 5,-15 Z" fill="#ffffff" stroke="#facc15" stroke-width="1" />
+      <path d="M-20,0 C-10,-25 15,-25 25,0 C15,25 -10,25 -20,0 Z" fill="#facc15" />
+      <path d="M-12,-18 C-5,-18 0,-18 5,-18 L2,18 C-3,18 -8,18 -15,18 Z" fill="#0f172a" />
+      <path d="M-2,-20 C3,-20 8,-20 12,-20 L9,20 C5,20 0,20 -5,20 Z" fill="#ffffff" />
+      <path d="M8,-18 C12,-18 16,-18 20,-18 L17,18 C13,18 9,18 5,18 Z" fill="#0f172a" />
+      <path d="M2,18 Q-5,38 -12,48 Q-2,32 5,18 Z" fill="#facc15" />
+      <path d="M-20,0 L-32,-12 L-28,0 L-32,12 Z" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
+      <circle cx="16" cy="-4" r="3" fill="#ffffff" />
+      <circle cx="17" cy="-4" r="1.4" fill="#000000" />
+    </g>
+  </g>
+
+  <!-- 🐟 BLUE TANG (DORY) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-60,85; 320,115; 620,70; 880,95" dur="13.0s" repeatCount="indefinite" />
+    <g transform="scale(0.55)">
+      <animateTransform attributeName="transform" type="rotate" values="-4; 4; -4" dur="0.8s" repeatCount="indefinite" />
+      <ellipse cx="0" cy="0" rx="22" ry="14" fill="#2563eb" stroke="#1d4ed8" stroke-width="1" />
+      <path d="M-10,-10 C5,-18 18,-6 8,2 C-2,10 -15,2 -10,-10 Z" fill="#0f172a" />
+      <ellipse cx="-2" cy="-4" rx="6" ry="4" fill="#2563eb" />
+      <g>
+        <path d="M-22,0 L-36,-12 L-30,0 L-36,12 Z" fill="#facc15" stroke="#eab308" stroke-width="1" />
+        <animateTransform attributeName="transform" type="rotate" values="-15; 15; -15" pivot="-22,0" dur="0.25s" repeatCount="indefinite" />
+      </g>
+      <path d="M2,2 C6,8 10,6 6,1 Z" fill="#facc15" />
+      <circle cx="14" cy="-3" r="3" fill="#ffffff" />
+      <circle cx="15" cy="-3" r="1.5" fill="#000000" />
+    </g>
+  </g>
+
+  <!-- 🪼 LUMINESCENT SEA NETTLE JELLYFISH -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="380,180; 395,80; 375,-40" dur="17.0s" repeatCount="indefinite" />
+    <g transform="scale(0.6)">
+      <animateTransform attributeName="transform" type="scale" values="1,1; 1.25,0.75; 0.85,1.15; 1,1" dur="1.6s" repeatCount="indefinite" />
+      <path d="M-22,0 C-22,-28 22,-28 22,0 C22,6 15,8 0,8 C-15,8 -22,6 -22,0 Z" fill="#06b6d4" opacity="0.8" />
+      <path d="M-12,0 C-12,-18 12,-18 12,0 Z" fill="#67e8f9" opacity="0.9" />
+      <path d="M-16,8 Q-22,25 -12,45 T-18,65" stroke="#22d3ee" stroke-width="1.8" fill="none" opacity="0.85">
+        <animate attributeName="d" values="M-16,8 Q-22,25 -12,45 T-18,65; M-16,8 Q-10,28 -20,42 T-10,65; M-16,8 Q-22,25 -12,45 T-18,65" dur="1.5s" repeatCount="indefinite" />
+      </path>
+      <path d="M-6,8 Q-8,30 2,48 T-4,68" stroke="#f472b6" stroke-width="2" fill="none" opacity="0.9">
+        <animate attributeName="d" values="M-6,8 Q-8,30 2,48 T-4,68; M-6,8 Q2,26 -10,45 T4,68; M-6,8 Q-8,30 2,48 T-4,68" dur="1.3s" repeatCount="indefinite" />
+      </path>
+      <path d="M6,8 Q8,30 -2,48 T4,68" stroke="#f472b6" stroke-width="2" fill="none" opacity="0.9">
+        <animate attributeName="d" values="M6,8 Q8,30 -2,48 T4,68; M6,8 Q-2,26 10,45 T-4,68; M6,8 Q8,30 -2,48 T4,68" dur="1.4s" repeatCount="indefinite" />
+      </path>
+      <path d="M16,8 Q22,25 12,45 T18,65" stroke="#22d3ee" stroke-width="1.8" fill="none" opacity="0.85">
+        <animate attributeName="d" values="M16,8 Q22,25 12,45 T18,65; M16,8 Q10,28 20,42 T10,65; M16,8 Q22,25 12,45 T18,65" dur="1.6s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+
+  <!-- 🦞 SEABED LOBSTER -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-60,150; 280,150; 280,150; 880,150" dur="22.0s" repeatCount="indefinite" />
+    <g transform="scale(0.55)">
+      <animateTransform attributeName="transform" type="rotate" values="0; 6; 0; -6; 0" dur="0.8s" repeatCount="indefinite" />
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#dc2626" stroke="#991b1b" stroke-width="1" />
+      <path d="M-15,0 C-22,-4 -28,-2 -35,0 C-28,2 -22,4 -15,0 Z" fill="#b91c1c" />
+      <path d="M-35,0 L-42,-6 L-39,0 L-42,6 Z" fill="#ef4444" />
+      <path d="M12,-3 Q25,-12 38,-15" stroke="#ef4444" stroke-width="1.2" fill="none">
+        <animate attributeName="d" values="M12,-3 Q25,-12 38,-15; M12,-3 Q25,-8 38,-10; M12,-3 Q25,-12 38,-15" dur="0.6s" repeatCount="indefinite" />
+      </path>
+      <path d="M12,3 Q25,12 38,15" stroke="#ef4444" stroke-width="1.2" fill="none">
+        <animate attributeName="d" values="M12,3 Q25,12 38,15; M12,3 Q25,8 38,10; M12,3 Q25,12 38,15" dur="0.6s" repeatCount="indefinite" />
+      </path>
+      <g>
+        <path d="M8,-6 Q18,-14 24,-10 C28,-6 20,-2 14,-4 Z" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1" />
+        <animateTransform attributeName="transform" type="rotate" values="0; -15; 0" pivot="8,-6" dur="0.5s" repeatCount="indefinite" />
+      </g>
+      <g>
+        <path d="M8,6 Q18,14 24,10 C28,6 20,2 14,4 Z" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1" />
+        <animateTransform attributeName="transform" type="rotate" values="0; 15; 0" pivot="8,6" dur="0.5s" repeatCount="indefinite" />
+      </g>
+    </g>
+  </g>
+
+  <!-- 🦈 HAMMERHEAD SHARK -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-120,45; 380,25; 880,55" dur="13.0s" repeatCount="indefinite" />
+    <g transform="scale(0.65)">
+      <animateTransform attributeName="transform" type="skewY" values="-4; 4; -4" dur="1.2s" repeatCount="indefinite" />
+      <!-- Cephalofoil T-Bar Head -->
+      <path d="M30,-12 C36,-12 36,12 30,12 C28,5 28,-5 30,-12 Z" fill="#334155" stroke="#1e293b" stroke-width="1" />
+      <!-- Eyes on outer tips -->
+      <circle cx="33" cy="-10" r="1.5" fill="#fef08a" />
+      <circle cx="33" cy="-10" r="0.8" fill="#000" />
+      <circle cx="33" cy="10" r="1.5" fill="#fef08a" />
+      <circle cx="33" cy="10" r="0.8" fill="#000" />
+      <!-- Main Body -->
+      <path d="M30,0 C15,-16 -10,-14 -35,-2 C-20,10 10,12 30,0 Z" fill="#475569" stroke="#1e293b" stroke-width="1" />
+      <!-- Pale Underbelly -->
+      <path d="M28,1 C15,7 -8,7 -28,0 C-15,10 12,10 28,1 Z" fill="#cbd5e1" />
+      <!-- Tall Dorsal Fin -->
+      <path d="M0,-11 L-8,-32 L-16,-8 Z" fill="#334155" />
+      <!-- Heterocercal Tail Fin -->
+      <g transform="translate(-35, -2)">
+        <path d="M0,0 L-18,-18 L-12,0 L-18,12 Z" fill="#334155" />
+        <animateTransform attributeName="transform" type="rotate" values="-15; 15; -15" pivot="0,0" dur="0.4s" repeatCount="indefinite" />
+      </g>
+    </g>
+  </g>
+
+  <!-- 🐋 ORCA (KILLER WHALE) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="880,35; 420,60; -120,30" dur="16.0s" repeatCount="indefinite" />
+    <g transform="scale(-0.7, 0.7)">
+      <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" dur="2s" repeatCount="indefinite" />
+      <!-- Sleek Black Body -->
+      <path d="M45,0 C30,-22 -15,-20 -45,-3 C-25,16 15,18 45,0 Z" fill="#0f172a" stroke="#0284c7" stroke-width="0.8" />
+      <!-- Signature White Underbelly & Saddle Patch -->
+      <path d="M40,1 C20,12 -12,12 -38,0 C-20,16 20,16 40,1 Z" fill="#ffffff" />
+      <ellipse cx="28" cy="-5" rx="5" ry="2.5" fill="#ffffff" transform="rotate(-10 28 -5)" />
+      <path d="M-10,-8 C-16,-12 -22,-8 -18,-4 Z" fill="#e2e8f0" opacity="0.8" />
+      <!-- Erect Dorsal Fin -->
+      <path d="M5,-15 L2,-38 L-10,-12 Z" fill="#0f172a" />
+      <!-- Pectoral Flipper -->
+      <path d="M12,4 Q18,16 6,18 Q4,10 12,4 Z" fill="#0f172a" />
+      <!-- Tail Fluke -->
+      <g transform="translate(-45, -3)">
+        <path d="M0,0 Q-15,-14 -20,-8 Q-12,0 -20,8 Q-15,14 0,0 Z" fill="#0f172a" />
+        <animateTransform attributeName="transform" type="rotate" values="-15; 15; -15" pivot="0,0" dur="0.5s" repeatCount="indefinite" />
+      </g>
+      <!-- Eye -->
+      <circle cx="36" cy="-2" r="1.2" fill="#000" />
+    </g>
+  </g>
+
+  <!-- 🪼 SEABED STINGRAY (Gliding over sand) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-100,140; 320,135; 880,142" dur="18.0s" repeatCount="indefinite" />
+    <g transform="scale(0.6)">
+      <animateTransform attributeName="transform" type="scale" values="1,1; 1,0.82; 1,1" pivot="0,0" dur="1.2s" repeatCount="indefinite" />
+      <!-- Diamond Disc -->
+      <path d="M25,0 C12,-18 -18,-20 -30,0 C-18,20 12,18 25,0 Z" fill="#475569" stroke="#94a3b8" stroke-width="1" />
+      <ellipse cx="0" cy="0" rx="18" ry="10" fill="#334155" />
+      <!-- Leopard Spots -->
+      <circle cx="-8" cy="-5" r="1.5" fill="#cbd5e1" opacity="0.6" />
+      <circle cx="5" cy="-6" r="1.8" fill="#cbd5e1" opacity="0.6" />
+      <circle cx="-2" cy="4" r="1.6" fill="#cbd5e1" opacity="0.6" />
+      <!-- Eyes on dorsal side -->
+      <circle cx="12" cy="-4" r="1.8" fill="#fef08a" />
+      <circle cx="13" cy="-4" r="1.0" fill="#000" />
+      <circle cx="12" cy="4" r="1.8" fill="#fef08a" />
+      <circle cx="13" cy="4" r="1.0" fill="#000" />
+      <!-- Whip Tail -->
+      <path d="M-30,0 C-45,2 -60,-4 -75,2" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round">
+        <animate attributeName="d" values="M-30,0 C-45,2 -60,-4 -75,2; M-30,0 C-45,-2 -60,4 -75,-2; M-30,0 C-45,2 -60,-4 -75,2" dur="0.8s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+
+  <!-- 🦑 MYSTERIOUS GIANT SQUID -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="880,80; 450,50; -120,70" dur="19.0s" repeatCount="indefinite" />
+    <g transform="scale(-0.6, 0.6)">
+      <animateTransform attributeName="transform" type="rotate" values="-6; 6; -6" dur="2s" repeatCount="indefinite" />
+      <!-- Mantle Head Cone -->
+      <path d="M10,0 C20,-14 45,-12 55,0 C45,12 20,14 10,0 Z" fill="#be123c" stroke="#881337" stroke-width="1" />
+      <path d="M45,-8 L62,0 L45,8 Z" fill="#e11d48" />
+      <!-- Large Luminous Camera Eye -->
+      <circle cx="18" cy="0" r="4.5" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8" />
+      <circle cx="18" cy="0" r="2.2" fill="#000" />
+      <!-- 8 Trailing Arms + 2 Feeding Tentacles -->
+      <path d="M10,-6 Q-15,-18 -38,-22" stroke="#e11d48" stroke-width="2" fill="none">
+        <animate attributeName="d" values="M10,-6 Q-15,-18 -38,-22; M10,-6 Q-15,-12 -38,-16; M10,-6 Q-15,-18 -38,-22" dur="1.2s" repeatCount="indefinite" />
+      </path>
+      <path d="M10,-2 Q-18,-10 -42,-12" stroke="#be123c" stroke-width="2.2" fill="none">
+        <animate attributeName="d" values="M10,-2 Q-18,-10 -42,-12; M10,-2 Q-18,-5 -42,-8; M10,-2 Q-18,-10 -42,-12" dur="1.0s" repeatCount="indefinite" />
+      </path>
+      <path d="M10,2 Q-18,10 -42,12" stroke="#be123c" stroke-width="2.2" fill="none">
+        <animate attributeName="d" values="M10,2 Q-18,10 -42,12; M10,2 Q-18,5 -42,8; M10,2 Q-18,10 -42,12" dur="1.1s" repeatCount="indefinite" />
+      </path>
+      <path d="M10,6 Q-15,18 -38,22" stroke="#e11d48" stroke-width="2" fill="none">
+        <animate attributeName="d" values="M10,6 Q-15,18 -38,22; M10,6 Q-15,12 -38,16; M10,6 Q-15,18 -38,22" dur="1.3s" repeatCount="indefinite" />
+      </path>
+      <!-- Long Feeding Tentacles with Clubs -->
+      <path d="M10,0 Q-25,-4 -55,-6" stroke="#fb7185" stroke-width="1.8" fill="none">
+        <animate attributeName="d" values="M10,0 Q-25,-4 -55,-6; M10,0 Q-25,2 -55,4; M10,0 Q-25,-4 -55,-6" dur="0.9s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+
+  <!-- 🦐 ANEMONE CLEANER SHRIMP (DANCING ON ANEMONES x=420) -->
+  <g transform="translate(420, 138) scale(0.5)">
+    <animateTransform attributeName="transform" type="translate" values="415,138; 425,135; 415,138" dur="1.5s" repeatCount="indefinite" />
+    <!-- Translucent Banded Body -->
+    <path d="M0,0 Q-12,-8 -22,-2 Q-18,8 0,0 Z" fill="#f472b6" opacity="0.9" stroke="#db2777" stroke-width="0.8" />
+    <path d="M-5,-4 L-5,4 M-12,-5 L-12,5 M-17,-4 L-17,4" stroke="#ffffff" stroke-width="1.5" />
+    <!-- Tail Fan -->
+    <path d="M-22,-2 L-30,-8 L-26,0 L-30,8 Z" fill="#f472b6" stroke="#db2777" stroke-width="0.8" />
+    <!-- Long Antennae -->
+    <path d="M0,-2 Q15,-18 30,-22" stroke="#ffffff" stroke-width="1.2" fill="none">
+      <animate attributeName="d" values="M0,-2 Q15,-18 30,-22; M0,-2 Q15,-12 30,-15; M0,-2 Q15,-18 30,-22" dur="0.5s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,2 Q18,12 32,15" stroke="#ffffff" stroke-width="1.2" fill="none">
+      <animate attributeName="d" values="M0,2 Q18,12 32,15; M0,2 Q18,6 32,8; M0,2 Q18,12 32,15" dur="0.5s" repeatCount="indefinite" />
+    </path>
+    <!-- Claws -->
+    <path d="M0,0 Q8,-8 14,-4" stroke="#db2777" stroke-width="1.5" fill="none" />
+    <circle cx="14" cy="-4" r="1.5" fill="#ffffff" />
+  </g>
+
+  <!-- 🐚 CHAMBERED NAUTILUS -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-60,105; 350,85; 880,100" dur="21.0s" repeatCount="indefinite" />
+    <g transform="scale(0.55)">
+      <animateTransform attributeName="transform" type="rotate" values="-8; 8; -8" dur="2.5s" repeatCount="indefinite" />
+      <!-- Spiral Shell -->
+      <path d="M0,0 C-15,-20 -35,-15 -40,5 C-42,25 -20,38 5,30 C22,25 28,5 15,-12 C2,-25 -20,-22 -30,-8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2" />
+      <!-- Tiger Stripes -->
+      <path d="M-10,-12 Q-18,2 -30,-5 M-5,-18 Q-8,10 -25,12 M5,-8 Q0,18 -15,22 M12,0 Q8,20 -5,25" stroke="#c2410c" stroke-width="2.5" fill="none" />
+      <!-- Hood & Tentacles -->
+      <path d="M15,-5 C22,-10 28,-2 22,8 Z" fill="#7c2d12" />
+      <path d="M22,-4 Q32,-8 38,-4 M22,0 Q34,0 40,3 M22,4 Q32,8 38,10" stroke="#fdba74" stroke-width="1.5" stroke-linecap="round" fill="none">
+        <animate attributeName="d" values="M22,-4 Q32,-8 38,-4 M22,0 Q34,0 40,3 M22,4 Q32,8 38,10; M22,-4 Q32,-4 38,-2 M22,0 Q34,3 40,6 M22,4 Q32,12 38,14; M22,-4 Q32,-8 38,-4 M22,0 Q34,0 40,3 M22,4 Q32,8 38,10" dur="1s" repeatCount="indefinite" />
+      </path>
+      <!-- Eye -->
+      <circle cx="16" cy="2" r="2.5" fill="#000" />
+      <circle cx="17" cy="1" r="0.8" fill="#fff" />
+    </g>
+  </g>
+
+  <!-- 🦪 GIANT TRIDACNA REEF CLAM (Seabed Shelf x=470, y=144) -->
+  <g transform="translate(470, 144) scale(0.65)">
+    <!-- Scalloped Outer Shell -->
+    <path d="M-22,8 C-20,-12 20,-12 22,8 C15,15 -15,15 -22,8 Z" fill="#78350f" stroke="#451a03" stroke-width="1.2" />
+    <path d="M-15,-6 L-18,8 M-5,-10 L-6,8 M5,-10 L6,8 M15,-6 L18,8" stroke="#b45309" stroke-width="1" />
+    <!-- Iridescent Glowing Mantle (Pulsing open & closed) -->
+    <path d="M-18,2 C-12,-6 12,-6 18,2 C12,8 -12,8 -18,2 Z" fill="#8b5cf6" stroke="#06b6d4" stroke-width="1.5">
+      <animate attributeName="d" values="M-18,2 C-12,-6 12,-6 18,2 C12,8 -12,8 -18,2 Z; M-18,2 C-12,-10 12,-10 18,2 C12,12 -12,12 -18,2 Z; M-18,2 C-12,-6 12,-6 18,2 C12,8 -12,8 -18,2 Z" dur="3s" repeatCount="indefinite" />
+    </path>
+    <!-- Mantle Bright Dots -->
+    <circle cx="-8" cy="0" r="1.5" fill="#22d3ee" />
+    <circle cx="0" cy="-2" r="2.0" fill="#f43f5e" />
+    <circle cx="8" cy="0" r="1.5" fill="#22d3ee" />
   </g>
 
   
