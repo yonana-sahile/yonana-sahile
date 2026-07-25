@@ -999,17 +999,16 @@
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.45; 0.65; 0.45" dur="22.0s" repeatCount="indefinite" />
       <g>
-        <animateTransform attributeName="transform" type="rotate" values="-2; 3; -2" pivot="40,40" dur="1.80s" repeatCount="indefinite" />
+        <!-- Fluid Body Flexing (sewunetu enditetatefi - gapless wave undulation) -->
+        <animateTransform attributeName="transform" type="skewX" values="-10; 10; -10" pivot="60,40" dur="1.80s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" pivot="60,40" dur="1.80s" repeatCount="indefinite" />
         <g transform="translate(-85, -44)">
-          <!-- Tail fin segment anchored precisely at joint (115,42) with overlap under body -->
-          <g>
-            <path d="M95,38 C105,32 115,42 115,42 C125,25 145,10 155,8 C155,14 145,25 145,28 C145,31 155,42 155,48 C145,46 125,52 115,42 C115,42 105,44 95,38 Z" fill="#2563eb" />
-            <animateTransform attributeName="transform" type="rotate" values="-10; 10; -10" pivot="115,42" dur="2s" repeatCount="indefinite" />
-          </g>
-          <!-- Whale body path -->
-          <path d="M50,15 C30,15 15,20 5,28 C-5,35 -12,45 -10,55 C-8,65 5,75 25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C110,12 95,12 80,13 C65,14 60,15 50,15 Z" fill="#1e40af" />
+          <!-- Unified Gapless Whale Body & Tail Fluke Path -->
+          <path d="M0,40 C10,25 30,15 50,15 C80,15 105,25 135,40 C160,20 190,5 220,2 C210,18 195,32 180,42 C195,52 210,66 220,82 C190,79 160,64 135,44 C105,62 80,75 25,75 C10,75 -5,58 0,40 Z" fill="#1e40af" />
+          <!-- Flowing Tail Fluke Shading -->
+          <path d="M135,40 C160,20 190,5 220,2 C210,18 195,32 180,42 C195,52 210,66 220,82 C190,79 160,64 135,44 Z" fill="#2563eb" opacity="0.8" />
           <!-- Whale belly -->
-          <path d="M25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C105,47 95,50 80,52 C65,54 45,56 25,55 C15,53 5,48 -5,42 C-2,55 10,75 25,75 Z" fill="#93c5fd" opacity="0.6" />
+          <path d="M25,75 C45,75 75,70 105,62 C135,44 115,50 85,52 C65,54 45,56 25,55 C15,53 5,48 -2,40 C-2,55 10,75 25,75 Z" fill="#93c5fd" opacity="0.6" />
           <!-- Eye -->
           <circle cx="10" cy="40" r="1.5" fill="#ffffff" />
           <circle cx="10" cy="40" r="0.7" fill="#1e3a8a" />
@@ -1029,15 +1028,14 @@
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.25; 0.35; 0.25" dur="22.0s" repeatCount="indefinite" />
       <g>
-        <animateTransform attributeName="transform" type="rotate" values="-3; 4; -3" pivot="40,40" dur="1.62s" repeatCount="indefinite" />
+        <!-- Fluid Body Flexing -->
+        <animateTransform attributeName="transform" type="skewX" values="-12; 12; -12" pivot="60,40" dur="1.62s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="-4; 4; -4" pivot="60,40" dur="1.62s" repeatCount="indefinite" />
         <g transform="translate(-85, -44)">
-          <!-- Tail fin segment anchored precisely at joint (115,42) with overlap under body -->
-          <g>
-            <path d="M95,38 C105,32 115,42 115,42 C125,25 145,10 155,8 C155,14 145,25 145,28 C145,31 155,42 155,48 C145,46 125,52 115,42 C115,42 105,44 95,38 Z" fill="#3b82f6" />
-            <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="115,42" dur="1.7s" repeatCount="indefinite" />
-          </g>
-          <path d="M50,15 C30,15 15,20 5,28 C-5,35 -12,45 -10,55 C-8,65 5,75 25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C110,12 95,12 80,13 C65,14 60,15 50,15 Z" fill="#2563eb" />
-          <path d="M25,75 C40,75 65,70 80,64 C95,58 110,48 118,44 C105,47 95,50 80,52 C65,54 45,56 25,55 C15,53 5,48 -5,42 C-2,55 10,75 25,75 Z" fill="#bfdbfe" opacity="0.6" />
+          <!-- Unified Gapless Whale Body & Tail Fluke Path -->
+          <path d="M0,40 C10,25 30,15 50,15 C80,15 105,25 135,40 C160,20 190,5 220,2 C210,18 195,32 180,42 C195,52 210,66 220,82 C190,79 160,64 135,44 C105,62 80,75 25,75 C10,75 -5,58 0,40 Z" fill="#2563eb" />
+          <path d="M135,40 C160,20 190,5 220,2 C210,18 195,32 180,42 C195,52 210,66 220,82 C190,79 160,64 135,44 Z" fill="#3b82f6" opacity="0.8" />
+          <path d="M25,75 C45,75 75,70 105,62 C135,44 115,50 85,52 C65,54 45,56 25,55 C15,53 5,48 -2,40 C-2,55 10,75 25,75 Z" fill="#bfdbfe" opacity="0.6" />
           <circle cx="10" cy="40" r="1.5" fill="#ffffff" />
           <circle cx="10" cy="40" r="0.7" fill="#1d4ed8" />
           <g>
@@ -1049,25 +1047,23 @@
     </g>
   </g>
 
-  <!-- 🦈 SHARK 1: Majestic Slow & Power Tail MULTIPLE -->
+  <!-- 🦈 SHARK 1: Gapless Unified Flexing Body & Ribbon Tail -->
   <!-- Shark 1A (Main Shark) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="-120,20; 220,65; 550,110; 950,50" dur="9.0s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.45; 0.75; 0.45" dur="9.0s" repeatCount="indefinite" />
       <g>
-        <!-- Coordinated body pitch / tilt -->
-        <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" pivot="10,0" dur="1.60s" repeatCount="indefinite" />
+        <!-- Fluid Body Flexing (sewunetu enditetatefi - gapless wave undulation) -->
+        <animateTransform attributeName="transform" type="skewX" values="-15; 15; -15" pivot="0,0" dur="1.60s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" pivot="0,0" dur="1.60s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <!-- Tail fin - anchored precisely at joint (-60,0) with overlap inside body -->
-          <g>
-            <path d="M-45,0 C-52,-4 -60,0 -60,0 C-68,-8 -85,-22 -85,-12 C-85,-2 -72,0 -70,0 C-72,0 -85,2 -85,12 C-85,22 -68,8 -60,0 C-60,0 -52,4 -45,0 Z" fill="#334155" />
-            <animateTransform attributeName="transform" type="rotate" values="-16; 16; -16" pivot="-60,0" dur="1.60s" repeatCount="indefinite" />
-          </g>
-          <!-- Body path -->
-          <path d="M-60,0 C-40,-15 -10,-22 25,-12 C45,-5 65,5 85,8 C70,12 40,15 10,12 C-15,10 -40,12 -60,0 Z" fill="#475569" />
+          <!-- Unified Gapless Shark Body & Tail Fin Path -->
+          <path d="M85,0 C65,5 45,-5 25,-12 C-10,-22 -30,-12 -60,-6 C-90,-12 -120,-25 -150,-35 C-138,-15 -118,-3 -95,0 C-118,3 -138,15 -150,35 C-120,25 -90,12 -60,6 C-30,12 10,12 40,10 C60,8 75,4 85,0 Z" fill="#475569" />
+          <!-- Tail Shading -->
+          <path d="M-60,-6 C-90,-12 -120,-25 -150,-35 C-138,-15 -118,-3 -95,0 C-118,3 -138,15 -150,35 C-120,25 -90,12 -60,6 Z" fill="#334155" opacity="0.8" />
           <!-- Belly path -->
-          <path d="M10,12 C-15,10 -40,12 -60,0 C-45,8 -20,13 10,12 Z" fill="#f1f5f9" opacity="0.8" />
+          <path d="M10,12 C-15,10 -40,12 -60,6 C-75,4 -85,0 -85,0 C-65,8 -20,13 10,12 Z" fill="#f1f5f9" opacity="0.8" />
           <!-- Dorsal fin -->
           <path d="M-15,-18 C-10,-35 5,-40 2,-20 C0,-14 -5,-12 -15,-18 Z" fill="#334155" />
           <!-- Pectoral fin -->
@@ -1088,20 +1084,13 @@
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.32; 0.52; 0.32" dur="7.6s" repeatCount="indefinite" />
       <g>
-        <animateTransform attributeName="transform" type="rotate" values="-2.5; 2.5; -2.5" pivot="10,0" dur="1.52s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="skewX" values="-18; 18; -18" pivot="0,0" dur="1.52s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="-3.5; 3.5; -3.5" pivot="0,0" dur="1.52s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <!-- Tail fin - anchored precisely at joint (-60,0) -->
-          <g>
-            <path d="M-45,0 C-52,-4 -60,0 -60,0 C-68,-8 -85,-22 -85,-12 C-85,-2 -72,0 -70,0 C-72,0 -85,2 -85,12 C-85,22 -68,8 -60,0 C-60,0 -52,4 -45,0 Z" fill="#475569" />
-            <animateTransform attributeName="transform" type="rotate" values="-18; 18; -18" pivot="-60,0" dur="1.52s" repeatCount="indefinite" />
-          </g>
-          <!-- Body path -->
-          <path d="M-60,0 C-40,-15 -10,-22 25,-12 C45,-5 65,5 85,8 C70,12 40,15 10,12 C-15,10 -40,12 -60,0 Z" fill="#64748b" />
-          <!-- Belly path -->
-          <path d="M10,12 C-15,10 -40,12 -60,0 C-45,8 -20,13 10,12 Z" fill="#f8fafc" opacity="0.8" />
-          <!-- Dorsal fin -->
+          <path d="M85,0 C65,5 45,-5 25,-12 C-10,-22 -30,-12 -60,-6 C-90,-12 -120,-25 -150,-35 C-138,-15 -118,-3 -95,0 C-118,3 -138,15 -150,35 C-120,25 -90,12 -60,6 C-30,12 10,12 40,10 C60,8 75,4 85,0 Z" fill="#64748b" />
+          <path d="M-60,-6 C-90,-12 -120,-25 -150,-35 C-138,-15 -118,-3 -95,0 C-118,3 -138,15 -150,35 C-120,25 -90,12 -60,6 Z" fill="#475569" opacity="0.8" />
+          <path d="M10,12 C-15,10 -40,12 -60,6 C-75,4 -85,0 -85,0 C-65,8 -20,13 10,12 Z" fill="#f8fafc" opacity="0.8" />
           <path d="M-15,-18 C-10,-35 5,-40 2,-20 C0,-14 -5,-12 -15,-18 Z" fill="#475569" />
-          <!-- Pectoral fin -->
           <g>
             <path d="M15,8 C18,18 25,28 30,30 C31,29 28,24 22,10 Z" fill="#475569" />
             <animateTransform attributeName="transform" type="rotate" values="-5; 7; -5" pivot="15,8" dur="2.00s" repeatCount="indefinite" />
@@ -1113,27 +1102,21 @@
     </g>
   </g>
 
-  <!-- 🦈 SHARK 2: Deep Sea Voyager MULTIPLE -->
+  <!-- 🦈 SHARK 2: Gapless Unified Deep Sea Voyager -->
   <!-- Shark 2A (Main Deep Shark) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="950,120; 600,70; 300,50; -120,30" dur="11.0s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.6; 0.35; 0.6" dur="11.0s" repeatCount="indefinite" />
       <g>
-        <animateTransform attributeName="transform" type="rotate" values="2; -2; 2" pivot="-10,0" dur="2.00s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="skewX" values="15; -15; 15" pivot="0,0" dur="2.00s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="3; -3; 3" pivot="0,0" dur="2.00s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <!-- Tail fin - anchored precisely at joint (60,0) -->
-          <g>
-            <path d="M45,0 C52,-4 60,0 60,0 C68,-8 85,-22 85,-12 C85,-2 72,0 70,0 C72,0 85,2 85,12 C85,22 68,8 60,0 C60,0 52,4 45,0 Z" fill="#0f172a" />
-            <animateTransform attributeName="transform" type="rotate" values="-15; 15; -15" pivot="60,0" dur="2.00s" repeatCount="indefinite" />
-          </g>
-          <!-- Body path -->
-          <path d="M60,0 C40,-15 10,-22 -25,-12 C-45,-5 -65,5 -85,8 C-70,12 -40,15 -10,12 C15,10 40,12 60,0 Z" fill="#1e293b" />
-          <!-- Belly path -->
-          <path d="M-10,12 C15,10 40,12 60,0 C45,8 20,13 -10,12 Z" fill="#94a3b8" opacity="0.6" />
-          <!-- Dorsal fin -->
+          <!-- Unified Gapless Shark Body & Tail Fin Path (facing right to left) -->
+          <path d="M-85,0 C-65,5 -45,-5 -25,-12 C10,-22 30,-12 60,-6 C90,-12 120,-25 150,-35 C138,-15 118,-3 95,0 C118,3 138,15 150,35 C120,25 90,12 60,6 C30,12 -10,12 -40,10 C-60,8 -75,4 -85,0 Z" fill="#1e293b" />
+          <path d="M60,-6 C90,-12 120,-25 150,-35 C138,-15 118,-3 95,0 C118,3 138,15 150,35 C120,25 90,12 60,-6 Z" fill="#0f172a" opacity="0.8" />
+          <path d="M-10,12 C15,10 40,12 60,6 C75,4 85,0 85,0 C65,8 20,13 -10,12 Z" fill="#94a3b8" opacity="0.6" />
           <path d="M15,-18 C10,-35 -5,-40 -2,-20 C0,-14 5,-12 15,-18 Z" fill="#0f172a" />
-          <!-- Pectoral fin -->
           <g>
             <path d="M-15,8 C-18,18 -25,28 -30,30 C-31,29 -28,24 -22,10 Z" fill="#0f172a" />
             <animateTransform attributeName="transform" type="rotate" values="4; -6; 4" pivot="-15,8" dur="2.70s" repeatCount="indefinite" />
@@ -1145,26 +1128,19 @@
     </g>
   </g>
 
-  <!-- Shark 2B (Deeper, darker shadow voyager) -->
+  <!-- Shark 2B (Deeper shadow voyager) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="1000,135; 650,95; 250,75; -150,55" dur="12.6s" begin="2.5s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.45; 0.25; 0.45" dur="12.6s" repeatCount="indefinite" />
       <g>
-        <animateTransform attributeName="transform" type="rotate" values="1.5; -1.5; 1.5" pivot="-10,0" dur="2.20s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="skewX" values="18; -18; 18" pivot="0,0" dur="2.20s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="3.5; -3.5; 3.5" pivot="0,0" dur="2.20s" repeatCount="indefinite" />
         <g transform="translate(0, 5) opacity(0.55)">
-          <!-- Tail fin - anchored precisely at joint (60,0) -->
-          <g>
-            <path d="M45,0 C52,-4 60,0 60,0 C68,-8 85,-22 85,-12 C85,-2 72,0 70,0 C72,0 85,2 85,12 C85,22 68,8 60,0 C60,0 52,4 45,0 Z" fill="#020617" />
-            <animateTransform attributeName="transform" type="rotate" values="-12; 12; -12" pivot="60,0" dur="2.20s" repeatCount="indefinite" />
-          </g>
-          <!-- Body path -->
-          <path d="M60,0 C40,-15 10,-22 -25,-12 C-45,-5 -65,5 -85,8 C-70,12 -40,15 -10,12 C15,10 40,12 60,0 Z" fill="#090d16" />
-          <!-- Belly path -->
+          <path d="M-85,0 C-65,5 -45,-5 -25,-12 C10,-22 30,-12 60,-6 C90,-12 120,-25 150,-35 C138,-15 118,-3 95,0 C118,3 138,15 150,35 C120,25 90,12 60,6 C30,12 -10,12 -40,10 C-60,8 -75,4 -85,0 Z" fill="#090d16" />
+          <path d="M60,-6 C90,-12 120,-25 150,-35 C138,-15 118,-3 95,0 C118,3 138,15 150,35 C120,25 90,12 60,-6 Z" fill="#020617" opacity="0.8" />
           <path d="M-10,12 C15,10 40,12 60,0 C45,8 20,13 -10,12 Z" fill="#475569" opacity="0.4" />
-          <!-- Dorsal fin -->
           <path d="M15,-18 C10,-35 -5,-40 -2,-20 C0,-14 5,-12 15,-18 Z" fill="#020617" />
-          <!-- Pectoral fin -->
           <g>
             <path d="M-15,8 C-18,18 -25,28 -30,30 C-31,29 -28,24 -22,10 Z" fill="#020617" />
             <animateTransform attributeName="transform" type="rotate" values="3; -5; 3" pivot="-15,8" dur="2.80s" repeatCount="indefinite" />
