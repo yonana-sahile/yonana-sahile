@@ -993,160 +993,183 @@
     </g>
   </g>
 
-  <!-- Whale 1: Mother Whale -->
+  <!-- Whale 1: Mother Blue Whale (matching reference Image 2) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="950,110; 550,50; 200,40; -220,70" dur="22.0s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.45; 0.65; 0.45" dur="22.0s" repeatCount="indefinite" />
       <g>
-        <!-- Fluid Body Flexing (sewunetu enditetatefi - gapless wave undulation) -->
-        <animateTransform attributeName="transform" type="skewX" values="-10; 10; -10" pivot="60,40" dur="1.80s" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" pivot="60,40" dur="1.80s" repeatCount="indefinite" />
-        <g transform="translate(-85, -44)">
-          <!-- Unified Gapless Whale Body & Tail Fluke Path -->
-          <path d="M0,40 C10,25 30,15 50,15 C80,15 105,25 135,40 C160,20 190,5 220,2 C210,18 195,32 180,42 C195,52 210,66 220,82 C190,79 160,64 135,44 C105,62 80,75 25,75 C10,75 -5,58 0,40 Z" fill="#1e40af" />
-          <!-- Flowing Tail Fluke Shading -->
-          <path d="M135,40 C160,20 190,5 220,2 C210,18 195,32 180,42 C195,52 210,66 220,82 C190,79 160,64 135,44 Z" fill="#2563eb" opacity="0.8" />
-          <!-- Whale belly -->
-          <path d="M25,75 C45,75 75,70 105,62 C135,44 115,50 85,52 C65,54 45,56 25,55 C15,53 5,48 -2,40 C-2,55 10,75 25,75 Z" fill="#93c5fd" opacity="0.6" />
+        <!-- Fluid Body Flexing -->
+        <animateTransform attributeName="transform" type="skewX" values="-10; 10; -10" pivot="100,30" dur="1.80s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" pivot="100,30" dur="1.80s" repeatCount="indefinite" />
+        <g transform="translate(-100, -30)">
+          <!-- Ultra-Sleek Torpedo Blue Whale Body & Wide Fluke (Matching aerial Image 2) -->
+          <path d="M0,30 C12,18 45,12 95,12 C145,12 185,22 215,30 C230,20 240,10 250,8 C242,20 235,26 228,30 C235,34 242,40 250,52 C240,50 230,40 215,30 C185,38 145,48 95,48 C45,48 12,42 0,30 Z" fill="#0284c7" />
+          <!-- Turquoise Glistening Dorsal Overlay -->
+          <path d="M10,30 C25,20 55,16 95,16 C135,16 175,24 205,30 C175,34 135,42 95,42 C55,42 25,40 10,30 Z" fill="#38bdf8" opacity="0.65" />
+          <!-- Bright Water-Dappled Center Ridge Highlight -->
+          <path d="M30,30 C50,23 80,20 105,20 C130,20 160,25 185,30 C160,33 130,36 105,36 C80,36 50,37 30,30 Z" fill="#e0f2fe" opacity="0.8" />
+          <!-- Triangular Fluke Shading -->
+          <path d="M215,30 C230,20 240,10 250,8 C242,20 235,26 228,30 C235,34 242,40 250,52 C240,50 230,40 215,30 Z" fill="#06b6d4" opacity="0.85" />
+          <!-- Sleek Ventral Belly -->
+          <path d="M30,44 C65,48 105,48 155,42 C185,38 215,30 C190,36 150,42 105,43 C65,43 35,41 0,30 C12,38 22,42 30,44 Z" fill="#bae6fd" opacity="0.75" />
           <!-- Eye -->
-          <circle cx="10" cy="40" r="1.5" fill="#ffffff" />
-          <circle cx="10" cy="40" r="0.7" fill="#1e3a8a" />
-          <!-- Flippers -->
+          <circle cx="15" cy="28" r="1.4" fill="#ffffff" />
+          <circle cx="15" cy="28" r="0.7" fill="#0c4a6e" />
+          <!-- Long Sleek Blue Whale Flippers -->
           <g>
-            <path d="M60,54 C55,65 48,78 35,82 C32,83 31,80 34,77 C42,70 52,58 55,53 Z" fill="#1d4ed8" />
-            <animateTransform attributeName="transform" type="rotate" values="-8; 12; -8" pivot="60,54" dur="2.5s" repeatCount="indefinite" />
+            <path d="M70,42 C65,55 58,68 42,73 C39,74 38,71 41,68 C50,60 62,47 65,41 Z" fill="#0284c7" />
+            <path d="M70,42 C65,55 58,68 42,73 C39,74 38,71 41,68 Z" fill="#38bdf8" opacity="0.6" />
+            <animateTransform attributeName="transform" type="rotate" values="-8; 10; -8" pivot="70,42" dur="2.5s" repeatCount="indefinite" />
           </g>
         </g>
       </g>
     </g>
   </g>
 
-  <!-- Whale 2: Baby Whale (swims with mother, smaller, staggered) -->
+  <!-- Whale 2: Baby Blue Whale (matching reference Image 2) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="1020,130; 620,70; 270,55; -150,85" dur="22.0s" begin="0.8s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.25; 0.35; 0.25" dur="22.0s" repeatCount="indefinite" />
       <g>
         <!-- Fluid Body Flexing -->
-        <animateTransform attributeName="transform" type="skewX" values="-12; 12; -12" pivot="60,40" dur="1.62s" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" values="-4; 4; -4" pivot="60,40" dur="1.62s" repeatCount="indefinite" />
-        <g transform="translate(-85, -44)">
-          <!-- Unified Gapless Whale Body & Tail Fluke Path -->
-          <path d="M0,40 C10,25 30,15 50,15 C80,15 105,25 135,40 C160,20 190,5 220,2 C210,18 195,32 180,42 C195,52 210,66 220,82 C190,79 160,64 135,44 C105,62 80,75 25,75 C10,75 -5,58 0,40 Z" fill="#2563eb" />
-          <path d="M135,40 C160,20 190,5 220,2 C210,18 195,32 180,42 C195,52 210,66 220,82 C190,79 160,64 135,44 Z" fill="#3b82f6" opacity="0.8" />
-          <path d="M25,75 C45,75 75,70 105,62 C135,44 115,50 85,52 C65,54 45,56 25,55 C15,53 5,48 -2,40 C-2,55 10,75 25,75 Z" fill="#bfdbfe" opacity="0.6" />
-          <circle cx="10" cy="40" r="1.5" fill="#ffffff" />
-          <circle cx="10" cy="40" r="0.7" fill="#1d4ed8" />
+        <animateTransform attributeName="transform" type="skewX" values="-12; 12; -12" pivot="100,30" dur="1.62s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" pivot="100,30" dur="1.62s" repeatCount="indefinite" />
+        <g transform="translate(-100, -30)">
+          <!-- Sleek Torpedo Body & Wide Fluke -->
+          <path d="M0,30 C12,18 45,12 95,12 C145,12 185,22 215,30 C230,20 240,10 250,8 C242,20 235,26 228,30 C235,34 242,40 250,52 C240,50 230,40 215,30 C185,38 145,48 95,48 C45,48 12,42 0,30 Z" fill="#0369a1" />
+          <path d="M10,30 C25,20 55,16 95,16 C135,16 175,24 205,30 C175,34 135,42 95,42 C55,42 25,40 10,30 Z" fill="#38bdf8" opacity="0.7" />
+          <path d="M30,30 C50,23 80,20 105,20 C130,20 160,25 185,30 C160,33 130,36 105,36 C80,36 50,37 30,30 Z" fill="#f0f9ff" opacity="0.85" />
+          <path d="M215,30 C230,20 240,10 250,8 C242,20 235,26 228,30 C235,34 242,40 250,52 C240,50 230,40 215,30 Z" fill="#0284c7" opacity="0.85" />
+          <path d="M30,44 C65,48 105,48 155,42 C185,38 215,30 C190,36 150,42 105,43 C65,43 35,41 0,30 C12,38 22,42 30,44 Z" fill="#bae6fd" opacity="0.75" />
+          <circle cx="15" cy="28" r="1.4" fill="#ffffff" />
+          <circle cx="15" cy="28" r="0.7" fill="#0c4a6e" />
           <g>
-            <path d="M60,54 C55,65 48,78 35,82 C32,83 31,80 34,77 C42,70 52,58 55,53 Z" fill="#3b82f6" />
-            <animateTransform attributeName="transform" type="rotate" values="-10; 15; -10" pivot="60,54" dur="2.1s" repeatCount="indefinite" />
+            <path d="M70,42 C65,55 58,68 42,73 C39,74 38,71 41,68 C50,60 62,47 65,41 Z" fill="#0369a1" />
+            <animateTransform attributeName="transform" type="rotate" values="-10; 15; -10" pivot="70,42" dur="2.1s" repeatCount="indefinite" />
           </g>
         </g>
       </g>
     </g>
   </g>
 
-  <!-- 🦈 SHARK 1: Gapless Unified Flexing Body & Ribbon Tail -->
+  <!-- 🦈 SHARK 1: Grey Reef Shark (Matching reference Image 1) -->
   <!-- Shark 1A (Main Shark) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="-120,20; 220,65; 550,110; 950,50" dur="9.0s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.45; 0.75; 0.45" dur="9.0s" repeatCount="indefinite" />
       <g>
-        <!-- Fluid Body Flexing (sewunetu enditetatefi - gapless wave undulation) -->
-        <animateTransform attributeName="transform" type="skewX" values="-15; 15; -15" pivot="0,0" dur="1.60s" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" pivot="0,0" dur="1.60s" repeatCount="indefinite" />
+        <!-- Fluid Body Flexing -->
+        <animateTransform attributeName="transform" type="skewX" values="-12; 12; -12" pivot="0,0" dur="1.60s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="-2.5; 2.5; -2.5" pivot="0,0" dur="1.60s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <!-- Unified Gapless Shark Body & Tail Fin Path -->
-          <path d="M85,0 C65,5 45,-5 25,-12 C-10,-22 -30,-12 -60,-6 C-90,-12 -120,-25 -150,-35 C-138,-15 -118,-3 -95,0 C-118,3 -138,15 -150,35 C-120,25 -90,12 -60,6 C-30,12 10,12 40,10 C60,8 75,4 85,0 Z" fill="#475569" />
-          <!-- Tail Shading -->
-          <path d="M-60,-6 C-90,-12 -120,-25 -150,-35 C-138,-15 -118,-3 -95,0 C-118,3 -138,15 -150,35 C-120,25 -90,12 -60,6 Z" fill="#334155" opacity="0.8" />
-          <!-- Belly path -->
-          <path d="M10,12 C-15,10 -40,12 -60,6 C-75,4 -85,0 -85,0 C-65,8 -20,13 10,12 Z" fill="#f1f5f9" opacity="0.8" />
-          <!-- Dorsal fin -->
-          <path d="M-15,-18 C-10,-35 5,-40 2,-20 C0,-14 -5,-12 -15,-18 Z" fill="#334155" />
-          <!-- Pectoral fin -->
+          <!-- Main Metallic Silver-Grey Body (Exact Profile from Image 1) -->
+          <path d="M100,0 C80,4 50,-8 20,-12 C-20,-16 -50,-10 -80,-5 C-95,-12 -112,-24 -125,-28 C-115,-14 -102,-4 -90,0 C-102,4 -115,14 -122,24 C-112,18 -95,10 -80,-5 C-50,8 -20,10 15,9 C45,8 78,4 100,0 Z" fill="#475569" />
+          
+          <!-- White Counter-Shaded Ventral Belly (Image 1) -->
+          <path d="M30,7 C-10,9 -45,6 -80,-5 C-65,3 -20,5 15,5 C45,4 75,2 100,0 C80,4 55,6 30,7 Z" fill="#f8fafc" opacity="0.9" />
+
+          <!-- High-Standing Triangular First Dorsal Fin (Image 1) -->
+          <path d="M0,-10 C5,-32 20,-38 12,-12 C9,-7 4,-6 0,-10 Z" fill="#334155" />
+          <!-- Dark Tip on Dorsal Fin -->
+          <path d="M10,-28 C15,-35 20,-38 12,-12 C10,-20 8,-25 10,-28 Z" fill="#0f172a" />
+
+          <!-- Small Second Dorsal Fin & Anal Fin -->
+          <path d="M-55,-7 C-52,-14 -44,-16 -47,-7 Z" fill="#334155" />
+          <path d="M-50,6 C-47,12 -40,14 -43,6 Z" fill="#334155" />
+
+          <!-- Blade-Like Pectoral Fin (Image 1) -->
           <g>
-            <path d="M15,8 C18,18 25,28 30,30 C31,29 28,24 22,10 Z" fill="#334155" />
-            <animateTransform attributeName="transform" type="rotate" values="-5; 7; -5" pivot="15,8" dur="2.08s" repeatCount="indefinite" />
+            <path d="M25,6 C28,18 36,32 44,35 C45,34 40,26 32,10 Z" fill="#334155" />
+            <animateTransform attributeName="transform" type="rotate" values="-5; 7; -5" pivot="25,6" dur="2.08s" repeatCount="indefinite" />
           </g>
-          <circle cx="55" cy="0" r="1.5" fill="#000000" />
-          <path d="M35,-3 L33,3 M39,-3 L37,3 M43,-3 L41,3" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" />
+
+          <!-- Shark Caudal Fin (Tail) with Dark Upper Lobe Edge -->
+          <path d="M-80,-5 C-95,-12 -112,-24 -125,-28 C-115,-14 -102,-4 -90,0 C-102,4 -115,14 -122,24 C-112,18 -95,10 -80,-5 Z" fill="#334155" />
+          <path d="M-90,0 C-105,-12 -120,-22 -125,-28 C-120,-24 -110,-14 -90,0 Z" fill="#0f172a" opacity="0.8" />
+
+          <!-- Eye and Gill Slits (Image 1) -->
+          <circle cx="75" cy="-2" r="1.5" fill="#0f172a" />
+          <circle cx="75.3" cy="-2.2" r="0.5" fill="#ffffff" />
+          <path d="M50,-3 L48,3 M54,-3 L52,3 M58,-3 L56,3 M62,-3 L60,3 M66,-3 L64,3" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" />
         </g>
       </g>
     </g>
   </g>
 
-  <!-- Shark 1B (Small Follower) -->
+  <!-- Shark 1B (Small Follower Shark matching Image 1) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="-160,10; 240,40; 580,75; 950,25" dur="7.6s" begin="1.2s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.32; 0.52; 0.32" dur="7.6s" repeatCount="indefinite" />
       <g>
-        <animateTransform attributeName="transform" type="skewX" values="-18; 18; -18" pivot="0,0" dur="1.52s" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" values="-3.5; 3.5; -3.5" pivot="0,0" dur="1.52s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="skewX" values="-15; 15; -15" pivot="0,0" dur="1.52s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" pivot="0,0" dur="1.52s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <path d="M85,0 C65,5 45,-5 25,-12 C-10,-22 -30,-12 -60,-6 C-90,-12 -120,-25 -150,-35 C-138,-15 -118,-3 -95,0 C-118,3 -138,15 -150,35 C-120,25 -90,12 -60,6 C-30,12 10,12 40,10 C60,8 75,4 85,0 Z" fill="#64748b" />
-          <path d="M-60,-6 C-90,-12 -120,-25 -150,-35 C-138,-15 -118,-3 -95,0 C-118,3 -138,15 -150,35 C-120,25 -90,12 -60,6 Z" fill="#475569" opacity="0.8" />
-          <path d="M10,12 C-15,10 -40,12 -60,6 C-75,4 -85,0 -85,0 C-65,8 -20,13 10,12 Z" fill="#f8fafc" opacity="0.8" />
-          <path d="M-15,-18 C-10,-35 5,-40 2,-20 C0,-14 -5,-12 -15,-18 Z" fill="#475569" />
+          <path d="M100,0 C80,4 50,-8 20,-12 C-20,-16 -50,-10 -80,-5 C-95,-12 -112,-24 -125,-28 C-115,-14 -102,-4 -90,0 C-102,4 -115,14 -122,24 C-112,18 -95,10 -80,-5 C-50,8 -20,10 15,9 C45,8 78,4 100,0 Z" fill="#64748b" />
+          <path d="M30,7 C-10,9 -45,6 -80,-5 C-65,3 -20,5 15,5 C45,4 75,2 100,0 C80,4 55,6 30,7 Z" fill="#f8fafc" opacity="0.9" />
+          <path d="M0,-10 C5,-32 20,-38 12,-12 C9,-7 4,-6 0,-10 Z" fill="#475569" />
+          <path d="M10,-28 C15,-35 20,-38 12,-12 C10,-20 8,-25 10,-28 Z" fill="#1e293b" />
           <g>
-            <path d="M15,8 C18,18 25,28 30,30 C31,29 28,24 22,10 Z" fill="#475569" />
-            <animateTransform attributeName="transform" type="rotate" values="-5; 7; -5" pivot="15,8" dur="2.00s" repeatCount="indefinite" />
+            <path d="M25,6 C28,18 36,32 44,35 C45,34 40,26 32,10 Z" fill="#475569" />
+            <animateTransform attributeName="transform" type="rotate" values="-5; 7; -5" pivot="25,6" dur="2.00s" repeatCount="indefinite" />
           </g>
-          <circle cx="55" cy="0" r="1.2" fill="#000000" />
-          <path d="M35,-3 L33,3 M39,-3 L37,3 M43,-3 L41,3" stroke="#334155" stroke-width="1.0" stroke-linecap="round" />
+          <path d="M-80,-5 C-95,-12 -112,-24 -125,-28 C-115,-14 -102,-4 -90,0 C-102,4 -115,14 -122,24 C-112,18 -95,10 -80,-5 Z" fill="#475569" />
+          <circle cx="75" cy="-2" r="1.3" fill="#0f172a" />
+          <path d="M50,-3 L48,3 M54,-3 L52,3 M58,-3 L56,3 M62,-3 L60,3" stroke="#334155" stroke-width="1.0" stroke-linecap="round" />
         </g>
       </g>
     </g>
   </g>
 
-  <!-- 🦈 SHARK 2: Gapless Unified Deep Sea Voyager -->
-  <!-- Shark 2A (Main Deep Shark) -->
+  <!-- 🦈 SHARK 2: Deep Sea Voyager Shark (Matching reference Image 1) -->
+  <!-- Shark 2A (Main Deep Shark facing right-to-left) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="950,120; 600,70; 300,50; -120,30" dur="11.0s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.6; 0.35; 0.6" dur="11.0s" repeatCount="indefinite" />
       <g>
-        <animateTransform attributeName="transform" type="skewX" values="15; -15; 15" pivot="0,0" dur="2.00s" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" values="3; -3; 3" pivot="0,0" dur="2.00s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="skewX" values="12; -12; 12" pivot="0,0" dur="2.00s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="2.5; -2.5; 2.5" pivot="0,0" dur="2.00s" repeatCount="indefinite" />
         <g transform="translate(0, 5)">
-          <!-- Unified Gapless Shark Body & Tail Fin Path (facing right to left) -->
-          <path d="M-85,0 C-65,5 -45,-5 -25,-12 C10,-22 30,-12 60,-6 C90,-12 120,-25 150,-35 C138,-15 118,-3 95,0 C118,3 138,15 150,35 C120,25 90,12 60,6 C30,12 -10,12 -40,10 C-60,8 -75,4 -85,0 Z" fill="#1e293b" />
-          <path d="M60,-6 C90,-12 120,-25 150,-35 C138,-15 118,-3 95,0 C118,3 138,15 150,35 C120,25 90,12 60,-6 Z" fill="#0f172a" opacity="0.8" />
-          <path d="M-10,12 C15,10 40,12 60,6 C75,4 85,0 85,0 C65,8 20,13 -10,12 Z" fill="#94a3b8" opacity="0.6" />
-          <path d="M15,-18 C10,-35 -5,-40 -2,-20 C0,-14 5,-12 15,-18 Z" fill="#0f172a" />
+          <path d="M-100,0 C-80,4 -50,-8 -20,-12 C20,-16 50,-10 80,-5 C95,-12 112,-24 125,-28 C115,-14 102,-4 90,0 C102,4 115,14 122,24 C112,18 95,10 80,-5 C50,8 20,10 -15,9 C-45,8 -78,4 -100,0 Z" fill="#1e293b" />
+          <path d="M-30,7 C10,9 45,6 80,-5 C65,3 20,5 -15,5 C-45,4 -75,2 -100,0 C-80,4 -55,6 -30,7 Z" fill="#94a3b8" opacity="0.65" />
+          <path d="M0,-10 C-5,-32 -20,-38 -12,-12 C-9,-7 -4,-6 0,-10 Z" fill="#0f172a" />
+          <path d="M-10,-28 C-15,-35 -20,-38 -12,-12 C-10,-20 -8,-25 -10,-28 Z" fill="#020617" />
           <g>
-            <path d="M-15,8 C-18,18 -25,28 -30,30 C-31,29 -28,24 -22,10 Z" fill="#0f172a" />
-            <animateTransform attributeName="transform" type="rotate" values="4; -6; 4" pivot="-15,8" dur="2.70s" repeatCount="indefinite" />
+            <path d="M-25,6 C-28,18 -36,32 -44,35 C-45,34 -40,26 -32,10 Z" fill="#0f172a" />
+            <animateTransform attributeName="transform" type="rotate" values="4; -6; 4" pivot="-25,6" dur="2.70s" repeatCount="indefinite" />
           </g>
-          <circle cx="-55" cy="0" r="1.5" fill="#ef4444" />
-          <path d="M-35,-3 L-33,3 M-39,-3 L-37,3 M-43,-3 L-41,3" stroke="#020617" stroke-width="1.2" stroke-linecap="round" />
+          <path d="M80,-5 C95,-12 112,-24 125,-28 C115,-14 102,-4 90,0 C102,4 115,14 122,24 C112,18 95,10 80,-5 Z" fill="#0f172a" />
+          <circle cx="-75" cy="-2" r="1.5" fill="#ef4444" />
+          <circle cx="-75.3" cy="-2.2" r="0.5" fill="#ffffff" />
+          <path d="M-50,-3 L-48,3 M-54,-3 L-52,3 M-58,-3 L-56,3 M-62,-3 L-60,3 M-66,-3 L-64,3" stroke="#020617" stroke-width="1.2" stroke-linecap="round" />
         </g>
       </g>
     </g>
   </g>
 
-  <!-- Shark 2B (Deeper shadow voyager) -->
+  <!-- Shark 2B (Deeper shadow voyager matching Image 1 shape) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="1000,135; 650,95; 250,75; -150,55" dur="12.6s" begin="2.5s" repeatCount="indefinite" />
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.45; 0.25; 0.45" dur="12.6s" repeatCount="indefinite" />
       <g>
-        <animateTransform attributeName="transform" type="skewX" values="18; -18; 18" pivot="0,0" dur="2.20s" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" values="3.5; -3.5; 3.5" pivot="0,0" dur="2.20s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="skewX" values="15; -15; 15" pivot="0,0" dur="2.20s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="rotate" values="3; -3; 3" pivot="0,0" dur="2.20s" repeatCount="indefinite" />
         <g transform="translate(0, 5) opacity(0.55)">
-          <path d="M-85,0 C-65,5 -45,-5 -25,-12 C10,-22 30,-12 60,-6 C90,-12 120,-25 150,-35 C138,-15 118,-3 95,0 C118,3 138,15 150,35 C120,25 90,12 60,6 C30,12 -10,12 -40,10 C-60,8 -75,4 -85,0 Z" fill="#090d16" />
-          <path d="M60,-6 C90,-12 120,-25 150,-35 C138,-15 118,-3 95,0 C118,3 138,15 150,35 C120,25 90,12 60,-6 Z" fill="#020617" opacity="0.8" />
-          <path d="M-10,12 C15,10 40,12 60,0 C45,8 20,13 -10,12 Z" fill="#475569" opacity="0.4" />
-          <path d="M15,-18 C10,-35 -5,-40 -2,-20 C0,-14 5,-12 15,-18 Z" fill="#020617" />
+          <path d="M-100,0 C-80,4 -50,-8 -20,-12 C20,-16 50,-10 80,-5 C95,-12 112,-24 125,-28 C115,-14 102,-4 90,0 C102,4 115,14 122,24 C112,18 95,10 80,-5 C50,8 20,10 -15,9 C-45,8 -78,4 -100,0 Z" fill="#090d16" />
+          <path d="M-30,7 C10,9 45,6 80,-5 C65,3 20,5 -15,5 C-45,4 -75,2 -100,0 C-80,4 -55,6 -30,7 Z" fill="#475569" opacity="0.4" />
+          <path d="M0,-10 C-5,-32 -20,-38 -12,-12 C-9,-7 -4,-6 0,-10 Z" fill="#020617" />
           <g>
-            <path d="M-15,8 C-18,18 -25,28 -30,30 C-31,29 -28,24 -22,10 Z" fill="#020617" />
-            <animateTransform attributeName="transform" type="rotate" values="3; -5; 3" pivot="-15,8" dur="2.80s" repeatCount="indefinite" />
+            <path d="M-25,6 C-28,18 -36,32 -44,35 C-45,34 -40,26 -32,10 Z" fill="#020617" />
+            <animateTransform attributeName="transform" type="rotate" values="3; -5; 3" pivot="-25,6" dur="2.80s" repeatCount="indefinite" />
           </g>
-          <circle cx="-55" cy="0" r="1.2" fill="#991b1b" />
-          <path d="M-35,-3 L-33,3 M-39,-3 L-37,3 M-43,-3 L-41,3" stroke="#000000" stroke-width="1.0" stroke-linecap="round" />
+          <path d="M80,-5 C95,-12 112,-24 125,-28 C115,-14 102,-4 90,0 C102,4 115,14 122,24 C112,18 95,10 80,-5 Z" fill="#020617" />
+          <circle cx="-75" cy="-2" r="1.2" fill="#991b1b" />
+          <path d="M-50,-3 L-48,3 M-54,-3 L-52,3 M-58,-3 L-56,3 M-62,-3 L-60,3" stroke="#000000" stroke-width="1.0" stroke-linecap="round" />
         </g>
       </g>
     </g>
