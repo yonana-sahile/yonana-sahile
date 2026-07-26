@@ -1744,6 +1744,158 @@
     </g>
   </g>
 
+  <!-- 🌊🌊 FAR DISTANT BACKGROUND ANIMALS LAYER (Atmospheric Depth & Deep Ocean Perspective) 🌊🌊 -->
+  <g opacity="0.88">
+    <!-- 🐋 DISTANT BLUE WHALE GENTLE GIANT (Deep Haze) -->
+    <g opacity="0.45">
+      <animateTransform attributeName="transform" type="translate" values="-280,26; 300,18; 880,32; 1150,22" dur="29.7s" repeatCount="indefinite" />
+      <g transform="scale(0.48)">
+        <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" dur="4s" repeatCount="indefinite" />
+        <!-- Massive Body -->
+        <path d="M90,0 C60,-28 -20,-24 -110,-4 C-70,22 20,24 90,0 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="0.8" />
+        <path d="M85,2 C50,14 -30,12 -100,-2 C-50,18 20,18 85,2 Z" fill="#cbd5e1" opacity="0.75" />
+        <!-- Pectoral Flipper -->
+        <path d="M20,8 Q5,32 -18,28 Q-2,14 20,8 Z" fill="#1e293b" />
+        <!-- Fluke Tail -->
+        <g transform="translate(-110, -4)">
+          <path d="M0,0 Q-25,-22 -35,-12 Q-20,0 -35,12 Q-25,22 0,0 Z" fill="#0f172a" />
+          <animateTransform attributeName="transform" type="rotate" values="-10; 10; -10" pivot="0,0" dur="0.8s" repeatCount="indefinite" />
+        </g>
+        <!-- Blowhole Mist Plume -->
+        <g transform="translate(45, -20)">
+          <path d="M0,0 Q-8,-18 -12,-32 M0,0 Q0,-22 0,-38 M0,0 Q8,-18 12,-32" stroke="#e0f2fe" stroke-width="2" fill="none" stroke-linecap="round" opacity="0">
+            <animate attributeName="opacity" values="0; 0; 0.85; 0.2; 0" dur="6s" repeatCount="indefinite" />
+            <animate attributeName="stroke-width" values="1; 3.5; 1" dur="6s" repeatCount="indefinite" />
+          </path>
+        </g>
+        <circle cx="75" cy="-6" r="2.2" fill="#000" />
+      </g>
+    </g>
+
+    <!-- 🪼 DISTANT SPOTTED EAGLE RAYS V-FORMATION (Upper Water Column) -->
+    <!-- Ray 1 (Leader) -->
+    <g opacity="0.52">
+      <animateTransform attributeName="transform" type="translate" values="-100,32; 380,48; 880,28" dur="19.8s" repeatCount="indefinite" />
+      <g transform="scale(0.38)">
+        <animateTransform attributeName="transform" type="scale" values="1,1; 1,0.78; 1,1" pivot="0,0" dur="1.5s" repeatCount="indefinite" />
+        <path d="M20,0 C10,-22 -20,-24 -32,0 C-20,24 10,22 20,0 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+        <ellipse cx="-4" cy="0" rx="14" ry="8" fill="#334155" />
+        <!-- Eagle Ray White Star Spots -->
+        <circle cx="-12" cy="-6" r="1.4" fill="#ffffff" opacity="0.9" />
+        <circle cx="-2" cy="-8" r="1.5" fill="#ffffff" opacity="0.9" />
+        <circle cx="-16" cy="4" r="1.3" fill="#ffffff" opacity="0.9" />
+        <circle cx="-6" cy="6" r="1.5" fill="#ffffff" opacity="0.9" />
+        <circle cx="4" cy="-2" r="1.2" fill="#ffffff" opacity="0.9" />
+        <!-- Whip Tail -->
+        <path d="M-32,0 C-50,3 -70,-5 -90,2" stroke="#0f172a" stroke-width="1.8" fill="none" stroke-linecap="round">
+          <animate attributeName="d" values="M-32,0 C-50,3 -70,-5 -90,2; M-32,0 C-50,-3 -70,5 -90,-2; M-32,0 C-50,3 -70,-5 -90,2" dur="0.9s" repeatCount="indefinite" />
+        </path>
+      </g>
+    </g>
+    <!-- Ray 2 (Trailing Wing Left) -->
+    <g opacity="0.48">
+      <animateTransform attributeName="transform" type="translate" values="-140,22; 340,38; 840,18" dur="19.8s" repeatCount="indefinite" />
+      <g transform="scale(0.30)">
+        <animateTransform attributeName="transform" type="scale" values="1,1; 1,0.78; 1,1" pivot="0,0" dur="1.5s" repeatCount="indefinite" />
+        <path d="M20,0 C10,-22 -20,-24 -32,0 C-20,24 10,22 20,0 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+        <circle cx="-12" cy="-6" r="1.4" fill="#ffffff" opacity="0.9" />
+        <circle cx="-2" cy="-8" r="1.5" fill="#ffffff" opacity="0.9" />
+        <path d="M-32,0 C-50,3 -70,-5 -90,2" stroke="#0f172a" stroke-width="1.8" fill="none" stroke-linecap="round" />
+      </g>
+    </g>
+    <!-- Ray 3 (Trailing Wing Right) -->
+    <g opacity="0.48">
+      <animateTransform attributeName="transform" type="translate" values="-150,45; 330,60; 830,42" dur="19.8s" repeatCount="indefinite" />
+      <g transform="scale(0.32)">
+        <animateTransform attributeName="transform" type="scale" values="1,1; 1,0.78; 1,1" pivot="0,0" dur="1.5s" repeatCount="indefinite" />
+        <path d="M20,0 C10,-22 -20,-24 -32,0 C-20,24 10,22 20,0 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+        <circle cx="-12" cy="-6" r="1.4" fill="#ffffff" opacity="0.9" />
+        <circle cx="-2" cy="-8" r="1.5" fill="#ffffff" opacity="0.9" />
+        <path d="M-32,0 C-50,3 -70,-5 -90,2" stroke="#0f172a" stroke-width="1.8" fill="none" stroke-linecap="round" />
+      </g>
+    </g>
+
+    <!-- 🐢 DISTANT BABY SEA TURTLES POD -->
+    <g opacity="0.52">
+      <animateTransform attributeName="transform" type="translate" values="880,55; 420,70; -80,45" dur="28.8s" repeatCount="indefinite" />
+      <g transform="scale(-0.28, 0.28)">
+        <animateTransform attributeName="transform" type="rotate" values="-6; 6; -6" dur="1.4s" repeatCount="indefinite" />
+        <ellipse cx="0" cy="0" rx="18" ry="12" fill="#15803d" stroke="#166534" stroke-width="1.5" />
+        <path d="M22,-2 C27,-2 30,2 26,5 C23,7 18,5 16,1 Z" fill="#14532d" />
+        <path d="M8,-5 C12,-15 20,-22 25,-25 C24,-20 18,-10 10,-2 Z" fill="#166534" />
+        <path d="M8,5 C12,15 20,22 25,25 C24,20 18,10 10,2 Z" fill="#166534" />
+      </g>
+    </g>
+    <g opacity="0.48">
+      <animateTransform attributeName="transform" type="translate" values="920,72; 460,88; -40,62" dur="28.8s" repeatCount="indefinite" />
+      <g transform="scale(-0.22, 0.22)">
+        <animateTransform attributeName="transform" type="rotate" values="-6; 6; -6" dur="1.4s" repeatCount="indefinite" />
+        <ellipse cx="0" cy="0" rx="18" ry="12" fill="#15803d" stroke="#166534" stroke-width="1.5" />
+        <path d="M22,-2 C27,-2 30,2 26,5 C23,7 18,5 16,1 Z" fill="#14532d" />
+      </g>
+    </g>
+
+    <!-- 🐟 DISTANT SHIMMERING SCHOOL OF NEON FISH (Darting together in mid-water depth) -->
+    <g opacity="0.55">
+      <animateTransform attributeName="transform" type="translate" values="-120,62; 280,48; 620,68; 880,52" dur="11.7s" repeatCount="indefinite" />
+      <!-- Fish 1 -->
+      <g transform="translate(0, 0) scale(0.28)">
+        <ellipse cx="0" cy="0" rx="20" ry="8" fill="#38bdf8" stroke="#0284c7" stroke-width="1" />
+        <path d="M-20,0 L-30,-8 L-25,0 L-30,8 Z" fill="#f43f5e" />
+      </g>
+      <!-- Fish 2 -->
+      <g transform="translate(25, -12) scale(0.25)">
+        <ellipse cx="0" cy="0" rx="20" ry="8" fill="#38bdf8" stroke="#0284c7" stroke-width="1" />
+        <path d="M-20,0 L-30,-8 L-25,0 L-30,8 Z" fill="#f43f5e" />
+      </g>
+      <!-- Fish 3 -->
+      <g transform="translate(-20, 14) scale(0.24)">
+        <ellipse cx="0" cy="0" rx="20" ry="8" fill="#38bdf8" stroke="#0284c7" stroke-width="1" />
+        <path d="M-20,0 L-30,-8 L-25,0 L-30,8 Z" fill="#f43f5e" />
+      </g>
+      <!-- Fish 4 -->
+      <g transform="translate(48, 6) scale(0.26)">
+        <ellipse cx="0" cy="0" rx="20" ry="8" fill="#f59e0b" stroke="#d97706" stroke-width="1" />
+        <path d="M-20,0 L-30,-8 L-25,0 L-30,8 Z" fill="#38bdf8" />
+      </g>
+      <!-- Fish 5 -->
+      <g transform="translate(-40, -8) scale(0.22)">
+        <ellipse cx="0" cy="0" rx="20" ry="8" fill="#38bdf8" stroke="#0284c7" stroke-width="1" />
+        <path d="M-20,0 L-30,-8 L-25,0 L-30,8 Z" fill="#f43f5e" />
+      </g>
+      <!-- Fish 6 -->
+      <g transform="translate(18, 22) scale(0.23)">
+        <ellipse cx="0" cy="0" rx="20" ry="8" fill="#a855f7" stroke="#7e22ce" stroke-width="1" />
+        <path d="M-20,0 L-30,-8 L-25,0 L-30,8 Z" fill="#38bdf8" />
+      </g>
+    </g>
+
+    <!-- 🪼 DISTANT LUMINESCENT MOON JELLIES SWARM (Drifting in deep water) -->
+    <g opacity="0.50">
+      <!-- Moon Jelly 1 (x=140) -->
+      <g transform="translate(140, 65) scale(0.32)">
+        <animateTransform attributeName="transform" type="translate" values="140,85; 140,45; 140,85" dur="4.2s" repeatCount="indefinite" />
+        <path d="M-20,0 C-20,-24 20,-24 20,0 Z" fill="#e0f2fe" opacity="0.8" stroke="#38bdf8" stroke-width="1" />
+        <path d="M-12,0 C-12,-14 12,-14 12,0 Z" fill="#fbcfe8" opacity="0.8" />
+        <path d="M-10,0 L-10,20 M-4,0 L-4,24 M4,0 L4,24 M10,0 L10,20" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round" />
+      </g>
+      <!-- Moon Jelly 2 (x=380) -->
+      <g transform="translate(380, 50) scale(0.36)">
+        <animateTransform attributeName="transform" type="translate" values="380,70; 380,30; 380,70" dur="5.0s" repeatCount="indefinite" />
+        <path d="M-20,0 C-20,-24 20,-24 20,0 Z" fill="#fce7f3" opacity="0.8" stroke="#f472b6" stroke-width="1" />
+        <path d="M-12,0 C-12,-14 12,-14 12,0 Z" fill="#e0f2fe" opacity="0.8" />
+        <path d="M-10,0 L-10,20 M-4,0 L-4,24 M4,0 L4,24 M10,0 L10,20" stroke="#fbcfe8" stroke-width="1.5" stroke-linecap="round" />
+      </g>
+      <!-- Moon Jelly 3 (x=620) -->
+      <g transform="translate(620, 60) scale(0.30)">
+        <animateTransform attributeName="transform" type="translate" values="620,78; 620,40; 620,78" dur="4.6s" repeatCount="indefinite" />
+        <path d="M-20,0 C-20,-24 20,-24 20,0 Z" fill="#e0f2fe" opacity="0.8" stroke="#38bdf8" stroke-width="1" />
+        <path d="M-12,0 C-12,-14 12,-14 12,0 Z" fill="#fbcfe8" opacity="0.8" />
+        <path d="M-10,0 L-10,20 M-4,0 L-4,24 M4,0 L4,24 M10,0 L10,20" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+
   <!-- 🐢 SEA TURTLE: Graceful gliders -->
   <!-- Turtle 1: Left-to-right diagonally upward -->
   <g>
