@@ -2304,10 +2304,10 @@
     </g>
   </g>
 
-  <!-- ⚡️ BIOLUMINESCENT ELECTRIC SHOCK EEL (Accurate to Reference Image 4) -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="880,95; 420,115; -100,85" dur="16.5s" repeatCount="indefinite" />
-    <g transform="scale(-0.85, 0.85)">
+  <!-- ⚡️ BIOLUMINESCENT ELECTRIC SHOCK EEL (Far Distant Background Depth) -->
+  <g opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="920,42; 450,58; -120,38" dur="18.7s" repeatCount="indefinite" />
+    <g transform="scale(-0.48, 0.48)">
       <!-- S-Shaped Slithering Dark Slate Thick Body (Image 4) -->
       <path d="M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0" stroke="#334155" stroke-width="18" fill="none" stroke-linecap="round">
         <animate attributeName="d" values="M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0; M60,0 Q40,16 15,0 T-20,0 T-60,0 T-100,0; M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0" dur="0.9s" repeatCount="indefinite" />
