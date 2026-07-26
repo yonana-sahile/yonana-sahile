@@ -1435,7 +1435,7 @@
       </g>
     </g>
   </g>
- 
+
   <!-- 🐠 TROPICAL FISH MULTIPLE -->
   <!-- Fish 1: Orange/Red -->
   <g>
@@ -1892,6 +1892,149 @@
         <path d="M-20,0 C-20,-24 20,-24 20,0 Z" fill="#e0f2fe" opacity="0.8" stroke="#38bdf8" stroke-width="1" />
         <path d="M-12,0 C-12,-14 12,-14 12,0 Z" fill="#fbcfe8" opacity="0.8" />
         <path d="M-10,0 L-10,20 M-4,0 L-4,24 M4,0 L4,24 M10,0 L10,20" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round" />
+      </g>
+    </g>
+
+    <!-- 🐲 DISTANT LEAFY SEA DRAGONS PAIR (Far Distance Depth) -->
+    <g opacity="0.45">
+      <animateTransform attributeName="transform" type="translate" values="-60,95; 350,115; 880,90" dur="15.6s" begin="-8.2s" repeatCount="indefinite" />
+      <g transform="scale(0.24)">
+        <animateTransform attributeName="transform" type="rotate" values="-4; 4; -4" dur="2.5s" repeatCount="indefinite" />
+        <path d="M12,-18 C18,-18 20,-12 14,-10 C8,-8 6,-14 6,-16 Z" fill="#10b981" stroke="#047857" stroke-width="0.8" />
+        <path d="M14,-13 L24,-11 C26,-11 25,-8 21,-8 L12,-10" fill="#10b981" />
+        <path d="M6,-16 C6,-24 -6,-20 -6,-12 C-6,-6 -2,-2 -4,6 C-6,14 -12,20 -10,26 C-8,32 0,34 -2,22 C-4,14 4,6 4,-4 Z" fill="#10b981" stroke="#047857" stroke-width="0.8" />
+        <!-- Leaf Fronds -->
+        <path d="M-6,-18 Q-22,-28 -18,-12 Z M-4,-2 Q-22,-8 -18,6 Z M-8,14 Q-24,12 -16,24 Z" fill="#34d399" opacity="0.9" />
+        <circle cx="10" cy="-15" r="1.5" fill="#fff" />
+        <circle cx="11" cy="-15" r="0.8" fill="#000" />
+      </g>
+    </g>
+
+    <!-- 🦈 DISTANT HAMMERHEAD SHARK SILHOUETTE (Far Distance Depth) -->
+    <g opacity="0.38">
+      <animateTransform attributeName="transform" type="translate" values="920,35; 420,50; -100,28" dur="15.6s" begin="-5.5s" repeatCount="indefinite" />
+      <g transform="scale(-0.25, 0.25)">
+        <path d="M30,-12 C36,-12 36,12 30,12 C28,5 28,-5 30,-12 Z" fill="#1e293b" />
+        <path d="M30,0 C15,-16 -10,-14 -35,-2 C-20,10 10,12 30,0 Z" fill="#334155" stroke="#0284c7" stroke-width="0.5" />
+        <path d="M0,-11 L-8,-32 L-16,-8 Z" fill="#1e293b" />
+        <g transform="translate(-35, -2)">
+          <path d="M0,0 L-18,-18 L-12,0 L-18,12 Z" fill="#1e293b" />
+          <animateTransform attributeName="transform" type="rotate" values="-15; 15; -15" pivot="0,0" dur="0.4s" repeatCount="indefinite" />
+        </g>
+      </g>
+    </g>
+
+    <!-- 🐠 DISTANT GOLDEN GLOWING ANGELFISH POD (Far Distance Depth) -->
+    <g opacity="0.42">
+      <animateTransform attributeName="transform" type="translate" values="-80,68; 320,48; 680,72; 880,55" dur="17.3s" begin="-3.1s" repeatCount="indefinite" />
+      <!-- Fish 1 -->
+      <g transform="translate(0, 0) scale(0.22)">
+        <path d="M-20,0 C-10,-25 15,-25 25,0 C15,25 -10,25 -20,0 Z" fill="#facc15" stroke="#ea580c" stroke-width="0.8" />
+        <path d="M-5,-15 Q-15,-45 -25,-60 Q-10,-35 5,-15 Z" fill="#fef08a" />
+        <circle cx="16" cy="-4" r="2.5" fill="#ffffff" />
+        <circle cx="17" cy="-4" r="1.2" fill="#000000" />
+      </g>
+      <!-- Fish 2 -->
+      <g transform="translate(35, -15) scale(0.18)">
+        <path d="M-20,0 C-10,-25 15,-25 25,0 C15,25 -10,25 -20,0 Z" fill="#facc15" stroke="#ea580c" stroke-width="0.8" />
+        <path d="M-5,-15 Q-15,-45 -25,-60 Q-10,-35 5,-15 Z" fill="#fef08a" />
+      </g>
+      <!-- Fish 3 -->
+      <g transform="translate(-25, 18) scale(0.19)">
+        <path d="M-20,0 C-10,-25 15,-25 25,0 C15,25 -10,25 -20,0 Z" fill="#38bdf8" stroke="#0284c7" stroke-width="0.8" />
+        <path d="M-5,-15 Q-15,-45 -25,-60 Q-10,-35 5,-15 Z" fill="#e0f2fe" />
+      </g>
+    </g>
+
+    <!-- 🌿🌿 DENSE DISTANT UNDERWATER PLANT FOREST (Far Background Seabed x=20 to x=780) 🌿🌿 -->
+    <g id="distant-dense-plant-forest" opacity="0.42">
+      <!-- Dense Plant Cluster 1 (Far Left x=20-120) -->
+      <g transform="translate(30, 160) scale(0.42)">
+        <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" pivot="30,160" dur="4.2s" repeatCount="indefinite" />
+        <path d="M0,0 Q-15,-40 8,-80 Q25,-120 -8,-150" stroke="#047857" stroke-width="3" fill="none" stroke-linecap="round" />
+        <path d="M-8,-25 Q-30,-35 -32,-22 Q-10,-12 -8,-25 Z" fill="#059669" opacity="0.9" />
+        <path d="M-4,-45 Q-32,-58 -32,-45 Q-12,-32 -4,-45 Z" fill="#10b981" opacity="0.9" />
+        <path d="M2,-68 Q-28,-80 -28,-68 Q-8,-55 2,-68 Z" fill="#34d399" opacity="0.9" />
+        <path d="M-2,-28 Q22,-38 25,-25 Q8,-15 -2,-28 Z" fill="#047857" opacity="0.9" />
+        <path d="M2,-48 Q25,-60 28,-48 Q10,-38 2,-48 Z" fill="#059669" opacity="0.9" />
+        
+        <path d="M15,0 Q-5,-35 18,-70 Q35,-105 12,-135" stroke="#059669" stroke-width="2.5" fill="none" stroke-linecap="round" />
+        <path d="M8,-20 Q-15,-30 -18,-18 Q-5,-10 8,-20 Z" fill="#10b981" opacity="0.85" />
+        <path d="M12,-40 Q-12,-50 -15,-38 Q-2,-28 12,-40 Z" fill="#34d399" opacity="0.88" />
+        
+        <path d="M30,0 Q12,-30 32,-60 Q48,-90 28,-120" stroke="#047857" stroke-width="2.2" fill="none" stroke-linecap="round" />
+        <path d="M25,-18 Q5,-28 2,-16 Q15,-8 25,-18 Z" fill="#059669" opacity="0.8" />
+        <path d="M28,-36 Q8,-46 5,-34 Q18,-24 28,-36 Z" fill="#10b981" opacity="0.85" />
+
+        <path d="M45,0 Q28,-25 45,-55 Q62,-80 42,-110" stroke="#059669" stroke-width="2.0" fill="none" stroke-linecap="round" />
+        <path d="M40,-15 Q22,-24 20,-14 Q32,-6 40,-15 Z" fill="#34d399" opacity="0.8" />
+      </g>
+
+      <!-- Dense Plant Cluster 2 (Far Mid-Left x=140-240) -->
+      <g transform="translate(170, 160) scale(0.38)">
+        <animateTransform attributeName="transform" type="rotate" values="2; -2; 2" pivot="170,160" dur="4.8s" repeatCount="indefinite" />
+        <path d="M0,0 Q20,-45 -5,-85 Q-28,-125 10,-155" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round" />
+        <path d="M5,-28 Q28,-38 30,-25 Q10,-14 5,-28 Z" fill="#10b981" opacity="0.9" />
+        <path d="M0,-50 Q28,-62 28,-50 Q8,-38 0,-50 Z" fill="#34d399" opacity="0.9" />
+        <path d="M-5,-72 Q22,-85 22,-72 Q5,-60 -5,-72 Z" fill="#6ee7b7" opacity="0.9" />
+        <path d="M0,-30 Q-22,-40 -25,-28 Q-8,-18 0,-30 Z" fill="#047857" opacity="0.9" />
+        <path d="M-3,-52 Q-25,-65 -28,-52 Q-10,-42 -3,-52 Z" fill="#059669" opacity="0.9" />
+
+        <path d="M-18,0 Q2,-35 -15,-70 Q-32,-105 -10,-135" stroke="#047857" stroke-width="2.5" fill="none" stroke-linecap="round" />
+        <path d="M-12,-22 Q10,-32 12,-20 Q-2,-12 -12,-22 Z" fill="#059669" opacity="0.85" />
+        <path d="M-15,-42 Q8,-52 10,-40 Q-4,-30 -15,-42 Z" fill="#10b981" opacity="0.88" />
+
+        <path d="M-35,0 Q-15,-30 -32,-60 Q-50,-90 -28,-120" stroke="#059669" stroke-width="2.2" fill="none" stroke-linecap="round" />
+        <path d="M-30,-18 Q-10,-28 -8,-16 Q-22,-8 -30,-18 Z" fill="#34d399" opacity="0.8" />
+        <path d="M-32,-36 Q-12,-46 -10,-34 Q-24,-24 -32,-36 Z" fill="#6ee7b7" opacity="0.85" />
+      </g>
+
+      <!-- Dense Plant Cluster 3 (Far Center x=300-410) -->
+      <g transform="translate(350, 160) scale(0.40)">
+        <animateTransform attributeName="transform" type="rotate" values="-2.5; 2.5; -2.5" pivot="350,160" dur="4.0s" repeatCount="indefinite" />
+        <path d="M0,0 Q-18,-42 5,-82 Q28,-122 -5,-152" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round" />
+        <path d="M-5,-28 Q-28,-38 -30,-25 Q-10,-14 -5,-28 Z" fill="#10b981" opacity="0.9" />
+        <path d="M-1,-50 Q-28,-62 -28,-50 Q-8,-38 -1,-50 Z" fill="#34d399" opacity="0.9" />
+        <path d="M3,-72 Q-22,-85 -22,-72 Q-5,-60 3,-72 Z" fill="#6ee7b7" opacity="0.9" />
+
+        <path d="M22,0 Q2,-35 22,-70 Q40,-105 18,-135" stroke="#047857" stroke-width="2.6" fill="none" stroke-linecap="round" />
+        <path d="M18,-22 Q40,-32 42,-20 Q28,-12 18,-22 Z" fill="#059669" opacity="0.88" />
+        <path d="M20,-42 Q42,-52 44,-40 Q30,-30 20,-42 Z" fill="#10b981" opacity="0.9" />
+
+        <path d="M40,0 Q22,-30 40,-60 Q58,-90 38,-120" stroke="#059669" stroke-width="2.2" fill="none" stroke-linecap="round" />
+        <path d="M35,-18 Q55,-28 58,-16 Q42,-8 35,-18 Z" fill="#34d399" opacity="0.85" />
+      </g>
+
+      <!-- Dense Plant Cluster 4 (Far Mid-Right x=520-630) -->
+      <g transform="translate(570, 160) scale(0.39)">
+        <animateTransform attributeName="transform" type="rotate" values="2.2; -2.2; 2.2" pivot="570,160" dur="4.6s" repeatCount="indefinite" />
+        <path d="M0,0 Q18,-42 -5,-82 Q-28,-122 5,-152" stroke="#047857" stroke-width="3" fill="none" stroke-linecap="round" />
+        <path d="M5,-28 Q28,-38 30,-25 Q10,-14 5,-28 Z" fill="#059669" opacity="0.9" />
+        <path d="M1,-50 Q28,-62 28,-50 Q8,-38 1,-50 Z" fill="#10b981" opacity="0.9" />
+        <path d="M-3,-72 Q22,-85 22,-72 Q5,-60 -3,-72 Z" fill="#34d399" opacity="0.9" />
+
+        <path d="M-22,0 Q-2,-35 -22,-70 Q-40,-105 -18,-135" stroke="#059669" stroke-width="2.6" fill="none" stroke-linecap="round" />
+        <path d="M-18,-22 Q-40,-32 -42,-20 Q-28,-12 -18,-22 Z" fill="#10b981" opacity="0.88" />
+        <path d="M-20,-42 Q-42,-52 -44,-40 Q-30,-30 -20,-42 Z" fill="#34d399" opacity="0.9" />
+
+        <path d="M-40,0 Q-22,-30 -40,-60 Q-58,-90 -38,-120" stroke="#047857" stroke-width="2.2" fill="none" stroke-linecap="round" />
+        <path d="M-35,-18 Q-55,-28 -58,-16 Q-42,-8 -35,-18 Z" fill="#6ee7b7" opacity="0.85" />
+      </g>
+
+      <!-- Dense Plant Cluster 5 (Far Right x=680-770) -->
+      <g transform="translate(720, 160) scale(0.41)">
+        <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" pivot="720,160" dur="4.3s" repeatCount="indefinite" />
+        <path d="M0,0 Q-15,-40 8,-80 Q25,-120 -8,-150" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round" />
+        <path d="M-8,-25 Q-30,-35 -32,-22 Q-10,-12 -8,-25 Z" fill="#059669" opacity="0.9" />
+        <path d="M-4,-45 Q-32,-58 -32,-45 Q-12,-32 -4,-45 Z" fill="#10b981" opacity="0.9" />
+        <path d="M2,-68 Q-28,-80 -28,-68 Q-8,-55 2,-68 Z" fill="#34d399" opacity="0.9" />
+
+        <path d="M15,0 Q-5,-35 18,-70 Q35,-105 12,-135" stroke="#047857" stroke-width="2.5" fill="none" stroke-linecap="round" />
+        <path d="M8,-20 Q-15,-30 -18,-18 Q-5,-10 8,-20 Z" fill="#10b981" opacity="0.85" />
+        <path d="M12,-40 Q-12,-50 -15,-38 Q-2,-28 12,-40 Z" fill="#34d399" opacity="0.88" />
+
+        <path d="M30,0 Q12,-30 32,-60 Q48,-90 28,-120" stroke="#059669" stroke-width="2.2" fill="none" stroke-linecap="round" />
+        <path d="M25,-18 Q5,-28 2,-16 Q15,-8 25,-18 Z" fill="#6ee7b7" opacity="0.8" />
       </g>
     </g>
   </g>
@@ -2607,10 +2750,10 @@
     </g>
   </g>
 
-  <!-- 🦎 CUTE PINK MEXICAN AXOLOTL (Accurate to Reference Images 2 & 3) -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="-60,115; 350,125; 880,105" dur="21.6s" repeatCount="indefinite" />
-    <g transform="scale(0.58)">
+  <!-- 🦎 CUTE PINK MEXICAN AXOLOTL (Far Distant Background Depth) -->
+  <g opacity="0.45">
+    <animateTransform attributeName="transform" type="translate" values="-80,32; 380,48; 920,28" dur="21.6s" repeatCount="indefinite" />
+    <g transform="scale(0.15)">
       <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" dur="1.4s" repeatCount="indefinite" />
       
       <!-- Translucent Pink Dorsal Fin Ridge along back & tail -->
