@@ -2119,41 +2119,81 @@
     <circle cx="8" cy="0" r="1.5" fill="#22d3ee" />
   </g>
 
-  <!-- 🦈 GIANT MAJESTIC WHALE SHARK -->
+  <!-- 🦈 GIANT MAJESTIC WHALE SHARK (Accurate to Reference Image 1) -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="-220,70; 320,40; 880,85; 1100,50" dur="24.2s" repeatCount="indefinite" />
-    <g transform="scale(0.85)">
-      <animateTransform attributeName="transform" type="skewX" values="-6; 6; -6" pivot="0,0" dur="2.8s" repeatCount="indefinite" />
-      <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" pivot="0,0" dur="2.8s" repeatCount="indefinite" />
-      <!-- Wide Filter Feeding Mouth Head -->
-      <path d="M60,-12 C80,-10 80,10 60,12 C40,15 -10,18 -80,0 C-10,-18 40,-15 60,-12 Z" fill="#334155" stroke="#1e293b" stroke-width="1" />
-      <!-- White Polka Dot Starry Spots Pattern -->
-      <g opacity="0.85">
-        <circle cx="45" cy="-5" r="1.8" fill="#ffffff" />
-        <circle cx="35" cy="-8" r="1.8" fill="#ffffff" />
-        <circle cx="25" cy="-6" r="1.8" fill="#ffffff" />
-        <circle cx="15" cy="-9" r="1.8" fill="#ffffff" />
-        <circle cx="5" cy="-7" r="1.8" fill="#ffffff" />
-        <circle cx="-10" cy="-5" r="1.8" fill="#ffffff" />
-        <circle cx="-25" cy="-4" r="1.8" fill="#ffffff" />
-        <circle cx="40" cy="2" r="1.8" fill="#ffffff" />
-        <circle cx="20" cy="3" r="1.8" fill="#ffffff" />
-        <circle cx="0" cy="2" r="1.8" fill="#ffffff" />
-        <circle cx="-15" cy="1" r="1.8" fill="#ffffff" />
-        <!-- Grid lines -->
-        <path d="M40,-10 L40,10 M20,-12 L20,12 M0,-14 L0,14 M-20,-12 L-20,12" stroke="#ffffff" stroke-width="0.8" opacity="0.4" />
+    <animateTransform attributeName="transform" type="translate" values="-240,70; 300,45; 860,85; 1100,50" dur="24.2s" repeatCount="indefinite" />
+    <g transform="scale(0.88)">
+      <animateTransform attributeName="transform" type="skewX" values="-5; 5; -5" pivot="0,0" dur="3s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" pivot="0,0" dur="3s" repeatCount="indefinite" />
+      
+      <!-- Dark Charcoal Slate Whale Shark Body -->
+      <path d="M75,-14 C90,-10 90,10 75,14 C50,18 -10,20 -90,0 C-10,-20 50,-18 75,-14 Z" fill="#1e293b" stroke="#0f172a" stroke-width="1.2" />
+      
+      <!-- Pale Counter-Shaded Ventral Belly -->
+      <path d="M70,6 C40,14 -20,13 -85,0 C-20,18 40,18 70,6 Z" fill="#f1f5f9" opacity="0.92" />
+
+      <!-- Characteristic Horizontal Lateral Ridges (Image 1) -->
+      <path d="M60,-8 Q10,-12 -60,-2 M60,-2 Q10,-3 -70,0 M60,4 Q10,6 -60,2" stroke="#475569" stroke-width="0.8" fill="none" opacity="0.8" />
+
+      <!-- Checkerboard Spot Grid & Dense Head Polka-Dots (Image 1) -->
+      <g opacity="0.95">
+        <!-- Vertical Grid Stripes -->
+        <path d="M50,-12 L50,12 M35,-14 L35,14 M20,-15 L20,15 M5,-14 L5,14 M-10,-13 L-10,13 M-25,-11 L-25,11 M-40,-9 L-40,9 M-55,-6 L-55,6" stroke="#ffffff" stroke-width="0.9" opacity="0.45" />
+        
+        <!-- Large White Dots at Grid Intersections and Lines -->
+        <circle cx="50" cy="-8" r="1.6" fill="#ffffff" /> <circle cx="50" cy="0" r="1.6" fill="#ffffff" /> <circle cx="50" cy="8" r="1.6" fill="#ffffff" />
+        <circle cx="35" cy="-10" r="1.8" fill="#ffffff" /> <circle cx="35" cy="-2" r="1.8" fill="#ffffff" /> <circle cx="35" cy="6" r="1.8" fill="#ffffff" />
+        <circle cx="20" cy="-11" r="1.8" fill="#ffffff" /> <circle cx="20" cy="-3" r="1.8" fill="#ffffff" /> <circle cx="20" cy="5" r="1.8" fill="#ffffff" />
+        <circle cx="5" cy="-10" r="1.8" fill="#ffffff" /> <circle cx="5" cy="-2" r="1.8" fill="#ffffff" /> <circle cx="5" cy="6" r="1.8" fill="#ffffff" />
+        <circle cx="-10" cy="-8" r="1.7" fill="#ffffff" /> <circle cx="-10" cy="0" r="1.7" fill="#ffffff" /> <circle cx="-10" cy="7" r="1.7" fill="#ffffff" />
+        <circle cx="-25" cy="-7" r="1.6" fill="#ffffff" /> <circle cx="-25" cy="0" r="1.6" fill="#ffffff" /> <circle cx="-25" cy="6" r="1.6" fill="#ffffff" />
+        <circle cx="-40" cy="-5" r="1.5" fill="#ffffff" /> <circle cx="-40" cy="0" r="1.5" fill="#ffffff" /> <circle cx="-40" cy="5" r="1.5" fill="#ffffff" />
+
+        <!-- Interstitial Dots -->
+        <circle cx="42" cy="-4" r="1.2" fill="#ffffff" /> <circle cx="42" cy="4" r="1.2" fill="#ffffff" />
+        <circle cx="27" cy="-5" r="1.3" fill="#ffffff" /> <circle cx="27" cy="3" r="1.3" fill="#ffffff" />
+        <circle cx="12" cy="-6" r="1.3" fill="#ffffff" /> <circle cx="12" cy="2" r="1.3" fill="#ffffff" />
+        <circle cx="-2" cy="-5" r="1.2" fill="#ffffff" /> <circle cx="-2" cy="3" r="1.2" fill="#ffffff" />
+        <circle cx="-17" cy="-4" r="1.2" fill="#ffffff" /> <circle cx="-17" cy="3" r="1.2" fill="#ffffff" />
+
+        <!-- Dense Fine Dots on Flat Head/Snout (Image 1) -->
+        <circle cx="65" cy="-10" r="1.1" fill="#ffffff" /> <circle cx="72" cy="-8" r="1.0" fill="#ffffff" /> <circle cx="78" cy="-5" r="0.9" fill="#ffffff" />
+        <circle cx="65" cy="-4" r="1.1" fill="#ffffff" /> <circle cx="73" cy="-2" r="1.0" fill="#ffffff" /> <circle cx="80" cy="0" r="0.9" fill="#ffffff" />
+        <circle cx="65" cy="3" r="1.1" fill="#ffffff" /> <circle cx="72" cy="5" r="1.0" fill="#ffffff" /> <circle cx="78" cy="7" r="0.9" fill="#ffffff" />
+        <circle cx="65" cy="8" r="1.1" fill="#ffffff" />
       </g>
-      <!-- Pale Counter-Shaded Underbelly -->
-      <path d="M55,6 C30,12 -20,12 -75,0 C-20,16 35,16 55,6 Z" fill="#f1f5f9" opacity="0.9" />
-      <!-- Dorsal Fin -->
-      <path d="M10,-14 L-5,-35 L-20,-10 Z" fill="#1e293b" />
-      <!-- Tail Fluke -->
-      <g transform="translate(-80, 0)">
-        <path d="M0,0 L-28,-28 L-18,0 L-28,28 Z" fill="#1e293b" />
+
+      <!-- Large Sweeping Wing-Like Pectoral Fin with White Spots (Image 1) -->
+      <g>
+        <path d="M25,12 C15,32 0,52 -22,58 C-25,57 -20,48 -5,34 C10,20 20,13 25,12 Z" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
+        <!-- Fin Spots -->
+        <circle cx="15" cy="22" r="1.4" fill="#ffffff" opacity="0.9" />
+        <circle cx="8" cy="32" r="1.4" fill="#ffffff" opacity="0.9" />
+        <circle cx="0" cy="42" r="1.3" fill="#ffffff" opacity="0.9" />
+        <circle cx="-10" cy="50" r="1.2" fill="#ffffff" opacity="0.9" />
+        <animateTransform attributeName="transform" type="rotate" values="-4; 6; -4" pivot="25,12" dur="2.5s" repeatCount="indefinite" />
+      </g>
+
+      <!-- High Triangular First Dorsal Fin (Image 1) -->
+      <path d="M10,-15 L-6,-42 L-22,-12 Z" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
+      <circle cx="-2" cy="-25" r="1.4" fill="#ffffff" opacity="0.9" />
+      <circle cx="-8" cy="-33" r="1.3" fill="#ffffff" opacity="0.9" />
+
+      <!-- Second Small Dorsal Fin -->
+      <path d="M-45,-9 L-52,-20 L-58,-8 Z" fill="#1e293b" />
+
+      <!-- Tail Fluke with Cleft Upper/Lower Lobes (Image 1) -->
+      <g transform="translate(-90, 0)">
+        <path d="M0,0 L-32,-35 L-20,0 L-32,32 Z" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
+        <circle cx="-12" cy="-14" r="1.3" fill="#ffffff" opacity="0.9" />
+        <circle cx="-20" cy="-22" r="1.2" fill="#ffffff" opacity="0.9" />
+        <circle cx="-12" cy="12" r="1.3" fill="#ffffff" opacity="0.9" />
         <animateTransform attributeName="transform" type="rotate" values="-15; 15; -15" pivot="0,0" dur="0.6s" repeatCount="indefinite" />
       </g>
-      <!-- Eye -->
-      <circle cx="68" cy="-5" r="1.8" fill="#000" />
+
+      <!-- Eye & Gill Slits -->
+      <circle cx="78" cy="-6" r="1.8" fill="#000" />
+      <path d="M52,-3 L50,5 M56,-3 L54,5 M60,-3 L58,5 M64,-3 L62,5" stroke="#0f172a" stroke-width="1.2" />
     </g>
   </g>
 
@@ -2183,87 +2223,175 @@
     </g>
   </g>
 
-  <!-- 🦎 CUTE PINK MEXICAN AXOLOTL -->
+  <!-- 🦎 CUTE PINK MEXICAN AXOLOTL (Accurate to Reference Images 2 & 3) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="-60,115; 350,125; 880,105" dur="21.6s" repeatCount="indefinite" />
-    <g transform="scale(0.52)">
-      <animateTransform attributeName="transform" type="rotate" values="-4; 4; -4" dur="1.2s" repeatCount="indefinite" />
-      <!-- Translucent Tail Fin Ridge -->
-      <path d="M0,0 C-15,-12 -35,-10 -50,0 C-35,10 -15,12 0,0 Z" fill="#fbcfe8" opacity="0.8" />
-      <!-- Body -->
-      <ellipse cx="0" cy="0" rx="22" ry="10" fill="#f472b6" stroke="#db2777" stroke-width="1" />
-      <!-- Cute Smiling Head -->
-      <circle cx="20" cy="0" r="12" fill="#f472b6" stroke="#db2777" stroke-width="1" />
-      <!-- 6 Glowing Feathery Gill Frills -->
+    <g transform="scale(0.58)">
+      <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" dur="1.4s" repeatCount="indefinite" />
+      
+      <!-- Translucent Pink Dorsal Fin Ridge along back & tail -->
+      <path d="M5,0 C-15,-14 -40,-12 -60,0 C-40,12 -15,14 5,0 Z" fill="#fbcfe8" opacity="0.85" stroke="#f472b6" stroke-width="0.8" />
+      
+      <!-- Main Translucent Soft Pink Axolotl Body -->
+      <ellipse cx="-10" cy="0" rx="28" ry="12" fill="#fdf2f8" stroke="#f472b6" stroke-width="1.2" />
+      
+      <!-- Broad Cute Smiling Head (Image 2 & 3) -->
+      <path d="M12,-14 C28,-14 36,-8 38,0 C36,8 28,14 12,14 C2,14 -2,8 -2,0 C-2,-8 2,-14 12,-14 Z" fill="#fff1f2" stroke="#f472b6" stroke-width="1.2" />
+
+      <!-- Cute Fine Pink Freckles on Head/Nose (Image 2) -->
+      <circle cx="28" cy="-6" r="0.7" fill="#f43f5e" />
+      <circle cx="32" cy="-3" r="0.8" fill="#f43f5e" />
+      <circle cx="34" cy="0" r="0.7" fill="#f43f5e" />
+      <circle cx="31" cy="4" r="0.8" fill="#f43f5e" />
+      <circle cx="26" cy="6" r="0.7" fill="#f43f5e" />
+
+      <!-- 6 Vibrant Feathered Gill Frills (3 Left, 3 Right) (Image 2 & 3) -->
+      <!-- Left Top, Mid, Bottom Gill Crowns -->
       <g>
-        <path d="M18,-10 Q12,-22 22,-25 M16,-8 Q8,-18 18,-20 M14,-6 Q4,-14 14,-15" stroke="#f43f5e" stroke-width="2.2" fill="none" stroke-linecap="round">
-          <animate attributeName="d" values="M18,-10 Q12,-22 22,-25 M16,-8 Q8,-18 18,-20 M14,-6 Q4,-14 14,-15; M18,-10 Q15,-20 24,-22 M16,-8 Q11,-16 20,-17 M14,-6 Q7,-12 16,-12; M18,-10 Q12,-22 22,-25 M16,-8 Q8,-18 18,-20 M14,-6 Q4,-14 14,-15" dur="1s" repeatCount="indefinite" />
-        </path>
+        <!-- Top Left Gill -->
+        <path d="M18,-12 Q14,-28 26,-32" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <path d="M22,-18 L26,-22 M20,-22 L24,-26 M18,-25 L21,-30" stroke="#f43f5e" stroke-width="1.2" stroke-linecap="round" />
+        <!-- Mid Left Gill -->
+        <path d="M14,-10 Q6,-22 18,-25" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <path d="M12,-15 L16,-19 M10,-18 L14,-22 M8,-20 L11,-24" stroke="#f43f5e" stroke-width="1.2" stroke-linecap="round" />
+        <!-- Bottom Left Gill -->
+        <path d="M10,-8 Q2,-16 12,-18" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <path d="M8,-12 L12,-15 M6,-14 L9,-17" stroke="#f43f5e" stroke-width="1.2" stroke-linecap="round" />
+
+        <animateTransform attributeName="transform" type="rotate" values="0; -5; 0; 3; 0" pivot="14,-10" dur="1.8s" repeatCount="indefinite" />
+      </g>
+
+      <!-- Right Top, Mid, Bottom Gill Crowns -->
+      <g>
+        <!-- Top Right Gill -->
+        <path d="M18,12 Q14,28 26,32" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <path d="M22,18 L26,22 M20,22 L24,26 M18,25 L21,30" stroke="#f43f5e" stroke-width="1.2" stroke-linecap="round" />
+        <!-- Mid Right Gill -->
+        <path d="M14,10 Q6,22 18,25" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <path d="M12,15 L16,19 M10,18 L14,22 M8,20 L11,24" stroke="#f43f5e" stroke-width="1.2" stroke-linecap="round" />
+        <!-- Bottom Right Gill -->
+        <path d="M10,8 Q2,16 12,18" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <path d="M8,12 L12,15 M6,14 L9,17" stroke="#f43f5e" stroke-width="1.2" stroke-linecap="round" />
+
+        <animateTransform attributeName="transform" type="rotate" values="0; 5; 0; -3; 0" pivot="14,10" dur="2.0s" repeatCount="indefinite" />
+      </g>
+
+      <!-- Big Expressive Dark Eyes with Specular Highlights (Image 2) -->
+      <circle cx="28" cy="-5" r="3" fill="#0f172a" />
+      <circle cx="29.2" cy="-6" r="1.1" fill="#ffffff" />
+      <circle cx="28" cy="5" r="3" fill="#0f172a" />
+      <circle cx="29.2" cy="4" r="1.1" fill="#ffffff" />
+
+      <!-- Cute Gentle Axolotl Smile Curve (Image 2) -->
+      <path d="M32,-2 Q36,0 32,2" stroke="#9f1239" stroke-width="1.2" fill="none" stroke-linecap="round" />
+
+      <!-- 4 Delicate Legs with Webbed Spread Toes/Fingers (Image 2 & 3) -->
+      <!-- Front Legs -->
+      <g>
+        <path d="M18,12 Q24,22 20,28" stroke="#f472b6" stroke-width="2.8" stroke-linecap="round" fill="none" />
+        <path d="M20,28 L15,32 M20,28 L18,34 M20,28 L23,34 M20,28 L27,31" stroke="#f472b6" stroke-width="1.4" stroke-linecap="round" />
       </g>
       <g>
-        <path d="M18,10 Q12,22 22,25 M16,8 Q8,18 18,20 M14,6 Q4,14 14,15" stroke="#f43f5e" stroke-width="2.2" fill="none" stroke-linecap="round">
-          <animate attributeName="d" values="M18,10 Q12,22 22,25 M16,8 Q8,18 18,20 M14,6 Q4,14 14,15; M18,10 Q15,20 24,22 M16,8 Q11,16 20,17 M14,6 Q7,12 16,12; M18,10 Q12,22 22,25 M16,8 Q8,18 18,20 M14,6 Q4,14 14,15" dur="1.1s" repeatCount="indefinite" />
-        </path>
+        <path d="M18,-12 Q24,-22 20,-28" stroke="#f472b6" stroke-width="2.8" stroke-linecap="round" fill="none" />
+        <path d="M20,-28 L15,-32 M20,-28 L18,-34 M20,-28 L23,-34 M20,-28 L27,-31" stroke="#f472b6" stroke-width="1.4" stroke-linecap="round" />
       </g>
-      <!-- Big Shiny Eyes -->
-      <circle cx="24" cy="-4" r="2.5" fill="#000000" />
-      <circle cx="25" cy="-5" r="0.9" fill="#ffffff" />
-      <circle cx="24" cy="4" r="2.5" fill="#000000" />
-      <circle cx="25" cy="3" r="0.9" fill="#ffffff" />
-      <!-- Cute Blushing Cheeks & Smile -->
-      <circle cx="28" cy="0" r="1.5" fill="#f43f5e" />
-      <path d="M26,3 Q28,6 30,3" stroke="#881337" stroke-width="1" fill="none" />
-      <!-- Paddling Legs -->
-      <path d="M10,8 Q15,16 12,20 M-5,8 Q-2,16 -5,20" stroke="#db2777" stroke-width="2" stroke-linecap="round" fill="none" />
-      <path d="M10,-8 Q15,-16 12,-20 M-5,-8 Q-2,-16 -5,-20" stroke="#db2777" stroke-width="2" stroke-linecap="round" fill="none" />
+      <!-- Back Legs -->
+      <g>
+        <path d="M-10,12 Q-4,22 -8,28" stroke="#f472b6" stroke-width="2.8" stroke-linecap="round" fill="none" />
+        <path d="M-8,28 L-13,32 M-8,28 L-10,34 M-8,28 L-5,34 M-8,28 L0,31" stroke="#f472b6" stroke-width="1.4" stroke-linecap="round" />
+      </g>
+      <g>
+        <path d="M-10,-12 Q-4,-22 -8,-28" stroke="#f472b6" stroke-width="2.8" stroke-linecap="round" fill="none" />
+        <path d="M-8,-28 L-13,-32 M-8,-28 L-10,-34 M-8,-28 L-5,-34 M-8,-28 L0,-31" stroke="#f472b6" stroke-width="1.4" stroke-linecap="round" />
+      </g>
     </g>
   </g>
 
-  <!-- ⚡️ BIOLUMINESCENT ELECTRIC SHOCK EEL -->
+  <!-- ⚡️ BIOLUMINESCENT ELECTRIC SHOCK EEL (Accurate to Reference Image 4) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="880,95; 420,115; -100,85" dur="16.5s" repeatCount="indefinite" />
-    <g transform="scale(-0.6, 0.6)">
-      <!-- Slithering Snake-Like Wave -->
-      <path d="M50,0 Q35,-12 15,0 T-15,0 T-45,0 T-75,0" stroke="#0284c7" stroke-width="8" fill="none" stroke-linecap="round">
-        <animate attributeName="d" values="M50,0 Q35,-12 15,0 T-15,0 T-45,0 T-75,0; M50,0 Q35,12 15,0 T-15,0 T-45,0 T-75,0; M50,0 Q35,-12 15,0 T-15,0 T-45,0 T-75,0" dur="0.8s" repeatCount="indefinite" />
+    <g transform="scale(-0.68, 0.68)">
+      <!-- S-Shaped Slithering Dark Slate Body (Image 4) -->
+      <path d="M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0" stroke="#334155" stroke-width="12" fill="none" stroke-linecap="round">
+        <animate attributeName="d" values="M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0; M60,0 Q40,16 15,0 T-20,0 T-60,0 T-100,0; M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0" dur="0.9s" repeatCount="indefinite" />
       </path>
-      <path d="M50,0 Q35,-12 15,0 T-15,0 T-45,0 T-75,0" stroke="#38bdf8" stroke-width="4" fill="none" stroke-linecap="round">
-        <animate attributeName="d" values="M50,0 Q35,-12 15,0 T-15,0 T-45,0 T-75,0; M50,0 Q35,12 15,0 T-15,0 T-45,0 T-75,0; M50,0 Q35,-12 15,0 T-15,0 T-45,0 T-75,0" dur="0.8s" repeatCount="indefinite" />
+      <path d="M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0" stroke="#475569" stroke-width="8" fill="none" stroke-linecap="round">
+        <animate attributeName="d" values="M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0; M60,0 Q40,16 15,0 T-20,0 T-60,0 T-100,0; M60,0 Q40,-16 15,0 T-20,0 T-60,0 T-100,0" dur="0.9s" repeatCount="indefinite" />
       </path>
-      <!-- Electric Spark Discharge Aura -->
-      <g stroke="#fef08a" stroke-width="1.5" fill="none" opacity="0.9">
-        <path d="M40,-8 L45,-15 L38,-12 M20,8 L25,16 L18,12 M-10,-8 L-5,-16 L-12,-12 M-30,8 L-25,16 L-32,12">
-          <animate attributeName="opacity" values="0.1; 1; 0.2; 0.9; 0.1" dur="0.2s" repeatCount="indefinite" />
+
+      <!-- Continuous Long Underbody Ventral Ribbon Fin (Image 4) -->
+      <path d="M50,5 Q35,-10 12,5 T-22,5 T-62,5 T-100,2" stroke="#0284c7" stroke-width="3.5" fill="none" opacity="0.85">
+        <animate attributeName="d" values="M50,5 Q35,-10 12,5 T-22,5 T-62,5 T-100,2; M50,5 Q35,20 12,5 T-22,5 T-62,5 T-100,2; M50,5 Q35,-10 12,5 T-22,5 T-62,5 T-100,2" dur="0.9s" repeatCount="indefinite" />
+      </path>
+
+      <!-- Pale Under-Chin Throat (Image 4) -->
+      <path d="M60,0 C52,6 38,8 20,4 C38,0 52,-2 60,0 Z" fill="#cbd5e1" opacity="0.8" />
+
+      <!-- Sensory Pit Dots along Head & Body (Image 4) -->
+      <circle cx="55" cy="-2" r="0.9" fill="#94a3b8" />
+      <circle cx="50" cy="-3" r="0.9" fill="#94a3b8" />
+      <circle cx="45" cy="-2" r="0.9" fill="#94a3b8" />
+      <circle cx="40" cy="-3" r="0.9" fill="#94a3b8" />
+      <circle cx="35" cy="-2" r="0.9" fill="#94a3b8" />
+
+      <!-- Electric Spark Discharge Lightning Aura -->
+      <g stroke="#fef08a" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.95">
+        <path d="M52,-10 L58,-18 L50,-14 M25,10 L32,18 L22,14 M-15,-10 L-8,-18 L-18,-14 M-45,10 L-38,18 L-48,14">
+          <animate attributeName="opacity" values="0.1; 1; 0.15; 0.95; 0.1" dur="0.25s" repeatCount="indefinite" />
         </path>
       </g>
-      <!-- Glowing Eyes -->
-      <circle cx="48" cy="-2" r="2" fill="#fef08a" />
-      <circle cx="48" cy="-2" r="1" fill="#000" />
+
+      <!-- Small Pale Blue Eye (Image 4) -->
+      <circle cx="56" cy="-3" r="1.8" fill="#e0f2fe" />
+      <circle cx="56" cy="-3" r="0.9" fill="#0284c7" />
     </g>
   </g>
 
-  <!-- 🐠 ORNATE ZEBRA LIONFISH -->
+  <!-- 🐠 ORNATE ZEBRA LIONFISH (Accurate to Reference Image 5) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="-60,75; 380,105; 880,70" dur="14.4s" repeatCount="indefinite" />
-    <g transform="scale(0.55)">
-      <animateTransform attributeName="transform" type="rotate" values="-4; 4; -4" dur="1.5s" repeatCount="indefinite" />
-      <!-- Spiky Fan Pectoral Fins -->
-      <g stroke="#be123c" stroke-width="1.5" fill="none">
-        <path d="M0,0 Q18,-30 35,-38 M0,0 Q10,-32 22,-42 M0,0 Q0,-35 8,-45 M0,0 Q-10,-32 -5,-42">
-          <animate attributeName="d" values="M0,0 Q18,-30 35,-38 M0,0 Q10,-32 22,-42 M0,0 Q0,-35 8,-45 M0,0 Q-10,-32 -5,-42; M0,0 Q22,-26 40,-32 M0,0 Q14,-28 28,-36 M0,0 Q4,-30 14,-40 M0,0 Q-6,-28 0,-38; M0,0 Q18,-30 35,-38 M0,0 Q10,-32 22,-42 M0,0 Q0,-35 8,-45 M0,0 Q-10,-32 -5,-42" dur="0.8s" repeatCount="indefinite" />
-        </path>
-        <path d="M0,0 Q18,30 35,38 M0,0 Q10,32 22,42 M0,0 Q0,35 8,45 M0,0 Q-10,32 -5,42">
-          <animate attributeName="d" values="M0,0 Q18,30 35,38 M0,0 Q10,32 22,42 M0,0 Q0,35 8,45 M0,0 Q-10,32 -5,42; M0,0 Q22,26 40,32 M0,0 Q14,28 28,36 M0,0 Q4,30 14,40 M0,0 Q-6,28 0,38; M0,0 Q18,30 35,38 M0,0 Q10,32 22,42 M0,0 Q0,35 8,45 M0,0 Q-10,32 -5,42" dur="0.8s" repeatCount="indefinite" />
-        </path>
+    <g transform="scale(0.65)">
+      <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" dur="1.6s" repeatCount="indefinite" />
+      
+      <!-- Tall Spiky Venomous Dorsal Spines with Maroon Bands (Image 5) -->
+      <g stroke-linecap="round">
+        <path d="M12,-10 L25,-48 M6,-12 L12,-52 M0,-12 L2,-54 M-6,-12 L-8,-50 M-12,-10 L-18,-45 M-18,-8 L-28,-38" stroke="#fff7ed" stroke-width="2" />
+        <path d="M12,-10 L25,-48 M6,-12 L12,-52 M0,-12 L2,-54 M-6,-12 L-8,-50 M-12,-10 L-18,-45 M-18,-8 L-28,-38" stroke="#9f1239" stroke-width="2" stroke-dasharray="4 4" />
       </g>
-      <!-- Zebra Striped Body -->
-      <ellipse cx="0" cy="0" rx="18" ry="11" fill="#fff7ed" stroke="#9f1239" stroke-width="1" />
-      <path d="M-10,-10 L-5,10 M-2,-11 L3,11 M6,-10 L11,10" stroke="#be123c" stroke-width="2.5" />
-      <!-- Tail -->
-      <path d="M-18,0 L-32,-12 L-26,0 L-32,12 Z" fill="#fff7ed" stroke="#9f1239" stroke-width="1" />
-      <!-- Eye -->
-      <circle cx="12" cy="-3" r="2.5" fill="#fff" />
-      <circle cx="13" cy="-3" r="1.2" fill="#000" />
+
+      <!-- Huge Fan-Like Pectoral Fins with Banded Rays (Image 5) -->
+      <g stroke-linecap="round">
+        <!-- Top Pectoral Fan -->
+        <path d="M8,-2 Q25,-32 45,-36 M8,-2 Q20,-38 32,-44 M8,-2 Q10,-40 18,-48 M8,-2 Q0,-38 5,-45 M8,-2 Q-8,-34 -5,-42" stroke="#fff7ed" stroke-width="2.5" />
+        <path d="M8,-2 Q25,-32 45,-36 M8,-2 Q20,-38 32,-44 M8,-2 Q10,-40 18,-48 M8,-2 Q0,-38 5,-45 M8,-2 Q-8,-34 -5,-42" stroke="#be123c" stroke-width="2.5" stroke-dasharray="5 4" />
+
+        <!-- Bottom Pectoral Fan -->
+        <path d="M8,2 Q25,32 45,36 M8,2 Q20,38 32,44 M8,2 Q10,40 18,48 M8,2 Q0,38 5,45 M8,2 Q-8,34 -5,42" stroke="#fff7ed" stroke-width="2.5" />
+        <path d="M8,2 Q25,32 45,36 M8,2 Q20,38 32,44 M8,2 Q10,40 18,48 M8,2 Q0,38 5,45 M8,2 Q-8,34 -5,42" stroke="#be123c" stroke-width="2.5" stroke-dasharray="5 4" />
+      </g>
+
+      <!-- Red-Brown and White Zebra Striped Body (Image 5) -->
+      <ellipse cx="0" cy="0" rx="22" ry="14" fill="#fff7ed" stroke="#881337" stroke-width="1.2" />
+      <!-- Zebra Bands -->
+      <path d="M-15,-12 L-10,12 M-8,-14 L-3,14 M0,-14 L5,14 M8,-13 L13,13 M15,-10 L19,10" stroke="#9f1239" stroke-width="3" />
+
+      <!-- Spiky Tentacles/Horn Above Eye (Image 5) -->
+      <path d="M15,-12 L18,-22 M18,-10 L22,-18" stroke="#be123c" stroke-width="1.5" stroke-linecap="round" />
+
+      <!-- Translucent Caudal Tail Fin with Fine Rows of Dots (Image 5) -->
+      <g transform="translate(-22, 0)">
+        <path d="M0,0 L-22,-18 L-16,0 L-22,18 Z" fill="#fff7ed" opacity="0.6" stroke="#be123c" stroke-width="0.8" />
+        <!-- Dot Patterns on Tail -->
+        <circle cx="-10" cy="-6" r="1" fill="#881337" /> <circle cx="-14" cy="-10" r="1" fill="#881337" />
+        <circle cx="-8" cy="0" r="1" fill="#881337" /> <circle cx="-12" cy="0" r="1" fill="#881337" />
+        <circle cx="-10" cy="6" r="1" fill="#881337" /> <circle cx="-14" cy="10" r="1" fill="#881337" />
+      </g>
+
+      <!-- Eye with Dark Band Crossing (Image 5) -->
+      <circle cx="16" cy="-3" r="3.2" fill="#fff" stroke="#881337" stroke-width="0.8" />
+      <circle cx="17" cy="-3" r="1.5" fill="#0f172a" />
+      <!-- Dark Band Over Eye -->
+      <path d="M16,-8 L16,2" stroke="#881337" stroke-width="2" opacity="0.7" />
     </g>
   </g>
 
