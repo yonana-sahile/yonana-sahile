@@ -161,133 +161,246 @@
       <circle cx="0" cy="-60" r="4" fill="#fb7185" />
     </g>
 
-    <!-- 🌺 NEW: Dense Crimson Ludwigia / Rotala Thickets (Directly from Reference Photo 1) -->
-    <!-- Cluster 1 (x=200, y=98) -->
-    <g transform="translate(200, 98) scale(0.38)">
+    <!-- 🌺 NEW: Ultra-Dense Crimson Ludwigia / Rotala Thickets (Seamless dense wall across full width) -->
+    <!-- Cluster 1 (x=30) -->
+    <g transform="translate(30, 96) scale(0.40)">
       <path d="M0,0 Q-8,-30 -12,-65 Q-2,-48 0,0 Q8,-30 12,-60" stroke="#be123c" stroke-width="3" fill="none" />
-      <circle cx="-16" cy="-25" r="8" fill="#e11d48" opacity="0.95" />
-      <circle cx="14" cy="-35" r="9" fill="#f43f5e" opacity="0.9" />
-      <circle cx="-22" cy="-48" r="10" fill="#be123c" opacity="0.95" />
-      <circle cx="18" cy="-55" r="11" fill="#e11d48" opacity="0.9" />
-      <circle cx="-10" cy="-68" r="9" fill="#f43f5e" opacity="0.95" />
-      <circle cx="6" cy="-75" r="8" fill="#fda4af" opacity="0.9" />
-      <animateTransform attributeName="transform" type="rotate" values="-3; 4; -3" pivot="200,98" dur="5.8s" repeatCount="indefinite" />
+      <circle cx="-16" cy="-25" r="9" fill="#e11d48" opacity="0.95" />
+      <circle cx="14" cy="-35" r="10" fill="#f43f5e" opacity="0.9" />
+      <circle cx="-22" cy="-48" r="11" fill="#be123c" opacity="0.95" />
+      <circle cx="18" cy="-55" r="12" fill="#e11d48" opacity="0.9" />
+      <circle cx="-10" cy="-68" r="10" fill="#f43f5e" opacity="0.95" />
+      <circle cx="6" cy="-75" r="9" fill="#fda4af" opacity="0.9" />
+      <animateTransform attributeName="transform" type="rotate" values="-3; 4; -3" pivot="30,96" dur="5.8s" repeatCount="indefinite" />
     </g>
-    <!-- Cluster 2 (x=340, y=94) -->
-    <g transform="translate(340, 94) scale(0.42)">
+    <!-- Cluster 2 (x=100) -->
+    <g transform="translate(100, 94) scale(0.42)">
       <path d="M0,0 Q-10,-35 -15,-70 Q-3,-52 0,0 Q10,-35 15,-65" stroke="#9f1239" stroke-width="3.5" fill="none" />
-      <circle cx="-18" cy="-28" r="9" fill="#be123c" opacity="0.95" />
-      <circle cx="16" cy="-40" r="10" fill="#e11d48" opacity="0.9" />
-      <circle cx="-25" cy="-52" r="11" fill="#f43f5e" opacity="0.95" />
-      <circle cx="20" cy="-62" r="12" fill="#be123c" opacity="0.9" />
-      <circle cx="-12" cy="-75" r="10" fill="#e11d48" opacity="0.95" />
-      <circle cx="8" cy="-82" r="9" fill="#fecdd3" opacity="0.9" />
-      <animateTransform attributeName="transform" type="rotate" values="4; -3; 4" pivot="340,94" dur="6.2s" repeatCount="indefinite" />
+      <circle cx="-18" cy="-28" r="10" fill="#be123c" opacity="0.95" />
+      <circle cx="16" cy="-40" r="11" fill="#e11d48" opacity="0.9" />
+      <circle cx="-25" cy="-52" r="12" fill="#f43f5e" opacity="0.95" />
+      <circle cx="20" cy="-62" r="13" fill="#be123c" opacity="0.9" />
+      <circle cx="-12" cy="-75" r="11" fill="#e11d48" opacity="0.95" />
+      <animateTransform attributeName="transform" type="rotate" values="4; -3; 4" pivot="100,94" dur="6.2s" repeatCount="indefinite" />
     </g>
-    <!-- Cluster 3 (x=530, y=92) -->
-    <g transform="translate(530, 92) scale(0.40)">
+    <!-- Cluster 3 (x=170) -->
+    <g transform="translate(170, 98) scale(0.39)">
+      <path d="M0,0 Q-8,-30 -12,-65 Q-2,-48 0,0 Q8,-30 12,-60" stroke="#be123c" stroke-width="3" fill="none" />
+      <circle cx="-16" cy="-25" r="9" fill="#e11d48" opacity="0.95" />
+      <circle cx="14" cy="-35" r="10" fill="#f43f5e" opacity="0.9" />
+      <circle cx="-22" cy="-48" r="11" fill="#be123c" opacity="0.95" />
+      <circle cx="18" cy="-55" r="12" fill="#e11d48" opacity="0.9" />
+      <animateTransform attributeName="transform" type="rotate" values="-3; 4; -3" pivot="170,98" dur="5.8s" repeatCount="indefinite" />
+    </g>
+    <!-- Cluster 4 (x=240) -->
+    <g transform="translate(240, 94) scale(0.42)">
+      <path d="M0,0 Q-10,-35 -15,-70 Q-3,-52 0,0 Q10,-35 15,-65" stroke="#9f1239" stroke-width="3.5" fill="none" />
+      <circle cx="-18" cy="-28" r="10" fill="#be123c" opacity="0.95" />
+      <circle cx="16" cy="-40" r="11" fill="#e11d48" opacity="0.9" />
+      <circle cx="-25" cy="-52" r="12" fill="#f43f5e" opacity="0.95" />
+      <circle cx="20" cy="-62" r="13" fill="#be123c" opacity="0.9" />
+      <animateTransform attributeName="transform" type="rotate" values="4; -3; 4" pivot="240,94" dur="6.2s" repeatCount="indefinite" />
+    </g>
+    <!-- Cluster 5 (x=310) -->
+    <g transform="translate(310, 96) scale(0.40)">
+      <path d="M0,0 Q-8,-30 -12,-65 Q-2,-48 0,0 Q8,-30 12,-60" stroke="#be123c" stroke-width="3" fill="none" />
+      <circle cx="-16" cy="-25" r="9" fill="#e11d48" opacity="0.95" />
+      <circle cx="14" cy="-35" r="10" fill="#f43f5e" opacity="0.9" />
+      <circle cx="-22" cy="-48" r="11" fill="#be123c" opacity="0.95" />
+      <circle cx="18" cy="-55" r="12" fill="#e11d48" opacity="0.9" />
+      <animateTransform attributeName="transform" type="rotate" values="-3; 4; -3" pivot="310,96" dur="5.8s" repeatCount="indefinite" />
+    </g>
+    <!-- Cluster 6 (x=380) -->
+    <g transform="translate(380, 94) scale(0.43)">
+      <path d="M0,0 Q-10,-35 -15,-70 Q-3,-52 0,0 Q10,-35 15,-65" stroke="#9f1239" stroke-width="3.5" fill="none" />
+      <circle cx="-18" cy="-28" r="10" fill="#be123c" opacity="0.95" />
+      <circle cx="16" cy="-40" r="11" fill="#e11d48" opacity="0.9" />
+      <circle cx="-25" cy="-52" r="12" fill="#f43f5e" opacity="0.95" />
+      <circle cx="20" cy="-62" r="13" fill="#be123c" opacity="0.9" />
+      <animateTransform attributeName="transform" type="rotate" values="4; -3; 4" pivot="380,94" dur="6.2s" repeatCount="indefinite" />
+    </g>
+    <!-- Cluster 7 (x=450) -->
+    <g transform="translate(450, 98) scale(0.39)">
+      <path d="M0,0 Q-8,-30 -12,-65 Q-2,-48 0,0 Q8,-30 12,-60" stroke="#be123c" stroke-width="3" fill="none" />
+      <circle cx="-16" cy="-25" r="9" fill="#e11d48" opacity="0.95" />
+      <circle cx="14" cy="-35" r="10" fill="#f43f5e" opacity="0.9" />
+      <circle cx="-22" cy="-48" r="11" fill="#be123c" opacity="0.95" />
+      <animateTransform attributeName="transform" type="rotate" values="-3; 4; -3" pivot="450,98" dur="5.8s" repeatCount="indefinite" />
+    </g>
+    <!-- Cluster 8 (x=520) -->
+    <g transform="translate(520, 92) scale(0.40)">
       <path d="M0,0 Q-8,-32 -14,-66 Q-2,-48 0,0 Q8,-32 12,-62" stroke="#be123c" stroke-width="3.2" fill="none" />
-      <circle cx="-16" cy="-26" r="8" fill="#e11d48" opacity="0.95" />
-      <circle cx="15" cy="-38" r="9" fill="#f43f5e" opacity="0.9" />
-      <circle cx="-22" cy="-50" r="11" fill="#be123c" opacity="0.95" />
-      <circle cx="18" cy="-58" r="11" fill="#e11d48" opacity="0.9" />
-      <circle cx="-10" cy="-72" r="9" fill="#f43f5e" opacity="0.95" />
-      <animateTransform attributeName="transform" type="rotate" values="-4; 3; -4" pivot="530,92" dur="5.5s" repeatCount="indefinite" />
+      <circle cx="-16" cy="-26" r="9" fill="#e11d48" opacity="0.95" />
+      <circle cx="15" cy="-38" r="10" fill="#f43f5e" opacity="0.9" />
+      <circle cx="-22" cy="-50" r="12" fill="#be123c" opacity="0.95" />
+      <circle cx="18" cy="-58" r="12" fill="#e11d48" opacity="0.9" />
+      <animateTransform attributeName="transform" type="rotate" values="-4; 3; -4" pivot="520,92" dur="5.5s" repeatCount="indefinite" />
     </g>
-    <!-- Cluster 4 (x=710, y=96) -->
-    <g transform="translate(710, 96) scale(0.38)">
+    <!-- Cluster 9 (x=590) -->
+    <g transform="translate(590, 94) scale(0.42)">
+      <path d="M0,0 Q-10,-35 -15,-70 Q-3,-52 0,0 Q10,-35 15,-65" stroke="#9f1239" stroke-width="3.5" fill="none" />
+      <circle cx="-18" cy="-28" r="10" fill="#be123c" opacity="0.95" />
+      <circle cx="16" cy="-40" r="11" fill="#e11d48" opacity="0.9" />
+      <circle cx="-25" cy="-52" r="12" fill="#f43f5e" opacity="0.95" />
+      <animateTransform attributeName="transform" type="rotate" values="4; -3; 4" pivot="590,94" dur="6.2s" repeatCount="indefinite" />
+    </g>
+    <!-- Cluster 10 (x=660) -->
+    <g transform="translate(660, 96) scale(0.40)">
+      <path d="M0,0 Q-8,-30 -12,-65 Q-2,-48 0,0 Q8,-30 12,-60" stroke="#be123c" stroke-width="3" fill="none" />
+      <circle cx="-16" cy="-25" r="9" fill="#e11d48" opacity="0.95" />
+      <circle cx="14" cy="-35" r="10" fill="#f43f5e" opacity="0.9" />
+      <circle cx="-22" cy="-48" r="11" fill="#be123c" opacity="0.95" />
+      <animateTransform attributeName="transform" type="rotate" values="-3; 4; -3" pivot="660,96" dur="5.8s" repeatCount="indefinite" />
+    </g>
+    <!-- Cluster 11 (x=730) -->
+    <g transform="translate(730, 96) scale(0.38)">
       <path d="M0,0 Q-8,-30 -12,-62 Q-2,-45 0,0 Q8,-30 12,-58" stroke="#9f1239" stroke-width="3" fill="none" />
-      <circle cx="-15" cy="-24" r="8" fill="#be123c" opacity="0.95" />
-      <circle cx="14" cy="-34" r="9" fill="#e11d48" opacity="0.9" />
-      <circle cx="-20" cy="-46" r="10" fill="#f43f5e" opacity="0.95" />
-      <circle cx="16" cy="-54" r="10" fill="#be123c" opacity="0.9" />
-      <circle cx="-8" cy="-66" r="8" fill="#fecdd3" opacity="0.95" />
-      <animateTransform attributeName="transform" type="rotate" values="3; -4; 3" pivot="710,96" dur="6.0s" repeatCount="indefinite" />
+      <circle cx="-15" cy="-24" r="9" fill="#be123c" opacity="0.95" />
+      <circle cx="14" cy="-34" r="10" fill="#e11d48" opacity="0.9" />
+      <circle cx="-20" cy="-46" r="11" fill="#f43f5e" opacity="0.95" />
+      <animateTransform attributeName="transform" type="rotate" values="3; -4; 3" pivot="730,96" dur="6.0s" repeatCount="indefinite" />
+    </g>
+    <!-- Cluster 12 (x=780) -->
+    <g transform="translate(780, 96) scale(0.40)">
+      <path d="M0,0 Q-8,-30 -12,-65 Q-2,-48 0,0 Q8,-30 12,-60" stroke="#be123c" stroke-width="3" fill="none" />
+      <circle cx="-16" cy="-25" r="9" fill="#e11d48" opacity="0.95" />
+      <circle cx="14" cy="-35" r="10" fill="#f43f5e" opacity="0.9" />
+      <circle cx="-22" cy="-48" r="11" fill="#be123c" opacity="0.95" />
     </g>
 
-    <!-- 🌾 NEW: Distant Pale Golden Feathery Myriophyllum / Cabomba Fronds (Directly from Reference Photo 1) -->
-    <!-- Column 1 (x=240, y=90) -->
-    <g transform="translate(240, 90) scale(0.36)">
+    <!-- 🌾 NEW: Distant Pale Golden Feathery Myriophyllum / Cabomba Fronds (Densely Interleaved every 80px) -->
+    <g transform="translate(60, 90) scale(0.38)">
       <path d="M0,0 L0,-75" stroke="#ca8a04" stroke-width="2" />
       <path d="M-15,-15 L15,-15 M-20,-28 L20,-28 M-22,-42 L22,-42 M-20,-56 L20,-56 M-15,-70 L15,-70" stroke="#eab308" stroke-width="2.2" stroke-linecap="round" />
       <path d="M-12,-20 L12,-10 M-16,-34 L16,-22 M-18,-48 L18,-36 M-14,-62 L14,-50" stroke="#fde047" stroke-width="1.8" stroke-linecap="round" />
     </g>
-    <!-- Column 2 (x=480, y=86) -->
-    <g transform="translate(480, 86) scale(0.38)">
+    <g transform="translate(140, 88) scale(0.38)">
+      <path d="M0,0 L0,-78" stroke="#ca8a04" stroke-width="2" />
+      <path d="M-15,-15 L15,-15 M-20,-28 L20,-28 M-22,-42 L22,-42 M-20,-56 L20,-56 M-15,-70 L15,-70" stroke="#f59e0b" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(220, 90) scale(0.36)">
+      <path d="M0,0 L0,-75" stroke="#ca8a04" stroke-width="2" />
+      <path d="M-15,-15 L15,-15 M-20,-28 L20,-28 M-22,-42 L22,-42 M-20,-56 L20,-56 M-15,-70 L15,-70" stroke="#eab308" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(300, 88) scale(0.39)">
       <path d="M0,0 L0,-80" stroke="#ca8a04" stroke-width="2" />
       <path d="M-16,-16 L16,-16 M-22,-30 L22,-30 M-24,-45 L24,-45 M-21,-60 L21,-60 M-16,-74 L16,-74" stroke="#f59e0b" stroke-width="2.2" stroke-linecap="round" />
-      <path d="M-13,-21 L13,-11 M-17,-36 L17,-24 M-19,-51 L19,-39 M-15,-66 L15,-54" stroke="#fef08a" stroke-width="1.8" stroke-linecap="round" />
     </g>
-    <!-- Column 3 (x=660, y=90) -->
-    <g transform="translate(660, 90) scale(0.36)">
+    <g transform="translate(380, 90) scale(0.36)">
       <path d="M0,0 L0,-75" stroke="#ca8a04" stroke-width="2" />
       <path d="M-15,-15 L15,-15 M-20,-28 L20,-28 M-22,-42 L22,-42 M-20,-56 L20,-56 M-15,-70 L15,-70" stroke="#eab308" stroke-width="2.2" stroke-linecap="round" />
-      <path d="M-12,-20 L12,-10 M-16,-34 L16,-22 M-18,-48 L18,-36 M-14,-62 L14,-50" stroke="#fde047" stroke-width="1.8" stroke-linecap="round" />
+    </g>
+    <g transform="translate(460, 86) scale(0.38)">
+      <path d="M0,0 L0,-80" stroke="#ca8a04" stroke-width="2" />
+      <path d="M-16,-16 L16,-16 M-22,-30 L22,-30 M-24,-45 L24,-45 M-21,-60 L21,-60 M-16,-74 L16,-74" stroke="#f59e0b" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(540, 88) scale(0.37)">
+      <path d="M0,0 L0,-76" stroke="#ca8a04" stroke-width="2" />
+      <path d="M-15,-15 L15,-15 M-20,-28 L20,-28 M-22,-42 L22,-42 M-20,-56 L20,-56 M-15,-70 L15,-70" stroke="#eab308" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(620, 90) scale(0.36)">
+      <path d="M0,0 L0,-75" stroke="#ca8a04" stroke-width="2" />
+      <path d="M-15,-15 L15,-15 M-20,-28 L20,-28 M-22,-42 L22,-42 M-20,-56 L20,-56 M-15,-70 L15,-70" stroke="#eab308" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(700, 88) scale(0.38)">
+      <path d="M0,0 L0,-78" stroke="#ca8a04" stroke-width="2" />
+      <path d="M-16,-16 L16,-16 M-22,-30 L22,-30 M-24,-45 L24,-45 M-21,-60 L21,-60 M-16,-74 L16,-74" stroke="#f59e0b" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(760, 90) scale(0.36)">
+      <path d="M0,0 L0,-75" stroke="#ca8a04" stroke-width="2" />
+      <path d="M-15,-15 L15,-15 M-20,-28 L20,-28 M-22,-42 L22,-42 M-20,-56 L20,-56 M-15,-70 L15,-70" stroke="#eab308" stroke-width="2.2" stroke-linecap="round" />
     </g>
 
-    <!-- 🌿 NEW: Distant Translucent Java Fern / Bolbitis Fronds with Pearling Bubbles (Directly from Reference Photo 2) -->
-    <!-- Fern 1 (x=120, y=94) -->
-    <g transform="translate(120, 94) scale(0.36)">
-      <path d="M0,0 Q-12,-25 0,-50 Q12,-25 0,0" fill="#22c55e" opacity="0.85" stroke="#15803d" stroke-width="1" />
-      <path d="M0,-10 Q-18,-25 -25,-35 Q-12,-35 0,-20" fill="#4ade80" opacity="0.85" />
-      <path d="M0,-25 Q18,-40 25,-50 Q12,-50 0,-35" fill="#4ade80" opacity="0.85" />
-      <!-- Pearling Oxygen Bubbles rising off leaf tips -->
+    <!-- 🌿 NEW: Distant Translucent Java Ferns Tightly Overlapping every 50-60px across x=0 to 800 -->
+    <g transform="translate(10, 94) scale(0.38)">
+      <path d="M0,0 Q-12,-25 0,-50 Q12,-25 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-10 Q-18,-25 -25,-35 Q-12,-35 0,-20" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-25 Q18,-40 25,-50 Q12,-50 0,-35" fill="#4ade80" opacity="0.88" />
+      <circle cx="0" cy="-52" r="2.5" fill="#ffffff" opacity="0.95">
+        <animate attributeName="cy" values="-52; -76; -52" dur="2.2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.95; 0.2; 0.95" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g transform="translate(65, 92) scale(0.40)">
+      <path d="M0,0 Q-14,-28 0,-55 Q14,-28 0,0" fill="#16a34a" opacity="0.88" stroke="#14532d" stroke-width="1" />
+      <path d="M0,-12 Q-20,-28 -28,-40 Q-14,-40 0,-22" fill="#22c55e" opacity="0.88" />
+      <path d="M0,-28 Q20,-44 28,-56 Q14,-56 0,-38" fill="#4ade80" opacity="0.88" />
+    </g>
+    <g transform="translate(120, 94) scale(0.38)">
+      <path d="M0,0 Q-12,-25 0,-50 Q12,-25 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-10 Q-18,-25 -25,-35 Q-12,-35 0,-20" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-25 Q18,-40 25,-50 Q12,-50 0,-35" fill="#4ade80" opacity="0.88" />
       <circle cx="0" cy="-52" r="2.5" fill="#ffffff" opacity="0.95">
         <animate attributeName="cy" values="-52; -78; -52" dur="2.1s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.95; 0.2; 0.95" dur="2.1s" repeatCount="indefinite" />
       </circle>
-      <circle cx="-25" cy="-37" r="1.8" fill="#ffffff" opacity="0.9">
-        <animate attributeName="cy" values="-37; -62; -37" dur="2.4s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.9; 0.15; 0.9" dur="2.4s" repeatCount="indefinite" />
-      </circle>
     </g>
-    <!-- Fern 2 (x=280, y=92) -->
-    <g transform="translate(280, 92) scale(0.38)">
-      <path d="M0,0 Q-14,-28 0,-55 Q14,-28 0,0" fill="#16a34a" opacity="0.85" stroke="#14532d" stroke-width="1" />
-      <path d="M0,-12 Q-20,-28 -28,-40 Q-14,-40 0,-22" fill="#22c55e" opacity="0.85" />
-      <path d="M0,-28 Q20,-44 28,-56 Q14,-56 0,-38" fill="#4ade80" opacity="0.85" />
-      <!-- Pearling Oxygen Bubbles rising off leaf tips -->
+    <g transform="translate(180, 91) scale(0.41)">
+      <path d="M0,0 Q-15,-30 0,-60 Q15,-30 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-14 Q-22,-30 -30,-42 Q-15,-42 0,-24" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-30 Q22,-46 30,-58 Q15,-58 0,-40" fill="#86efac" opacity="0.88" />
+    </g>
+    <g transform="translate(235, 93) scale(0.39)">
+      <path d="M0,0 Q-14,-28 0,-55 Q14,-28 0,0" fill="#16a34a" opacity="0.88" stroke="#14532d" stroke-width="1" />
+      <path d="M0,-12 Q-20,-28 -28,-40 Q-14,-40 0,-22" fill="#22c55e" opacity="0.88" />
+      <path d="M0,-28 Q20,-44 28,-56 Q14,-56 0,-38" fill="#4ade80" opacity="0.88" />
+    </g>
+    <g transform="translate(280, 92) scale(0.40)">
+      <path d="M0,0 Q-14,-28 0,-55 Q14,-28 0,0" fill="#16a34a" opacity="0.88" stroke="#14532d" stroke-width="1" />
+      <path d="M0,-12 Q-20,-28 -28,-40 Q-14,-40 0,-22" fill="#22c55e" opacity="0.88" />
+      <path d="M0,-28 Q20,-44 28,-56 Q14,-56 0,-38" fill="#4ade80" opacity="0.88" />
       <circle cx="0" cy="-58" r="2.8" fill="#ffffff" opacity="0.95">
         <animate attributeName="cy" values="-58; -85; -58" dur="1.9s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.95; 0.2; 0.95" dur="1.9s" repeatCount="indefinite" />
       </circle>
-      <circle cx="28" cy="-58" r="2.0" fill="#ffffff" opacity="0.9">
-        <animate attributeName="cy" values="-58; -82; -58" dur="2.3s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.9; 0.15; 0.9" dur="2.3s" repeatCount="indefinite" />
-      </circle>
     </g>
-    <!-- Fern 3 (x=410, y=88) -->
-    <g transform="translate(410, 88) scale(0.40)">
-      <path d="M0,0 Q-15,-30 0,-60 Q15,-30 0,0" fill="#22c55e" opacity="0.85" stroke="#15803d" stroke-width="1" />
-      <path d="M0,-14 Q-22,-30 -30,-42 Q-15,-42 0,-24" fill="#4ade80" opacity="0.85" />
-      <path d="M0,-30 Q22,-46 30,-58 Q15,-58 0,-40" fill="#86efac" opacity="0.85" />
-      <!-- Pearling Oxygen Bubbles rising off leaf tips -->
+    <g transform="translate(345, 94) scale(0.38)">
+      <path d="M0,0 Q-12,-25 0,-50 Q12,-25 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-10 Q-18,-25 -25,-35 Q-12,-35 0,-20" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-25 Q18,-40 25,-50 Q12,-50 0,-35" fill="#4ade80" opacity="0.88" />
+    </g>
+    <g transform="translate(410, 88) scale(0.42)">
+      <path d="M0,0 Q-15,-30 0,-60 Q15,-30 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-14 Q-22,-30 -30,-42 Q-15,-42 0,-24" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-30 Q22,-46 30,-58 Q15,-58 0,-40" fill="#86efac" opacity="0.88" />
       <circle cx="0" cy="-62" r="3.0" fill="#ffffff" opacity="0.95">
         <animate attributeName="cy" values="-62; -90; -62" dur="2.2s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.95; 0.2; 0.95" dur="2.2s" repeatCount="indefinite" />
       </circle>
-      <circle cx="-30" cy="-44" r="2.1" fill="#ffffff" opacity="0.9">
-        <animate attributeName="cy" values="-44; -70; -44" dur="2.5s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.9; 0.15; 0.9" dur="2.5s" repeatCount="indefinite" />
-      </circle>
     </g>
-    <!-- Fern 4 (x=590, y=90) -->
-    <g transform="translate(590, 90) scale(0.38)">
-      <path d="M0,0 Q-14,-28 0,-55 Q14,-28 0,0" fill="#16a34a" opacity="0.85" stroke="#14532d" stroke-width="1" />
-      <path d="M0,-12 Q-20,-28 -28,-40 Q-14,-40 0,-22" fill="#22c55e" opacity="0.85" />
-      <path d="M0,-28 Q20,-44 28,-56 Q14,-56 0,-38" fill="#4ade80" opacity="0.85" />
-      <!-- Pearling Oxygen Bubbles rising off leaf tips -->
+    <g transform="translate(475, 92) scale(0.39)">
+      <path d="M0,0 Q-14,-28 0,-55 Q14,-28 0,0" fill="#16a34a" opacity="0.88" stroke="#14532d" stroke-width="1" />
+      <path d="M0,-12 Q-20,-28 -28,-40 Q-14,-40 0,-22" fill="#22c55e" opacity="0.88" />
+      <path d="M0,-28 Q20,-44 28,-56 Q14,-56 0,-38" fill="#4ade80" opacity="0.88" />
+    </g>
+    <g transform="translate(535, 90) scale(0.40)">
+      <path d="M0,0 Q-12,-25 0,-50 Q12,-25 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-10 Q-18,-25 -25,-35 Q-12,-35 0,-20" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-25 Q18,-40 25,-50 Q12,-50 0,-35" fill="#4ade80" opacity="0.88" />
+    </g>
+    <g transform="translate(590, 90) scale(0.40)">
+      <path d="M0,0 Q-14,-28 0,-55 Q14,-28 0,0" fill="#16a34a" opacity="0.88" stroke="#14532d" stroke-width="1" />
+      <path d="M0,-12 Q-20,-28 -28,-40 Q-14,-40 0,-22" fill="#22c55e" opacity="0.88" />
+      <path d="M0,-28 Q20,-44 28,-56 Q14,-56 0,-38" fill="#4ade80" opacity="0.88" />
       <circle cx="0" cy="-58" r="2.6" fill="#ffffff" opacity="0.95">
         <animate attributeName="cy" values="-58; -84; -58" dur="2.0s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.95; 0.2; 0.95" dur="2.0s" repeatCount="indefinite" />
       </circle>
     </g>
-    <!-- Fern 5 (x=770, y=94) -->
-    <g transform="translate(770, 94) scale(0.36)">
-      <path d="M0,0 Q-12,-25 0,-50 Q12,-25 0,0" fill="#22c55e" opacity="0.85" stroke="#15803d" stroke-width="1" />
-      <path d="M0,-10 Q-18,-25 -25,-35 Q-12,-35 0,-20" fill="#4ade80" opacity="0.85" />
-      <path d="M0,-25 Q18,-40 25,-50 Q12,-50 0,-35" fill="#4ade80" opacity="0.85" />
-      <!-- Pearling Oxygen Bubbles rising off leaf tips -->
+    <g transform="translate(650, 93) scale(0.38)">
+      <path d="M0,0 Q-12,-25 0,-50 Q12,-25 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-10 Q-18,-25 -25,-35 Q-12,-35 0,-20" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-25 Q18,-40 25,-50 Q12,-50 0,-35" fill="#4ade80" opacity="0.88" />
+    </g>
+    <g transform="translate(710, 91) scale(0.41)">
+      <path d="M0,0 Q-15,-30 0,-60 Q15,-30 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-14 Q-22,-30 -30,-42 Q-15,-42 0,-24" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-30 Q22,-46 30,-58 Q15,-58 0,-40" fill="#86efac" opacity="0.88" />
+    </g>
+    <g transform="translate(770, 94) scale(0.38)">
+      <path d="M0,0 Q-12,-25 0,-50 Q12,-25 0,0" fill="#22c55e" opacity="0.88" stroke="#15803d" stroke-width="1" />
+      <path d="M0,-10 Q-18,-25 -25,-35 Q-12,-35 0,-20" fill="#4ade80" opacity="0.88" />
+      <path d="M0,-25 Q18,-40 25,-50 Q12,-50 0,-35" fill="#4ade80" opacity="0.88" />
       <circle cx="0" cy="-52" r="2.5" fill="#ffffff" opacity="0.95">
         <animate attributeName="cy" values="-52; -76; -52" dur="2.2s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.95; 0.2; 0.95" dur="2.2s" repeatCount="indefinite" />
