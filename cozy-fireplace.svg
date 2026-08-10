@@ -16,30 +16,25 @@
     <stop offset="60%" stop-color="#0a0812"/>
     <stop offset="100%" stop-color="#050308"/>
   </linearGradient>
-
   <radialGradient id="roomGlow" cx="50%" cy="62%" r="65%">
     <stop offset="0%" stop-color="#ff7a1a" stop-opacity="0.35"/>
     <stop offset="45%" stop-color="#ff4d00" stop-opacity="0.12"/>
     <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
   </radialGradient>
-
   <linearGradient id="stoneGrad" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#2c2640"/>
     <stop offset="55%" stop-color="#1c1830"/>
     <stop offset="100%" stop-color="#100c1e"/>
   </linearGradient>
-
   <linearGradient id="mantelGrad" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#4a3420"/>
     <stop offset="45%" stop-color="#2c1f13"/>
     <stop offset="100%" stop-color="#150e08"/>
   </linearGradient>
-
   <linearGradient id="hearthGrad" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#3a3450"/>
     <stop offset="100%" stop-color="#151228"/>
   </linearGradient>
-
   <linearGradient id="fireGrad" x1="0" y1="1" x2="0" y2="0">
     <stop offset="0%" stop-color="#5a0000"/>
     <stop offset="15%" stop-color="#b01000"/>
@@ -47,67 +42,56 @@
     <stop offset="65%" stop-color="#ff9900"/>
     <stop offset="100%" stop-color="#ffeba0"/>
   </linearGradient>
-
   <linearGradient id="fireGradSoft" x1="0" y1="1" x2="0" y2="0">
     <stop offset="0%" stop-color="#5a0000" stop-opacity="0"/>
     <stop offset="30%" stop-color="#ff4a00" stop-opacity="0.85"/>
     <stop offset="100%" stop-color="#ffeba0" stop-opacity="1"/>
   </linearGradient>
-
   <linearGradient id="textFireGrad" x1="0" y1="1" x2="0" y2="0">
     <stop offset="0%" stop-color="#8a0e00"/>
     <stop offset="35%" stop-color="#e23600"/>
     <stop offset="65%" stop-color="#ff9500"/>
     <stop offset="100%" stop-color="#fff6d6"/>
-    <animateTransform attributeName="gradientTransform" type="translate"
-      values="0,0; 0,-6; 0,0" dur="1.4s" repeatCount="indefinite"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0,0; 0,-6; 0,0" dur="1.4s" repeatCount="indefinite"/>
   </linearGradient>
-
   <radialGradient id="emberGlow" cx="50%" cy="50%" r="50%">
     <stop offset="0%" stop-color="#ffe28a" stop-opacity="1"/>
     <stop offset="45%" stop-color="#ff8a00" stop-opacity="0.9"/>
     <stop offset="100%" stop-color="#ff3d00" stop-opacity="0"/>
   </radialGradient>
-
   <radialGradient id="coreBurst" cx="50%" cy="50%" r="50%">
     <stop offset="0%" stop-color="#fff8dd"/>
     <stop offset="35%" stop-color="#ffb200"/>
     <stop offset="70%" stop-color="#ff5500" stop-opacity="0.7"/>
     <stop offset="100%" stop-color="#ff5500" stop-opacity="0"/>
   </radialGradient>
-
   <linearGradient id="logGrad" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#050201"/>
     <stop offset="30%" stop-color="#2a1608"/>
     <stop offset="70%" stop-color="#0a0502"/>
     <stop offset="100%" stop-color="#000000"/>
   </linearGradient>
-
   <radialGradient id="crackGlow" cx="50%" cy="50%" r="50%">
     <stop offset="0%" stop-color="#fff2c2"/>
     <stop offset="40%" stop-color="#ff8a00"/>
     <stop offset="100%" stop-color="#ff8a00" stop-opacity="0"/>
   </radialGradient>
-
   <radialGradient id="ashGrad" cx="50%" cy="30%" r="80%">
     <stop offset="0%" stop-color="#8a8578"/>
     <stop offset="55%" stop-color="#4a463e"/>
     <stop offset="100%" stop-color="#201d18" stop-opacity="0"/>
   </radialGradient>
-
   <linearGradient id="pipeGrad" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#0c0c10"/>
     <stop offset="35%" stop-color="#3a3a42"/>
     <stop offset="55%" stop-color="#57575f"/>
     <stop offset="100%" stop-color="#0c0c10"/>
   </linearGradient>
-
   <radialGradient id="smokeGrad" cx="50%" cy="50%" r="50%">
     <stop offset="0%" stop-color="#cfd3da" stop-opacity="0.55"/>
     <stop offset="60%" stop-color="#9096a3" stop-opacity="0.3"/>
     <stop offset="100%" stop-color="#9096a3" stop-opacity="0"/>
   </radialGradient>
-
   <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#3b1d09"/>
     <stop offset="20%" stop-color="#5a3116"/>
@@ -115,69 +99,57 @@
     <stop offset="80%" stop-color="#3b1d09"/>
     <stop offset="100%" stop-color="#241004"/>
   </linearGradient>
-
   <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#ffe699"/>
     <stop offset="50%" stop-color="#d4af37"/>
     <stop offset="100%" stop-color="#997a00"/>
   </linearGradient>
-
   <linearGradient id="clockFace" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#ffffff"/>
     <stop offset="80%" stop-color="#f5f5dc"/>
     <stop offset="100%" stop-color="#e0e0c0"/>
   </linearGradient>
-
   <linearGradient id="potRedGrad" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#ff5a4a"/>
     <stop offset="35%" stop-color="#d21f1f"/>
     <stop offset="75%" stop-color="#8f0f14"/>
     <stop offset="100%" stop-color="#5c0709"/>
   </linearGradient>
-
   <linearGradient id="potRimGrad" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#ffb199"/>
     <stop offset="50%" stop-color="#ef3f30"/>
     <stop offset="100%" stop-color="#a3121a"/>
   </linearGradient>
-
   <clipPath id="fireboxClip">
     <rect x="242" y="86" width="550" height="234" rx="8"/>
   </clipPath>
-
   <clipPath id="frameClip">
     <rect x="0" y="0" width="984" height="380"/>
   </clipPath>
-
   <clipPath id="glassClip">
     <rect x="20" y="160" width="100" height="110"/>
   </clipPath>
-
   <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
     <feGaussianBlur stdDeviation="5" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-
   <filter id="fireGlowStrong" x="-100%" y="-100%" width="300%" height="300%">
     <feGaussianBlur stdDeviation="7" result="b1"/>
     <feGaussianBlur stdDeviation="16" result="b2"/>
     <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-
   <filter id="heatWobble" x="-40%" y="-40%" width="180%" height="180%">
     <feTurbulence type="fractalNoise" baseFrequency="0.012 0.045" numOctaves="2" seed="7" result="noise">
       <animate attributeName="baseFrequency" values="0.012 0.045;0.018 0.06;0.012 0.045" dur="5s" repeatCount="indefinite"/>
     </feTurbulence>
     <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G"/>
   </filter>
-
   <filter id="flameWobble" x="-60%" y="-60%" width="220%" height="220%">
     <feTurbulence type="fractalNoise" baseFrequency="0.018 0.08" numOctaves="2" seed="3" result="n2">
       <animate attributeName="baseFrequency" values="0.018 0.08;0.026 0.11;0.018 0.08" dur="1.6s" repeatCount="indefinite"/>
     </feTurbulence>
     <feDisplacementMap in="SourceGraphic" in2="n2" scale="12" xChannelSelector="R" yChannelSelector="G"/>
   </filter>
-
   <filter id="smokeWobble" x="-80%" y="-80%" width="260%" height="260%">
     <feGaussianBlur stdDeviation="4" result="sb"/>
     <feTurbulence type="fractalNoise" baseFrequency="0.02 0.05" numOctaves="2" seed="9" result="sn">
@@ -185,11 +157,9 @@
     </feTurbulence>
     <feDisplacementMap in="sb" in2="sn" scale="14" xChannelSelector="R" yChannelSelector="G"/>
   </filter>
-
   <filter id="blurSmoke" x="-50%" y="-50%" width="200%" height="200%">
     <feGaussianBlur stdDeviation="12"/>
   </filter>
-
   <pattern id="brick" width="46" height="22" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
     <rect width="46" height="22" fill="#1a1526"/>
     <rect x="1" y="1" width="20" height="9" rx="1.5" fill="#241d38" stroke="#0c0916" stroke-width="0.8"/>
@@ -198,7 +168,6 @@
     <rect x="13" y="12" width="20" height="9" rx="1.5" fill="#241d38" stroke="#0c0916" stroke-width="0.8"/>
     <rect x="36" y="12" width="20" height="9" rx="1.5" fill="#241d38" stroke="#0c0916" stroke-width="0.8"/>
   </pattern>
-
   <g id="shower-system">
     <path d="M -30 150 L -30 20 L -30 -30 Q -30 -50 -10 -50 L 30 -50 Q 50 -50 50 -30 L 50 -10" fill="none" stroke="#b0b5b9" stroke-width="8" stroke-linecap="round"/>
     <path d="M -30 150 L -30 20 L -30 -30 Q -30 -50 -10 -50 L 30 -50 Q 50 -50 50 -30 L 50 -10" fill="none" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
@@ -882,11 +851,9 @@
   <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.78;0.8;0.9;0.92;1" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
 </rect>
 
-<!-- ===================== PENDULUM CLOCK WITH REAL TIME ===================== -->
+<!-- ===================== PENDULUM CLOCK WITH SMIL ANIMATIONS (no JavaScript) ===================== -->
 <g id="pendulum-clock" transform="translate(800, 20) scale(1)">
-  <!-- Main case -->
   <rect x="0" y="30" width="140" height="260" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="3" rx="4"/>
-  <!-- Arch top -->
   <path d="M -10 40 L 0 30 C 20 -10, 50 -10, 70 -20 C 90 -10, 120 -10, 140 30 L 150 40 Z" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="3"/>
   <path d="M 0 30 C 20 -10, 50 -10, 70 -20 C 90 -10, 120 -10, 140 30" fill="none" stroke="#2a1608" stroke-width="4"/>
   <path d="M 30 15 Q 70 -25 110 15" fill="none" stroke="#2a1608" stroke-width="3"/>
@@ -917,7 +884,6 @@
   <!-- Clock face -->
   <circle cx="70" cy="95" r="48" fill="url(#clockFace)" stroke="url(#goldGrad)" stroke-width="5"/>
   <circle cx="70" cy="95" r="45.5" fill="none" stroke="#222" stroke-width="1"/>
-  <!-- Ticks -->
   <circle cx="70" cy="51" r="1.5" fill="#000"/>
   <circle cx="92" cy="56.9" r="1.5" fill="#000"/>
   <circle cx="108.1" cy="73" r="1.5" fill="#000"/>
@@ -930,164 +896,7 @@
   <circle cx="26" cy="95" r="1.5" fill="#000"/>
   <circle cx="31.9" cy="73" r="1.5" fill="#000"/>
   <circle cx="48" cy="56.9" r="1.5" fill="#000"/>
-  <!-- Numerals -->
   <text x="70" y="62" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">12</text>
   <text x="104" y="99" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">3</text>
   <text x="70" y="135" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">6</text>
-  <text x="36" y="99" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">9</text>
-
-  <!-- Clock hands - set by JavaScript below -->
-  <g transform="translate(70, 95)">
-    <!-- Shadows for hands -->
-    <g opacity="0.2" transform="translate(1, 2)">
-      <line id="hourHandShadow" x1="0" y1="4" x2="0" y2="-25" stroke="#000" stroke-width="4" stroke-linecap="round"/>
-      <line id="minHandShadow" x1="0" y1="4" x2="0" y2="-36" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
-      <line id="secHandShadow" x1="0" y1="10" x2="0" y2="-38" stroke="#000" stroke-width="1.5"/>
-    </g>
-    <!-- Hour hand -->
-    <g id="hourHand">
-      <line x1="0" y1="4" x2="0" y2="-25" stroke="#111" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="0" cy="-20" r="3" fill="#111"/>
-    </g>
-    <!-- Minute hand -->
-    <g id="minHand">
-      <line x1="0" y1="4" x2="0" y2="-36" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
-      <circle cx="0" cy="-30" r="2.5" fill="#111"/>
-    </g>
-    <!-- Second hand -->
-    <g id="secHand">
-      <line x1="0" y1="10" x2="0" y2="-38" stroke="#cc0000" stroke-width="1.5" stroke-linecap="round"/>
-      <circle cx="0" cy="0" r="2.5" fill="#cc0000"/>
-    </g>
-    <!-- Center pin -->
-    <circle cx="0" cy="0" r="2" fill="url(#goldGrad)"/>
-  </g>
-
-  <!-- Clock Base -->
-  <rect x="-10" y="290" width="160" height="15" fill="#3a1f10" stroke="#1a0d04" stroke-width="2" rx="3"/>
-  <rect x="-8" y="293" width="156" height="3" fill="#4a2f1a"/>
-  <path d="M 0 305 L 20 330 L 120 330 L 140 305 Z" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="2"/>
-  <rect x="0" y="30" width="140" height="260" fill="#000" opacity="0.1" rx="4" style="pointer-events:none;"/>
-</g>
-
-<!-- Shower systems -->
-<use href="#shower-system" x="40" y="80"/>
-<use href="#shower-system" transform="translate(970, 80) scale(-1, 1)"/>
-
-<!-- Flower Pot Left -->
-<g id="flower-pot-left" transform="translate(50, 240) scale(1.2)">
-  <g>
-    <animateTransform attributeName="transform" type="rotate" values="-2;2;-2" dur="4s" repeatCount="indefinite" transform-origin="15 100"/>
-    <path d="M 15 60 Q -10 10 0 -20 Q 15 -10 15 60" fill="#2d5a27"/>
-    <path d="M 15 60 Q 40 10 30 -20 Q 20 -10 15 60" fill="#3a7033"/>
-    <path d="M 15 60 Q 50 30 60 0 Q 30 20 15 60" fill="#4b8b3b"/>
-    <path d="M 15 60 Q -20 30 -30 0 Q 0 20 15 60" fill="#244f20"/>
-    <path d="M 15 60 Q 15 -40 25 -60 Q 35 -30 15 60" fill="#3a7033"/>
-    <path d="M 15 60 Q -35 50 -45 20 Q -15 40 15 60" fill="#4b8b3b"/>
-    <path d="M 15 60 Q 5 20 -15 -15" fill="none" stroke="#3a7033" stroke-width="2"/>
-    <path d="M 15 60 Q 25 20 35 -25" fill="none" stroke="#3a7033" stroke-width="2"/>
-    <path d="M 15 60 Q 20 10 15 -45" fill="none" stroke="#2d5a27" stroke-width="2"/>
-    <!-- Flowers -->
-    <g transform="translate(0,-35) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ff0000"/><circle cx="10" cy="-3" r="8" fill="#ff0000"/><circle cx="6" cy="8" r="8" fill="#ff0000"/><circle cx="-6" cy="8" r="8" fill="#ff0000"/><circle cx="-10" cy="-3" r="8" fill="#ff0000"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
-    <g transform="translate(-25,0) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc0000"/><circle cx="10" cy="-3" r="8" fill="#cc0000"/><circle cx="6" cy="8" r="8" fill="#cc0000"/><circle cx="-6" cy="8" r="8" fill="#cc0000"/><circle cx="-10" cy="-3" r="8" fill="#cc0000"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(25,-10) scale(1)"><circle cx="0" cy="-10" r="8" fill="#ff8c00"/><circle cx="10" cy="-3" r="8" fill="#ff8c00"/><circle cx="6" cy="8" r="8" fill="#ff8c00"/><circle cx="-6" cy="8" r="8" fill="#ff8c00"/><circle cx="-10" cy="-3" r="8" fill="#ff8c00"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
-    <g transform="translate(15,-45) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ffcc00"/><circle cx="10" cy="-3" r="8" fill="#ffcc00"/><circle cx="6" cy="8" r="8" fill="#ffcc00"/><circle cx="-6" cy="8" r="8" fill="#ffcc00"/><circle cx="-10" cy="-3" r="8" fill="#ffcc00"/><circle cx="0" cy="0" r="5" fill="#cc6600"/></g>
-    <g transform="translate(-15,-55) scale(0.7)"><circle cx="0" cy="-10" r="8" fill="#ffdd33"/><circle cx="10" cy="-3" r="8" fill="#ffdd33"/><circle cx="6" cy="8" r="8" fill="#ffdd33"/><circle cx="-6" cy="8" r="8" fill="#ffdd33"/><circle cx="-10" cy="-3" r="8" fill="#ffdd33"/><circle cx="0" cy="0" r="5" fill="#ff6600"/></g>
-    <g transform="translate(-15,-15) scale(1.1)"><circle cx="0" cy="-10" r="8" fill="#ff66b2"/><circle cx="10" cy="-3" r="8" fill="#ff66b2"/><circle cx="6" cy="8" r="8" fill="#ff66b2"/><circle cx="-6" cy="8" r="8" fill="#ff66b2"/><circle cx="-10" cy="-3" r="8" fill="#ff66b2"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(35,-35) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#ff3399"/><circle cx="10" cy="-3" r="8" fill="#ff3399"/><circle cx="6" cy="8" r="8" fill="#ff3399"/><circle cx="-6" cy="8" r="8" fill="#ff3399"/><circle cx="-10" cy="-3" r="8" fill="#ff3399"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(45,15) scale(0.7)"><circle cx="0" cy="-10" r="8" fill="#ff99cc"/><circle cx="10" cy="-3" r="8" fill="#ff99cc"/><circle cx="6" cy="8" r="8" fill="#ff99cc"/><circle cx="-6" cy="8" r="8" fill="#ff99cc"/><circle cx="-10" cy="-3" r="8" fill="#ff99cc"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(-10,20) scale(0.85)"><circle cx="0" cy="-10" r="8" fill="#9933ff"/><circle cx="10" cy="-3" r="8" fill="#9933ff"/><circle cx="6" cy="8" r="8" fill="#9933ff"/><circle cx="-6" cy="8" r="8" fill="#9933ff"/><circle cx="-10" cy="-3" r="8" fill="#9933ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(20,25) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc66ff"/><circle cx="10" cy="-3" r="8" fill="#cc66ff"/><circle cx="6" cy="8" r="8" fill="#cc66ff"/><circle cx="-6" cy="8" r="8" fill="#cc66ff"/><circle cx="-10" cy="-3" r="8" fill="#cc66ff"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
-    <g transform="translate(-30,5) scale(0.75)"><circle cx="0" cy="-10" r="8" fill="#3399ff"/><circle cx="10" cy="-3" r="8" fill="#3399ff"/><circle cx="6" cy="8" r="8" fill="#3399ff"/><circle cx="-6" cy="8" r="8" fill="#3399ff"/><circle cx="-10" cy="-3" r="8" fill="#3399ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(10,5) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#0066cc"/><circle cx="10" cy="-3" r="8" fill="#0066cc"/><circle cx="6" cy="8" r="8" fill="#0066cc"/><circle cx="-6" cy="8" r="8" fill="#0066cc"/><circle cx="-10" cy="-3" r="8" fill="#0066cc"/><circle cx="0" cy="0" r="5" fill="#ffffff"/></g>
-    <g transform="translate(35,0) scale(0.85)"><circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/></g>
-    <g transform="translate(-35,-20) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/></g>
-    <g transform="translate(0,-60) scale(0.6)"><circle cx="0" cy="-10" r="8" fill="#ff6600"/><circle cx="10" cy="-3" r="8" fill="#ff6600"/><circle cx="6" cy="8" r="8" fill="#ff6600"/><circle cx="-6" cy="8" r="8" fill="#ff6600"/><circle cx="-10" cy="-3" r="8" fill="#ff6600"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
-    <path d="M 15 60 Q 0 30 5 10 Q 20 40 15 60" fill="#5cb347"/>
-    <path d="M 15 60 Q 30 30 25 10 Q 10 40 15 60" fill="#69c453"/>
-    <path d="M 15 60 Q -10 50 -20 30 Q 5 45 15 60" fill="#5cb347"/>
-  </g>
-  <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potRedGrad)" stroke="#3a0507" stroke-width="2"/>
-  <rect x="-4" y="52" width="38" height="8" fill="url(#potRimGrad)" stroke="#3a0507" stroke-width="2" rx="2"/>
-  <path d="M 5 100 L 15 100 L 15 52 L -4 52 Z" fill="#000" opacity="0.2"/>
-  <path d="M 3 66 L 27 66" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
-  <path d="M 5 92 L 25 92" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
-  <g stroke="#ffd76a" stroke-width="1.1" opacity="0.8" fill="none">
-    <path d="M 9 79 L 12.5 74 L 16 79 L 12.5 84 Z"/>
-    <path d="M 16 79 L 19.5 74 L 23 79 L 19.5 84 Z"/>
-  </g>
-</g>
-
-<!-- Flower Pot Right -->
-<g id="flower-pot-right" transform="translate(920, 240) scale(1.2)">
-  <g>
-    <animateTransform attributeName="transform" type="rotate" values="2;-2;2" dur="4s" repeatCount="indefinite" transform-origin="15 100"/>
-    <path d="M 15 60 Q -10 10 0 -20 Q 15 -10 15 60" fill="#2d5a27"/>
-    <path d="M 15 60 Q 40 10 30 -20 Q 20 -10 15 60" fill="#3a7033"/>
-    <path d="M 15 60 Q 50 30 60 0 Q 30 20 15 60" fill="#4b8b3b"/>
-    <path d="M 15 60 Q -20 30 -30 0 Q 0 20 15 60" fill="#244f20"/>
-    <path d="M 15 60 Q 15 -40 25 -60 Q 35 -30 15 60" fill="#3a7033"/>
-    <path d="M 15 60 Q -35 50 -45 20 Q -15 40 15 60" fill="#4b8b3b"/>
-    <path d="M 15 60 Q 5 20 -15 -15" fill="none" stroke="#3a7033" stroke-width="2"/>
-    <path d="M 15 60 Q 25 20 35 -25" fill="none" stroke="#3a7033" stroke-width="2"/>
-    <path d="M 15 60 Q 20 10 15 -45" fill="none" stroke="#2d5a27" stroke-width="2"/>
-    <g transform="translate(0,-35) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ff0000"/><circle cx="10" cy="-3" r="8" fill="#ff0000"/><circle cx="6" cy="8" r="8" fill="#ff0000"/><circle cx="-6" cy="8" r="8" fill="#ff0000"/><circle cx="-10" cy="-3" r="8" fill="#ff0000"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
-    <g transform="translate(-25,0) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc0000"/><circle cx="10" cy="-3" r="8" fill="#cc0000"/><circle cx="6" cy="8" r="8" fill="#cc0000"/><circle cx="-6" cy="8" r="8" fill="#cc0000"/><circle cx="-10" cy="-3" r="8" fill="#cc0000"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(25,-10) scale(1)"><circle cx="0" cy="-10" r="8" fill="#ff8c00"/><circle cx="10" cy="-3" r="8" fill="#ff8c00"/><circle cx="6" cy="8" r="8" fill="#ff8c00"/><circle cx="-6" cy="8" r="8" fill="#ff8c00"/><circle cx="-10" cy="-3" r="8" fill="#ff8c00"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
-    <g transform="translate(15,-45) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ffcc00"/><circle cx="10" cy="-3" r="8" fill="#ffcc00"/><circle cx="6" cy="8" r="8" fill="#ffcc00"/><circle cx="-6" cy="8" r="8" fill="#ffcc00"/><circle cx="-10" cy="-3" r="8" fill="#ffcc00"/><circle cx="0" cy="0" r="5" fill="#cc6600"/></g>
-    <g transform="translate(-15,-55) scale(0.7)"><circle cx="0" cy="-10" r="8" fill="#ffdd33"/><circle cx="10" cy="-3" r="8" fill="#ffdd33"/><circle cx="6" cy="8" r="8" fill="#ffdd33"/><circle cx="-6" cy="8" r="8" fill="#ffdd33"/><circle cx="-10" cy="-3" r="8" fill="#ffdd33"/><circle cx="0" cy="0" r="5" fill="#ff6600"/></g>
-    <g transform="translate(-15,-15) scale(1.1)"><circle cx="0" cy="-10" r="8" fill="#ff66b2"/><circle cx="10" cy="-3" r="8" fill="#ff66b2"/><circle cx="6" cy="8" r="8" fill="#ff66b2"/><circle cx="-6" cy="8" r="8" fill="#ff66b2"/><circle cx="-10" cy="-3" r="8" fill="#ff66b2"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(35,-35) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#ff3399"/><circle cx="10" cy="-3" r="8" fill="#ff3399"/><circle cx="6" cy="8" r="8" fill="#ff3399"/><circle cx="-6" cy="8" r="8" fill="#ff3399"/><circle cx="-10" cy="-3" r="8" fill="#ff3399"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(45,15) scale(0.7)"><circle cx="0" cy="-10" r="8" fill="#ff99cc"/><circle cx="10" cy="-3" r="8" fill="#ff99cc"/><circle cx="6" cy="8" r="8" fill="#ff99cc"/><circle cx="-6" cy="8" r="8" fill="#ff99cc"/><circle cx="-10" cy="-3" r="8" fill="#ff99cc"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(-10,20) scale(0.85)"><circle cx="0" cy="-10" r="8" fill="#9933ff"/><circle cx="10" cy="-3" r="8" fill="#9933ff"/><circle cx="6" cy="8" r="8" fill="#9933ff"/><circle cx="-6" cy="8" r="8" fill="#9933ff"/><circle cx="-10" cy="-3" r="8" fill="#9933ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(20,25) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc66ff"/><circle cx="10" cy="-3" r="8" fill="#cc66ff"/><circle cx="6" cy="8" r="8" fill="#cc66ff"/><circle cx="-6" cy="8" r="8" fill="#cc66ff"/><circle cx="-10" cy="-3" r="8" fill="#cc66ff"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
-    <g transform="translate(-30,5) scale(0.75)"><circle cx="0" cy="-10" r="8" fill="#3399ff"/><circle cx="10" cy="-3" r="8" fill="#3399ff"/><circle cx="6" cy="8" r="8" fill="#3399ff"/><circle cx="-6" cy="8" r="8" fill="#3399ff"/><circle cx="-10" cy="-3" r="8" fill="#3399ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
-    <g transform="translate(10,5) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#0066cc"/><circle cx="10" cy="-3" r="8" fill="#0066cc"/><circle cx="6" cy="8" r="8" fill="#0066cc"/><circle cx="-6" cy="8" r="8" fill="#0066cc"/><circle cx="-10" cy="-3" r="8" fill="#0066cc"/><circle cx="0" cy="0" r="5" fill="#ffffff"/></g>
-    <g transform="translate(35,0) scale(0.85)"><circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/></g>
-    <g transform="translate(-35,-20) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/></g>
-    <g transform="translate(0,-60) scale(0.6)"><circle cx="0" cy="-10" r="8" fill="#ff6600"/><circle cx="10" cy="-3" r="8" fill="#ff6600"/><circle cx="6" cy="8" r="8" fill="#ff6600"/><circle cx="-6" cy="8" r="8" fill="#ff6600"/><circle cx="-10" cy="-3" r="8" fill="#ff6600"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
-    <path d="M 15 60 Q 0 30 5 10 Q 20 40 15 60" fill="#5cb347"/>
-    <path d="M 15 60 Q 30 30 25 10 Q 10 40 15 60" fill="#69c453"/>
-    <path d="M 15 60 Q -10 50 -20 30 Q 5 45 15 60" fill="#5cb347"/>
-  </g>
-  <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potRedGrad)" stroke="#3a0507" stroke-width="2"/>
-  <rect x="-4" y="52" width="38" height="8" fill="url(#potRimGrad)" stroke="#3a0507" stroke-width="2" rx="2"/>
-  <path d="M 5 100 L 15 100 L 15 52 L -4 52 Z" fill="#000" opacity="0.2"/>
-  <path d="M 3 66 L 27 66" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
-  <path d="M 5 92 L 25 92" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
-  <g stroke="#ffd76a" stroke-width="1.1" opacity="0.8" fill="none">
-    <path d="M 9 79 L 12.5 74 L 16 79 L 12.5 84 Z"/>
-    <path d="M 16 79 L 19.5 74 L 23 79 L 19.5 84 Z"/>
-  </g>
-</g>
-
-</svg>
-
-<script>
-// ---- REAL LIVE CLOCK ----
-function setHand(el, deg) {
-  if (el) el.setAttribute('transform', 'rotate(' + deg + ')');
-}
-function updateClock() {
-  var now = new Date();
-  var h = now.getHours() % 12;
-  var m = now.getMinutes();
-  var s = now.getSeconds();
-  var ms = now.getMilliseconds();
-
-  var secDeg  = (s + ms / 1000) * 6;              // 360/60
-  var minDeg  = m * 6 + s * 0.1;                   // 360/60 + smooth
-  var hourDeg = h * 30 + m * 0.5;                  // 360/12 + smooth
-
-  setHand(document.getElementById('hourHand'), hourDeg);
-  setHand(document.getElementById('minHand'), minDeg);
-  setHand(document.getElementById('secHand'), secDeg);
-  setHand(document.getElementById('hourHandShadow'), hourDeg);
-  setHand(document.getElementById('minHandShadow'), minDeg);
-  setHand(document.getElementById('secHandShadow'), secDeg);
-}
-updateClock();
-setInterval(updateClock, 1000);
-</script>
-</body>
-</html>
+  <text x="36" y="99" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">9</text
