@@ -81,6 +81,34 @@
       <stop offset="60%" stop-color="#9096a3" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#9096a3" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b1d09"/>
+      <stop offset="20%" stop-color="#5a3116"/>
+      <stop offset="50%" stop-color="#4a2f1a"/>
+      <stop offset="80%" stop-color="#3b1d09"/>
+      <stop offset="100%" stop-color="#241004"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe699"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#997a00"/>
+    </linearGradient>
+    <linearGradient id="clockFace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="80%" stop-color="#f5f5dc"/>
+      <stop offset="100%" stop-color="#e0e0c0"/>
+    </linearGradient>
+    <linearGradient id="potRedGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5a4a"/>
+      <stop offset="35%" stop-color="#d21f1f"/>
+      <stop offset="75%" stop-color="#8f0f14"/>
+      <stop offset="100%" stop-color="#5c0709"/>
+    </linearGradient>
+    <linearGradient id="potRimGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb199"/>
+      <stop offset="50%" stop-color="#ef3f30"/>
+      <stop offset="100%" stop-color="#a3121a"/>
+    </linearGradient>
     <clipPath id="fireboxClip">
       <rect x="242" y="86" width="550" height="234" rx="8"/>
     </clipPath>
@@ -129,33 +157,35 @@
       <rect x="13" y="12" width="20" height="9" rx="1.5" fill="#241d38" stroke="#0c0916" stroke-width="0.8"/>
       <rect x="36" y="12" width="20" height="9" rx="1.5" fill="#241d38" stroke="#0c0916" stroke-width="0.8"/>
     </pattern>
-    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3b1d09"/>
-      <stop offset="20%" stop-color="#5a3116"/>
-      <stop offset="50%" stop-color="#4a2f1a"/>
-      <stop offset="80%" stop-color="#3b1d09"/>
-      <stop offset="100%" stop-color="#241004"/>
-    </linearGradient>
-    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffe699"/>
-      <stop offset="50%" stop-color="#d4af37"/>
-      <stop offset="100%" stop-color="#997a00"/>
-    </linearGradient>
-    <linearGradient id="clockFace" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="80%" stop-color="#f5f5dc"/>
-      <stop offset="100%" stop-color="#e0e0c0"/>
-    </linearGradient>
-    <linearGradient id="potBrown" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#a0522d"/>
-      <stop offset="50%" stop-color="#8b4513"/>
-      <stop offset="100%" stop-color="#5a2d0c"/>
-    </linearGradient>
-    <linearGradient id="potRim" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#cd853f"/>
-      <stop offset="50%" stop-color="#a0522d"/>
-      <stop offset="100%" stop-color="#8b4513"/>
-    </linearGradient>
+    <g id="shower-system">
+      <path d="M -30 150 L -30 20 L -30 -30 Q -30 -50 -10 -50 L 30 -50 Q 50 -50 50 -30 L 50 -10" fill="none" stroke="#b0b5b9" stroke-width="8" stroke-linecap="round"/>
+      <path d="M -30 150 L -30 20 L -30 -30 Q -30 -50 -10 -50 L 30 -50 Q 50 -50 50 -30 L 50 -10" fill="none" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-38" y="100" width="16" height="10" rx="3" fill="#94a3b8"/>
+      <rect x="-38" y="0" width="16" height="10" rx="3" fill="#94a3b8"/>
+      <rect x="35" y="-10" width="30" height="15" rx="4" fill="#94a3b8"/>
+      <path d="M 20 5 L 80 5 L 75 15 L 25 15 Z" fill="#cbd5e1"/>
+      <path d="M 25 15 L 75 15 L 70 20 L 30 20 Z" fill="#94a3b8"/>
+      <g fill="#3b82f6" opacity="0.8">
+        <circle cx="32" cy="20" r="2"><animate attributeName="cy" values="25;160" dur="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.6s" repeatCount="indefinite"/></circle>
+        <circle cx="38" cy="30" r="1.5"><animate attributeName="cy" values="25;170" dur="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.7s" repeatCount="indefinite"/></circle>
+        <circle cx="45" cy="40" r="2.2"><animate attributeName="cy" values="25;155" dur="0.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.55s" repeatCount="indefinite"/></circle>
+        <circle cx="52" cy="25" r="1.8"><animate attributeName="cy" values="25;165" dur="0.65s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.65s" repeatCount="indefinite"/></circle>
+        <circle cx="58" cy="45" r="2.5"><animate attributeName="cy" values="25;180" dur="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.8s" repeatCount="indefinite"/></circle>
+        <circle cx="65" cy="35" r="1.5"><animate attributeName="cy" values="25;175" dur="0.75s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.75s" repeatCount="indefinite"/></circle>
+        <circle cx="68" cy="20" r="2"><animate attributeName="cy" values="25;160" dur="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.6s" repeatCount="indefinite"/></circle>
+        <circle cx="35" cy="50" r="1.8"><animate attributeName="cy" values="25;165" dur="0.65s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.65s" begin="0.3s" repeatCount="indefinite"/></circle>
+        <circle cx="42" cy="30" r="2.2"><animate attributeName="cy" values="25;170" dur="0.7s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.7s" begin="0.2s" repeatCount="indefinite"/></circle>
+        <circle cx="48" cy="60" r="1.5"><animate attributeName="cy" values="25;155" dur="0.5s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.5s" begin="0.4s" repeatCount="indefinite"/></circle>
+        <circle cx="55" cy="40" r="2"><animate attributeName="cy" values="25;175" dur="0.8s" begin="0.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.8s" begin="0.1s" repeatCount="indefinite"/></circle>
+        <circle cx="62" cy="55" r="1.8"><animate attributeName="cy" values="25;160" dur="0.6s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+        <circle cx="33" cy="45" r="2.5"><animate attributeName="cy" values="25;180" dur="0.75s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.75s" begin="0.5s" repeatCount="indefinite"/></circle>
+        <circle cx="40" cy="25" r="1.5"><animate attributeName="cy" values="25;150" dur="0.5s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.5s" begin="0.2s" repeatCount="indefinite"/></circle>
+        <circle cx="47" cy="50" r="2"><animate attributeName="cy" values="25;165" dur="0.65s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.65s" begin="0.4s" repeatCount="indefinite"/></circle>
+        <circle cx="53" cy="35" r="1.8"><animate attributeName="cy" values="25;170" dur="0.7s" begin="0.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.7s" begin="0.1s" repeatCount="indefinite"/></circle>
+        <circle cx="60" cy="65" r="2.2"><animate attributeName="cy" values="25;160" dur="0.6s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+        <circle cx="66" cy="40" r="1.5"><animate attributeName="cy" values="25;155" dur="0.55s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="0.55s" begin="0.2s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
   </defs>
 
   <!-- Background -->
@@ -174,9 +204,9 @@
   <!-- Smoke from right pipe -->
   <g clip-path="url(#frameClip)">
     <ellipse cx="762" cy="26" rx="22.5" ry="7" fill="#26262c" stroke="#111114" stroke-width="1.5"/>
-    <rect x="747.0" y="-30" width="30" height="54" fill="url(#pipeGrad)" stroke="#0a0a0c" stroke-width="1.5"/>
-    <rect x="745.0" y="-16" width="34" height="5" rx="2" fill="#1a1a1f" stroke="#0a0a0c" stroke-width="1"/>
-    <rect x="745.0" y="-66" width="34" height="5" rx="2" fill="#1a1a1f" stroke="#0a0a0c" stroke-width="1"/>
+    <rect x="747" y="-30" width="30" height="54" fill="url(#pipeGrad)" stroke="#0a0a0c" stroke-width="1.5"/>
+    <rect x="745" y="-16" width="34" height="5" rx="2" fill="#1a1a1f" stroke="#0a0a0c" stroke-width="1"/>
+    <rect x="745" y="-66" width="34" height="5" rx="2" fill="#1a1a1f" stroke="#0a0a0c" stroke-width="1"/>
     <circle cx="0" cy="0" r="14.7" fill="url(#smokeGrad)" filter="url(#smokeWobble)">
       <animateTransform attributeName="transform" type="translate" values="757.08,-26; 796.18,-176" dur="3.54s" begin="-1.56s" repeatCount="indefinite"/>
       <animate attributeName="r" values="14.7;38.2" dur="3.54s" begin="-1.56s" repeatCount="indefinite"/>
@@ -224,48 +254,48 @@
     </circle>
     <!-- Floating letters YONAS SAHILE -->
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0091;0.0500;0.0773;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.0000;0.0091;0.0500;0.0773;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>Y
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0;0.0091;0.05;0.0773;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0;0.0091;0.05;0.0773;1" dur="9s" repeatCount="indefinite" additive="sum"/>Y
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0909;0.1000;0.1409;0.1682;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.0909;0.1000;0.1409;0.1682;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>O
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0909;0.1;0.1409;0.1682;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.0909;0.1;0.1409;0.1682;1" dur="9s" repeatCount="indefinite" additive="sum"/>O
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1818;0.1909;0.2318;0.2591;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.1818;0.1909;0.2318;0.2591;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>N
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1818;0.1909;0.2318;0.2591;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.1818;0.1909;0.2318;0.2591;1" dur="9s" repeatCount="indefinite" additive="sum"/>N
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2727;0.2818;0.3227;0.3500;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.2727;0.2818;0.3227;0.3500;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>A
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2727;0.2818;0.3227;0.35;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.2727;0.2818;0.3227;0.35;1" dur="9s" repeatCount="indefinite" additive="sum"/>A
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3636;0.3727;0.4136;0.4409;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.3636;0.3727;0.4136;0.4409;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>S
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3636;0.3727;0.4136;0.4409;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.3636;0.3727;0.4136;0.4409;1" dur="9s" repeatCount="indefinite" additive="sum"/>S
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4545;0.4636;0.5045;0.5318;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.4545;0.4636;0.5045;0.5318;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>S
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4545;0.4636;0.5045;0.5318;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.4545;0.4636;0.5045;0.5318;1" dur="9s" repeatCount="indefinite" additive="sum"/>S
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5455;0.5545;0.5955;0.6227;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.5455;0.5545;0.5955;0.6227;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>A
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5455;0.5545;0.5955;0.6227;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.5455;0.5545;0.5955;0.6227;1" dur="9s" repeatCount="indefinite" additive="sum"/>A
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6364;0.6455;0.6864;0.7136;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.6364;0.6455;0.6864;0.7136;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>H
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6364;0.6455;0.6864;0.7136;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.6364;0.6455;0.6864;0.7136;1" dur="9s" repeatCount="indefinite" additive="sum"/>H
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7273;0.7364;0.7773;0.8045;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.7273;0.7364;0.7773;0.8045;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>I
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7273;0.7364;0.7773;0.8045;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.7273;0.7364;0.7773;0.8045;1" dur="9s" repeatCount="indefinite" additive="sum"/>I
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8182;0.8273;0.8682;0.8955;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.8182;0.8273;0.8682;0.8955;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>L
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8182;0.8273;0.8682;0.8955;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.8182;0.8273;0.8682;0.8955;1" dur="9s" repeatCount="indefinite" additive="sum"/>L
     </text>
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.9091;0.9182;0.9591;0.9864;1" dur="9.0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.9091;0.9182;0.9591;0.9864;1" dur="9.0s" repeatCount="indefinite" additive="sum"/>E
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.9091;0.9182;0.9591;0.9864;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0.9091;0.9182;0.9591;0.9864;1" dur="9s" repeatCount="indefinite" additive="sum"/>E
     </text>
   </g>
 
@@ -275,50 +305,20 @@
 
   <!-- Fire -->
   <g clip-path="url(#fireboxClip)">
-    <ellipse cx="492.0" cy="318" rx="220" ry="18" fill="url(#ashGrad)" opacity="0.75"/>
-    <ellipse cx="492.0" cy="308" rx="190" ry="22" fill="url(#emberGlow)" opacity="0.6">
+    <ellipse cx="492" cy="318" rx="220" ry="18" fill="url(#ashGrad)" opacity="0.75"/>
+    <ellipse cx="492" cy="308" rx="190" ry="22" fill="url(#emberGlow)" opacity="0.6">
       <animate attributeName="opacity" values="0.45;0.8;0.45" dur="1.7s" repeatCount="indefinite"/>
     </ellipse>
-    <circle cx="492.0" cy="244" r="10" fill="url(#coreBurst)">
+    <circle cx="492" cy="244" r="10" fill="url(#coreBurst)">
       <animate attributeName="r" values="8;55;8" dur="2.4s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.4;0.95;0.4" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-
-    <!-- Logs -->
     <path d="M 420 280 L 405 275 L 415 190 L 435 120 L 450 115 L 460 180 L 440 280 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 415 270 L 410 190 L 440 125 L 445 180 Z" fill="url(#fireGradSoft)" opacity="0.4">
-      <animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="1.49s" repeatCount="indefinite"/>
-    </path>
+    <path d="M 415 270 L 410 190 L 440 125 L 445 180 Z" fill="url(#fireGradSoft)" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="1.49s" repeatCount="indefinite"/></path>
     <path d="M 560 260 L 550 250 L 480 200 L 460 205 L 450 215 L 530 275 L 550 270 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 540 255 L 480 208 L 465 215 L 525 265 Z" fill="url(#fireGradSoft)" opacity="0.4">
-      <animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="2.67s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 230 315 L 245 305 L 360 245 L 480 185 L 520 165 L 530 170 L 510 195 L 370 265 L 260 325 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 240 315 L 360 255 L 480 195 L 485 190 L 365 250 Z" fill="#050201" opacity="0.6"/>
-    <path d="M 255 308 L 505 180 L 490 200 L 275 320 Z" fill="url(#fireGradSoft)" opacity="0.4">
-      <animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="1.22s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 660 310 L 650 295 L 540 255 L 440 220 L 430 235 L 530 275 L 640 320 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 640 300 L 445 230 L 450 240 L 630 310 Z" fill="url(#fireGradSoft)" opacity="0.4">
-      <animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="1.46s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 320 325 L 330 310 L 440 290 L 450 300 L 440 315 L 330 335 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 335 315 L 435 295 L 440 305 L 340 325 Z" fill="url(#fireGradSoft)" opacity="0.4">
-      <animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="2.19s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 500 320 L 510 305 L 600 300 L 620 315 L 580 330 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 280 330 L 290 315 L 400 300 L 410 310 L 400 325 L 290 340 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 450 330 L 460 315 L 550 310 L 570 325 L 530 340 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 370 340 L 390 320 L 480 315 L 490 335 L 400 350 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 350 290 L 365 285 L 470 240 L 485 245 L 360 300 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 430 290 L 415 285 L 520 240 L 535 245 L 440 300 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
-    <path d="M 515 310 L 595 305 L 590 315 L 520 320 Z" fill="url(#fireGradSoft)" opacity="0.4">
-      <animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="2.66s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- Flame shapes with wobble -->
+    <path d="M 540 255 L 480 208 L 465 215 L 525 265 Z" fill="url(#fireGradSoft)" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="2.67s" repeatCount="indefinite"/></path>
     <g filter="url(#flameWobble)">
-      <path d="M 560.69 314.84 C 527.38 260.32, 536.77 129.64, 552.43 97.40 C 567.81 154.44, 589.60 257.78, 585.69 314.84 Z" fill="url(#fireGrad)" opacity="0.79">
+      <path d="M 560.69 314.84 C 527.38 260.32, 536.77 129.64, 552.43 97.4 C 567.81 154.44, 589.6 257.78, 585.69 314.84 Z" fill="url(#fireGrad)" opacity="0.79">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.43s" begin="-2s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;7.6,0;-3.8,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.86s" begin="-2s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.55;0.79;0.63;0.75;0.55" dur="1.43s" begin="-2s" repeatCount="indefinite"/>
@@ -328,67 +328,72 @@
       <path d="M 350.59 318.25 C 314.64 267.87, 297.74 143.75, 325.79 98.12 C 347.11 139.42, 375.65 279.34, 375.59 318.25 Z" fill="url(#fireGrad)" opacity="0.75">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.35s" begin="-0.94s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;10.9,0;-5.5,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.76s" begin="-0.94s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.52;0.75;0.60;0.71;0.52" dur="1.35s" begin="-0.94s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.52;0.75;0.6;0.71;0.52" dur="1.35s" begin="-0.94s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 433.66 312.76 C 412.89 282.72, 397.15 134.54, 419.66 78.72 C 444.84 130.18, 463.53 245.40, 458.66 312.76 Z" fill="url(#fireGrad)" opacity="0.88">
+      <path d="M 433.66 312.76 C 412.89 282.72, 397.15 134.54, 419.66 78.72 C 444.84 130.18, 463.53 245.4, 458.66 312.76 Z" fill="url(#fireGrad)" opacity="0.88">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.24s" begin="-1.37s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;11.5,0;-5.8,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.61s" begin="-1.37s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.62;0.88;0.70;0.84;0.62" dur="1.24s" begin="-1.37s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.62;0.88;0.7;0.84;0.62" dur="1.24s" begin="-1.37s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 414.45 309.81 C 383.78 242.18, 381.60 145.86, 404.21 82.23 C 430.15 145.60, 450.04 257.44, 439.45 309.81 Z" fill="url(#fireGrad)" opacity="0.82">
+      <path d="M 414.45 309.81 C 383.78 242.18, 381.6 145.86, 404.21 82.23 C 430.15 145.6, 450.04 257.44, 439.45 309.81 Z" fill="url(#fireGrad)" opacity="0.82">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.77s" begin="-0.57s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;9.6,0;-4.8,0;0,0" keyTimes="0;0.3;0.7;1" dur="2.30s" begin="-0.57s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;9.6,0;-4.8,0;0,0" keyTimes="0;0.3;0.7;1" dur="2.3s" begin="-0.57s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.57;0.82;0.66;0.78;0.57" dur="1.77s" begin="-0.57s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 359.57 318.61 C 328.01 259.63, 363.00 203.16, 378.68 143.40 C 406.34 222.55, 381.90 275.94, 384.57 318.61 Z" fill="url(#fireGrad)" opacity="0.82">
+      <path d="M 359.57 318.61 C 328.01 259.63, 363 203.16, 378.68 143.4 C 406.34 222.55, 381.9 275.94, 384.57 318.61 Z" fill="url(#fireGrad)" opacity="0.82">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.39s" begin="-0.62s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;13.9,0;-7.0,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.81s" begin="-0.62s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;13.9,0;-7,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.81s" begin="-0.62s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.57;0.82;0.66;0.78;0.57" dur="1.39s" begin="-0.62s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 515.03 314.80 C 476.10 237.29, 484.28 163.73, 511.74 98.54 C 538.14 153.84, 539.74 272.40, 540.03 314.80 Z" fill="url(#fireGrad)" opacity="0.77">
+      <path d="M 515.03 314.8 C 476.1 237.29, 484.28 163.73, 511.74 98.54 C 538.14 153.84, 539.74 272.4, 540.03 314.8 Z" fill="url(#fireGrad)" opacity="0.77">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.38s" begin="-1.07s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;12.7,0;-6.3,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.79s" begin="-1.07s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.54;0.77;0.62;0.73;0.54" dur="1.38s" begin="-1.07s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 404.50 315.18 C 367.13 283.27, 375.88 167.57, 393.55 106.53 C 422.45 161.87, 436.45 244.61, 429.50 315.18 Z" fill="url(#fireGrad)" opacity="0.82">
+      <path d="M 404.5 315.18 C 367.13 283.27, 375.88 167.57, 393.55 106.53 C 422.45 161.87, 436.45 244.61, 429.5 315.18 Z" fill="url(#fireGrad)" opacity="0.82">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.13s" begin="-0.8s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;11.1,0;-5.5,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.47s" begin="-0.8s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.57;0.82;0.66;0.78;0.57" dur="1.13s" begin="-0.8s" repeatCount="indefinite"/>
       </path>
     </g>
+    <path d="M 230 315 L 245 305 L 360 245 L 480 185 L 520 165 L 530 170 L 510 195 L 370 265 L 260 325 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 240 315 L 360 255 L 480 195 L 485 190 L 365 250 Z" fill="#050201" opacity="0.6"/>
+    <path d="M 255 308 L 505 180 L 490 200 L 275 320 Z" fill="url(#fireGradSoft)" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="1.22s" repeatCount="indefinite"/></path>
+    <path d="M 660 310 L 650 295 L 540 255 L 440 220 L 430 235 L 530 275 L 640 320 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 640 300 L 445 230 L 450 240 L 630 310 Z" fill="url(#fireGradSoft)" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="1.46s" repeatCount="indefinite"/></path>
     <g filter="url(#flameWobble)">
-      <path d="M 600.66 313.54 C 567.51 281.00, 548.74 245.43, 572.22 174.50 C 590.16 206.83, 631.65 253.25, 625.66 313.54 Z" fill="url(#fireGrad)" opacity="0.92">
+      <path d="M 600.66 313.54 C 567.51 281, 548.74 245.43, 572.22 174.5 C 590.16 206.83, 631.65 253.25, 625.66 313.54 Z" fill="url(#fireGrad)" opacity="0.92">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.02s" begin="-0.62s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;7.3,0;-3.6,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.33s" begin="-0.62s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.64;0.92;0.74;0.87;0.64" dur="1.02s" begin="-0.62s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 311.90 317.32 C 289.07 247.26, 275.39 243.78, 296.38 172.56 C 312.21 232.28, 350.21 263.62, 336.90 317.32 Z" fill="url(#fireGrad)" opacity="0.86">
+      <path d="M 311.9 317.32 C 289.07 247.26, 275.39 243.78, 296.38 172.56 C 312.21 232.28, 350.21 263.62, 336.9 317.32 Z" fill="url(#fireGrad)" opacity="0.86">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.73s" begin="-0.68s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;9.4,0;-4.7,0;0,0" keyTimes="0;0.3;0.7;1" dur="2.25s" begin="-0.68s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.60;0.86;0.69;0.82;0.60" dur="1.73s" begin="-0.68s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0.86;0.69;0.82;0.6" dur="1.73s" begin="-0.68s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 364.20 309.32 C 334.62 278.60, 358.12 213.48, 377.43 148.03 C 405.95 183.73, 384.94 244.36, 389.20 309.32 Z" fill="url(#fireGrad)" opacity="0.93">
-        <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.60s" begin="-0.54s" repeatCount="indefinite" additive="sum"/>
+      <path d="M 364.2 309.32 C 334.62 278.6, 358.12 213.48, 377.43 148.03 C 405.95 183.73, 384.94 244.36, 389.2 309.32 Z" fill="url(#fireGrad)" opacity="0.93">
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.6s" begin="-0.54s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;12.8,0;-6.4,0;0,0" keyTimes="0;0.3;0.7;1" dur="2.08s" begin="-0.54s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.65;0.93;0.74;0.88;0.65" dur="1.60s" begin="-0.54s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.65;0.93;0.74;0.88;0.65" dur="1.6s" begin="-0.54s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 573.50 313.70 C 540.37 236.75, 530.89 244.07, 551.96 164.35 C 575.45 242.27, 596.51 280.18, 598.50 313.70 Z" fill="url(#fireGrad)" opacity="0.81">
+      <path d="M 573.5 313.7 C 540.37 236.75, 530.89 244.07, 551.96 164.35 C 575.45 242.27, 596.51 280.18, 598.5 313.7 Z" fill="url(#fireGrad)" opacity="0.81">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.65s" begin="-0.89s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;13.7,0;-6.8,0;0,0" keyTimes="0;0.3;0.7;1" dur="2.15s" begin="-0.89s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.57;0.81;0.65;0.77;0.57" dur="1.65s" begin="-0.89s" repeatCount="indefinite"/>
@@ -402,45 +407,54 @@
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 460.87 306.84 C 440.21 251.49, 459.91 262.84, 476.02 206.80 C 503.95 278.53, 483.58 235.33, 485.87 306.84 Z" fill="url(#fireGrad)" opacity="0.80">
+      <path d="M 460.87 306.84 C 440.21 251.49, 459.91 262.84, 476.02 206.8 C 503.95 278.53, 483.58 235.33, 485.87 306.84 Z" fill="url(#fireGrad)" opacity="0.8">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.28s" begin="-0.38s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;13.9,0;-7.0,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.66s" begin="-0.38s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.56;0.80;0.64;0.76;0.56" dur="1.28s" begin="-0.38s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;13.9,0;-7,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.66s" begin="-0.38s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0.56;0.8;0.64;0.76;0.56" dur="1.28s" begin="-0.38s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 592.29 317.43 C 560.41 258.27, 577.64 246.06, 606.60 213.24 C 622.09 266.19, 627.65 281.63, 617.29 317.43 Z" fill="url(#fireGradSoft)" opacity="0.86">
+      <path d="M 592.29 317.43 C 560.41 258.27, 577.64 246.06, 606.6 213.24 C 622.09 266.19, 627.65 281.63, 617.29 317.43 Z" fill="url(#fireGradSoft)" opacity="0.86">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.02s" begin="-1.53s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;12.2,0;-6.1,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.33s" begin="-1.53s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.60;0.86;0.69;0.82;0.60" dur="1.02s" begin="-1.53s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0.86;0.69;0.82;0.6" dur="1.02s" begin="-1.53s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 533.39 313.35 C 508.68 253.79, 492.33 286.28, 517.50 224.86 C 537.01 261.44, 569.11 236.82, 558.39 313.35 Z" fill="url(#fireGradSoft)" opacity="0.91">
+      <path d="M 533.39 313.35 C 508.68 253.79, 492.33 286.28, 517.5 224.86 C 537.01 261.44, 569.11 236.82, 558.39 313.35 Z" fill="url(#fireGradSoft)" opacity="0.91">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.33s" begin="-1.86s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;8.8,0;-4.4,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.73s" begin="-1.86s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.64;0.91;0.73;0.86;0.64" dur="1.33s" begin="-1.86s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 589.28 311.88 C 551.01 280.33, 547.59 246.56, 570.22 200.14 C 592.90 277.98, 614.64 269.83, 614.28 311.88 Z" fill="url(#fireGradSoft)" opacity="0.93">
+      <path d="M 589.28 311.88 C 551.01 280.33, 547.59 246.56, 570.22 200.14 C 592.9 277.98, 614.64 269.83, 614.28 311.88 Z" fill="url(#fireGradSoft)" opacity="0.93">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.19s" begin="-1.9s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;7.0,0;-3.5,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.55s" begin="-1.9s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;7,0;-3.5,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.55s" begin="-1.9s" repeatCount="indefinite" additive="sum"/>
         <animate attributeName="opacity" values="0.65;0.93;0.74;0.88;0.65" dur="1.19s" begin="-1.9s" repeatCount="indefinite"/>
       </path>
     </g>
+    <path d="M 320 325 L 330 310 L 440 290 L 450 300 L 440 315 L 330 335 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 335 315 L 435 295 L 440 305 L 340 325 Z" fill="url(#fireGradSoft)" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="2.19s" repeatCount="indefinite"/></path>
+    <path d="M 500 320 L 510 305 L 600 300 L 620 315 L 580 330 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 280 330 L 290 315 L 400 300 L 410 310 L 400 325 L 290 340 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 450 330 L 460 315 L 550 310 L 570 325 L 530 340 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 370 340 L 390 320 L 480 315 L 490 335 L 400 350 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 350 290 L 365 285 L 470 240 L 485 245 L 360 300 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 430 290 L 415 285 L 520 240 L 535 245 L 440 300 Z" fill="url(#logGrad)" stroke="#110804" stroke-width="1.5"/>
+    <path d="M 515 310 L 595 305 L 590 315 L 520 320 Z" fill="url(#fireGradSoft)" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.4;0.9;0.3" dur="2.66s" repeatCount="indefinite"/></path>
     <g filter="url(#flameWobble)">
-      <path d="M 378.07 315.17 C 357.76 268.66, 349.80 280.88, 365.47 234.23 C 393.69 287.91, 413.38 245.37, 403.07 315.17 Z" fill="url(#fireGrad)" opacity="0.84">
+      <path d="M 378.07 315.17 C 357.76 268.66, 349.8 280.88, 365.47 234.23 C 393.69 287.91, 413.38 245.37, 403.07 315.17 Z" fill="url(#fireGrad)" opacity="0.84">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.39s" begin="-1.01s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;9.1,0;-4.5,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.81s" begin="-1.01s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.59;0.84;0.67;0.80;0.59" dur="1.39s" begin="-1.01s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.59;0.84;0.67;0.8;0.59" dur="1.39s" begin="-1.01s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 515.03 305.78 C 493.69 270.85, 522.70 307.79, 543.92 255.68 C 571.31 307.24, 547.47 259.52, 540.03 305.78 Z" fill="url(#fireGrad)" opacity="0.84">
+      <path d="M 515.03 305.78 C 493.69 270.85, 522.7 307.79, 543.92 255.68 C 571.31 307.24, 547.47 259.52, 540.03 305.78 Z" fill="url(#fireGrad)" opacity="0.84">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.51s" begin="-1.28s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;12.9,0;-6.5,0;0,0" keyTimes="0;0.3;0.7;1" dur="1.96s" begin="-1.28s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.59;0.84;0.67;0.80;0.59" dur="1.51s" begin="-1.28s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.59;0.84;0.67;0.8;0.59" dur="1.51s" begin="-1.28s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
@@ -451,10 +465,10 @@
       </path>
     </g>
     <g filter="url(#flameWobble)">
-      <path d="M 366.94 317.39 C 327.70 242.21, 331.65 275.98, 356.58 244.60 C 384.36 285.14, 389.89 281.61, 391.94 317.39 Z" fill="url(#fireGrad)" opacity="0.70">
+      <path d="M 366.94 317.39 C 327.7 242.21, 331.65 275.98, 356.58 244.6 C 384.36 285.14, 389.89 281.61, 391.94 317.39 Z" fill="url(#fireGrad)" opacity="0.7">
         <animateTransform attributeName="transform" type="scale" values="1,1;1.06,1.16;0.94,0.9;1.04,1.1;1,1" keyTimes="0;0.25;0.5;0.75;1" dur="1.66s" begin="-0.13s" repeatCount="indefinite" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="0,0;7.4,0;-3.7,0;0,0" keyTimes="0;0.3;0.7;1" dur="2.16s" begin="-0.13s" repeatCount="indefinite" additive="sum"/>
-        <animate attributeName="opacity" values="0.49;0.70;0.56;0.66;0.49" dur="1.66s" begin="-0.13s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.49;0.7;0.56;0.66;0.49" dur="1.66s" begin="-0.13s" repeatCount="indefinite"/>
       </path>
     </g>
     <g filter="url(#flameWobble)">
@@ -464,15 +478,14 @@
         <animate attributeName="opacity" values="0.58;0.83;0.66;0.79;0.58" dur="1.21s" begin="-0.34s" repeatCount="indefinite"/>
       </path>
     </g>
-
     <!-- Ember sparks -->
-    <circle cx="400.0" cy="297.4" r="4.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.28s" begin="-1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="297.4" r="4.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.28s" begin="-1.7s" repeatCount="indefinite"/></circle>
     <circle cx="416.7" cy="298.5" r="3.9" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.28s" begin="-0.5s" repeatCount="indefinite"/></circle>
     <circle cx="568.8" cy="294.9" r="3.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.95s" begin="-1.1s" repeatCount="indefinite"/></circle>
     <circle cx="458.6" cy="294.8" r="4.1" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.04s" begin="-0.74s" repeatCount="indefinite"/></circle>
     <circle cx="604.1" cy="287.7" r="3.5" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.13s" begin="-0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="596.3" cy="290.4" r="4.0" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.36s" begin="-1.38s" repeatCount="indefinite"/></circle>
-    <circle cx="629.0" cy="266.7" r="4.9" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.41s" begin="-1.26s" repeatCount="indefinite"/></circle>
+    <circle cx="596.3" cy="290.4" r="4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.36s" begin="-1.38s" repeatCount="indefinite"/></circle>
+    <circle cx="629" cy="266.7" r="4.9" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.41s" begin="-1.26s" repeatCount="indefinite"/></circle>
     <circle cx="628.3" cy="261.7" r="4.3" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.42s" begin="-0.37s" repeatCount="indefinite"/></circle>
     <circle cx="558.5" cy="291.9" r="4.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.17s" begin="-0.34s" repeatCount="indefinite"/></circle>
     <circle cx="283.8" cy="270.2" r="3.7" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.84s" begin="-0.78s" repeatCount="indefinite"/></circle>
@@ -486,12 +499,11 @@
     <circle cx="488.3" cy="275.3" r="2.1" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.04s" begin="-0.9s" repeatCount="indefinite"/></circle>
     <circle cx="496.6" cy="289.5" r="3.8" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.24s" begin="-0.11s" repeatCount="indefinite"/></circle>
     <circle cx="504.7" cy="266.3" r="2.9" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.78s" begin="-1.22s" repeatCount="indefinite"/></circle>
-    <circle cx="267.1" cy="309.2" r="3.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.30s" begin="-0.03s" repeatCount="indefinite"/></circle>
+    <circle cx="267.1" cy="309.2" r="3.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.3s" begin="-0.03s" repeatCount="indefinite"/></circle>
     <circle cx="444.3" cy="277.1" r="2.3" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.64s" begin="-1.1s" repeatCount="indefinite"/></circle>
-
     <!-- Flying embers -->
     <circle cx="0" cy="0" r="3.1" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="576.0,315; 599.4,70" dur="3.38s" begin="-1.37s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="576,315; 599.4,70" dur="3.38s" begin="-1.37s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.38s" begin="-1.37s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="2.3" fill="url(#emberGlow)">
@@ -523,10 +535,10 @@
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="2.97s" begin="-2.41s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="1.7" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="626.0,315; 634.1,70" dur="3.54s" begin="-3.55s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="626,315; 634.1,70" dur="3.54s" begin="-3.55s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.54s" begin="-3.55s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="0" cy="0" r="3.0" fill="url(#emberGlow)">
+    <circle cx="0" cy="0" r="3" fill="url(#emberGlow)">
       <animateTransform attributeName="transform" type="translate" values="606.6,315; 601.3,70" dur="2.88s" begin="-1.67s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="2.88s" begin="-1.67s" repeatCount="indefinite"/>
     </circle>
@@ -539,7 +551,7 @@
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="2.91s" begin="-2.12s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="2.5" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="643.4,315; 631.0,70" dur="4.49s" begin="-2.51s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="643.4,315; 631,70" dur="4.49s" begin="-2.51s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="4.49s" begin="-2.51s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="3.5" fill="url(#emberGlow)">
@@ -551,11 +563,11 @@
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.18s" begin="-2.58s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="1.9" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="409.2,315; 430.0,70" dur="4.34s" begin="-4.38s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="409.2,315; 430,70" dur="4.34s" begin="-4.38s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="4.34s" begin="-4.38s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="2.9" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="547.8,315; 570.0,70" dur="3.68s" begin="-1.52s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="547.8,315; 570,70" dur="3.68s" begin="-1.52s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.68s" begin="-1.52s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="2.9" fill="url(#emberGlow)">
@@ -563,7 +575,7 @@
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.62s" begin="-3.6s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="2.8" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="338.0,315; 311.1,70" dur="3.24s" begin="-0.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="338,315; 311.1,70" dur="3.24s" begin="-0.5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.24s" begin="-0.5s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="1.6" fill="url(#emberGlow)">
@@ -579,7 +591,7 @@
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="2.96s" begin="-0.43s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="3.2" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="327.7,315; 350.0,70" dur="4.25s" begin="-2.37s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="327.7,315; 350,70" dur="4.25s" begin="-2.37s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="4.25s" begin="-2.37s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="2.2" fill="url(#emberGlow)">
@@ -590,16 +602,16 @@
       <animateTransform attributeName="transform" type="translate" values="360.5,315; 371.4,70" dur="3.65s" begin="-4.07s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.65s" begin="-4.07s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="0" cy="0" r="3.0" fill="url(#emberGlow)">
+    <circle cx="0" cy="0" r="3" fill="url(#emberGlow)">
       <animateTransform attributeName="transform" type="translate" values="597.5,315; 557.8,70" dur="2.62s" begin="-1.77s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="2.62s" begin="-1.77s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="1.9" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="517.8,315; 543.0,70" dur="4.31s" begin="-0.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="517.8,315; 543,70" dur="4.31s" begin="-0.8s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="4.31s" begin="-0.8s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="3.3" fill="url(#emberGlow)">
-      <animateTransform attributeName="transform" type="translate" values="362.5,315; 328.0,70" dur="3.34s" begin="-1.06s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="362.5,315; 328,70" dur="3.34s" begin="-1.06s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.34s" begin="-1.06s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="3.4" fill="url(#emberGlow)">
@@ -624,7 +636,7 @@
   <!-- Smoke from left pipe -->
   <g filter="url(#blurSmoke)">
     <circle cx="0" cy="0" r="10" fill="#a8a3a0" opacity="0">
-      <animateMotion dur="4.65s" begin="3.39s" repeatCount="indefinite" path="M 150 240 C 124.17 160, 115.21 80, 160.70 -20"/>
+      <animateMotion dur="4.65s" begin="3.39s" repeatCount="indefinite" path="M 150 240 C 124.17 160, 115.21 80, 160.7 -20"/>
       <animate attributeName="opacity" values="0;0.5;0.3;0" keyTimes="0;0.2;0.6;1" dur="4.65s" begin="3.39s" repeatCount="indefinite"/>
       <animate attributeName="r" values="10;45;80" dur="4.65s" begin="3.39s" repeatCount="indefinite"/>
     </circle>
@@ -634,17 +646,17 @@
       <animate attributeName="r" values="10;45;80" dur="5.06s" begin="1.23s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="10" fill="#a8a3a0" opacity="0">
-      <animateMotion dur="6.54s" begin="4.35s" repeatCount="indefinite" path="M 150 240 C 167.73 160, 184.07 80, 198.80 -20"/>
+      <animateMotion dur="6.54s" begin="4.35s" repeatCount="indefinite" path="M 150 240 C 167.73 160, 184.07 80, 198.8 -20"/>
       <animate attributeName="opacity" values="0;0.5;0.3;0" keyTimes="0;0.2;0.6;1" dur="6.54s" begin="4.35s" repeatCount="indefinite"/>
       <animate attributeName="r" values="10;45;80" dur="6.54s" begin="4.35s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="10" fill="#a8a3a0" opacity="0">
-      <animateMotion dur="5.14s" begin="3.94s" repeatCount="indefinite" path="M 150 240 C 115.20 160, 151.57 80, 163.54 -20"/>
+      <animateMotion dur="5.14s" begin="3.94s" repeatCount="indefinite" path="M 150 240 C 115.2 160, 151.57 80, 163.54 -20"/>
       <animate attributeName="opacity" values="0;0.5;0.3;0" keyTimes="0;0.2;0.6;1" dur="5.14s" begin="3.94s" repeatCount="indefinite"/>
       <animate attributeName="r" values="10;45;80" dur="5.14s" begin="3.94s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="10" fill="#a8a3a0" opacity="0">
-      <animateMotion dur="6.99s" begin="5.09s" repeatCount="indefinite" path="M 150 240 C 113.40 160, 137.34 80, 104.77 -20"/>
+      <animateMotion dur="6.99s" begin="5.09s" repeatCount="indefinite" path="M 150 240 C 113.4 160, 137.34 80, 104.77 -20"/>
       <animate attributeName="opacity" values="0;0.5;0.3;0" keyTimes="0;0.2;0.6;1" dur="6.99s" begin="5.09s" repeatCount="indefinite"/>
       <animate attributeName="r" values="10;45;80" dur="6.99s" begin="5.09s" repeatCount="indefinite"/>
     </circle>
@@ -669,7 +681,7 @@
       <animate attributeName="r" values="10;45;80" dur="5.88s" begin="2.45s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="10" fill="#a8a3a0" opacity="0">
-      <animateMotion dur="6.64s" begin="1.21s" repeatCount="indefinite" path="M 150 240 C 189.20 160, 96.31 80, 199.16 -20"/>
+      <animateMotion dur="6.64s" begin="1.21s" repeatCount="indefinite" path="M 150 240 C 189.2 160, 96.31 80, 199.16 -20"/>
       <animate attributeName="opacity" values="0;0.5;0.3;0" keyTimes="0;0.2;0.6;1" dur="6.64s" begin="1.21s" repeatCount="indefinite"/>
       <animate attributeName="r" values="10;45;80" dur="6.64s" begin="1.21s" repeatCount="indefinite"/>
     </circle>
@@ -679,9 +691,9 @@
       <animate attributeName="r" values="10;45;80" dur="5.29s" begin="5.34s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="10" fill="#a8a3a0" opacity="0">
-      <animateMotion dur="5.70s" begin="5.04s" repeatCount="indefinite" path="M 150 240 C 167.22 160, 156.07 80, 164.77 -20"/>
-      <animate attributeName="opacity" values="0;0.5;0.3;0" keyTimes="0;0.2;0.6;1" dur="5.70s" begin="5.04s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="10;45;80" dur="5.70s" begin="5.04s" repeatCount="indefinite"/>
+      <animateMotion dur="5.7s" begin="5.04s" repeatCount="indefinite" path="M 150 240 C 167.22 160, 156.07 80, 164.77 -20"/>
+      <animate attributeName="opacity" values="0;0.5;0.3;0" keyTimes="0;0.2;0.6;1" dur="5.7s" begin="5.04s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="10;45;80" dur="5.7s" begin="5.04s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="10" fill="#a8a3a0" opacity="0">
       <animateMotion dur="5.18s" begin="3.05s" repeatCount="indefinite" path="M 150 240 C 148.75 160, 152.43 80, 229.22 -20"/>
@@ -702,7 +714,7 @@
 
   <!-- Main title with fire glow -->
   <g filter="url(#fireGlowStrong)">
-    <text x="492.0" y="170.24" text-anchor="middle" dominant-baseline="middle"
+    <text x="492" y="170.24" text-anchor="middle" dominant-baseline="middle"
           font-family="'Courier New', monospace" font-weight="bold" font-size="52" letter-spacing="8"
           fill="url(#textFireGrad)" stroke="#ff3d00" stroke-width="1.2" filter="url(#heatWobble)">
       YONAS SAHILE
@@ -713,101 +725,101 @@
   <!-- Floating letters animation -->
   <g font-family="'Courier New', monospace" font-weight="bold" font-size="34" fill="#ffebd6" filter="url(#softGlow)">
     <g>
-      <animateMotion dur="6s" begin="0.00s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="0s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="0.00s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="0.00s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="0.00s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="0s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="0s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="0s" repeatCount="indefinite" additive="sum"/>
         Y
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="0.50s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="0.5s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="0.50s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="0.50s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="0.50s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="0.5s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="0.5s" repeatCount="indefinite" additive="sum"/>
         O
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="1.00s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="1s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="1.00s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="1.00s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="1.00s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="1s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="1s" repeatCount="indefinite" additive="sum"/>
         N
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="1.50s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="1.5s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="1.50s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="1.50s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="1.50s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="1.5s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="1.5s" repeatCount="indefinite" additive="sum"/>
         A
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="2.00s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="2s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="2.00s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="2.00s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="2.00s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="2s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="2s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="2s" repeatCount="indefinite" additive="sum"/>
         S
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="2.50s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="2.5s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="2.50s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="2.50s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="2.50s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="2.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="2.5s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="2.5s" repeatCount="indefinite" additive="sum"/>
         S
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="3.00s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="3s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="3.00s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="3.00s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="3.00s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="3s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="3s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="3s" repeatCount="indefinite" additive="sum"/>
         A
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="3.50s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="3.5s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="3.50s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="3.50s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="3.50s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="3.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="3.5s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="3.5s" repeatCount="indefinite" additive="sum"/>
         H
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="4.00s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="4s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="4.00s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="4.00s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="4.00s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="4s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="4s" repeatCount="indefinite" additive="sum"/>
         I
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="4.50s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="4.5s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="4.50s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="4.50s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="4.50s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="4.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="4.5s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="4.5s" repeatCount="indefinite" additive="sum"/>
         L
       </text>
     </g>
     <g>
-      <animateMotion dur="6s" begin="5.00s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
+      <animateMotion dur="6s" begin="5s" repeatCount="indefinite" path="M 150 240 C 120 160, 180 80, 150 0 C 120 -80, 180 -160, 150 -200"/>
       <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" opacity="0" stroke="#ff4d00" stroke-width="1.2">
-        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="5.00s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="5.00s" repeatCount="indefinite" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="5.00s" repeatCount="indefinite" additive="sum"/>
+        <animate attributeName="opacity" values="0;0;1;1;0.8;0" keyTimes="0;0.05;0.15;0.5;0.8;1" dur="6s" begin="5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="-15;15;-15" dur="3s" begin="5s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.2;1.8" dur="6s" begin="5s" repeatCount="indefinite" additive="sum"/>
         E
       </text>
     </g>
@@ -815,20 +827,20 @@
 
   <!-- Subtitle with typewriter effect -->
   <clipPath id="subClip">
-    <rect x="262.0" y="198.24" width="0" height="26">
+    <rect x="262" y="198.24" width="0" height="26">
       <animate attributeName="width" from="0" to="460" dur="1.8s" begin="0.4s" fill="freeze"/>
     </rect>
   </clipPath>
-  <text x="492.0" y="214.24" text-anchor="middle" dominant-baseline="middle"
+  <text x="492" y="214.24" text-anchor="middle" dominant-baseline="middle"
         font-family="'Courier New', monospace" font-size="16" letter-spacing="3" fill="#ffb84d"
         clip-path="url(#subClip)">
     &gt; ENTERPRISE SECURITY ARCHITECT
   </text>
-  <rect x="720.0" y="203.24" width="9" height="20" fill="#ffb84d" opacity="0">
+  <rect x="720" y="203.24" width="9" height="20" fill="#ffb84d" opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.78;0.8;0.9;0.92;1" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Pendulum Clock -->
+  <!-- Pendulum Clock with SMIL hands -->
   <g id="pendulum-clock" transform="translate(800, 20) scale(1)">
     <rect x="0" y="30" width="140" height="260" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="3" rx="4"/>
     <path d="M -10 40 L 0 30 C 20 -10, 50 -10, 70 -20 C 90 -10, 120 -10, 140 30 L 150 40 Z" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="3"/>
@@ -878,14 +890,30 @@
     <text x="70" y="135" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">6</text>
     <text x="36" y="99" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">9</text>
 
-    <!-- Clock hands with SMIL (no JS needed) -->
-    <g transform="translate(70,95)">
-      <!-- Shadows -->
-      <g opacity="0.2" transform="translate(1,2)">
-        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="43200s" repeatCount="indefinite"/><line x1="0" y1="4" x2="0" y2="-25" stroke="#000" stroke-width="4" stroke-linecap="round"/></g>
-        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3600s" repeatCount="indefinite"/><line x1="0" y1="4" x2="0" y2="-36" stroke="#000" stroke-width="2.5" stroke-linecap="round"/></g>
-        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/><line x1="0" y1="10" x2="0" y2="-38" stroke="#000" stroke-width="1.5"/></g>
+    <!-- Clock hands with SMIL (no JavaScript needed) -->
+    <g transform="translate(70, 95)">
+      <!-- Hour hand shadow -->
+      <g opacity="0.2" transform="translate(1, 2)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="43200s" repeatCount="indefinite"/>
+          <line x1="0" y1="4" x2="0" y2="-25" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+        </g>
       </g>
+      <!-- Minute hand shadow -->
+      <g opacity="0.2" transform="translate(1, 2)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3600s" repeatCount="indefinite"/>
+          <line x1="0" y1="4" x2="0" y2="-36" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+        </g>
+      </g>
+      <!-- Second hand shadow -->
+      <g opacity="0.2" transform="translate(1, 2)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/>
+          <line x1="0" y1="10" x2="0" y2="-38" stroke="#000" stroke-width="1.5"/>
+        </g>
+      </g>
+
       <!-- Hour hand -->
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="43200s" repeatCount="indefinite"/>
@@ -904,6 +932,7 @@
         <line x1="0" y1="10" x2="0" y2="-38" stroke="#cc0000" stroke-width="1.5" stroke-linecap="round"/>
         <circle cx="0" cy="0" r="2.5" fill="#cc0000"/>
       </g>
+      <!-- Center pin -->
       <circle cx="0" cy="0" r="2" fill="url(#goldGrad)"/>
     </g>
 
@@ -950,9 +979,15 @@
       <path d="M 15 60 Q 30 30 25 10 Q 10 40 15 60" fill="#69c453"/>
       <path d="M 15 60 Q -10 50 -20 30 Q 5 45 15 60" fill="#5cb347"/>
     </g>
-    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potBrown)" stroke="#3a1a08" stroke-width="2"/>
-    <rect x="-4" y="52" width="38" height="8" fill="url(#potRim)" stroke="#3a1a08" stroke-width="2" rx="2"/>
+    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potRedGrad)" stroke="#3a0507" stroke-width="2"/>
+    <rect x="-4" y="52" width="38" height="8" fill="url(#potRimGrad)" stroke="#3a0507" stroke-width="2" rx="2"/>
     <path d="M 5 100 L 15 100 L 15 52 L -4 52 Z" fill="#000" opacity="0.2"/>
+    <path d="M 3 66 L 27 66" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <path d="M 5 92 L 25 92" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <g stroke="#ffd76a" stroke-width="1.1" opacity="0.8" fill="none">
+      <path d="M 9 79 L 12.5 74 L 16 79 L 12.5 84 Z"/>
+      <path d="M 16 79 L 19.5 74 L 23 79 L 19.5 84 Z"/>
+    </g>
   </g>
 
   <!-- Flower Pot Right -->
@@ -968,7 +1003,6 @@
       <path d="M 15 60 Q 5 20 -15 -15" fill="none" stroke="#3a7033" stroke-width="2"/>
       <path d="M 15 60 Q 25 20 35 -25" fill="none" stroke="#3a7033" stroke-width="2"/>
       <path d="M 15 60 Q 20 10 15 -45" fill="none" stroke="#2d5a27" stroke-width="2"/>
-      <!-- Flowers -->
       <g transform="translate(0,-35) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ff0000"/><circle cx="10" cy="-3" r="8" fill="#ff0000"/><circle cx="6" cy="8" r="8" fill="#ff0000"/><circle cx="-6" cy="8" r="8" fill="#ff0000"/><circle cx="-10" cy="-3" r="8" fill="#ff0000"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
       <g transform="translate(-25,0) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc0000"/><circle cx="10" cy="-3" r="8" fill="#cc0000"/><circle cx="6" cy="8" r="8" fill="#cc0000"/><circle cx="-6" cy="8" r="8" fill="#cc0000"/><circle cx="-10" cy="-3" r="8" fill="#cc0000"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
       <g transform="translate(25,-10) scale(1)"><circle cx="0" cy="-10" r="8" fill="#ff8c00"/><circle cx="10" cy="-3" r="8" fill="#ff8c00"/><circle cx="6" cy="8" r="8" fill="#ff8c00"/><circle cx="-6" cy="8" r="8" fill="#ff8c00"/><circle cx="-10" cy="-3" r="8" fill="#ff8c00"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
@@ -988,8 +1022,14 @@
       <path d="M 15 60 Q 30 30 25 10 Q 10 40 15 60" fill="#69c453"/>
       <path d="M 15 60 Q -10 50 -20 30 Q 5 45 15 60" fill="#5cb347"/>
     </g>
-    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potBrown)" stroke="#3a1a08" stroke-width="2"/>
-    <rect x="-4" y="52" width="38" height="8" fill="url(#potRim)" stroke="#3a1a08" stroke-width="2" rx="2"/>
+    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potRedGrad)" stroke="#3a0507" stroke-width="2"/>
+    <rect x="-4" y="52" width="38" height="8" fill="url(#potRimGrad)" stroke="#3a0507" stroke-width="2" rx="2"/>
     <path d="M 5 100 L 15 100 L 15 52 L -4 52 Z" fill="#000" opacity="0.2"/>
+    <path d="M 3 66 L 27 66" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <path d="M 5 92 L 25 92" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <g stroke="#ffd76a" stroke-width="1.1" opacity="0.8" fill="none">
+      <path d="M 9 79 L 12.5 74 L 16 79 L 12.5 84 Z"/>
+      <path d="M 16 79 L 19.5 74 L 23 79 L 19.5 84 Z"/>
+    </g>
   </g>
 </svg>
