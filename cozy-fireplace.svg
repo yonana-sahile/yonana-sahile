@@ -159,25 +159,14 @@
   </pattern>
 
   <g id="shower-system">
-    <!-- Pipe -->
     <path d="M -30 150 L -30 20 L -30 -30 Q -30 -50 -10 -50 L 30 -50 Q 50 -50 50 -30 L 50 -10" fill="none" stroke="#b0b5b9" stroke-width="8" stroke-linecap="round"/>
     <path d="M -30 150 L -30 20 L -30 -30 Q -30 -50 -10 -50 L 30 -50 Q 50 -50 50 -30 L 50 -10" fill="none" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
-    
-    <!-- Wall mounts -->
     <rect x="-38" y="100" width="16" height="10" rx="3" fill="#94a3b8"/>
     <rect x="-38" y="0" width="16" height="10" rx="3" fill="#94a3b8"/>
-    
-    <!-- Shower head base -->
     <rect x="35" y="-10" width="30" height="15" rx="4" fill="#94a3b8"/>
-    
-    <!-- Shower head -->
     <path d="M 20 5 L 80 5 L 75 15 L 25 15 Z" fill="#cbd5e1"/>
     <path d="M 25 15 L 75 15 L 70 20 L 30 20 Z" fill="#94a3b8"/>
-    
-    <!-- Water droplets -->
-
     <g fill="#3b82f6" opacity="0.8">
-      <!-- Batch 1 -->
       <circle cx="32" cy="20" r="2">
         <animate attributeName="cy" values="25; 160" dur="0.6s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.9; 0" dur="0.6s" repeatCount="indefinite" />
@@ -206,8 +195,6 @@
         <animate attributeName="cy" values="25; 160" dur="0.6s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.9; 0" dur="0.6s" repeatCount="indefinite" />
       </circle>
-      
-      <!-- Batch 2 (offset) -->
       <circle cx="35" cy="50" r="1.8">
         <animate attributeName="cy" values="25; 165" dur="0.65s" begin="0.3s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.9; 0" dur="0.65s" begin="0.3s" repeatCount="indefinite" />
@@ -228,8 +215,6 @@
         <animate attributeName="cy" values="25; 160" dur="0.6s" begin="0.3s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.9; 0" dur="0.6s" begin="0.3s" repeatCount="indefinite" />
       </circle>
-      
-      <!-- Batch 3 (offset more) -->
       <circle cx="33" cy="45" r="2.5">
         <animate attributeName="cy" values="25; 180" dur="0.75s" begin="0.5s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.9; 0" dur="0.75s" begin="0.5s" repeatCount="indefinite" />
@@ -574,12 +559,9 @@
 
   <!-- Smoke Pipe on the left -->
   <g id="smokePipe" transform="translate(150, 240)">
-    <!-- Pipe body -->
     <path d="M -25 0 L 25 0 L 25 100 L -25 100 Z" fill="url(#pipeGrad)" stroke="#050505" stroke-width="2"/>
     <path d="M -30 80 L 30 80 L 30 100 L -30 100 Z" fill="#222" stroke="#050505" stroke-width="2"/>
-    <!-- Pipe rim -->
     <ellipse cx="0" cy="0" rx="25" ry="10" fill="url(#pipeGrad)" stroke="#050505" stroke-width="2"/>
-    <!-- Pipe hole -->
     <ellipse cx="0" cy="0" rx="20" ry="6" fill="#000"/>
     <ellipse cx="0" cy="0" rx="16" ry="4" fill="#050200"/>
   </g>
@@ -806,7 +788,7 @@
     </linearGradient>
   </defs>
 
-  <!-- Pendulum Clock on the right -->
+  <!-- Pendulum Clock on the right — Hands use SMIL (no JS) -->
   <g id="pendulum-clock" transform="translate(800, 20) scale(1)">
     <!-- Main case -->
     <rect x="0" y="30" width="140" height="260" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="3" rx="4"/>
@@ -845,7 +827,6 @@
     
     <!-- Glass reflection over pendulum -->
     <g>
-
       <rect x="25" y="150" width="40" height="130" fill="#fff" opacity="0.06" transform="skewX(-15) translate(10, 0)" />
       <rect x="75" y="150" width="10" height="130" fill="#fff" opacity="0.03" transform="skewX(-15) translate(10, 0)" />
     </g>
@@ -855,18 +836,18 @@
     <circle cx="70" cy="95" r="45.5" fill="none" stroke="#222" stroke-width="1" />
     
     <!-- Ticks -->
-    <circle cx="70" cy="51" r="1.5" fill="#000"/> <!-- 12 -->
-    <circle cx="92" cy="56.9" r="1.5" fill="#000"/> <!-- 1 -->
-    <circle cx="108.1" cy="73" r="1.5" fill="#000"/> <!-- 2 -->
-    <circle cx="114" cy="95" r="1.5" fill="#000"/> <!-- 3 -->
-    <circle cx="108.1" cy="117" r="1.5" fill="#000"/> <!-- 4 -->
-    <circle cx="92" cy="133.1" r="1.5" fill="#000"/> <!-- 5 -->
-    <circle cx="70" cy="139" r="1.5" fill="#000"/> <!-- 6 -->
-    <circle cx="48" cy="133.1" r="1.5" fill="#000"/> <!-- 7 -->
-    <circle cx="31.9" cy="117" r="1.5" fill="#000"/> <!-- 8 -->
-    <circle cx="26" cy="95" r="1.5" fill="#000"/> <!-- 9 -->
-    <circle cx="31.9" cy="73" r="1.5" fill="#000"/> <!-- 10 -->
-    <circle cx="48" cy="56.9" r="1.5" fill="#000"/> <!-- 11 -->
+    <circle cx="70" cy="51" r="1.5" fill="#000"/>
+    <circle cx="92" cy="56.9" r="1.5" fill="#000"/>
+    <circle cx="108.1" cy="73" r="1.5" fill="#000"/>
+    <circle cx="114" cy="95" r="1.5" fill="#000"/>
+    <circle cx="108.1" cy="117" r="1.5" fill="#000"/>
+    <circle cx="92" cy="133.1" r="1.5" fill="#000"/>
+    <circle cx="70" cy="139" r="1.5" fill="#000"/>
+    <circle cx="48" cy="133.1" r="1.5" fill="#000"/>
+    <circle cx="31.9" cy="117" r="1.5" fill="#000"/>
+    <circle cx="26" cy="95" r="1.5" fill="#000"/>
+    <circle cx="31.9" cy="73" r="1.5" fill="#000"/>
+    <circle cx="48" cy="56.9" r="1.5" fill="#000"/>
 
     <!-- Numerals -->
     <text x="70" y="62" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">12</text>
@@ -874,30 +855,44 @@
     <text x="70" y="135" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">6</text>
     <text x="36" y="99" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">9</text>
     
-    <!-- Hands: REAL LIVE TIME (set + updated by JavaScript below, no more infinite decorative spin) -->
+    <!-- Hands with SMIL animations (no JavaScript) -->
     <g transform="translate(70, 95)">
-      <!-- Shadow for hands -->
-      <g opacity="0.2" transform="translate(1, 2)">
-        <g id="hourHandShadow"><line x1="0" y1="4" x2="0" y2="-25" stroke="#000" stroke-width="4" stroke-linecap="round" /></g>
-        <g id="minHandShadow"><line x1="0" y1="4" x2="0" y2="-36" stroke="#000" stroke-width="2.5" stroke-linecap="round" /></g>
-        <g id="secHandShadow"><line x1="0" y1="10" x2="0" y2="-38" stroke="#000" stroke-width="1.5" /></g>
-      </g>
-      
-      <!-- Hour hand -->
-      <g id="hourHand">
+      <!-- Hour hand group — rotates 360° in 12 hours -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="43200s" repeatCount="indefinite" />
+        <!-- Shadow -->
+        <g opacity="0.2" transform="translate(1, 2)">
+          <line x1="0" y1="4" x2="0" y2="-25" stroke="#000" stroke-width="4" stroke-linecap="round" />
+        </g>
+        <!-- Hand -->
         <line x1="0" y1="4" x2="0" y2="-25" stroke="#111" stroke-width="4" stroke-linecap="round" />
         <circle cx="0" cy="-20" r="3" fill="#111" />
       </g>
-      <!-- Minute hand -->
-      <g id="minHand">
+
+      <!-- Minute hand group — rotates 360° in 1 hour -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3600s" repeatCount="indefinite" />
+        <!-- Shadow -->
+        <g opacity="0.2" transform="translate(1, 2)">
+          <line x1="0" y1="4" x2="0" y2="-36" stroke="#000" stroke-width="2.5" stroke-linecap="round" />
+        </g>
+        <!-- Hand -->
         <line x1="0" y1="4" x2="0" y2="-36" stroke="#111" stroke-width="2.5" stroke-linecap="round" />
         <circle cx="0" cy="-30" r="2.5" fill="#111" />
       </g>
-      <!-- Second hand -->
-      <g id="secHand">
+
+      <!-- Second hand group — rotates 360° in 1 minute -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite" />
+        <!-- Shadow -->
+        <g opacity="0.2" transform="translate(1, 2)">
+          <line x1="0" y1="10" x2="0" y2="-38" stroke="#000" stroke-width="1.5" />
+        </g>
+        <!-- Hand -->
         <line x1="0" y1="10" x2="0" y2="-38" stroke="#cc0000" stroke-width="1.5" stroke-linecap="round"/>
         <circle cx="0" cy="0" r="2.5" fill="#cc0000" />
       </g>
+
       <!-- Center pin -->
       <circle cx="0" cy="0" r="2" fill="url(#goldGrad)" />
     </g>
@@ -911,7 +906,6 @@
     
     <!-- Clock shadow overlay for depth -->
     <rect x="0" y="30" width="140" height="260" fill="#000" opacity="0.1" rx="4" style="pointer-events:none;"/>
-
   </g>
 
   <!-- ===================== FLOWER POT (LEFT) — Red & Gold theme ===================== -->
@@ -1092,31 +1086,5 @@
   </g>
 </svg>
 
-<script>
-  // ---- REAL LIVE CLOCK ----
-  function setHand(el, deg) {
-    if (el) el.setAttribute('transform', 'rotate(' + deg + ')');
-  }
-  function updateClock() {
-    var now = new Date();
-    var h = now.getHours() % 12;
-    var m = now.getMinutes();
-    var s = now.getSeconds();
-    var ms = now.getMilliseconds();
-
-    var secDeg  = (s + ms / 1000) * 6;              // 360/60
-    var minDeg  = m * 6 + s * 0.1;                   // 360/60 + smooth
-    var hourDeg = h * 30 + m * 0.5;                  // 360/12 + smooth
-
-    setHand(document.getElementById('hourHand'), hourDeg);
-    setHand(document.getElementById('minHand'), minDeg);
-    setHand(document.getElementById('secHand'), secDeg);
-    setHand(document.getElementById('hourHandShadow'), hourDeg);
-    setHand(document.getElementById('minHandShadow'), minDeg);
-    setHand(document.getElementById('secHandShadow'), secDeg);
-  }
-  updateClock();
-  setInterval(updateClock, 1000);
-</script>
 </body>
 </html>
