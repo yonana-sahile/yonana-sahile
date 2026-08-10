@@ -252,6 +252,7 @@
       <animate attributeName="r" values="12.3;32.0" dur="4.21s" begin="-4.19s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.6;0.5;0" keyTimes="0;0.15;0.6;1" dur="4.21s" begin="-4.19s" repeatCount="indefinite"/>
     </circle>
+    <!-- Floating letters YONAS SAHILE -->
     <text x="762" y="-28" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#f2f0ea" opacity="0">
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0;0.0091;0.05;0.0773;1" dur="9s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-14;0,-70;0,-130;0,-130" keyTimes="0;0;0.0091;0.05;0.0773;1" dur="9s" repeatCount="indefinite" additive="sum"/>Y
@@ -477,6 +478,7 @@
         <animate attributeName="opacity" values="0.58;0.83;0.66;0.79;0.58" dur="1.21s" begin="-0.34s" repeatCount="indefinite"/>
       </path>
     </g>
+    <!-- Ember sparks -->
     <circle cx="400" cy="297.4" r="4.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.28s" begin="-1.7s" repeatCount="indefinite"/></circle>
     <circle cx="416.7" cy="298.5" r="3.9" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.28s" begin="-0.5s" repeatCount="indefinite"/></circle>
     <circle cx="568.8" cy="294.9" r="3.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.95s" begin="-1.1s" repeatCount="indefinite"/></circle>
@@ -499,6 +501,7 @@
     <circle cx="504.7" cy="266.3" r="2.9" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.78s" begin="-1.22s" repeatCount="indefinite"/></circle>
     <circle cx="267.1" cy="309.2" r="3.4" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.3s" begin="-0.03s" repeatCount="indefinite"/></circle>
     <circle cx="444.3" cy="277.1" r="2.3" fill="url(#crackGlow)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.64s" begin="-1.1s" repeatCount="indefinite"/></circle>
+    <!-- Flying embers -->
     <circle cx="0" cy="0" r="3.1" fill="url(#emberGlow)">
       <animateTransform attributeName="transform" type="translate" values="576,315; 599.4,70" dur="3.38s" begin="-1.37s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3.38s" begin="-1.37s" repeatCount="indefinite"/>
@@ -837,7 +840,7 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.78;0.8;0.9;0.92;1" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- ===================== PENDULUM CLOCK WITH SMIL ANIMATIONS (no JavaScript) ===================== -->
+  <!-- Pendulum Clock with SMIL hands -->
   <g id="pendulum-clock" transform="translate(800, 20) scale(1)">
     <rect x="0" y="30" width="140" height="260" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="3" rx="4"/>
     <path d="M -10 40 L 0 30 C 20 -10, 50 -10, 70 -20 C 90 -10, 120 -10, 140 30 L 150 40 Z" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="3"/>
@@ -887,7 +890,7 @@
     <text x="70" y="135" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">6</text>
     <text x="36" y="99" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">9</text>
 
-    <!-- Clock hands with SMIL - continuous rotation (looks like a real working clock) -->
+    <!-- Clock hands with SMIL (no JavaScript needed) -->
     <g transform="translate(70, 95)">
       <!-- Hour hand shadow -->
       <g opacity="0.2" transform="translate(1, 2)">
@@ -933,7 +936,6 @@
       <circle cx="0" cy="0" r="2" fill="url(#goldGrad)"/>
     </g>
 
-    <!-- Clock Base -->
     <rect x="-10" y="290" width="160" height="15" fill="#3a1f10" stroke="#1a0d04" stroke-width="2" rx="3"/>
     <rect x="-8" y="293" width="156" height="3" fill="#4a2f1a"/>
     <path d="M 0 305 L 20 330 L 120 330 L 140 305 Z" fill="url(#woodGrad)" stroke="#1a0d04" stroke-width="2"/>
@@ -951,4 +953,83 @@
       <path d="M 15 60 Q -10 10 0 -20 Q 15 -10 15 60" fill="#2d5a27"/>
       <path d="M 15 60 Q 40 10 30 -20 Q 20 -10 15 60" fill="#3a7033"/>
       <path d="M 15 60 Q 50 30 60 0 Q 30 20 15 60" fill="#4b8b3b"/>
-      <path d="M 15 60 Q -20 30 -30 0 Q 
+      <path d="M 15 60 Q -20 30 -30 0 Q 0 20 15 60" fill="#244f20"/>
+      <path d="M 15 60 Q 15 -40 25 -60 Q 35 -30 15 60" fill="#3a7033"/>
+      <path d="M 15 60 Q -35 50 -45 20 Q -15 40 15 60" fill="#4b8b3b"/>
+      <path d="M 15 60 Q 5 20 -15 -15" fill="none" stroke="#3a7033" stroke-width="2"/>
+      <path d="M 15 60 Q 25 20 35 -25" fill="none" stroke="#3a7033" stroke-width="2"/>
+      <path d="M 15 60 Q 20 10 15 -45" fill="none" stroke="#2d5a27" stroke-width="2"/>
+      <!-- Flowers -->
+      <g transform="translate(0,-35) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ff0000"/><circle cx="10" cy="-3" r="8" fill="#ff0000"/><circle cx="6" cy="8" r="8" fill="#ff0000"/><circle cx="-6" cy="8" r="8" fill="#ff0000"/><circle cx="-10" cy="-3" r="8" fill="#ff0000"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
+      <g transform="translate(-25,0) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc0000"/><circle cx="10" cy="-3" r="8" fill="#cc0000"/><circle cx="6" cy="8" r="8" fill="#cc0000"/><circle cx="-6" cy="8" r="8" fill="#cc0000"/><circle cx="-10" cy="-3" r="8" fill="#cc0000"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(25,-10) scale(1)"><circle cx="0" cy="-10" r="8" fill="#ff8c00"/><circle cx="10" cy="-3" r="8" fill="#ff8c00"/><circle cx="6" cy="8" r="8" fill="#ff8c00"/><circle cx="-6" cy="8" r="8" fill="#ff8c00"/><circle cx="-10" cy="-3" r="8" fill="#ff8c00"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
+      <g transform="translate(15,-45) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ffcc00"/><circle cx="10" cy="-3" r="8" fill="#ffcc00"/><circle cx="6" cy="8" r="8" fill="#ffcc00"/><circle cx="-6" cy="8" r="8" fill="#ffcc00"/><circle cx="-10" cy="-3" r="8" fill="#ffcc00"/><circle cx="0" cy="0" r="5" fill="#cc6600"/></g>
+      <g transform="translate(-15,-55) scale(0.7)"><circle cx="0" cy="-10" r="8" fill="#ffdd33"/><circle cx="10" cy="-3" r="8" fill="#ffdd33"/><circle cx="6" cy="8" r="8" fill="#ffdd33"/><circle cx="-6" cy="8" r="8" fill="#ffdd33"/><circle cx="-10" cy="-3" r="8" fill="#ffdd33"/><circle cx="0" cy="0" r="5" fill="#ff6600"/></g>
+      <g transform="translate(-15,-15) scale(1.1)"><circle cx="0" cy="-10" r="8" fill="#ff66b2"/><circle cx="10" cy="-3" r="8" fill="#ff66b2"/><circle cx="6" cy="8" r="8" fill="#ff66b2"/><circle cx="-6" cy="8" r="8" fill="#ff66b2"/><circle cx="-10" cy="-3" r="8" fill="#ff66b2"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(35,-35) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#ff3399"/><circle cx="10" cy="-3" r="8" fill="#ff3399"/><circle cx="6" cy="8" r="8" fill="#ff3399"/><circle cx="-6" cy="8" r="8" fill="#ff3399"/><circle cx="-10" cy="-3" r="8" fill="#ff3399"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(45,15) scale(0.7)"><circle cx="0" cy="-10" r="8" fill="#ff99cc"/><circle cx="10" cy="-3" r="8" fill="#ff99cc"/><circle cx="6" cy="8" r="8" fill="#ff99cc"/><circle cx="-6" cy="8" r="8" fill="#ff99cc"/><circle cx="-10" cy="-3" r="8" fill="#ff99cc"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(-10,20) scale(0.85)"><circle cx="0" cy="-10" r="8" fill="#9933ff"/><circle cx="10" cy="-3" r="8" fill="#9933ff"/><circle cx="6" cy="8" r="8" fill="#9933ff"/><circle cx="-6" cy="8" r="8" fill="#9933ff"/><circle cx="-10" cy="-3" r="8" fill="#9933ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(20,25) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc66ff"/><circle cx="10" cy="-3" r="8" fill="#cc66ff"/><circle cx="6" cy="8" r="8" fill="#cc66ff"/><circle cx="-6" cy="8" r="8" fill="#cc66ff"/><circle cx="-10" cy="-3" r="8" fill="#cc66ff"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
+      <g transform="translate(-30,5) scale(0.75)"><circle cx="0" cy="-10" r="8" fill="#3399ff"/><circle cx="10" cy="-3" r="8" fill="#3399ff"/><circle cx="6" cy="8" r="8" fill="#3399ff"/><circle cx="-6" cy="8" r="8" fill="#3399ff"/><circle cx="-10" cy="-3" r="8" fill="#3399ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(10,5) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#0066cc"/><circle cx="10" cy="-3" r="8" fill="#0066cc"/><circle cx="6" cy="8" r="8" fill="#0066cc"/><circle cx="-6" cy="8" r="8" fill="#0066cc"/><circle cx="-10" cy="-3" r="8" fill="#0066cc"/><circle cx="0" cy="0" r="5" fill="#ffffff"/></g>
+      <g transform="translate(35,0) scale(0.85)"><circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/></g>
+      <g transform="translate(-35,-20) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/></g>
+      <g transform="translate(0,-60) scale(0.6)"><circle cx="0" cy="-10" r="8" fill="#ff6600"/><circle cx="10" cy="-3" r="8" fill="#ff6600"/><circle cx="6" cy="8" r="8" fill="#ff6600"/><circle cx="-6" cy="8" r="8" fill="#ff6600"/><circle cx="-10" cy="-3" r="8" fill="#ff6600"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
+      <path d="M 15 60 Q 0 30 5 10 Q 20 40 15 60" fill="#5cb347"/>
+      <path d="M 15 60 Q 30 30 25 10 Q 10 40 15 60" fill="#69c453"/>
+      <path d="M 15 60 Q -10 50 -20 30 Q 5 45 15 60" fill="#5cb347"/>
+    </g>
+    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potRedGrad)" stroke="#3a0507" stroke-width="2"/>
+    <rect x="-4" y="52" width="38" height="8" fill="url(#potRimGrad)" stroke="#3a0507" stroke-width="2" rx="2"/>
+    <path d="M 5 100 L 15 100 L 15 52 L -4 52 Z" fill="#000" opacity="0.2"/>
+    <path d="M 3 66 L 27 66" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <path d="M 5 92 L 25 92" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <g stroke="#ffd76a" stroke-width="1.1" opacity="0.8" fill="none">
+      <path d="M 9 79 L 12.5 74 L 16 79 L 12.5 84 Z"/>
+      <path d="M 16 79 L 19.5 74 L 23 79 L 19.5 84 Z"/>
+    </g>
+  </g>
+
+  <!-- Flower Pot Right -->
+  <g id="flower-pot-right" transform="translate(920, 240) scale(1.2)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="2;-2;2" dur="4s" repeatCount="indefinite" transform-origin="15 100"/>
+      <path d="M 15 60 Q -10 10 0 -20 Q 15 -10 15 60" fill="#2d5a27"/>
+      <path d="M 15 60 Q 40 10 30 -20 Q 20 -10 15 60" fill="#3a7033"/>
+      <path d="M 15 60 Q 50 30 60 0 Q 30 20 15 60" fill="#4b8b3b"/>
+      <path d="M 15 60 Q -20 30 -30 0 Q 0 20 15 60" fill="#244f20"/>
+      <path d="M 15 60 Q 15 -40 25 -60 Q 35 -30 15 60" fill="#3a7033"/>
+      <path d="M 15 60 Q -35 50 -45 20 Q -15 40 15 60" fill="#4b8b3b"/>
+      <path d="M 15 60 Q 5 20 -15 -15" fill="none" stroke="#3a7033" stroke-width="2"/>
+      <path d="M 15 60 Q 25 20 35 -25" fill="none" stroke="#3a7033" stroke-width="2"/>
+      <path d="M 15 60 Q 20 10 15 -45" fill="none" stroke="#2d5a27" stroke-width="2"/>
+      <g transform="translate(0,-35) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ff0000"/><circle cx="10" cy="-3" r="8" fill="#ff0000"/><circle cx="6" cy="8" r="8" fill="#ff0000"/><circle cx="-6" cy="8" r="8" fill="#ff0000"/><circle cx="-10" cy="-3" r="8" fill="#ff0000"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
+      <g transform="translate(-25,0) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc0000"/><circle cx="10" cy="-3" r="8" fill="#cc0000"/><circle cx="6" cy="8" r="8" fill="#cc0000"/><circle cx="-6" cy="8" r="8" fill="#cc0000"/><circle cx="-10" cy="-3" r="8" fill="#cc0000"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(25,-10) scale(1)"><circle cx="0" cy="-10" r="8" fill="#ff8c00"/><circle cx="10" cy="-3" r="8" fill="#ff8c00"/><circle cx="6" cy="8" r="8" fill="#ff8c00"/><circle cx="-6" cy="8" r="8" fill="#ff8c00"/><circle cx="-10" cy="-3" r="8" fill="#ff8c00"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
+      <g transform="translate(15,-45) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#ffcc00"/><circle cx="10" cy="-3" r="8" fill="#ffcc00"/><circle cx="6" cy="8" r="8" fill="#ffcc00"/><circle cx="-6" cy="8" r="8" fill="#ffcc00"/><circle cx="-10" cy="-3" r="8" fill="#ffcc00"/><circle cx="0" cy="0" r="5" fill="#cc6600"/></g>
+      <g transform="translate(-15,-55) scale(0.7)"><circle cx="0" cy="-10" r="8" fill="#ffdd33"/><circle cx="10" cy="-3" r="8" fill="#ffdd33"/><circle cx="6" cy="8" r="8" fill="#ffdd33"/><circle cx="-6" cy="8" r="8" fill="#ffdd33"/><circle cx="-10" cy="-3" r="8" fill="#ffdd33"/><circle cx="0" cy="0" r="5" fill="#ff6600"/></g>
+      <g transform="translate(-15,-15) scale(1.1)"><circle cx="0" cy="-10" r="8" fill="#ff66b2"/><circle cx="10" cy="-3" r="8" fill="#ff66b2"/><circle cx="6" cy="8" r="8" fill="#ff66b2"/><circle cx="-6" cy="8" r="8" fill="#ff66b2"/><circle cx="-10" cy="-3" r="8" fill="#ff66b2"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(35,-35) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#ff3399"/><circle cx="10" cy="-3" r="8" fill="#ff3399"/><circle cx="6" cy="8" r="8" fill="#ff3399"/><circle cx="-6" cy="8" r="8" fill="#ff3399"/><circle cx="-10" cy="-3" r="8" fill="#ff3399"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(45,15) scale(0.7)"><circle cx="0" cy="-10" r="8" fill="#ff99cc"/><circle cx="10" cy="-3" r="8" fill="#ff99cc"/><circle cx="6" cy="8" r="8" fill="#ff99cc"/><circle cx="-6" cy="8" r="8" fill="#ff99cc"/><circle cx="-10" cy="-3" r="8" fill="#ff99cc"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(-10,20) scale(0.85)"><circle cx="0" cy="-10" r="8" fill="#9933ff"/><circle cx="10" cy="-3" r="8" fill="#9933ff"/><circle cx="6" cy="8" r="8" fill="#9933ff"/><circle cx="-6" cy="8" r="8" fill="#9933ff"/><circle cx="-10" cy="-3" r="8" fill="#9933ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(20,25) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#cc66ff"/><circle cx="10" cy="-3" r="8" fill="#cc66ff"/><circle cx="6" cy="8" r="8" fill="#cc66ff"/><circle cx="-6" cy="8" r="8" fill="#cc66ff"/><circle cx="-10" cy="-3" r="8" fill="#cc66ff"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
+      <g transform="translate(-30,5) scale(0.75)"><circle cx="0" cy="-10" r="8" fill="#3399ff"/><circle cx="10" cy="-3" r="8" fill="#3399ff"/><circle cx="6" cy="8" r="8" fill="#3399ff"/><circle cx="-6" cy="8" r="8" fill="#3399ff"/><circle cx="-10" cy="-3" r="8" fill="#3399ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/></g>
+      <g transform="translate(10,5) scale(0.9)"><circle cx="0" cy="-10" r="8" fill="#0066cc"/><circle cx="10" cy="-3" r="8" fill="#0066cc"/><circle cx="6" cy="8" r="8" fill="#0066cc"/><circle cx="-6" cy="8" r="8" fill="#0066cc"/><circle cx="-10" cy="-3" r="8" fill="#0066cc"/><circle cx="0" cy="0" r="5" fill="#ffffff"/></g>
+      <g transform="translate(35,0) scale(0.85)"><circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/></g>
+      <g transform="translate(-35,-20) scale(0.8)"><circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/></g>
+      <g transform="translate(0,-60) scale(0.6)"><circle cx="0" cy="-10" r="8" fill="#ff6600"/><circle cx="10" cy="-3" r="8" fill="#ff6600"/><circle cx="6" cy="8" r="8" fill="#ff6600"/><circle cx="-6" cy="8" r="8" fill="#ff6600"/><circle cx="-10" cy="-3" r="8" fill="#ff6600"/><circle cx="0" cy="0" r="5" fill="#ffff00"/></g>
+      <path d="M 15 60 Q 0 30 5 10 Q 20 40 15 60" fill="#5cb347"/>
+      <path d="M 15 60 Q 30 30 25 10 Q 10 40 15 60" fill="#69c453"/>
+      <path d="M 15 60 Q -10 50 -20 30 Q 5 45 15 60" fill="#5cb347"/>
+    </g>
+    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potRedGrad)" stroke="#3a0507" stroke-width="2"/>
+    <rect x="-4" y="52" width="38" height="8" fill="url(#potRimGrad)" stroke="#3a0507" stroke-width="2" rx="2"/>
+    <path d="M 5 100 L 15 100 L 15 52 L -4 52 Z" fill="#000" opacity="0.2"/>
+    <path d="M 3 66 L 27 66" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <path d="M 5 92 L 25 92" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <g stroke="#ffd76a" stroke-width="1.1" opacity="0.8" fill="none">
+      <path d="M 9 79 L 12.5 74 L 16 79 L 12.5 84 Z"/>
+      <path d="M 16 79 L 19.5 74 L 23 79 L 19.5 84 Z"/>
+    </g>
+  </g>
+</svg>
