@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  html,body{margin:0;padding:0;background:#050308;}
+  svg{display:block;width:100%;height:auto;}
+</style>
+</head>
+<body>
 <svg viewBox="0 0 984 380" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
@@ -557,15 +567,6 @@
 
 </g>
 
-
-  <linearGradient id="pipeGrad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#111"/>
-    <stop offset="30%" stop-color="#3a3a3a"/>
-    <stop offset="50%" stop-color="#1a1a1a"/>
-    <stop offset="80%" stop-color="#4a4a4a"/>
-    <stop offset="100%" stop-color="#0a0a0a"/>
-  </linearGradient>
-
   <filter id="blurSmoke" x="-50%" y="-50%" width="200%" height="200%">
     <feGaussianBlur stdDeviation="12" />
   </filter>
@@ -829,13 +830,9 @@
     <rect x="20" y="160" width="100" height="110" fill="#111" stroke="#2a1608" stroke-width="6" rx="2" />
     <rect x="23" y="163" width="94" height="104" fill="#151210" />
 
-    <!-- Glass Clip Def -->
-    <defs>
-    </defs>
-
     <!-- Pendulum -->
-    <g clip-path="url(#glassClip)">
-      <g transform="translate(70, 95)">
+    <g>
+      <g id="pendulum-swing" transform="translate(70, 95)">
         <g>
           <animateTransform attributeName="transform" type="rotate" values="-8; 8; -8" dur="2s" repeatCount="indefinite" />
           <line x1="0" y1="0" x2="0" y2="135" stroke="#222" stroke-width="2" />
@@ -847,7 +844,7 @@
     </g>
     
     <!-- Glass reflection over pendulum -->
-    <g clip-path="url(#glassClip)">
+    <g>
 
       <rect x="25" y="150" width="40" height="130" fill="#fff" opacity="0.06" transform="skewX(-15) translate(10, 0)" />
       <rect x="75" y="150" width="10" height="130" fill="#fff" opacity="0.03" transform="skewX(-15) translate(10, 0)" />
@@ -877,30 +874,27 @@
     <text x="70" y="135" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">6</text>
     <text x="36" y="99" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" fill="#000" text-anchor="middle">9</text>
     
-    <!-- Hands -->
+    <!-- Hands: REAL LIVE TIME (set + updated by JavaScript below, no more infinite decorative spin) -->
     <g transform="translate(70, 95)">
       <!-- Shadow for hands -->
       <g opacity="0.2" transform="translate(1, 2)">
-        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="43200s" repeatCount="indefinite" /><line x1="0" y1="4" x2="0" y2="-25" stroke="#000" stroke-width="4" stroke-linecap="round" /></g>
-        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3600s" repeatCount="indefinite" /><line x1="0" y1="4" x2="0" y2="-36" stroke="#000" stroke-width="2.5" stroke-linecap="round" /></g>
-        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite" /><line x1="0" y1="10" x2="0" y2="-38" stroke="#000" stroke-width="1.5" /></g>
+        <g id="hourHandShadow"><line x1="0" y1="4" x2="0" y2="-25" stroke="#000" stroke-width="4" stroke-linecap="round" /></g>
+        <g id="minHandShadow"><line x1="0" y1="4" x2="0" y2="-36" stroke="#000" stroke-width="2.5" stroke-linecap="round" /></g>
+        <g id="secHandShadow"><line x1="0" y1="10" x2="0" y2="-38" stroke="#000" stroke-width="1.5" /></g>
       </g>
       
       <!-- Hour hand -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="43200s" repeatCount="indefinite" />
+      <g id="hourHand">
         <line x1="0" y1="4" x2="0" y2="-25" stroke="#111" stroke-width="4" stroke-linecap="round" />
         <circle cx="0" cy="-20" r="3" fill="#111" />
       </g>
       <!-- Minute hand -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3600s" repeatCount="indefinite" />
+      <g id="minHand">
         <line x1="0" y1="4" x2="0" y2="-36" stroke="#111" stroke-width="2.5" stroke-linecap="round" />
         <circle cx="0" cy="-30" r="2.5" fill="#111" />
       </g>
       <!-- Second hand -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite" />
+      <g id="secHand">
         <line x1="0" y1="10" x2="0" y2="-38" stroke="#cc0000" stroke-width="1.5" stroke-linecap="round"/>
         <circle cx="0" cy="0" r="2.5" fill="#cc0000" />
       </g>
@@ -920,7 +914,21 @@
 
   </g>
 
-  <!-- Beautiful Flower Pot -->
+  <!-- ===================== FLOWER POT (LEFT) — Red & Gold theme ===================== -->
+  <defs>
+    <linearGradient id="potRedGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5a4a"/>
+      <stop offset="35%" stop-color="#d21f1f"/>
+      <stop offset="75%" stop-color="#8f0f14"/>
+      <stop offset="100%" stop-color="#5c0709"/>
+    </linearGradient>
+    <linearGradient id="potRimGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb199"/>
+      <stop offset="50%" stop-color="#ef3f30"/>
+      <stop offset="100%" stop-color="#a3121a"/>
+    </linearGradient>
+  </defs>
+
   <g id="flower-pot-left" transform="translate(50, 240) scale(1.2)">
     <g>
       <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" dur="4s" repeatCount="indefinite" transform-origin="15 100" />
@@ -939,140 +947,50 @@
       <path d="M 15 60 Q 20 10 15 -45" fill="none" stroke="#2d5a27" stroke-width="2"/>
       
       <!-- Flowers -->
-      <!-- Red flower 1 -->
       <g transform="translate(0, -35) scale(0.9)">
-        <circle cx="0" cy="-10" r="8" fill="#ff0000"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff0000"/>
-        <circle cx="6" cy="8" r="8" fill="#ff0000"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff0000"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff0000"/>
-        <circle cx="0" cy="0" r="5" fill="#ffff00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff0000"/><circle cx="10" cy="-3" r="8" fill="#ff0000"/><circle cx="6" cy="8" r="8" fill="#ff0000"/><circle cx="-6" cy="8" r="8" fill="#ff0000"/><circle cx="-10" cy="-3" r="8" fill="#ff0000"/><circle cx="0" cy="0" r="5" fill="#ffff00"/>
       </g>
-      <!-- Red flower 2 -->
       <g transform="translate(-25, 0) scale(0.8)">
-        <circle cx="0" cy="-10" r="8" fill="#cc0000"/>
-        <circle cx="10" cy="-3" r="8" fill="#cc0000"/>
-        <circle cx="6" cy="8" r="8" fill="#cc0000"/>
-        <circle cx="-6" cy="8" r="8" fill="#cc0000"/>
-        <circle cx="-10" cy="-3" r="8" fill="#cc0000"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#cc0000"/><circle cx="10" cy="-3" r="8" fill="#cc0000"/><circle cx="6" cy="8" r="8" fill="#cc0000"/><circle cx="-6" cy="8" r="8" fill="#cc0000"/><circle cx="-10" cy="-3" r="8" fill="#cc0000"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Orange flower -->
       <g transform="translate(25, -10) scale(1)">
-        <circle cx="0" cy="-10" r="8" fill="#ff8c00"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff8c00"/>
-        <circle cx="6" cy="8" r="8" fill="#ff8c00"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff8c00"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff8c00"/>
-        <circle cx="0" cy="0" r="5" fill="#ffff00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff8c00"/><circle cx="10" cy="-3" r="8" fill="#ff8c00"/><circle cx="6" cy="8" r="8" fill="#ff8c00"/><circle cx="-6" cy="8" r="8" fill="#ff8c00"/><circle cx="-10" cy="-3" r="8" fill="#ff8c00"/><circle cx="0" cy="0" r="5" fill="#ffff00"/>
       </g>
-      <!-- Yellow flower 1 -->
       <g transform="translate(15, -45) scale(0.9)">
-        <circle cx="0" cy="-10" r="8" fill="#ffcc00"/>
-        <circle cx="10" cy="-3" r="8" fill="#ffcc00"/>
-        <circle cx="6" cy="8" r="8" fill="#ffcc00"/>
-        <circle cx="-6" cy="8" r="8" fill="#ffcc00"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ffcc00"/>
-        <circle cx="0" cy="0" r="5" fill="#cc6600"/>
+        <circle cx="0" cy="-10" r="8" fill="#ffcc00"/><circle cx="10" cy="-3" r="8" fill="#ffcc00"/><circle cx="6" cy="8" r="8" fill="#ffcc00"/><circle cx="-6" cy="8" r="8" fill="#ffcc00"/><circle cx="-10" cy="-3" r="8" fill="#ffcc00"/><circle cx="0" cy="0" r="5" fill="#cc6600"/>
       </g>
-      <!-- Yellow flower 2 -->
       <g transform="translate(-15, -55) scale(0.7)">
-        <circle cx="0" cy="-10" r="8" fill="#ffdd33"/>
-        <circle cx="10" cy="-3" r="8" fill="#ffdd33"/>
-        <circle cx="6" cy="8" r="8" fill="#ffdd33"/>
-        <circle cx="-6" cy="8" r="8" fill="#ffdd33"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ffdd33"/>
-        <circle cx="0" cy="0" r="5" fill="#ff6600"/>
+        <circle cx="0" cy="-10" r="8" fill="#ffdd33"/><circle cx="10" cy="-3" r="8" fill="#ffdd33"/><circle cx="6" cy="8" r="8" fill="#ffdd33"/><circle cx="-6" cy="8" r="8" fill="#ffdd33"/><circle cx="-10" cy="-3" r="8" fill="#ffdd33"/><circle cx="0" cy="0" r="5" fill="#ff6600"/>
       </g>
-      <!-- Pink flower 1 -->
       <g transform="translate(-15, -15) scale(1.1)">
-        <circle cx="0" cy="-10" r="8" fill="#ff66b2"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff66b2"/>
-        <circle cx="6" cy="8" r="8" fill="#ff66b2"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff66b2"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff66b2"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff66b2"/><circle cx="10" cy="-3" r="8" fill="#ff66b2"/><circle cx="6" cy="8" r="8" fill="#ff66b2"/><circle cx="-6" cy="8" r="8" fill="#ff66b2"/><circle cx="-10" cy="-3" r="8" fill="#ff66b2"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Pink flower 2 -->
       <g transform="translate(35, -35) scale(0.8)">
-        <circle cx="0" cy="-10" r="8" fill="#ff3399"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff3399"/>
-        <circle cx="6" cy="8" r="8" fill="#ff3399"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff3399"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff3399"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff3399"/><circle cx="10" cy="-3" r="8" fill="#ff3399"/><circle cx="6" cy="8" r="8" fill="#ff3399"/><circle cx="-6" cy="8" r="8" fill="#ff3399"/><circle cx="-10" cy="-3" r="8" fill="#ff3399"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Pink flower 3 -->
       <g transform="translate(45, 15) scale(0.7)">
-        <circle cx="0" cy="-10" r="8" fill="#ff99cc"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff99cc"/>
-        <circle cx="6" cy="8" r="8" fill="#ff99cc"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff99cc"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff99cc"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff99cc"/><circle cx="10" cy="-3" r="8" fill="#ff99cc"/><circle cx="6" cy="8" r="8" fill="#ff99cc"/><circle cx="-6" cy="8" r="8" fill="#ff99cc"/><circle cx="-10" cy="-3" r="8" fill="#ff99cc"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Purple flower 1 -->
       <g transform="translate(-10, 20) scale(0.85)">
-        <circle cx="0" cy="-10" r="8" fill="#9933ff"/>
-        <circle cx="10" cy="-3" r="8" fill="#9933ff"/>
-        <circle cx="6" cy="8" r="8" fill="#9933ff"/>
-        <circle cx="-6" cy="8" r="8" fill="#9933ff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#9933ff"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#9933ff"/><circle cx="10" cy="-3" r="8" fill="#9933ff"/><circle cx="6" cy="8" r="8" fill="#9933ff"/><circle cx="-6" cy="8" r="8" fill="#9933ff"/><circle cx="-10" cy="-3" r="8" fill="#9933ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Purple flower 2 -->
       <g transform="translate(20, 25) scale(0.8)">
-        <circle cx="0" cy="-10" r="8" fill="#cc66ff"/>
-        <circle cx="10" cy="-3" r="8" fill="#cc66ff"/>
-        <circle cx="6" cy="8" r="8" fill="#cc66ff"/>
-        <circle cx="-6" cy="8" r="8" fill="#cc66ff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#cc66ff"/>
-        <circle cx="0" cy="0" r="5" fill="#ffff00"/>
+        <circle cx="0" cy="-10" r="8" fill="#cc66ff"/><circle cx="10" cy="-3" r="8" fill="#cc66ff"/><circle cx="6" cy="8" r="8" fill="#cc66ff"/><circle cx="-6" cy="8" r="8" fill="#cc66ff"/><circle cx="-10" cy="-3" r="8" fill="#cc66ff"/><circle cx="0" cy="0" r="5" fill="#ffff00"/>
       </g>
-      <!-- Blue flower -->
       <g transform="translate(-30, 5) scale(0.75)">
-        <circle cx="0" cy="-10" r="8" fill="#3399ff"/>
-        <circle cx="10" cy="-3" r="8" fill="#3399ff"/>
-        <circle cx="6" cy="8" r="8" fill="#3399ff"/>
-        <circle cx="-6" cy="8" r="8" fill="#3399ff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#3399ff"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#3399ff"/><circle cx="10" cy="-3" r="8" fill="#3399ff"/><circle cx="6" cy="8" r="8" fill="#3399ff"/><circle cx="-6" cy="8" r="8" fill="#3399ff"/><circle cx="-10" cy="-3" r="8" fill="#3399ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Blue flower 2 -->
       <g transform="translate(10, 5) scale(0.9)">
-        <circle cx="0" cy="-10" r="8" fill="#0066cc"/>
-        <circle cx="10" cy="-3" r="8" fill="#0066cc"/>
-        <circle cx="6" cy="8" r="8" fill="#0066cc"/>
-        <circle cx="-6" cy="8" r="8" fill="#0066cc"/>
-        <circle cx="-10" cy="-3" r="8" fill="#0066cc"/>
-        <circle cx="0" cy="0" r="5" fill="#ffffff"/>
+        <circle cx="0" cy="-10" r="8" fill="#0066cc"/><circle cx="10" cy="-3" r="8" fill="#0066cc"/><circle cx="6" cy="8" r="8" fill="#0066cc"/><circle cx="-6" cy="8" r="8" fill="#0066cc"/><circle cx="-10" cy="-3" r="8" fill="#0066cc"/><circle cx="0" cy="0" r="5" fill="#ffffff"/>
       </g>
-      <!-- White flower 1 -->
       <g transform="translate(35, 0) scale(0.85)">
-        <circle cx="0" cy="-10" r="8" fill="#ffffff"/>
-        <circle cx="10" cy="-3" r="8" fill="#ffffff"/>
-        <circle cx="6" cy="8" r="8" fill="#ffffff"/>
-        <circle cx="-6" cy="8" r="8" fill="#ffffff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ffffff"/>
-        <circle cx="0" cy="0" r="5" fill="#ff9900"/>
+        <circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/>
       </g>
-      <!-- White flower 2 -->
       <g transform="translate(-35, -20) scale(0.8)">
-        <circle cx="0" cy="-10" r="8" fill="#ffffff"/>
-        <circle cx="10" cy="-3" r="8" fill="#ffffff"/>
-        <circle cx="6" cy="8" r="8" fill="#ffffff"/>
-        <circle cx="-6" cy="8" r="8" fill="#ffffff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ffffff"/>
-        <circle cx="0" cy="0" r="5" fill="#ff9900"/>
+        <circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/>
       </g>
-      <!-- Small orange flower -->
       <g transform="translate(0, -60) scale(0.6)">
-        <circle cx="0" cy="-10" r="8" fill="#ff6600"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff6600"/>
-        <circle cx="6" cy="8" r="8" fill="#ff6600"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff6600"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff6600"/>
-        <circle cx="0" cy="0" r="5" fill="#ffff00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff6600"/><circle cx="10" cy="-3" r="8" fill="#ff6600"/><circle cx="6" cy="8" r="8" fill="#ff6600"/><circle cx="-6" cy="8" r="8" fill="#ff6600"/><circle cx="-10" cy="-3" r="8" fill="#ff6600"/><circle cx="0" cy="0" r="5" fill="#ffff00"/>
       </g>
       <!-- Front leaves -->
       <path d="M 15 60 Q 0 30 5 10 Q 20 40 15 60" fill="#5cb347"/>
@@ -1080,20 +998,26 @@
       <path d="M 15 60 Q -10 50 -20 30 Q 5 45 15 60" fill="#5cb347"/>
     </g>
 
-    <!-- Pot -->
-    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="#8b4513" stroke="#4a2509" stroke-width="2"/>
-    <rect x="-4" y="52" width="38" height="8" fill="#a0522d" stroke="#4a2509" stroke-width="2" rx="2"/>
+    <!-- RED & GOLD Pot -->
+    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potRedGrad)" stroke="#3a0507" stroke-width="2"/>
+    <rect x="-4" y="52" width="38" height="8" fill="url(#potRimGrad)" stroke="#3a0507" stroke-width="2" rx="2"/>
     <path d="M 5 100 L 15 100 L 15 52 L -4 52 Z" fill="#000" opacity="0.2"/>
+    <!-- Gold trim + diamond motif -->
+    <path d="M 3 66 L 27 66" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <path d="M 5 92 L 25 92" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <g stroke="#ffd76a" stroke-width="1.1" opacity="0.8" fill="none">
+      <path d="M 9 79 L 12.5 74 L 16 79 L 12.5 84 Z"/>
+      <path d="M 16 79 L 19.5 74 L 23 79 L 19.5 84 Z"/>
+    </g>
   </g>
 
-  <!-- Beautiful Flower Pot -->
-    <use href="#shower-system" x="40" y="80" />
+  <!-- ===================== FLOWER POT (RIGHT) — Red & Gold theme, mirrored décor ===================== -->
+  <use href="#shower-system" x="40" y="80" />
   <use href="#shower-system" transform="translate(970, 80) scale(-1, 1)" />
-<g id="flower-pot" transform="translate(920, 240) scale(1.2)">
+  <g id="flower-pot" transform="translate(920, 240) scale(1.2)">
     <g>
       <animateTransform attributeName="transform" type="rotate" values="-2; 2; -2" dur="4s" repeatCount="indefinite" transform-origin="15 100" />
       
-      <!-- Back leaves -->
       <path d="M 15 60 Q -10 10 0 -20 Q 15 -10 15 60" fill="#2d5a27"/>
       <path d="M 15 60 Q 40 10 30 -20 Q 20 -10 15 60" fill="#3a7033"/>
       <path d="M 15 60 Q 50 30 60 0 Q 30 20 15 60" fill="#4b8b3b"/>
@@ -1101,156 +1025,98 @@
       <path d="M 15 60 Q 15 -40 25 -60 Q 35 -30 15 60" fill="#3a7033"/>
       <path d="M 15 60 Q -35 50 -45 20 Q -15 40 15 60" fill="#4b8b3b"/>
       
-      <!-- Stems -->
       <path d="M 15 60 Q 5 20 -15 -15" fill="none" stroke="#3a7033" stroke-width="2"/>
       <path d="M 15 60 Q 25 20 35 -25" fill="none" stroke="#3a7033" stroke-width="2"/>
       <path d="M 15 60 Q 20 10 15 -45" fill="none" stroke="#2d5a27" stroke-width="2"/>
       
-      <!-- Flowers -->
-      <!-- Red flower 1 -->
       <g transform="translate(0, -35) scale(0.9)">
-        <circle cx="0" cy="-10" r="8" fill="#ff0000"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff0000"/>
-        <circle cx="6" cy="8" r="8" fill="#ff0000"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff0000"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff0000"/>
-        <circle cx="0" cy="0" r="5" fill="#ffff00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff0000"/><circle cx="10" cy="-3" r="8" fill="#ff0000"/><circle cx="6" cy="8" r="8" fill="#ff0000"/><circle cx="-6" cy="8" r="8" fill="#ff0000"/><circle cx="-10" cy="-3" r="8" fill="#ff0000"/><circle cx="0" cy="0" r="5" fill="#ffff00"/>
       </g>
-      <!-- Red flower 2 -->
       <g transform="translate(-25, 0) scale(0.8)">
-        <circle cx="0" cy="-10" r="8" fill="#cc0000"/>
-        <circle cx="10" cy="-3" r="8" fill="#cc0000"/>
-        <circle cx="6" cy="8" r="8" fill="#cc0000"/>
-        <circle cx="-6" cy="8" r="8" fill="#cc0000"/>
-        <circle cx="-10" cy="-3" r="8" fill="#cc0000"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#cc0000"/><circle cx="10" cy="-3" r="8" fill="#cc0000"/><circle cx="6" cy="8" r="8" fill="#cc0000"/><circle cx="-6" cy="8" r="8" fill="#cc0000"/><circle cx="-10" cy="-3" r="8" fill="#cc0000"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Orange flower -->
       <g transform="translate(25, -10) scale(1)">
-        <circle cx="0" cy="-10" r="8" fill="#ff8c00"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff8c00"/>
-        <circle cx="6" cy="8" r="8" fill="#ff8c00"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff8c00"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff8c00"/>
-        <circle cx="0" cy="0" r="5" fill="#ffff00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff8c00"/><circle cx="10" cy="-3" r="8" fill="#ff8c00"/><circle cx="6" cy="8" r="8" fill="#ff8c00"/><circle cx="-6" cy="8" r="8" fill="#ff8c00"/><circle cx="-10" cy="-3" r="8" fill="#ff8c00"/><circle cx="0" cy="0" r="5" fill="#ffff00"/>
       </g>
-      <!-- Yellow flower 1 -->
       <g transform="translate(15, -45) scale(0.9)">
-        <circle cx="0" cy="-10" r="8" fill="#ffcc00"/>
-        <circle cx="10" cy="-3" r="8" fill="#ffcc00"/>
-        <circle cx="6" cy="8" r="8" fill="#ffcc00"/>
-        <circle cx="-6" cy="8" r="8" fill="#ffcc00"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ffcc00"/>
-        <circle cx="0" cy="0" r="5" fill="#cc6600"/>
+        <circle cx="0" cy="-10" r="8" fill="#ffcc00"/><circle cx="10" cy="-3" r="8" fill="#ffcc00"/><circle cx="6" cy="8" r="8" fill="#ffcc00"/><circle cx="-6" cy="8" r="8" fill="#ffcc00"/><circle cx="-10" cy="-3" r="8" fill="#ffcc00"/><circle cx="0" cy="0" r="5" fill="#cc6600"/>
       </g>
-      <!-- Yellow flower 2 -->
       <g transform="translate(-15, -55) scale(0.7)">
-        <circle cx="0" cy="-10" r="8" fill="#ffdd33"/>
-        <circle cx="10" cy="-3" r="8" fill="#ffdd33"/>
-        <circle cx="6" cy="8" r="8" fill="#ffdd33"/>
-        <circle cx="-6" cy="8" r="8" fill="#ffdd33"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ffdd33"/>
-        <circle cx="0" cy="0" r="5" fill="#ff6600"/>
+        <circle cx="0" cy="-10" r="8" fill="#ffdd33"/><circle cx="10" cy="-3" r="8" fill="#ffdd33"/><circle cx="6" cy="8" r="8" fill="#ffdd33"/><circle cx="-6" cy="8" r="8" fill="#ffdd33"/><circle cx="-10" cy="-3" r="8" fill="#ffdd33"/><circle cx="0" cy="0" r="5" fill="#ff6600"/>
       </g>
-      <!-- Pink flower 1 -->
       <g transform="translate(-15, -15) scale(1.1)">
-        <circle cx="0" cy="-10" r="8" fill="#ff66b2"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff66b2"/>
-        <circle cx="6" cy="8" r="8" fill="#ff66b2"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff66b2"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff66b2"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff66b2"/><circle cx="10" cy="-3" r="8" fill="#ff66b2"/><circle cx="6" cy="8" r="8" fill="#ff66b2"/><circle cx="-6" cy="8" r="8" fill="#ff66b2"/><circle cx="-10" cy="-3" r="8" fill="#ff66b2"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Pink flower 2 -->
       <g transform="translate(35, -35) scale(0.8)">
-        <circle cx="0" cy="-10" r="8" fill="#ff3399"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff3399"/>
-        <circle cx="6" cy="8" r="8" fill="#ff3399"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff3399"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff3399"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff3399"/><circle cx="10" cy="-3" r="8" fill="#ff3399"/><circle cx="6" cy="8" r="8" fill="#ff3399"/><circle cx="-6" cy="8" r="8" fill="#ff3399"/><circle cx="-10" cy="-3" r="8" fill="#ff3399"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Pink flower 3 -->
       <g transform="translate(45, 15) scale(0.7)">
-        <circle cx="0" cy="-10" r="8" fill="#ff99cc"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff99cc"/>
-        <circle cx="6" cy="8" r="8" fill="#ff99cc"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff99cc"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff99cc"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff99cc"/><circle cx="10" cy="-3" r="8" fill="#ff99cc"/><circle cx="6" cy="8" r="8" fill="#ff99cc"/><circle cx="-6" cy="8" r="8" fill="#ff99cc"/><circle cx="-10" cy="-3" r="8" fill="#ff99cc"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Purple flower 1 -->
       <g transform="translate(-10, 20) scale(0.85)">
-        <circle cx="0" cy="-10" r="8" fill="#9933ff"/>
-        <circle cx="10" cy="-3" r="8" fill="#9933ff"/>
-        <circle cx="6" cy="8" r="8" fill="#9933ff"/>
-        <circle cx="-6" cy="8" r="8" fill="#9933ff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#9933ff"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#9933ff"/><circle cx="10" cy="-3" r="8" fill="#9933ff"/><circle cx="6" cy="8" r="8" fill="#9933ff"/><circle cx="-6" cy="8" r="8" fill="#9933ff"/><circle cx="-10" cy="-3" r="8" fill="#9933ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Purple flower 2 -->
       <g transform="translate(20, 25) scale(0.8)">
-        <circle cx="0" cy="-10" r="8" fill="#cc66ff"/>
-        <circle cx="10" cy="-3" r="8" fill="#cc66ff"/>
-        <circle cx="6" cy="8" r="8" fill="#cc66ff"/>
-        <circle cx="-6" cy="8" r="8" fill="#cc66ff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#cc66ff"/>
-        <circle cx="0" cy="0" r="5" fill="#ffff00"/>
+        <circle cx="0" cy="-10" r="8" fill="#cc66ff"/><circle cx="10" cy="-3" r="8" fill="#cc66ff"/><circle cx="6" cy="8" r="8" fill="#cc66ff"/><circle cx="-6" cy="8" r="8" fill="#cc66ff"/><circle cx="-10" cy="-3" r="8" fill="#cc66ff"/><circle cx="0" cy="0" r="5" fill="#ffff00"/>
       </g>
-      <!-- Blue flower -->
       <g transform="translate(-30, 5) scale(0.75)">
-        <circle cx="0" cy="-10" r="8" fill="#3399ff"/>
-        <circle cx="10" cy="-3" r="8" fill="#3399ff"/>
-        <circle cx="6" cy="8" r="8" fill="#3399ff"/>
-        <circle cx="-6" cy="8" r="8" fill="#3399ff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#3399ff"/>
-        <circle cx="0" cy="0" r="5" fill="#ffcc00"/>
+        <circle cx="0" cy="-10" r="8" fill="#3399ff"/><circle cx="10" cy="-3" r="8" fill="#3399ff"/><circle cx="6" cy="8" r="8" fill="#3399ff"/><circle cx="-6" cy="8" r="8" fill="#3399ff"/><circle cx="-10" cy="-3" r="8" fill="#3399ff"/><circle cx="0" cy="0" r="5" fill="#ffcc00"/>
       </g>
-      <!-- Blue flower 2 -->
       <g transform="translate(10, 5) scale(0.9)">
-        <circle cx="0" cy="-10" r="8" fill="#0066cc"/>
-        <circle cx="10" cy="-3" r="8" fill="#0066cc"/>
-        <circle cx="6" cy="8" r="8" fill="#0066cc"/>
-        <circle cx="-6" cy="8" r="8" fill="#0066cc"/>
-        <circle cx="-10" cy="-3" r="8" fill="#0066cc"/>
-        <circle cx="0" cy="0" r="5" fill="#ffffff"/>
+        <circle cx="0" cy="-10" r="8" fill="#0066cc"/><circle cx="10" cy="-3" r="8" fill="#0066cc"/><circle cx="6" cy="8" r="8" fill="#0066cc"/><circle cx="-6" cy="8" r="8" fill="#0066cc"/><circle cx="-10" cy="-3" r="8" fill="#0066cc"/><circle cx="0" cy="0" r="5" fill="#ffffff"/>
       </g>
-      <!-- White flower 1 -->
       <g transform="translate(35, 0) scale(0.85)">
-        <circle cx="0" cy="-10" r="8" fill="#ffffff"/>
-        <circle cx="10" cy="-3" r="8" fill="#ffffff"/>
-        <circle cx="6" cy="8" r="8" fill="#ffffff"/>
-        <circle cx="-6" cy="8" r="8" fill="#ffffff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ffffff"/>
-        <circle cx="0" cy="0" r="5" fill="#ff9900"/>
+        <circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/>
       </g>
-      <!-- White flower 2 -->
       <g transform="translate(-35, -20) scale(0.8)">
-        <circle cx="0" cy="-10" r="8" fill="#ffffff"/>
-        <circle cx="10" cy="-3" r="8" fill="#ffffff"/>
-        <circle cx="6" cy="8" r="8" fill="#ffffff"/>
-        <circle cx="-6" cy="8" r="8" fill="#ffffff"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ffffff"/>
-        <circle cx="0" cy="0" r="5" fill="#ff9900"/>
+        <circle cx="0" cy="-10" r="8" fill="#ffffff"/><circle cx="10" cy="-3" r="8" fill="#ffffff"/><circle cx="6" cy="8" r="8" fill="#ffffff"/><circle cx="-6" cy="8" r="8" fill="#ffffff"/><circle cx="-10" cy="-3" r="8" fill="#ffffff"/><circle cx="0" cy="0" r="5" fill="#ff9900"/>
       </g>
-      <!-- Small orange flower -->
       <g transform="translate(0, -60) scale(0.6)">
-        <circle cx="0" cy="-10" r="8" fill="#ff6600"/>
-        <circle cx="10" cy="-3" r="8" fill="#ff6600"/>
-        <circle cx="6" cy="8" r="8" fill="#ff6600"/>
-        <circle cx="-6" cy="8" r="8" fill="#ff6600"/>
-        <circle cx="-10" cy="-3" r="8" fill="#ff6600"/>
-        <circle cx="0" cy="0" r="5" fill="#ffff00"/>
+        <circle cx="0" cy="-10" r="8" fill="#ff6600"/><circle cx="10" cy="-3" r="8" fill="#ff6600"/><circle cx="6" cy="8" r="8" fill="#ff6600"/><circle cx="-6" cy="8" r="8" fill="#ff6600"/><circle cx="-10" cy="-3" r="8" fill="#ff6600"/><circle cx="0" cy="0" r="5" fill="#ffff00"/>
       </g>
-      <!-- Front leaves -->
       <path d="M 15 60 Q 0 30 5 10 Q 20 40 15 60" fill="#5cb347"/>
       <path d="M 15 60 Q 30 30 25 10 Q 10 40 15 60" fill="#69c453"/>
       <path d="M 15 60 Q -10 50 -20 30 Q 5 45 15 60" fill="#5cb347"/>
     </g>
 
-    <!-- Pot -->
-    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="#8b4513" stroke="#4a2509" stroke-width="2"/>
-    <rect x="-4" y="52" width="38" height="8" fill="#a0522d" stroke="#4a2509" stroke-width="2" rx="2"/>
+    <!-- RED & GOLD Pot -->
+    <path d="M 0 60 L 30 60 L 25 100 L 5 100 Z" fill="url(#potRedGrad)" stroke="#3a0507" stroke-width="2"/>
+    <rect x="-4" y="52" width="38" height="8" fill="url(#potRimGrad)" stroke="#3a0507" stroke-width="2" rx="2"/>
     <path d="M 5 100 L 15 100 L 15 52 L -4 52 Z" fill="#000" opacity="0.2"/>
+    <path d="M 3 66 L 27 66" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <path d="M 5 92 L 25 92" stroke="#ffd76a" stroke-width="1.4" opacity="0.85"/>
+    <g stroke="#ffd76a" stroke-width="1.1" opacity="0.8" fill="none">
+      <path d="M 9 79 L 12.5 74 L 16 79 L 12.5 84 Z"/>
+      <path d="M 16 79 L 19.5 74 L 23 79 L 19.5 84 Z"/>
+    </g>
   </g>
 </svg>
+
+<script>
+  // ---- REAL LIVE CLOCK ----
+  function setHand(el, deg) {
+    if (el) el.setAttribute('transform', 'rotate(' + deg + ')');
+  }
+  function updateClock() {
+    var now = new Date();
+    var h = now.getHours() % 12;
+    var m = now.getMinutes();
+    var s = now.getSeconds();
+    var ms = now.getMilliseconds();
+
+    var secDeg  = (s + ms / 1000) * 6;              // 360/60
+    var minDeg  = m * 6 + s * 0.1;                   // 360/60 + smooth
+    var hourDeg = h * 30 + m * 0.5;                  // 360/12 + smooth
+
+    setHand(document.getElementById('hourHand'), hourDeg);
+    setHand(document.getElementById('minHand'), minDeg);
+    setHand(document.getElementById('secHand'), secDeg);
+    setHand(document.getElementById('hourHandShadow'), hourDeg);
+    setHand(document.getElementById('minHandShadow'), minDeg);
+    setHand(document.getElementById('secHandShadow'), secDeg);
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+</script>
+</body>
+</html>
